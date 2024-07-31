@@ -1,0 +1,7 @@
+processing file C:\Siemens\Automation\WinCC_OA\3.16\dplist\update_011.dpl
+
+modifying type _SNMPManager:
+DpType (20): Modify msg for type _SNMPManager sent.
+Waiting for last response from eventmanager...
+Scanning of file C:\Siemens\Automation\WinCC_OA\3.16\dplist\update_011.dpl is finished (0)
+End of Program

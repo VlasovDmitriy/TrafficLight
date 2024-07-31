@@ -1,0 +1,8 @@
+WCCOAascii   (0), 2024.06.27 11:41:31.212, SYS,  INFO,        1, Manager Start, PROJ, SvetaFore, V 3.16 - 3.16   platform Windows AMD64 linked at Sep 16 2020 09:22:38 (0bebb1b315d)
+WCCOAascii   (0), 2024.06.27 11:41:31.213, SYS,  INFO,        3, Trying to connect to (SYS: 0 Data -num 0 CONN: 1) @ asutp-056:4897
+WCCOAascii   (0), 2024.06.27 11:41:31.214, SYS,  INFO,        4, Connected to (SYS: 0 Data -num 0 CONN: 1) @ asutp-056 (::1)
+WCCOAascii   (1), 2024.06.27 11:41:31.222, SYS,  INFO,        6, Initialization by Data Manager finished
+WCCOAascii   (1), 2024.06.27 11:41:31.222, SYS,  INFO,        3, Trying to connect to (SYS: 1 Event -num 0 CONN: 1) @ asutp-056:4998
+WCCOAascii   (1), 2024.06.27 11:41:31.222, SYS,  INFO,        4, Connected to (SYS: 1 Event -num 0 CONN: 1) @ asutp-056 (::1)
+WCCOAascii   (1), 2024.06.27 11:41:31.223, SYS,  INFO,      102, Waiting for user names/passwords
+WCCOAascii   (1), 2024.06.27 11:41:31.224, SYS,  INFO,      103, User names/passwords initialized

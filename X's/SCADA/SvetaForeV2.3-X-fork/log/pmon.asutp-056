@@ -1,0 +1,765 @@
+WCCILpmon    (1), 2024.06.27 11:41:16.081, SYS,  INFO,        1, Manager Start, WAIT_MODE
+WCCILpmon    (1), 2024.06.27 11:41:22.392, SYS,  INFO,       20/pmon, Got START_ALL command from ::1, starting the project
+WCCILpmon    (1), 2024.06.27 11:41:22.396, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCILdata.exe -PROJ SvetaFore -pmonIndex 1 
+WCCILpmon    (1), 2024.06.27 11:41:23.605, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAvalarch.exe -PROJ SvetaFore -pmonIndex 2 -num 0
+WCCILpmon    (1), 2024.06.27 11:41:23.824, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAvalarch.exe -PROJ SvetaFore -pmonIndex 3 -num 1
+WCCILpmon    (1), 2024.06.27 11:41:24.042, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAvalarch.exe -PROJ SvetaFore -pmonIndex 4 -num 2
+WCCILpmon    (1), 2024.06.27 11:41:24.222, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAvalarch.exe -PROJ SvetaFore -pmonIndex 5 -num 3
+WCCILpmon    (1), 2024.06.27 11:41:24.551, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAvalarch.exe -PROJ SvetaFore -pmonIndex 6 -num 4
+WCCILpmon    (1), 2024.06.27 11:41:24.770, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAvalarch.exe -PROJ SvetaFore -pmonIndex 7 -num 5
+WCCILpmon    (1), 2024.06.27 11:41:28.292, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCILevent.exe -PROJ SvetaFore -pmonIndex 8 
+WCCILpmon    (1), 2024.06.27 11:41:28.526, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCILproxy.exe -PROJ SvetaFore -pmonIndex 9 
+WCCILpmon    (1), 2024.06.27 11:41:29.637, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOActrl.exe -PROJ SvetaFore -pmonIndex 10 -f pvss_scripts.lst
+WCCILpmon    (1), 2024.06.27 11:41:29.965, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCILsim.exe -PROJ SvetaFore -pmonIndex 11 
+WCCILpmon    (1), 2024.06.27 11:41:30.184, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAui.exe -PROJ SvetaFore -pmonIndex 12 -m gedi
+WCCILpmon    (1), 2024.06.27 11:41:38.869, SYS,  INFO,        9/pmon, The project is up and running. Entering monitor mode
+WCCILpmon    (1), 2024.06.27 14:44:29.963, SYS,  INFO,       21/pmon, Got STOP_ALL command from ::1, stopping the project
+WCCILpmon    (1), 2024.06.27 14:44:29.964, SYS,  INFO,       17/pmon, Stopping Manager WCCILsim(1) with signal SIGTERM
+WCCILpmon    (1), 2024.06.27 14:44:29.964, SYS,  INFO,       17/pmon, Stopping Manager WCCOActrl(1) with signal SIGTERM
+WCCILpmon    (1), 2024.06.27 14:44:29.965, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(5) with signal SIGTERM
+WCCILpmon    (1), 2024.06.27 14:44:29.965, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(4) with signal SIGTERM
+WCCILpmon    (1), 2024.06.27 14:44:29.966, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(3) with signal SIGTERM
+WCCILpmon    (1), 2024.06.27 14:44:29.966, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(2) with signal SIGTERM
+WCCILpmon    (1), 2024.06.27 14:44:29.966, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(1) with signal SIGTERM
+WCCILpmon    (1), 2024.06.27 14:44:29.966, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(0) with signal SIGTERM
+WCCILpmon    (1), 2024.06.27 14:44:34.111, SYS,  INFO,       17/pmon, Stopping Manager WCCILevent(0) with signal SIGTERM
+WCCILpmon    (1), 2024.06.27 14:44:34.312, SYS,  INFO,       17/pmon, Stopping Manager WCCILdata(0) with signal SIGTERM
+WCCILpmon    (1), 2024.06.27 14:44:36.319, SYS,  INFO,       17/pmon, Stopping Manager WCCILproxy(1) with signal SIGTERM
+WCCILpmon    (1), 2024.06.27 14:44:36.736, SYS,  INFO,       13/pmon, Completely stopped the project - waiting for commands
+WCCILpmon    (1), 2024.06.27 14:55:14.921, SYS,  INFO,        1, Manager Start, WAIT_MODE
+WCCILpmon    (1), 2024.06.27 14:55:17.345, SYS,  INFO,       20/pmon, Got START_ALL command from ::1, starting the project
+WCCILpmon    (1), 2024.06.27 14:55:17.349, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCILdata.exe -PROJ SvetaFore -pmonIndex 1 
+WCCILpmon    (1), 2024.06.27 14:55:18.814, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAvalarch.exe -PROJ SvetaFore -pmonIndex 2 -num 0
+WCCILpmon    (1), 2024.06.27 14:55:19.033, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAvalarch.exe -PROJ SvetaFore -pmonIndex 3 -num 1
+WCCILpmon    (1), 2024.06.27 14:55:19.252, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAvalarch.exe -PROJ SvetaFore -pmonIndex 4 -num 2
+WCCILpmon    (1), 2024.06.27 14:55:19.622, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAvalarch.exe -PROJ SvetaFore -pmonIndex 5 -num 3
+WCCILpmon    (1), 2024.06.27 14:55:19.840, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAvalarch.exe -PROJ SvetaFore -pmonIndex 6 -num 4
+WCCILpmon    (1), 2024.06.27 14:55:20.065, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAvalarch.exe -PROJ SvetaFore -pmonIndex 7 -num 5
+WCCILpmon    (1), 2024.06.27 14:55:23.306, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCILevent.exe -PROJ SvetaFore -pmonIndex 8 
+WCCILpmon    (1), 2024.06.27 14:55:23.566, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCILproxy.exe -PROJ SvetaFore -pmonIndex 9 
+WCCILpmon    (1), 2024.06.27 14:55:24.598, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOActrl.exe -PROJ SvetaFore -pmonIndex 10 -f pvss_scripts.lst
+WCCILpmon    (1), 2024.06.27 14:55:24.820, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCILsim.exe -PROJ SvetaFore -pmonIndex 11 
+WCCILpmon    (1), 2024.06.27 14:55:25.043, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAui.exe -PROJ SvetaFore -pmonIndex 12 -m gedi
+WCCILpmon    (1), 2024.06.27 14:55:36.028, SYS,  INFO,        9/pmon, The project is up and running. Entering monitor mode
+WCCILpmon    (1), 2024.06.27 16:30:54.172, SYS,  INFO,       21/pmon, Got STOP_ALL command from ::1, stopping the project
+WCCILpmon    (1), 2024.06.27 16:30:54.172, SYS,  INFO,       17/pmon, Stopping Manager WCCOAui(1) with signal SIGTERM
+WCCILpmon    (1), 2024.06.27 16:30:54.173, SYS,  INFO,       17/pmon, Stopping Manager WCCILsim(1) with signal SIGTERM
+WCCILpmon    (1), 2024.06.27 16:30:54.173, SYS,  INFO,       17/pmon, Stopping Manager WCCOActrl(1) with signal SIGTERM
+WCCILpmon    (1), 2024.06.27 16:30:54.173, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(5) with signal SIGTERM
+WCCILpmon    (1), 2024.06.27 16:30:54.174, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(4) with signal SIGTERM
+WCCILpmon    (1), 2024.06.27 16:30:54.174, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(3) with signal SIGTERM
+WCCILpmon    (1), 2024.06.27 16:30:54.174, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(2) with signal SIGTERM
+WCCILpmon    (1), 2024.06.27 16:30:54.175, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(1) with signal SIGTERM
+WCCILpmon    (1), 2024.06.27 16:30:54.175, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(0) with signal SIGTERM
+WCCILpmon    (1), 2024.06.27 16:30:58.251, SYS,  INFO,       17/pmon, Stopping Manager WCCILevent(0) with signal SIGTERM
+WCCILpmon    (1), 2024.06.27 16:30:58.423, SYS,  INFO,       17/pmon, Stopping Manager WCCILdata(0) with signal SIGTERM
+WCCILpmon    (1), 2024.06.27 16:31:00.460, SYS,  INFO,       17/pmon, Stopping Manager WCCILproxy(1) with signal SIGTERM
+WCCILpmon    (1), 2024.06.27 16:31:01.335, SYS,  INFO,       13/pmon, Completely stopped the project - waiting for commands
+WCCILpmon    (1), 2024.06.28 08:58:30.109, SYS,  INFO,        1, Manager Start, WAIT_MODE
+WCCILpmon    (1), 2024.06.28 08:58:32.344, SYS,  INFO,       20/pmon, Got START_ALL command from ::1, starting the project
+WCCILpmon    (1), 2024.06.28 08:58:32.347, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCILdata.exe -PROJ SvetaFore -pmonIndex 1 
+WCCILpmon    (1), 2024.06.28 08:58:33.741, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAvalarch.exe -PROJ SvetaFore -pmonIndex 2 -num 0
+WCCILpmon    (1), 2024.06.28 08:58:34.069, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAvalarch.exe -PROJ SvetaFore -pmonIndex 3 -num 1
+WCCILpmon    (1), 2024.06.28 08:58:34.288, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAvalarch.exe -PROJ SvetaFore -pmonIndex 4 -num 2
+WCCILpmon    (1), 2024.06.28 08:58:34.507, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAvalarch.exe -PROJ SvetaFore -pmonIndex 5 -num 3
+WCCILpmon    (1), 2024.06.28 08:58:34.669, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAvalarch.exe -PROJ SvetaFore -pmonIndex 6 -num 4
+WCCILpmon    (1), 2024.06.28 08:58:34.888, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAvalarch.exe -PROJ SvetaFore -pmonIndex 7 -num 5
+WCCILpmon    (1), 2024.06.28 08:58:38.755, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCILevent.exe -PROJ SvetaFore -pmonIndex 8 
+WCCILpmon    (1), 2024.06.28 08:58:39.083, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCILproxy.exe -PROJ SvetaFore -pmonIndex 9 
+WCCILpmon    (1), 2024.06.28 08:58:40.177, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOActrl.exe -PROJ SvetaFore -pmonIndex 10 -f pvss_scripts.lst
+WCCILpmon    (1), 2024.06.28 08:58:40.395, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCILsim.exe -PROJ SvetaFore -pmonIndex 11 
+WCCILpmon    (1), 2024.06.28 08:58:40.614, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAui.exe -PROJ SvetaFore -pmonIndex 12 -m gedi
+WCCILpmon    (1), 2024.06.28 08:59:43.852, SYS,  INFO,        9/pmon, The project is up and running. Entering monitor mode
+WCCILpmon    (1), 2024.06.28 13:00:57.076, SYS,  WARNING,    36/pmon, Blocking Manager WCCILdata(0) detected. No heartbeat since 30 seconds.
+WCCILpmon    (1), 2024.06.28 13:00:57.319, SYS,  WARNING,    39/pmon, Manager WCCILdata(0) is no longer blocking.
+WCCILpmon    (1), 2024.06.28 14:00:56.673, SYS,  INFO,       28/pmon, Got INS command from ::1, inserting new manager WCCOAopc at index 13
+WCCILpmon    (1), 2024.06.28 14:00:56.724, SYS,  INFO,       11/pmon, Detected stopped manager WCCOAopc(1) - restarting it #1
+WCCILpmon    (1), 2024.06.28 14:00:56.740, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAopc.exe -PROJ SvetaFore -pmonIndex 13 
+WCCILpmon    (1), 2024.06.28 14:00:56.901, SYS,  INFO,       11/pmon, Detected stopped manager WCCOAopc(1) - restarting it #2
+WCCILpmon    (1), 2024.06.28 14:00:56.901, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAopc.exe -PROJ SvetaFore -pmonIndex 13 
+WCCILpmon    (1), 2024.06.28 14:00:57.101, SYS,  INFO,       12/pmon, Manager WCCOAopc(1) restarting too rapidly - giving up restarting
+WCCILpmon    (1), 2024.06.28 14:02:54.203, SYS,  INFO,       24/pmon, Got START command from ::1, starting the manager WCCOAopc(1) at index 13
+WCCILpmon    (1), 2024.06.28 14:02:54.205, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAopc.exe -PROJ SvetaFore -pmonIndex 13 
+WCCILpmon    (1), 2024.06.28 14:02:54.317, SYS,  INFO,       11/pmon, Detected stopped manager WCCOAopc(1) - restarting it #1
+WCCILpmon    (1), 2024.06.28 14:02:54.318, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAopc.exe -PROJ SvetaFore -pmonIndex 13 
+WCCILpmon    (1), 2024.06.28 14:02:54.529, SYS,  INFO,       11/pmon, Detected stopped manager WCCOAopc(1) - restarting it #2
+WCCILpmon    (1), 2024.06.28 14:02:54.529, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAopc.exe -PROJ SvetaFore -pmonIndex 13 
+WCCILpmon    (1), 2024.06.28 14:02:54.829, SYS,  INFO,       12/pmon, Manager WCCOAopc(1) restarting too rapidly - giving up restarting
+WCCILpmon    (1), 2024.06.28 14:03:14.646, SYS,  INFO,       24/pmon, Got START command from ::1, starting the manager WCCOAopc(1) at index 13
+WCCILpmon    (1), 2024.06.28 14:03:14.648, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAopc.exe -PROJ SvetaFore -pmonIndex 13 
+WCCILpmon    (1), 2024.06.28 14:03:14.757, SYS,  INFO,       11/pmon, Detected stopped manager WCCOAopc(1) - restarting it #1
+WCCILpmon    (1), 2024.06.28 14:03:14.758, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAopc.exe -PROJ SvetaFore -pmonIndex 13 
+WCCILpmon    (1), 2024.06.28 14:03:14.982, SYS,  INFO,       11/pmon, Detected stopped manager WCCOAopc(1) - restarting it #2
+WCCILpmon    (1), 2024.06.28 14:03:14.989, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAopc.exe -PROJ SvetaFore -pmonIndex 13 
+WCCILpmon    (1), 2024.06.28 14:03:15.205, SYS,  INFO,       12/pmon, Manager WCCOAopc(1) restarting too rapidly - giving up restarting
+WCCILpmon    (1), 2024.06.28 14:03:43.750, SYS,  INFO,       24/pmon, Got START command from ::1, starting the manager WCCOAopc(1) at index 13
+WCCILpmon    (1), 2024.06.28 14:03:43.752, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAopc.exe -PROJ SvetaFore -pmonIndex 13 
+WCCILpmon    (1), 2024.06.28 14:03:43.860, SYS,  INFO,       11/pmon, Detected stopped manager WCCOAopc(1) - restarting it #1
+WCCILpmon    (1), 2024.06.28 14:03:43.861, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAopc.exe -PROJ SvetaFore -pmonIndex 13 
+WCCILpmon    (1), 2024.06.28 14:03:44.075, SYS,  INFO,       11/pmon, Detected stopped manager WCCOAopc(1) - restarting it #2
+WCCILpmon    (1), 2024.06.28 14:03:44.075, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAopc.exe -PROJ SvetaFore -pmonIndex 13 
+WCCILpmon    (1), 2024.06.28 14:03:44.292, SYS,  INFO,       12/pmon, Manager WCCOAopc(1) restarting too rapidly - giving up restarting
+WCCILpmon    (1), 2024.06.28 14:06:09.574, SYS,  INFO,       24/pmon, Got START command from ::1, starting the manager WCCOAopc(1) at index 13
+WCCILpmon    (1), 2024.06.28 14:06:09.576, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAopc.exe -PROJ SvetaFore -pmonIndex 13 
+WCCILpmon    (1), 2024.06.28 14:06:09.676, SYS,  INFO,       11/pmon, Detected stopped manager WCCOAopc(1) - restarting it #1
+WCCILpmon    (1), 2024.06.28 14:06:09.679, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAopc.exe -PROJ SvetaFore -pmonIndex 13 
+WCCILpmon    (1), 2024.06.28 14:06:09.894, SYS,  INFO,       11/pmon, Detected stopped manager WCCOAopc(1) - restarting it #2
+WCCILpmon    (1), 2024.06.28 14:06:09.895, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAopc.exe -PROJ SvetaFore -pmonIndex 13 
+WCCILpmon    (1), 2024.06.28 14:06:10.110, SYS,  INFO,       12/pmon, Manager WCCOAopc(1) restarting too rapidly - giving up restarting
+WCCILpmon    (1), 2024.06.28 14:06:30.839, SYS,  INFO,       24/pmon, Got START command from ::1, starting the manager WCCOAopc(1) at index 13
+WCCILpmon    (1), 2024.06.28 14:06:30.841, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAopc.exe -PROJ SvetaFore -pmonIndex 13 
+WCCILpmon    (1), 2024.06.28 14:06:30.950, SYS,  INFO,       11/pmon, Detected stopped manager WCCOAopc(1) - restarting it #1
+WCCILpmon    (1), 2024.06.28 14:06:30.952, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAopc.exe -PROJ SvetaFore -pmonIndex 13 
+WCCILpmon    (1), 2024.06.28 14:06:31.112, SYS,  INFO,       11/pmon, Detected stopped manager WCCOAopc(1) - restarting it #2
+WCCILpmon    (1), 2024.06.28 14:06:31.112, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAopc.exe -PROJ SvetaFore -pmonIndex 13 
+WCCILpmon    (1), 2024.06.28 14:06:31.436, SYS,  INFO,       12/pmon, Manager WCCOAopc(1) restarting too rapidly - giving up restarting
+WCCILpmon    (1), 2024.07.03 08:40:07.717, SYS,  INFO,        1, Manager Start, WAIT_MODE
+WCCILpmon    (1), 2024.07.03 08:40:09.321, SYS,  INFO,       20/pmon, Got START_ALL command from ::1, starting the project
+WCCILpmon    (1), 2024.07.03 08:40:09.321, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCILdata.exe -PROJ SvetaFore -pmonIndex 1 
+WCCILpmon    (1), 2024.07.03 08:41:29.766, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAvalarch.exe -PROJ SvetaFore -pmonIndex 2 -num 0
+WCCILpmon    (1), 2024.07.03 08:41:29.966, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAvalarch.exe -PROJ SvetaFore -pmonIndex 3 -num 1
+WCCILpmon    (1), 2024.07.03 08:41:30.605, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAvalarch.exe -PROJ SvetaFore -pmonIndex 4 -num 2
+WCCILpmon    (1), 2024.07.03 08:41:30.806, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAvalarch.exe -PROJ SvetaFore -pmonIndex 5 -num 3
+WCCILpmon    (1), 2024.07.03 08:41:31.006, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAvalarch.exe -PROJ SvetaFore -pmonIndex 6 -num 4
+WCCILpmon    (1), 2024.07.03 08:41:31.608, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAvalarch.exe -PROJ SvetaFore -pmonIndex 7 -num 5
+WCCILpmon    (1), 2024.07.03 08:41:35.434, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCILevent.exe -PROJ SvetaFore -pmonIndex 8 
+WCCILpmon    (1), 2024.07.03 08:41:35.750, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCILproxy.exe -PROJ SvetaFore -pmonIndex 9 
+WCCILpmon    (1), 2024.07.03 08:41:37.254, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOActrl.exe -PROJ SvetaFore -pmonIndex 10 -f pvss_scripts.lst
+WCCILpmon    (1), 2024.07.03 08:41:37.455, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCILsim.exe -PROJ SvetaFore -pmonIndex 11 
+WCCILpmon    (1), 2024.07.03 08:41:37.787, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAui.exe -PROJ SvetaFore -pmonIndex 12 -m gedi
+WCCILpmon    (1), 2024.07.03 08:41:40.031, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAopc.exe -PROJ SvetaFore -pmonIndex 13 
+WCCILpmon    (1), 2024.07.03 08:41:40.261, SYS,  INFO,       11/pmon, Detected stopped manager WCCOAopc(1) - restarting it #1
+WCCILpmon    (1), 2024.07.03 08:41:40.267, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAopc.exe -PROJ SvetaFore -pmonIndex 13 
+WCCILpmon    (1), 2024.07.03 08:41:40.606, SYS,  INFO,       11/pmon, Detected stopped manager WCCOAopc(1) - restarting it #2
+WCCILpmon    (1), 2024.07.03 08:41:40.612, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAopc.exe -PROJ SvetaFore -pmonIndex 13 
+WCCILpmon    (1), 2024.07.03 08:41:40.793, SYS,  INFO,       12/pmon, Manager WCCOAopc(1) restarting too rapidly - giving up restarting
+WCCILpmon    (1), 2024.07.03 08:41:40.793, SYS,  INFO,        9/pmon, The project is up and running. Entering monitor mode
+WCCILpmon    (1), 2024.07.03 08:43:22.385, SYS,  INFO,       24/pmon, Got START command from ::1, starting the manager WCCOAopc(1) at index 13
+WCCILpmon    (1), 2024.07.03 08:43:22.387, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAopc.exe -PROJ SvetaFore -pmonIndex 13 
+WCCILpmon    (1), 2024.07.03 08:43:22.565, SYS,  INFO,       11/pmon, Detected stopped manager WCCOAopc(1) - restarting it #1
+WCCILpmon    (1), 2024.07.03 08:43:22.568, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAopc.exe -PROJ SvetaFore -pmonIndex 13 
+WCCILpmon    (1), 2024.07.03 08:43:22.778, SYS,  INFO,       11/pmon, Detected stopped manager WCCOAopc(1) - restarting it #2
+WCCILpmon    (1), 2024.07.03 08:43:22.778, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAopc.exe -PROJ SvetaFore -pmonIndex 13 
+WCCILpmon    (1), 2024.07.03 08:43:22.979, SYS,  INFO,       12/pmon, Manager WCCOAopc(1) restarting too rapidly - giving up restarting
+WCCILpmon    (1), 2024.07.03 08:47:33.048, SYS,  INFO,       28/pmon, Got INS command from ::1, inserting new manager WCCOAmodsrv at index 14
+WCCILpmon    (1), 2024.07.03 08:47:33.070, SYS,  INFO,       11/pmon, Detected stopped manager WCCOAmodsrv(1) - restarting it #1
+WCCILpmon    (1), 2024.07.03 08:47:33.070, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAmodsrv.exe -PROJ SvetaFore -pmonIndex 14 
+WCCILpmon    (1), 2024.07.03 08:47:33.650, SYS,  INFO,       11/pmon, Detected stopped manager WCCOAmodsrv(1) - restarting it #2
+WCCILpmon    (1), 2024.07.03 08:47:33.650, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAmodsrv.exe -PROJ SvetaFore -pmonIndex 14 
+WCCILpmon    (1), 2024.07.03 08:47:34.151, SYS,  INFO,       12/pmon, Manager WCCOAmodsrv(1) restarting too rapidly - giving up restarting
+WCCILpmon    (1), 2024.07.03 08:47:42.626, SYS,  INFO,       27/pmon, Got DEL command from ::1, deleting the manager WCCOAmodsrv at index 14
+WCCILpmon    (1), 2024.07.03 08:48:02.177, SYS,  INFO,       28/pmon, Got INS command from ::1, inserting new manager WCCOAmod at index 14
+WCCILpmon    (1), 2024.07.03 08:48:06.035, SYS,  INFO,       24/pmon, Got START command from ::1, starting the manager WCCOAmod(1) at index 14
+WCCILpmon    (1), 2024.07.03 08:48:06.040, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAmod.exe -PROJ SvetaFore -pmonIndex 14 
+WCCILpmon    (1), 2024.07.03 08:48:06.260, SYS,  INFO,       11/pmon, Detected stopped manager WCCOAmod(1) - restarting it #1
+WCCILpmon    (1), 2024.07.03 08:48:06.261, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAmod.exe -PROJ SvetaFore -pmonIndex 14 
+WCCILpmon    (1), 2024.07.03 08:48:06.486, SYS,  INFO,       11/pmon, Detected stopped manager WCCOAmod(1) - restarting it #2
+WCCILpmon    (1), 2024.07.03 08:48:06.486, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAmod.exe -PROJ SvetaFore -pmonIndex 14 
+WCCILpmon    (1), 2024.07.03 08:48:06.702, SYS,  INFO,       12/pmon, Manager WCCOAmod(1) restarting too rapidly - giving up restarting
+WCCILpmon    (1), 2024.07.03 08:48:14.017, SYS,  INFO,       24/pmon, Got START command from ::1, starting the manager WCCOAmod(1) at index 14
+WCCILpmon    (1), 2024.07.03 08:48:14.032, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAmod.exe -PROJ SvetaFore -pmonIndex 14 
+WCCILpmon    (1), 2024.07.03 08:48:14.574, SYS,  INFO,       11/pmon, Detected stopped manager WCCOAmod(1) - restarting it #1
+WCCILpmon    (1), 2024.07.03 08:48:14.606, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAmod.exe -PROJ SvetaFore -pmonIndex 14 
+WCCILpmon    (1), 2024.07.03 08:48:15.443, SYS,  INFO,       11/pmon, Detected stopped manager WCCOAmod(1) - restarting it #2
+WCCILpmon    (1), 2024.07.03 08:48:15.443, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAmod.exe -PROJ SvetaFore -pmonIndex 14 
+WCCILpmon    (1), 2024.07.03 08:48:15.824, SYS,  INFO,       12/pmon, Manager WCCOAmod(1) restarting too rapidly - giving up restarting
+WCCILpmon    (1), 2024.07.03 08:48:26.528, SYS,  INFO,       24/pmon, Got START command from ::1, starting the manager WCCOAmod(1) at index 14
+WCCILpmon    (1), 2024.07.03 08:48:26.535, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAmod.exe -PROJ SvetaFore -pmonIndex 14 
+WCCILpmon    (1), 2024.07.03 08:48:26.649, SYS,  INFO,       11/pmon, Detected stopped manager WCCOAmod(1) - restarting it #1
+WCCILpmon    (1), 2024.07.03 08:48:26.651, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAmod.exe -PROJ SvetaFore -pmonIndex 14 
+WCCILpmon    (1), 2024.07.03 08:48:26.869, SYS,  INFO,       11/pmon, Detected stopped manager WCCOAmod(1) - restarting it #2
+WCCILpmon    (1), 2024.07.03 08:48:26.875, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAmod.exe -PROJ SvetaFore -pmonIndex 14 
+WCCILpmon    (1), 2024.07.03 08:48:27.090, SYS,  INFO,       12/pmon, Manager WCCOAmod(1) restarting too rapidly - giving up restarting
+WCCILpmon    (1), 2024.07.03 08:50:46.379, SYS,  INFO,       29/pmon, Got PROP_PUT command from ::1, changing manager WCCOAmod(10) at index 14
+WCCILpmon    (1), 2024.07.03 08:50:51.099, SYS,  INFO,       24/pmon, Got START command from ::1, starting the manager WCCOAmod(10) at index 14
+WCCILpmon    (1), 2024.07.03 08:50:51.162, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAmod.exe -PROJ SvetaFore -pmonIndex 14 -num 10
+WCCILpmon    (1), 2024.07.03 09:17:35.033, SYS,  INFO,       29/pmon, Got PROP_PUT command from ::1, changing manager WCCOAmod(10) at index 14
+WCCILpmon    (1), 2024.07.03 09:17:37.105, SYS,  INFO,       26/pmon, Got KILL command (SIGKILL) from ::1, stopping the manager WCCOAmod(10) at index 14
+WCCILpmon    (1), 2024.07.03 09:17:37.106, SYS,  INFO,       17/pmon, Stopping Manager WCCOAmod(10) with signal SIGKILL
+WCCILpmon    (1), 2024.07.03 09:17:46.480, SYS,  INFO,       29/pmon, Got PROP_PUT command from ::1, changing manager WCCOAopc(9) at index 13
+WCCILpmon    (1), 2024.07.03 09:17:54.401, SYS,  INFO,       24/pmon, Got START command from ::1, starting the manager WCCOAopc(9) at index 13
+WCCILpmon    (1), 2024.07.03 09:17:54.415, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAopc.exe -PROJ SvetaFore -pmonIndex 13 -num 9
+WCCILpmon    (1), 2024.07.03 09:33:36.360, SYS,  INFO,       26/pmon, Got KILL command (SIGKILL) from ::1, stopping the manager WCCOAopc(9) at index 13
+WCCILpmon    (1), 2024.07.03 09:33:36.361, SYS,  INFO,       17/pmon, Stopping Manager WCCOAopc(9) with signal SIGKILL
+WCCILpmon    (1), 2024.07.03 09:33:36.464, SYS,  INFO,       11/pmon, Detected stopped manager WCCOAopc(9) - restarting it #1
+WCCILpmon    (1), 2024.07.03 09:33:36.464, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAopc.exe -PROJ SvetaFore -pmonIndex 13 -num 9
+WCCILpmon    (1), 2024.07.03 09:33:38.356, SYS,  INFO,       24/pmon, Got START command from ::1, starting the manager WCCOAmod(10) at index 14
+WCCILpmon    (1), 2024.07.03 09:33:38.358, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAmod.exe -PROJ SvetaFore -pmonIndex 14 -num 10
+WCCILpmon    (1), 2024.07.03 09:44:23.949, SYS,  INFO,       26/pmon, Got KILL command (SIGKILL) from ::1, stopping the manager WCCOAopc(9) at index 13
+WCCILpmon    (1), 2024.07.03 09:44:23.950, SYS,  INFO,       17/pmon, Stopping Manager WCCOAopc(9) with signal SIGKILL
+WCCILpmon    (1), 2024.07.03 09:44:24.069, SYS,  INFO,       11/pmon, Detected stopped manager WCCOAopc(9) - restarting it #1
+WCCILpmon    (1), 2024.07.03 09:44:24.069, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAopc.exe -PROJ SvetaFore -pmonIndex 13 -num 9
+WCCILpmon    (1), 2024.07.03 09:44:26.278, SYS,  INFO,       29/pmon, Got PROP_PUT command from ::1, changing manager WCCOAopc(9) at index 13
+WCCILpmon    (1), 2024.07.03 09:44:27.831, SYS,  INFO,       26/pmon, Got KILL command (SIGKILL) from ::1, stopping the manager WCCOAopc(9) at index 13
+WCCILpmon    (1), 2024.07.03 09:44:27.831, SYS,  INFO,       17/pmon, Stopping Manager WCCOAopc(9) with signal SIGKILL
+WCCILpmon    (1), 2024.07.03 09:44:41.806, SYS,  INFO,       26/pmon, Got KILL command (SIGKILL) from ::1, stopping the manager WCCOAmod(10) at index 14
+WCCILpmon    (1), 2024.07.03 09:44:41.807, SYS,  INFO,       17/pmon, Stopping Manager WCCOAmod(10) with signal SIGKILL
+WCCILpmon    (1), 2024.07.03 09:44:44.896, SYS,  INFO,       24/pmon, Got START command from ::1, starting the manager WCCOAmod(10) at index 14
+WCCILpmon    (1), 2024.07.03 09:44:44.899, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAmod.exe -PROJ SvetaFore -pmonIndex 14 -num 10
+WCCILpmon    (1), 2024.07.03 09:45:00.438, SYS,  INFO,       26/pmon, Got KILL command (SIGKILL) from ::1, stopping the manager WCCOAmod(10) at index 14
+WCCILpmon    (1), 2024.07.03 09:45:00.438, SYS,  INFO,       17/pmon, Stopping Manager WCCOAmod(10) with signal SIGKILL
+WCCILpmon    (1), 2024.07.03 09:45:04.313, SYS,  INFO,       24/pmon, Got START command from ::1, starting the manager WCCOAmod(10) at index 14
+WCCILpmon    (1), 2024.07.03 09:45:04.316, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAmod.exe -PROJ SvetaFore -pmonIndex 14 -num 10
+WCCILpmon    (1), 2024.07.03 09:52:58.103, SYS,  INFO,       26/pmon, Got KILL command (SIGKILL) from ::1, stopping the manager WCCOAmod(10) at index 14
+WCCILpmon    (1), 2024.07.03 09:52:58.103, SYS,  INFO,       17/pmon, Stopping Manager WCCOAmod(10) with signal SIGKILL
+WCCILpmon    (1), 2024.07.03 09:53:25.261, SYS,  INFO,       29/pmon, Got PROP_PUT command from ::1, changing manager WCCOAmod(4) at index 14
+WCCILpmon    (1), 2024.07.03 09:53:26.898, SYS,  INFO,       24/pmon, Got START command from ::1, starting the manager WCCOAmod(4) at index 14
+WCCILpmon    (1), 2024.07.03 09:53:26.901, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAmod.exe -PROJ SvetaFore -pmonIndex 14 -num 4
+WCCILpmon    (1), 2024.07.03 09:53:41.304, SYS,  INFO,       29/pmon, Got PROP_PUT command from ::1, changing manager WCCOAmod(10) at index 14
+WCCILpmon    (1), 2024.07.03 10:32:26.336, SYS,  INFO,       29/pmon, Got PROP_PUT command from ::1, changing manager WCCOAmod(1) at index 14
+WCCILpmon    (1), 2024.07.03 10:32:29.722, SYS,  INFO,       29/pmon, Got PROP_PUT command from ::1, changing manager WCCILsim(1) at index 11
+WCCILpmon    (1), 2024.07.03 10:32:32.557, SYS,  INFO,       26/pmon, Got KILL command (SIGKILL) from ::1, stopping the manager WCCILsim(1) at index 11
+WCCILpmon    (1), 2024.07.03 10:32:32.558, SYS,  INFO,       17/pmon, Stopping Manager WCCILsim(1) with signal SIGKILL
+WCCILpmon    (1), 2024.07.03 10:32:40.957, SYS,  INFO,       26/pmon, Got KILL command (SIGKILL) from ::1, stopping the manager WCCOAmod(1) at index 14
+WCCILpmon    (1), 2024.07.03 10:32:40.958, SYS,  INFO,       17/pmon, Stopping Manager WCCOAmod(1) with signal SIGKILL
+WCCILpmon    (1), 2024.07.03 10:32:44.207, SYS,  INFO,       24/pmon, Got START command from ::1, starting the manager WCCOAmod(1) at index 14
+WCCILpmon    (1), 2024.07.03 10:32:44.210, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAmod.exe -PROJ SvetaFore -pmonIndex 14 -num 1
+WCCILpmon    (1), 2024.07.03 10:33:09.085, SYS,  INFO,       26/pmon, Got KILL command (SIGKILL) from ::1, stopping the manager WCCOAmod(1) at index 14
+WCCILpmon    (1), 2024.07.03 10:33:09.085, SYS,  INFO,       17/pmon, Stopping Manager WCCOAmod(1) with signal SIGKILL
+WCCILpmon    (1), 2024.07.03 10:33:14.543, SYS,  INFO,       24/pmon, Got START command from ::1, starting the manager WCCOAmod(1) at index 14
+WCCILpmon    (1), 2024.07.03 10:33:14.543, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAmod.exe -PROJ SvetaFore -pmonIndex 14 -num 1
+WCCILpmon    (1), 2024.07.03 11:15:20.437, SYS,  INFO,       26/pmon, Got KILL command (SIGKILL) from ::1, stopping the manager WCCOAmod(1) at index 14
+WCCILpmon    (1), 2024.07.03 11:15:20.438, SYS,  INFO,       17/pmon, Stopping Manager WCCOAmod(1) with signal SIGKILL
+WCCILpmon    (1), 2024.07.03 11:15:37.225, SYS,  INFO,       24/pmon, Got START command from ::1, starting the manager WCCOAmod(1) at index 14
+WCCILpmon    (1), 2024.07.03 11:15:37.227, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAmod.exe -PROJ SvetaFore -pmonIndex 14 -num 1
+WCCILpmon    (1), 2024.07.03 11:16:29.767, SYS,  INFO,       26/pmon, Got KILL command (SIGKILL) from ::1, stopping the manager WCCOAmod(1) at index 14
+WCCILpmon    (1), 2024.07.03 11:16:29.767, SYS,  INFO,       17/pmon, Stopping Manager WCCOAmod(1) with signal SIGKILL
+WCCILpmon    (1), 2024.07.03 11:22:07.952, SYS,  INFO,       24/pmon, Got START command from ::1, starting the manager WCCOAmod(1) at index 14
+WCCILpmon    (1), 2024.07.03 11:22:07.955, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAmod.exe -PROJ SvetaFore -pmonIndex 14 -num 1
+WCCILpmon    (1), 2024.07.03 11:25:51.742, SYS,  INFO,       26/pmon, Got KILL command (SIGKILL) from ::1, stopping the manager WCCOAmod(1) at index 14
+WCCILpmon    (1), 2024.07.03 11:25:51.743, SYS,  INFO,       17/pmon, Stopping Manager WCCOAmod(1) with signal SIGKILL
+WCCILpmon    (1), 2024.07.03 11:59:44.281, SYS,  INFO,       24/pmon, Got START command from ::1, starting the manager WCCOAopc(9) at index 13
+WCCILpmon    (1), 2024.07.03 11:59:44.284, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAopc.exe -PROJ SvetaFore -pmonIndex 13 -num 9
+WCCILpmon    (1), 2024.07.03 12:02:20.335, SYS,  INFO,       24/pmon, Got START command from ::1, starting the manager WCCOAmod(1) at index 14
+WCCILpmon    (1), 2024.07.03 12:02:20.337, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAmod.exe -PROJ SvetaFore -pmonIndex 14 -num 1
+WCCILpmon    (1), 2024.07.03 12:16:00.364, SYS,  INFO,       26/pmon, Got KILL command (SIGKILL) from ::1, stopping the manager WCCOAmod(1) at index 14
+WCCILpmon    (1), 2024.07.03 12:16:00.365, SYS,  INFO,       17/pmon, Stopping Manager WCCOAmod(1) with signal SIGKILL
+WCCILpmon    (1), 2024.07.03 12:33:07.894, SYS,  INFO,       26/pmon, Got KILL command (SIGKILL) from ::1, stopping the manager WCCOAopc(9) at index 13
+WCCILpmon    (1), 2024.07.03 12:33:07.895, SYS,  INFO,       17/pmon, Stopping Manager WCCOAopc(9) with signal SIGKILL
+WCCILpmon    (1), 2024.07.03 12:33:09.616, SYS,  INFO,       24/pmon, Got START command from ::1, starting the manager WCCOAmod(1) at index 14
+WCCILpmon    (1), 2024.07.03 12:33:09.618, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAmod.exe -PROJ SvetaFore -pmonIndex 14 -num 1
+WCCILpmon    (1), 2024.07.03 12:37:21.673, SYS,  INFO,       24/pmon, Got START command from ::1, starting the manager WCCOAopc(9) at index 13
+WCCILpmon    (1), 2024.07.03 12:37:21.676, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAopc.exe -PROJ SvetaFore -pmonIndex 13 -num 9
+WCCILpmon    (1), 2024.07.03 13:07:19.343, SYS,  INFO,       21/pmon, Got STOP_ALL command from ::1, stopping the project
+WCCILpmon    (1), 2024.07.03 13:07:19.344, SYS,  INFO,       17/pmon, Stopping Manager WCCOAmod(1) with signal SIGTERM
+WCCILpmon    (1), 2024.07.03 13:07:19.344, SYS,  INFO,       17/pmon, Stopping Manager WCCOAopc(9) with signal SIGTERM
+WCCILpmon    (1), 2024.07.03 13:07:19.345, SYS,  INFO,       17/pmon, Stopping Manager WCCOAui(1) with signal SIGTERM
+WCCILpmon    (1), 2024.07.03 13:07:19.345, SYS,  INFO,       17/pmon, Stopping Manager WCCOActrl(1) with signal SIGTERM
+WCCILpmon    (1), 2024.07.03 13:07:19.346, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(5) with signal SIGTERM
+WCCILpmon    (1), 2024.07.03 13:07:19.346, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(4) with signal SIGTERM
+WCCILpmon    (1), 2024.07.03 13:07:19.347, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(3) with signal SIGTERM
+WCCILpmon    (1), 2024.07.03 13:07:19.347, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(2) with signal SIGTERM
+WCCILpmon    (1), 2024.07.03 13:07:19.347, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(1) with signal SIGTERM
+WCCILpmon    (1), 2024.07.03 13:07:19.348, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(0) with signal SIGTERM
+WCCILpmon    (1), 2024.07.03 13:07:23.543, SYS,  INFO,       17/pmon, Stopping Manager WCCILevent(0) with signal SIGTERM
+WCCILpmon    (1), 2024.07.03 13:07:23.763, SYS,  INFO,       17/pmon, Stopping Manager WCCILdata(0) with signal SIGTERM
+WCCILpmon    (1), 2024.07.03 13:07:25.782, SYS,  INFO,       17/pmon, Stopping Manager WCCILproxy(1) with signal SIGTERM
+WCCILpmon    (1), 2024.07.03 13:07:26.000, SYS,  INFO,       13/pmon, Completely stopped the project - waiting for commands
+WCCILpmon    (1), 2024.07.03 13:12:38.631, SYS,  INFO,       20/pmon, Got START_ALL command from ::1, starting the project
+WCCILpmon    (1), 2024.07.03 13:12:38.633, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCILdata.exe -PROJ SvetaFore -pmonIndex 1 
+WCCILpmon    (1), 2024.07.03 13:12:40.126, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAvalarch.exe -PROJ SvetaFore -pmonIndex 2 -num 0
+WCCILpmon    (1), 2024.07.03 13:12:40.349, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAvalarch.exe -PROJ SvetaFore -pmonIndex 3 -num 1
+WCCILpmon    (1), 2024.07.03 13:12:40.550, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAvalarch.exe -PROJ SvetaFore -pmonIndex 4 -num 2
+WCCILpmon    (1), 2024.07.03 13:12:40.850, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAvalarch.exe -PROJ SvetaFore -pmonIndex 5 -num 3
+WCCILpmon    (1), 2024.07.03 13:12:41.051, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAvalarch.exe -PROJ SvetaFore -pmonIndex 6 -num 4
+WCCILpmon    (1), 2024.07.03 13:12:41.351, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAvalarch.exe -PROJ SvetaFore -pmonIndex 7 -num 5
+WCCILpmon    (1), 2024.07.03 13:12:43.696, SYS,  INFO,       24/pmon, Got START command from ::1, starting the manager WCCOAmod(1) at index 14
+WCCILpmon    (1), 2024.07.03 13:12:43.698, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAmod.exe -PROJ SvetaFore -pmonIndex 14 -num 1
+WCCILpmon    (1), 2024.07.03 13:12:44.590, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCILevent.exe -PROJ SvetaFore -pmonIndex 8 
+WCCILpmon    (1), 2024.07.03 13:12:45.006, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCILproxy.exe -PROJ SvetaFore -pmonIndex 9 
+WCCILpmon    (1), 2024.07.03 13:12:46.146, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOActrl.exe -PROJ SvetaFore -pmonIndex 10 -f pvss_scripts.lst
+WCCILpmon    (1), 2024.07.03 13:12:46.362, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAui.exe -PROJ SvetaFore -pmonIndex 12 -m gedi
+WCCILpmon    (1), 2024.07.03 13:12:54.062, SYS,  INFO,        9/pmon, The project is up and running. Entering monitor mode
+WCCILpmon    (1), 2024.07.03 13:15:37.576, SYS,  INFO,       21/pmon, Got STOP_ALL command from ::1, stopping the project
+WCCILpmon    (1), 2024.07.03 13:15:37.577, SYS,  INFO,       17/pmon, Stopping Manager WCCOAmod(1) with signal SIGTERM
+WCCILpmon    (1), 2024.07.03 13:15:37.577, SYS,  INFO,       17/pmon, Stopping Manager WCCOAui(1) with signal SIGTERM
+WCCILpmon    (1), 2024.07.03 13:15:37.578, SYS,  INFO,       17/pmon, Stopping Manager WCCOActrl(1) with signal SIGTERM
+WCCILpmon    (1), 2024.07.03 13:15:37.578, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(5) with signal SIGTERM
+WCCILpmon    (1), 2024.07.03 13:15:37.578, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(4) with signal SIGTERM
+WCCILpmon    (1), 2024.07.03 13:15:37.579, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(3) with signal SIGTERM
+WCCILpmon    (1), 2024.07.03 13:15:37.579, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(2) with signal SIGTERM
+WCCILpmon    (1), 2024.07.03 13:15:37.580, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(1) with signal SIGTERM
+WCCILpmon    (1), 2024.07.03 13:15:37.580, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(0) with signal SIGTERM
+WCCILpmon    (1), 2024.07.03 13:15:41.689, SYS,  INFO,       17/pmon, Stopping Manager WCCILevent(0) with signal SIGTERM
+WCCILpmon    (1), 2024.07.03 13:15:41.790, SYS,  INFO,       17/pmon, Stopping Manager WCCILdata(0) with signal SIGTERM
+WCCILpmon    (1), 2024.07.03 13:15:43.812, SYS,  INFO,       17/pmon, Stopping Manager WCCILproxy(1) with signal SIGTERM
+WCCILpmon    (1), 2024.07.03 13:15:44.551, SYS,  INFO,       13/pmon, Completely stopped the project - waiting for commands
+WCCILpmon    (1), 2024.07.03 13:30:40.674, SYS,  INFO,        3/pmon, Got shutdown command - stopping the project and terminating
+WCCILpmon    (1), 2024.07.03 13:30:40.674, SYS,  INFO,       15/pmon, Completely stopped the project - terminating
+WCCILpmon    (1), 2024.07.03 13:30:40.674, SYS,  INFO,        2, Manager Stop
+WCCILpmon    (1), 2024.07.03 13:31:20.841, SYS,  INFO,        1, Manager Start, WAIT_MODE
+WCCILpmon    (1), 2024.07.03 13:31:38.708, SYS,  INFO,       20/pmon, Got START_ALL command from ::1, starting the project
+WCCILpmon    (1), 2024.07.03 13:31:38.712, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCILdata.exe -PROJ SvetaFore_OPC -pmonIndex 1 
+WCCILpmon    (1), 2024.07.03 13:31:40.042, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAvalarch.exe -PROJ SvetaFore_OPC -pmonIndex 2 -num 0
+WCCILpmon    (1), 2024.07.03 13:31:40.260, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAvalarch.exe -PROJ SvetaFore_OPC -pmonIndex 3 -num 1
+WCCILpmon    (1), 2024.07.03 13:31:40.589, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAvalarch.exe -PROJ SvetaFore_OPC -pmonIndex 4 -num 2
+WCCILpmon    (1), 2024.07.03 13:31:40.807, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAvalarch.exe -PROJ SvetaFore_OPC -pmonIndex 5 -num 3
+WCCILpmon    (1), 2024.07.03 13:31:41.026, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAvalarch.exe -PROJ SvetaFore_OPC -pmonIndex 6 -num 4
+WCCILpmon    (1), 2024.07.03 13:31:41.245, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAvalarch.exe -PROJ SvetaFore_OPC -pmonIndex 7 -num 5
+WCCILpmon    (1), 2024.07.03 13:31:44.549, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCILevent.exe -PROJ SvetaFore_OPC -pmonIndex 8 
+WCCILpmon    (1), 2024.07.03 13:31:44.768, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCILproxy.exe -PROJ SvetaFore_OPC -pmonIndex 9 
+WCCILpmon    (1), 2024.07.03 13:31:45.827, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOActrl.exe -PROJ SvetaFore_OPC -pmonIndex 10 -f pvss_scripts.lst
+WCCILpmon    (1), 2024.07.03 13:31:46.041, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAui.exe -PROJ SvetaFore_OPC -pmonIndex 12 -m gedi
+WCCILpmon    (1), 2024.07.03 13:31:51.708, SYS,  INFO,        9/pmon, The project is up and running. Entering monitor mode
+WCCILpmon    (1), 2024.07.03 14:11:54.249, SYS,  INFO,       21/pmon, Got STOP_ALL command from ::1, stopping the project
+WCCILpmon    (1), 2024.07.03 14:11:54.250, SYS,  INFO,       17/pmon, Stopping Manager WCCOAui(1) with signal SIGTERM
+WCCILpmon    (1), 2024.07.03 14:11:54.250, SYS,  INFO,       17/pmon, Stopping Manager WCCOActrl(1) with signal SIGTERM
+WCCILpmon    (1), 2024.07.03 14:11:54.251, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(5) with signal SIGTERM
+WCCILpmon    (1), 2024.07.03 14:11:54.251, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(4) with signal SIGTERM
+WCCILpmon    (1), 2024.07.03 14:11:54.251, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(3) with signal SIGTERM
+WCCILpmon    (1), 2024.07.03 14:11:54.252, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(2) with signal SIGTERM
+WCCILpmon    (1), 2024.07.03 14:11:54.252, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(1) with signal SIGTERM
+WCCILpmon    (1), 2024.07.03 14:11:54.252, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(0) with signal SIGTERM
+WCCILpmon    (1), 2024.07.03 14:11:58.430, SYS,  INFO,       17/pmon, Stopping Manager WCCILevent(0) with signal SIGTERM
+WCCILpmon    (1), 2024.07.03 14:11:58.539, SYS,  INFO,       17/pmon, Stopping Manager WCCILdata(0) with signal SIGTERM
+WCCILpmon    (1), 2024.07.03 14:12:00.587, SYS,  INFO,       17/pmon, Stopping Manager WCCILproxy(1) with signal SIGTERM
+WCCILpmon    (1), 2024.07.03 14:12:00.743, SYS,  INFO,       13/pmon, Completely stopped the project - waiting for commands
+WCCILpmon    (1), 2024.07.03 14:12:06.375, SYS,  INFO,        3/pmon, Got shutdown command - stopping the project and terminating
+WCCILpmon    (1), 2024.07.03 14:12:06.375, SYS,  INFO,       15/pmon, Completely stopped the project - terminating
+WCCILpmon    (1), 2024.07.03 14:12:06.375, SYS,  INFO,        2, Manager Stop
+WCCILpmon    (1), 2024.07.03 15:53:49.686, SYS,  INFO,        1, Manager Start, WAIT_MODE
+WCCILpmon    (1), 2024.07.03 15:53:51.954, SYS,  INFO,       20/pmon, Got START_ALL command from ::1, starting the project
+WCCILpmon    (1), 2024.07.03 15:53:51.958, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCILdata.exe -PROJ SvetaForeV2.1 -pmonIndex 1 
+WCCILpmon    (1), 2024.07.03 15:53:53.188, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAvalarch.exe -PROJ SvetaForeV2.1 -pmonIndex 2 -num 0
+WCCILpmon    (1), 2024.07.03 15:53:53.397, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAvalarch.exe -PROJ SvetaForeV2.1 -pmonIndex 3 -num 1
+WCCILpmon    (1), 2024.07.03 15:53:53.597, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAvalarch.exe -PROJ SvetaForeV2.1 -pmonIndex 4 -num 2
+WCCILpmon    (1), 2024.07.03 15:53:53.813, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAvalarch.exe -PROJ SvetaForeV2.1 -pmonIndex 5 -num 3
+WCCILpmon    (1), 2024.07.03 15:53:54.016, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAvalarch.exe -PROJ SvetaForeV2.1 -pmonIndex 6 -num 4
+WCCILpmon    (1), 2024.07.03 15:53:54.238, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAvalarch.exe -PROJ SvetaForeV2.1 -pmonIndex 7 -num 5
+WCCILpmon    (1), 2024.07.03 15:53:54.470, SYS,  INFO,       24/pmon, Got START command from ::1, starting the manager WCCOAmod(1) at index 14
+WCCILpmon    (1), 2024.07.03 15:53:54.471, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAmod.exe -PROJ SvetaForeV2.1 -pmonIndex 14 -num 1
+WCCILpmon    (1), 2024.07.03 15:53:57.562, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCILevent.exe -PROJ SvetaForeV2.1 -pmonIndex 8 
+WCCILpmon    (1), 2024.07.03 15:53:57.865, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCILproxy.exe -PROJ SvetaForeV2.1 -pmonIndex 9 
+WCCILpmon    (1), 2024.07.03 15:53:58.882, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOActrl.exe -PROJ SvetaForeV2.1 -pmonIndex 10 -f pvss_scripts.lst
+WCCILpmon    (1), 2024.07.03 15:53:59.099, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAui.exe -PROJ SvetaForeV2.1 -pmonIndex 12 -m gedi
+WCCILpmon    (1), 2024.07.03 15:54:16.925, SYS,  INFO,        9/pmon, The project is up and running. Entering monitor mode
+WCCILpmon    (1), 2024.07.03 16:11:40.645, SYS,  INFO,       21/pmon, Got STOP_ALL command from ::1, stopping the project
+WCCILpmon    (1), 2024.07.03 16:11:40.645, SYS,  INFO,       17/pmon, Stopping Manager WCCOAmod(1) with signal SIGTERM
+WCCILpmon    (1), 2024.07.03 16:11:40.645, SYS,  INFO,       17/pmon, Stopping Manager WCCOAui(1) with signal SIGTERM
+WCCILpmon    (1), 2024.07.03 16:11:40.645, SYS,  INFO,       17/pmon, Stopping Manager WCCOActrl(1) with signal SIGTERM
+WCCILpmon    (1), 2024.07.03 16:11:40.646, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(5) with signal SIGTERM
+WCCILpmon    (1), 2024.07.03 16:11:40.646, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(4) with signal SIGTERM
+WCCILpmon    (1), 2024.07.03 16:11:40.646, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(3) with signal SIGTERM
+WCCILpmon    (1), 2024.07.03 16:11:40.646, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(2) with signal SIGTERM
+WCCILpmon    (1), 2024.07.03 16:11:40.646, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(1) with signal SIGTERM
+WCCILpmon    (1), 2024.07.03 16:11:40.646, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(0) with signal SIGTERM
+WCCILpmon    (1), 2024.07.03 16:11:44.764, SYS,  INFO,       17/pmon, Stopping Manager WCCILevent(0) with signal SIGTERM
+WCCILpmon    (1), 2024.07.03 16:11:44.864, SYS,  INFO,       17/pmon, Stopping Manager WCCILdata(0) with signal SIGTERM
+WCCILpmon    (1), 2024.07.03 16:11:46.853, SYS,  INFO,       17/pmon, Stopping Manager WCCILproxy(1) with signal SIGTERM
+WCCILpmon    (1), 2024.07.03 16:11:47.392, SYS,  INFO,       13/pmon, Completely stopped the project - waiting for commands
+WCCILpmon    (1), 2024.07.03 16:11:50.236, SYS,  INFO,        3/pmon, Got shutdown command - stopping the project and terminating
+WCCILpmon    (1), 2024.07.03 16:11:50.236, SYS,  INFO,       15/pmon, Completely stopped the project - terminating
+WCCILpmon    (1), 2024.07.03 16:11:50.236, SYS,  INFO,        2, Manager Stop
+WCCILpmon    (1), 2024.07.03 16:33:34.848, SYS,  INFO,        1, Manager Start, START_MODE
+WCCILpmon    (1), 2024.07.03 16:33:34.973, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCILdata.exe -PROJ SvetaForeV2.1 -pmonIndex 1 
+WCCILpmon    (1), 2024.07.03 16:33:36.136, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAvalarch.exe -PROJ SvetaForeV2.1 -pmonIndex 2 -num 0
+WCCILpmon    (1), 2024.07.03 16:33:36.355, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAvalarch.exe -PROJ SvetaForeV2.1 -pmonIndex 3 -num 1
+WCCILpmon    (1), 2024.07.03 16:33:36.573, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAvalarch.exe -PROJ SvetaForeV2.1 -pmonIndex 4 -num 2
+WCCILpmon    (1), 2024.07.03 16:33:36.785, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAvalarch.exe -PROJ SvetaForeV2.1 -pmonIndex 5 -num 3
+WCCILpmon    (1), 2024.07.03 16:33:36.998, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAvalarch.exe -PROJ SvetaForeV2.1 -pmonIndex 6 -num 4
+WCCILpmon    (1), 2024.07.03 16:33:37.217, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAvalarch.exe -PROJ SvetaForeV2.1 -pmonIndex 7 -num 5
+WCCILpmon    (1), 2024.07.03 16:33:39.143, SYS,  INFO,       24/pmon, Got START command from ::1, starting the manager WCCOAmod(1) at index 14
+WCCILpmon    (1), 2024.07.03 16:33:39.146, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAmod.exe -PROJ SvetaForeV2.1 -pmonIndex 14 -num 1
+WCCILpmon    (1), 2024.07.03 16:33:40.589, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCILevent.exe -PROJ SvetaForeV2.1 -pmonIndex 8 
+WCCILpmon    (1), 2024.07.03 16:33:40.808, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCILproxy.exe -PROJ SvetaForeV2.1 -pmonIndex 9 
+WCCILpmon    (1), 2024.07.03 16:33:41.573, SYS,  INFO,       24/pmon, Got START command from ::1, starting the manager WCCILsim(1) at index 11
+WCCILpmon    (1), 2024.07.03 16:33:41.575, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCILsim.exe -PROJ SvetaForeV2.1 -pmonIndex 11 
+WCCILpmon    (1), 2024.07.03 16:33:41.907, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOActrl.exe -PROJ SvetaForeV2.1 -pmonIndex 10 -f pvss_scripts.lst
+WCCILpmon    (1), 2024.07.03 16:33:42.123, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAui.exe -PROJ SvetaForeV2.1 -pmonIndex 12 -m gedi
+WCCILpmon    (1), 2024.07.03 16:33:43.841, SYS,  INFO,        9/pmon, The project is up and running. Entering monitor mode
+WCCILpmon    (1), 2024.07.03 16:44:32.943, SYS,  INFO,       21/pmon, Got STOP_ALL command from ::1, stopping the project
+WCCILpmon    (1), 2024.07.03 16:44:32.944, SYS,  INFO,       17/pmon, Stopping Manager WCCOAmod(1) with signal SIGTERM
+WCCILpmon    (1), 2024.07.03 16:44:32.944, SYS,  INFO,       17/pmon, Stopping Manager WCCOAui(1) with signal SIGTERM
+WCCILpmon    (1), 2024.07.03 16:44:32.944, SYS,  INFO,       17/pmon, Stopping Manager WCCOActrl(1) with signal SIGTERM
+WCCILpmon    (1), 2024.07.03 16:44:32.945, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(5) with signal SIGTERM
+WCCILpmon    (1), 2024.07.03 16:44:32.945, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(4) with signal SIGTERM
+WCCILpmon    (1), 2024.07.03 16:44:32.946, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(3) with signal SIGTERM
+WCCILpmon    (1), 2024.07.03 16:44:32.946, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(2) with signal SIGTERM
+WCCILpmon    (1), 2024.07.03 16:44:32.946, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(1) with signal SIGTERM
+WCCILpmon    (1), 2024.07.03 16:44:32.947, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(0) with signal SIGTERM
+WCCILpmon    (1), 2024.07.03 16:44:37.101, SYS,  INFO,       17/pmon, Stopping Manager WCCILevent(0) with signal SIGTERM
+WCCILpmon    (1), 2024.07.03 16:44:37.325, SYS,  INFO,       17/pmon, Stopping Manager WCCILdata(0) with signal SIGTERM
+WCCILpmon    (1), 2024.07.03 16:44:39.261, SYS,  INFO,       17/pmon, Stopping Manager WCCILproxy(1) with signal SIGTERM
+WCCILpmon    (1), 2024.07.03 16:44:40.136, SYS,  INFO,       13/pmon, Completely stopped the project - waiting for commands
+WCCILpmon    (1), 2024.07.05 08:53:30.658, SYS,  INFO,        1, Manager Start, WAIT_MODE
+WCCILpmon    (1), 2024.07.05 08:53:34.707, SYS,  INFO,       20/pmon, Got START_ALL command from ::1, starting the project
+WCCILpmon    (1), 2024.07.05 08:53:34.710, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCILdata.exe -PROJ SvetaForeV2.1 -pmonIndex 1 
+WCCILpmon    (1), 2024.07.05 08:53:36.396, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAvalarch.exe -PROJ SvetaForeV2.1 -pmonIndex 2 -num 0
+WCCILpmon    (1), 2024.07.05 08:53:36.724, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAvalarch.exe -PROJ SvetaForeV2.1 -pmonIndex 3 -num 1
+WCCILpmon    (1), 2024.07.05 08:53:37.063, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAvalarch.exe -PROJ SvetaForeV2.1 -pmonIndex 4 -num 2
+WCCILpmon    (1), 2024.07.05 08:53:37.188, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAvalarch.exe -PROJ SvetaForeV2.1 -pmonIndex 5 -num 3
+WCCILpmon    (1), 2024.07.05 08:53:37.406, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAvalarch.exe -PROJ SvetaForeV2.1 -pmonIndex 6 -num 4
+WCCILpmon    (1), 2024.07.05 08:53:37.734, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAvalarch.exe -PROJ SvetaForeV2.1 -pmonIndex 7 -num 5
+WCCILpmon    (1), 2024.07.05 08:53:40.977, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCILevent.exe -PROJ SvetaForeV2.1 -pmonIndex 8 
+WCCILpmon    (1), 2024.07.05 08:53:41.398, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCILproxy.exe -PROJ SvetaForeV2.1 -pmonIndex 9 
+WCCILpmon    (1), 2024.07.05 08:53:42.504, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOActrl.exe -PROJ SvetaForeV2.1 -pmonIndex 10 -f pvss_scripts.lst
+WCCILpmon    (1), 2024.07.05 08:53:42.722, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAui.exe -PROJ SvetaForeV2.1 -pmonIndex 12 -m gedi
+WCCILpmon    (1), 2024.07.05 08:53:44.118, SYS,  INFO,       24/pmon, Got START command from ::1, starting the manager WCCOAmod(1) at index 14
+WCCILpmon    (1), 2024.07.05 08:53:44.131, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAmod.exe -PROJ SvetaForeV2.1 -pmonIndex 14 -num 1
+WCCILpmon    (1), 2024.07.05 08:53:45.216, SYS,  INFO,        9/pmon, The project is up and running. Entering monitor mode
+WCCILpmon    (1), 2024.07.05 08:54:27.860, SYS,  INFO,       21/pmon, Got STOP_ALL command from ::1, stopping the project
+WCCILpmon    (1), 2024.07.05 08:54:27.861, SYS,  INFO,       17/pmon, Stopping Manager WCCOAmod(1) with signal SIGTERM
+WCCILpmon    (1), 2024.07.05 08:54:27.861, SYS,  INFO,       17/pmon, Stopping Manager WCCOAui(1) with signal SIGTERM
+WCCILpmon    (1), 2024.07.05 08:54:27.862, SYS,  INFO,       17/pmon, Stopping Manager WCCOActrl(1) with signal SIGTERM
+WCCILpmon    (1), 2024.07.05 08:54:27.862, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(5) with signal SIGTERM
+WCCILpmon    (1), 2024.07.05 08:54:27.863, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(4) with signal SIGTERM
+WCCILpmon    (1), 2024.07.05 08:54:27.863, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(3) with signal SIGTERM
+WCCILpmon    (1), 2024.07.05 08:54:27.864, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(2) with signal SIGTERM
+WCCILpmon    (1), 2024.07.05 08:54:27.865, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(1) with signal SIGTERM
+WCCILpmon    (1), 2024.07.05 08:54:27.865, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(0) with signal SIGTERM
+WCCILpmon    (1), 2024.07.05 08:54:32.003, SYS,  INFO,       17/pmon, Stopping Manager WCCILevent(0) with signal SIGTERM
+WCCILpmon    (1), 2024.07.05 08:54:32.114, SYS,  INFO,       17/pmon, Stopping Manager WCCILdata(0) with signal SIGTERM
+WCCILpmon    (1), 2024.07.05 08:54:33.070, SYS,  INFO,       17/pmon, Stopping Manager WCCILproxy(1) with signal SIGTERM
+WCCILpmon    (1), 2024.07.05 08:54:33.949, SYS,  INFO,       13/pmon, Completely stopped the project - waiting for commands
+WCCILpmon    (1), 2024.07.05 08:54:35.302, SYS,  INFO,        3/pmon, Got shutdown command - stopping the project and terminating
+WCCILpmon    (1), 2024.07.05 08:54:35.302, SYS,  INFO,       15/pmon, Completely stopped the project - terminating
+WCCILpmon    (1), 2024.07.05 08:54:35.302, SYS,  INFO,        2, Manager Stop
+WCCILpmon    (1), 2024.07.05 09:07:22.140, SYS,  INFO,        1, Manager Start, WAIT_MODE
+WCCILpmon    (1), 2024.07.05 09:09:36.325, SYS,  INFO,       20/pmon, Got START_ALL command from ::1, starting the project
+WCCILpmon    (1), 2024.07.05 09:09:36.329, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCILdata.exe -PROJ SvetaForeV2.1 -pmonIndex 1 
+WCCILpmon    (1), 2024.07.05 09:09:37.533, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAvalarch.exe -PROJ SvetaForeV2.1 -pmonIndex 2 -num 0
+WCCILpmon    (1), 2024.07.05 09:09:37.743, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAvalarch.exe -PROJ SvetaForeV2.1 -pmonIndex 3 -num 1
+WCCILpmon    (1), 2024.07.05 09:09:37.962, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAvalarch.exe -PROJ SvetaForeV2.1 -pmonIndex 4 -num 2
+WCCILpmon    (1), 2024.07.05 09:09:38.172, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAvalarch.exe -PROJ SvetaForeV2.1 -pmonIndex 5 -num 3
+WCCILpmon    (1), 2024.07.05 09:09:38.281, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAvalarch.exe -PROJ SvetaForeV2.1 -pmonIndex 6 -num 4
+WCCILpmon    (1), 2024.07.05 09:09:38.500, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAvalarch.exe -PROJ SvetaForeV2.1 -pmonIndex 7 -num 5
+WCCILpmon    (1), 2024.07.05 09:09:38.743, SYS,  INFO,       24/pmon, Got START command from ::1, starting the manager WCCOAmod(1) at index 14
+WCCILpmon    (1), 2024.07.05 09:09:38.745, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAmod.exe -PROJ SvetaForeV2.1 -pmonIndex 14 -num 1
+WCCILpmon    (1), 2024.07.05 09:09:41.761, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCILevent.exe -PROJ SvetaForeV2.1 -pmonIndex 8 
+WCCILpmon    (1), 2024.07.05 09:09:41.980, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCILproxy.exe -PROJ SvetaForeV2.1 -pmonIndex 9 
+WCCILpmon    (1), 2024.07.05 09:09:43.135, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOActrl.exe -PROJ SvetaForeV2.1 -pmonIndex 10 -f pvss_scripts.lst
+WCCILpmon    (1), 2024.07.05 09:09:43.354, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAui.exe -PROJ SvetaForeV2.1 -pmonIndex 12 -m gedi
+WCCILpmon    (1), 2024.07.05 09:10:01.463, SYS,  INFO,        9/pmon, The project is up and running. Entering monitor mode
+WCCILpmon    (1), 2024.07.05 09:10:38.929, SYS,  INFO,       24/pmon, Got START command from ::1, starting the manager WCCOAui(1) at index 12
+WCCILpmon    (1), 2024.07.05 09:10:38.932, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAui.exe -PROJ SvetaForeV2.1 -pmonIndex 12 -m gedi
+WCCILpmon    (1), 2024.07.05 09:22:20.511, SYS,  INFO,       26/pmon, Got KILL command (SIGKILL) from ::1, stopping the manager WCCOAmod(1) at index 14
+WCCILpmon    (1), 2024.07.05 09:22:20.512, SYS,  INFO,       17/pmon, Stopping Manager WCCOAmod(1) with signal SIGKILL
+WCCILpmon    (1), 2024.07.05 09:51:07.248, SYS,  INFO,       24/pmon, Got START command from ::1, starting the manager WCCOAmod(1) at index 14
+WCCILpmon    (1), 2024.07.05 09:51:07.251, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAmod.exe -PROJ SvetaForeV2.1 -pmonIndex 14 -num 1
+WCCILpmon    (1), 2024.07.05 11:11:17.713, SYS,  WARNING,    36/pmon, Blocking Manager WCCILdata(0) detected. No heartbeat since 30 seconds.
+WCCILpmon    (1), 2024.07.05 11:11:17.714, SYS,  WARNING,    36/pmon, Blocking Manager WCCILproxy(1) detected. No heartbeat since 30 seconds.
+WCCILpmon    (1), 2024.07.05 11:11:17.714, SYS,  WARNING,    36/pmon, Blocking Manager WCCOActrl(1) detected. No heartbeat since 30 seconds.
+WCCILpmon    (1), 2024.07.05 11:11:17.714, SYS,  WARNING,    36/pmon, Blocking Manager WCCOAui(1) detected. No heartbeat since 30 seconds.
+WCCILpmon    (1), 2024.07.05 11:11:17.890, SYS,  WARNING,    39/pmon, Manager WCCILdata(0) is no longer blocking.
+WCCILpmon    (1), 2024.07.05 11:11:18.319, SYS,  WARNING,    39/pmon, Manager WCCILproxy(1) is no longer blocking.
+WCCILpmon    (1), 2024.07.05 11:11:18.489, SYS,  WARNING,    39/pmon, Manager WCCOActrl(1) is no longer blocking.
+WCCILpmon    (1), 2024.07.05 11:11:18.603, SYS,  WARNING,    39/pmon, Manager WCCOAui(1) is no longer blocking.
+WCCILpmon    (1), 2024.07.05 11:14:46.711, SYS,  INFO,       26/pmon, Got KILL command (SIGKILL) from ::1, stopping the manager WCCOAmod(1) at index 14
+WCCILpmon    (1), 2024.07.05 11:14:46.712, SYS,  INFO,       17/pmon, Stopping Manager WCCOAmod(1) with signal SIGKILL
+WCCILpmon    (1), 2024.07.05 11:18:17.084, SYS,  INFO,       24/pmon, Got START command from ::1, starting the manager WCCOAmod(1) at index 14
+WCCILpmon    (1), 2024.07.05 11:18:17.086, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAmod.exe -PROJ SvetaForeV2.1 -pmonIndex 14 -num 1
+WCCILpmon    (1), 2024.07.05 11:20:36.414, SYS,  INFO,       26/pmon, Got KILL command (SIGKILL) from ::1, stopping the manager WCCOAmod(1) at index 14
+WCCILpmon    (1), 2024.07.05 11:20:36.414, SYS,  INFO,       17/pmon, Stopping Manager WCCOAmod(1) with signal SIGKILL
+WCCILpmon    (1), 2024.07.05 11:20:39.531, SYS,  INFO,       24/pmon, Got START command from ::1, starting the manager WCCOAmod(1) at index 14
+WCCILpmon    (1), 2024.07.05 11:20:39.534, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAmod.exe -PROJ SvetaForeV2.1 -pmonIndex 14 -num 1
+WCCILpmon    (1), 2024.07.05 11:28:26.118, SYS,  INFO,       26/pmon, Got KILL command (SIGKILL) from ::1, stopping the manager WCCOAmod(1) at index 14
+WCCILpmon    (1), 2024.07.05 11:28:26.118, SYS,  INFO,       17/pmon, Stopping Manager WCCOAmod(1) with signal SIGKILL
+WCCILpmon    (1), 2024.07.05 12:09:58.099, SYS,  INFO,       24/pmon, Got START command from ::1, starting the manager WCCOAmod(1) at index 14
+WCCILpmon    (1), 2024.07.05 12:09:58.100, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAmod.exe -PROJ SvetaForeV2.1 -pmonIndex 14 -num 1
+WCCILpmon    (1), 2024.07.05 13:04:03.730, SYS,  WARNING,    36/pmon, Blocking Manager WCCOActrl(1) detected. No heartbeat since 30 seconds.
+WCCILpmon    (1), 2024.07.05 13:04:03.735, SYS,  WARNING,    36/pmon, Blocking Manager WCCOAui(1) detected. No heartbeat since 30 seconds.
+WCCILpmon    (1), 2024.07.05 13:04:04.501, SYS,  WARNING,    39/pmon, Manager WCCOActrl(1) is no longer blocking.
+WCCILpmon    (1), 2024.07.05 13:04:04.501, SYS,  WARNING,    39/pmon, Manager WCCOAui(1) is no longer blocking.
+WCCILpmon    (1), 2024.07.05 14:31:18.721, SYS,  WARNING,    36/pmon, Blocking Manager WCCILdata(0) detected. No heartbeat since 30 seconds.
+WCCILpmon    (1), 2024.07.05 14:31:18.721, SYS,  WARNING,    36/pmon, Blocking Manager WCCILevent(0) detected. No heartbeat since 30 seconds.
+WCCILpmon    (1), 2024.07.05 14:31:18.721, SYS,  WARNING,    36/pmon, Blocking Manager WCCILproxy(1) detected. No heartbeat since 30 seconds.
+WCCILpmon    (1), 2024.07.05 14:31:18.722, SYS,  WARNING,    36/pmon, Blocking Manager WCCOActrl(1) detected. No heartbeat since 30 seconds.
+WCCILpmon    (1), 2024.07.05 14:31:18.722, SYS,  WARNING,    39/pmon, Manager WCCILevent(0) is no longer blocking.
+WCCILpmon    (1), 2024.07.05 14:31:18.827, SYS,  WARNING,    39/pmon, Manager WCCILdata(0) is no longer blocking.
+WCCILpmon    (1), 2024.07.05 14:31:19.381, SYS,  WARNING,    39/pmon, Manager WCCILproxy(1) is no longer blocking.
+WCCILpmon    (1), 2024.07.05 14:31:19.599, SYS,  WARNING,    39/pmon, Manager WCCOActrl(1) is no longer blocking.
+WCCILpmon    (1), 2024.07.05 15:37:35.623, SYS,  INFO,       21/pmon, Got STOP_ALL command from ::1, stopping the project
+WCCILpmon    (1), 2024.07.05 15:37:35.623, SYS,  INFO,       17/pmon, Stopping Manager WCCOAmod(1) with signal SIGTERM
+WCCILpmon    (1), 2024.07.05 15:37:35.623, SYS,  INFO,       17/pmon, Stopping Manager WCCOActrl(1) with signal SIGTERM
+WCCILpmon    (1), 2024.07.05 15:37:35.623, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(5) with signal SIGTERM
+WCCILpmon    (1), 2024.07.05 15:37:35.623, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(4) with signal SIGTERM
+WCCILpmon    (1), 2024.07.05 15:37:35.623, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(3) with signal SIGTERM
+WCCILpmon    (1), 2024.07.05 15:37:35.623, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(2) with signal SIGTERM
+WCCILpmon    (1), 2024.07.05 15:37:35.623, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(1) with signal SIGTERM
+WCCILpmon    (1), 2024.07.05 15:37:35.623, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(0) with signal SIGTERM
+WCCILpmon    (1), 2024.07.05 15:37:39.736, SYS,  INFO,       17/pmon, Stopping Manager WCCILevent(0) with signal SIGTERM
+WCCILpmon    (1), 2024.07.05 15:37:39.837, SYS,  INFO,       17/pmon, Stopping Manager WCCILdata(0) with signal SIGTERM
+WCCILpmon    (1), 2024.07.05 15:37:41.874, SYS,  INFO,       17/pmon, Stopping Manager WCCILproxy(1) with signal SIGTERM
+WCCILpmon    (1), 2024.07.05 15:37:42.175, SYS,  INFO,       13/pmon, Completely stopped the project - waiting for commands
+WCCILpmon    (1), 2024.07.05 15:37:54.961, SYS,  INFO,        3/pmon, Got shutdown command - stopping the project and terminating
+WCCILpmon    (1), 2024.07.05 15:37:54.961, SYS,  INFO,       15/pmon, Completely stopped the project - terminating
+WCCILpmon    (1), 2024.07.05 15:37:54.961, SYS,  INFO,        2, Manager Stop
+WCCILpmon    (1), 2024.07.08 09:16:27.692, SYS,  INFO,        1, Manager Start, WAIT_MODE
+WCCILpmon    (1), 2024.07.08 09:16:32.851, SYS,  INFO,       20/pmon, Got START_ALL command from ::1, starting the project
+WCCILpmon    (1), 2024.07.08 09:16:32.865, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCILdata.exe -PROJ SvetaForeV2.1 -pmonIndex 1 
+WCCILpmon    (1), 2024.07.08 09:16:34.240, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAvalarch.exe -PROJ SvetaForeV2.1 -pmonIndex 2 -num 0
+WCCILpmon    (1), 2024.07.08 09:16:34.459, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAvalarch.exe -PROJ SvetaForeV2.1 -pmonIndex 3 -num 1
+WCCILpmon    (1), 2024.07.08 09:16:34.677, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAvalarch.exe -PROJ SvetaForeV2.1 -pmonIndex 4 -num 2
+WCCILpmon    (1), 2024.07.08 09:16:34.896, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAvalarch.exe -PROJ SvetaForeV2.1 -pmonIndex 5 -num 3
+WCCILpmon    (1), 2024.07.08 09:16:35.110, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAvalarch.exe -PROJ SvetaForeV2.1 -pmonIndex 6 -num 4
+WCCILpmon    (1), 2024.07.08 09:16:35.329, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAvalarch.exe -PROJ SvetaForeV2.1 -pmonIndex 7 -num 5
+WCCILpmon    (1), 2024.07.08 09:16:39.159, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCILevent.exe -PROJ SvetaForeV2.1 -pmonIndex 8 
+WCCILpmon    (1), 2024.07.08 09:16:39.378, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCILproxy.exe -PROJ SvetaForeV2.1 -pmonIndex 9 
+WCCILpmon    (1), 2024.07.08 09:17:09.002, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOActrl.exe -PROJ SvetaForeV2.1 -pmonIndex 10 -f pvss_scripts.lst
+WCCILpmon    (1), 2024.07.08 09:17:09.220, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAui.exe -PROJ SvetaForeV2.1 -pmonIndex 12 -m gedi
+WCCILpmon    (1), 2024.07.08 09:17:11.380, SYS,  INFO,        9/pmon, The project is up and running. Entering monitor mode
+WCCILpmon    (1), 2024.07.08 11:02:20.226, SYS,  INFO,       24/pmon, Got START command from ::1, starting the manager WCCOAmod(1) at index 14
+WCCILpmon    (1), 2024.07.08 11:02:20.287, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAmod.exe -PROJ SvetaForeV2.1 -pmonIndex 14 -num 1
+WCCILpmon    (1), 2024.07.08 11:48:08.531, SYS,  INFO,       26/pmon, Got KILL command (SIGKILL) from ::1, stopping the manager WCCOAmod(1) at index 14
+WCCILpmon    (1), 2024.07.08 11:48:08.532, SYS,  INFO,       17/pmon, Stopping Manager WCCOAmod(1) with signal SIGKILL
+WCCILpmon    (1), 2024.07.08 11:50:58.504, SYS,  INFO,       24/pmon, Got START command from ::1, starting the manager WCCOAmod(1) at index 14
+WCCILpmon    (1), 2024.07.08 11:50:58.506, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAmod.exe -PROJ SvetaForeV2.1 -pmonIndex 14 -num 1
+WCCILpmon    (1), 2024.07.08 11:51:33.887, SYS,  INFO,       26/pmon, Got KILL command (SIGKILL) from ::1, stopping the manager WCCOAmod(1) at index 14
+WCCILpmon    (1), 2024.07.08 11:51:33.887, SYS,  INFO,       17/pmon, Stopping Manager WCCOAmod(1) with signal SIGKILL
+WCCILpmon    (1), 2024.07.08 11:51:54.511, SYS,  INFO,       24/pmon, Got START command from ::1, starting the manager WCCOAmod(1) at index 14
+WCCILpmon    (1), 2024.07.08 11:51:54.514, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAmod.exe -PROJ SvetaForeV2.1 -pmonIndex 14 -num 1
+WCCILpmon    (1), 2024.07.08 11:52:13.067, SYS,  INFO,       26/pmon, Got KILL command (SIGKILL) from ::1, stopping the manager WCCOAmod(1) at index 14
+WCCILpmon    (1), 2024.07.08 11:52:13.067, SYS,  INFO,       17/pmon, Stopping Manager WCCOAmod(1) with signal SIGKILL
+WCCILpmon    (1), 2024.07.08 11:56:59.022, SYS,  INFO,       24/pmon, Got START command from ::1, starting the manager WCCOAmod(1) at index 14
+WCCILpmon    (1), 2024.07.08 11:56:59.025, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAmod.exe -PROJ SvetaForeV2.1 -pmonIndex 14 -num 1
+WCCILpmon    (1), 2024.07.08 11:58:14.700, SYS,  INFO,       26/pmon, Got KILL command (SIGKILL) from ::1, stopping the manager WCCOAmod(1) at index 14
+WCCILpmon    (1), 2024.07.08 11:58:14.701, SYS,  INFO,       17/pmon, Stopping Manager WCCOAmod(1) with signal SIGKILL
+WCCILpmon    (1), 2024.07.08 12:12:47.910, SYS,  INFO,       24/pmon, Got START command from ::1, starting the manager WCCOAmod(1) at index 14
+WCCILpmon    (1), 2024.07.08 12:12:47.911, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAmod.exe -PROJ SvetaForeV2.1 -pmonIndex 14 -num 1
+WCCILpmon    (1), 2024.07.08 12:40:30.941, SYS,  INFO,       21/pmon, Got STOP_ALL command from ::1, stopping the project
+WCCILpmon    (1), 2024.07.08 12:40:30.942, SYS,  INFO,       17/pmon, Stopping Manager WCCOAmod(1) with signal SIGTERM
+WCCILpmon    (1), 2024.07.08 12:40:30.942, SYS,  INFO,       17/pmon, Stopping Manager WCCOAui(1) with signal SIGTERM
+WCCILpmon    (1), 2024.07.08 12:40:30.943, SYS,  INFO,       17/pmon, Stopping Manager WCCOActrl(1) with signal SIGTERM
+WCCILpmon    (1), 2024.07.08 12:40:30.943, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(5) with signal SIGTERM
+WCCILpmon    (1), 2024.07.08 12:40:30.943, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(4) with signal SIGTERM
+WCCILpmon    (1), 2024.07.08 12:40:30.944, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(3) with signal SIGTERM
+WCCILpmon    (1), 2024.07.08 12:40:30.944, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(2) with signal SIGTERM
+WCCILpmon    (1), 2024.07.08 12:40:30.944, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(1) with signal SIGTERM
+WCCILpmon    (1), 2024.07.08 12:40:30.944, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(0) with signal SIGTERM
+WCCILpmon    (1), 2024.07.08 12:40:35.063, SYS,  INFO,       17/pmon, Stopping Manager WCCILevent(0) with signal SIGTERM
+WCCILpmon    (1), 2024.07.08 12:40:35.163, SYS,  INFO,       17/pmon, Stopping Manager WCCILdata(0) with signal SIGTERM
+WCCILpmon    (1), 2024.07.08 12:40:37.221, SYS,  INFO,       17/pmon, Stopping Manager WCCILproxy(1) with signal SIGTERM
+WCCILpmon    (1), 2024.07.08 12:40:37.637, SYS,  INFO,       13/pmon, Completely stopped the project - waiting for commands
+WCCILpmon    (1), 2024.07.08 12:41:42.281, SYS,  INFO,        3/pmon, Got shutdown command - stopping the project and terminating
+WCCILpmon    (1), 2024.07.08 12:41:42.281, SYS,  INFO,       15/pmon, Completely stopped the project - terminating
+WCCILpmon    (1), 2024.07.08 12:41:42.281, SYS,  INFO,        2, Manager Stop
+WCCILpmon    (1), 2024.07.10 08:20:35.306, SYS,  INFO,        1, Manager Start, WAIT_MODE
+WCCILpmon    (1), 2024.07.10 08:20:37.528, SYS,  INFO,       20/pmon, Got START_ALL command from ::1, starting the project
+WCCILpmon    (1), 2024.07.10 08:20:37.532, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCILdata.exe -PROJ SvetaForeV2.1 -pmonIndex 1 
+WCCILpmon    (1), 2024.07.10 08:20:39.249, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAvalarch.exe -PROJ SvetaForeV2.1 -pmonIndex 2 -num 0
+WCCILpmon    (1), 2024.07.10 08:20:39.468, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAvalarch.exe -PROJ SvetaForeV2.1 -pmonIndex 3 -num 1
+WCCILpmon    (1), 2024.07.10 08:20:39.686, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAvalarch.exe -PROJ SvetaForeV2.1 -pmonIndex 4 -num 2
+WCCILpmon    (1), 2024.07.10 08:20:39.978, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAvalarch.exe -PROJ SvetaForeV2.1 -pmonIndex 5 -num 3
+WCCILpmon    (1), 2024.07.10 08:20:40.307, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAvalarch.exe -PROJ SvetaForeV2.1 -pmonIndex 6 -num 4
+WCCILpmon    (1), 2024.07.10 08:20:40.525, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAvalarch.exe -PROJ SvetaForeV2.1 -pmonIndex 7 -num 5
+WCCILpmon    (1), 2024.07.10 08:20:43.759, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCILevent.exe -PROJ SvetaForeV2.1 -pmonIndex 8 
+WCCILpmon    (1), 2024.07.10 08:20:44.025, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCILproxy.exe -PROJ SvetaForeV2.1 -pmonIndex 9 
+WCCILpmon    (1), 2024.07.10 08:20:45.120, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOActrl.exe -PROJ SvetaForeV2.1 -pmonIndex 10 -f pvss_scripts.lst
+WCCILpmon    (1), 2024.07.10 08:20:45.339, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAui.exe -PROJ SvetaForeV2.1 -pmonIndex 12 -m gedi
+WCCILpmon    (1), 2024.07.10 08:20:50.422, SYS,  INFO,        9/pmon, The project is up and running. Entering monitor mode
+WCCILpmon    (1), 2024.07.10 09:16:43.029, SYS,  INFO,       29/pmon, Got PROP_PUT command from ::1, changing manager WCCOAui(1) at index 12
+WCCILpmon    (1), 2024.07.10 09:16:45.841, SYS,  INFO,       26/pmon, Got KILL command (SIGKILL) from ::1, stopping the manager WCCOAui(1) at index 12
+WCCILpmon    (1), 2024.07.10 09:16:45.841, SYS,  INFO,       17/pmon, Stopping Manager WCCOAui(1) with signal SIGKILL
+WCCILpmon    (1), 2024.07.10 09:16:48.742, SYS,  INFO,       24/pmon, Got START command from ::1, starting the manager WCCOAui(1) at index 12
+WCCILpmon    (1), 2024.07.10 09:16:48.745, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAui.exe -PROJ SvetaForeV2.1 -pmonIndex 12 -m gedi -style Fusion
+WCCILpmon    (1), 2024.07.10 10:07:25.461, SYS,  INFO,       21/pmon, Got STOP_ALL command from ::1, stopping the project
+WCCILpmon    (1), 2024.07.10 10:07:25.462, SYS,  INFO,       17/pmon, Stopping Manager WCCOAui(1) with signal SIGTERM
+WCCILpmon    (1), 2024.07.10 10:07:25.462, SYS,  INFO,       17/pmon, Stopping Manager WCCOActrl(1) with signal SIGTERM
+WCCILpmon    (1), 2024.07.10 10:07:25.462, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(5) with signal SIGTERM
+WCCILpmon    (1), 2024.07.10 10:07:25.463, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(4) with signal SIGTERM
+WCCILpmon    (1), 2024.07.10 10:07:25.463, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(3) with signal SIGTERM
+WCCILpmon    (1), 2024.07.10 10:07:25.463, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(2) with signal SIGTERM
+WCCILpmon    (1), 2024.07.10 10:07:25.464, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(1) with signal SIGTERM
+WCCILpmon    (1), 2024.07.10 10:07:25.464, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(0) with signal SIGTERM
+WCCILpmon    (1), 2024.07.10 10:07:29.632, SYS,  INFO,       17/pmon, Stopping Manager WCCILevent(0) with signal SIGTERM
+WCCILpmon    (1), 2024.07.10 10:07:29.741, SYS,  INFO,       17/pmon, Stopping Manager WCCILdata(0) with signal SIGTERM
+WCCILpmon    (1), 2024.07.10 10:07:31.788, SYS,  INFO,       17/pmon, Stopping Manager WCCILproxy(1) with signal SIGTERM
+WCCILpmon    (1), 2024.07.10 10:07:32.346, SYS,  INFO,       13/pmon, Completely stopped the project - waiting for commands
+WCCILpmon    (1), 2024.07.10 10:07:38.524, SYS,  INFO,        3/pmon, Got shutdown command - stopping the project and terminating
+WCCILpmon    (1), 2024.07.10 10:07:38.524, SYS,  INFO,       15/pmon, Completely stopped the project - terminating
+WCCILpmon    (1), 2024.07.10 10:07:38.524, SYS,  INFO,        2, Manager Stop
+WCCILpmon    (1), 2024.07.10 11:46:18.176, SYS,  INFO,        1, Manager Start, WAIT_MODE
+WCCILpmon    (1), 2024.07.10 11:46:20.257, SYS,  INFO,       20/pmon, Got START_ALL command from ::1, starting the project
+WCCILpmon    (1), 2024.07.10 11:46:20.671, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCILdata.exe -PROJ SvetaForeV2.1 -pmonIndex 1 
+WCCILpmon    (1), 2024.07.10 11:46:21.878, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAvalarch.exe -PROJ SvetaForeV2.1 -pmonIndex 2 -num 0
+WCCILpmon    (1), 2024.07.10 11:46:22.097, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAvalarch.exe -PROJ SvetaForeV2.1 -pmonIndex 3 -num 1
+WCCILpmon    (1), 2024.07.10 11:46:22.316, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAvalarch.exe -PROJ SvetaForeV2.1 -pmonIndex 4 -num 2
+WCCILpmon    (1), 2024.07.10 11:46:22.534, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAvalarch.exe -PROJ SvetaForeV2.1 -pmonIndex 5 -num 3
+WCCILpmon    (1), 2024.07.10 11:46:22.722, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAvalarch.exe -PROJ SvetaForeV2.1 -pmonIndex 6 -num 4
+WCCILpmon    (1), 2024.07.10 11:46:22.935, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAvalarch.exe -PROJ SvetaForeV2.1 -pmonIndex 7 -num 5
+WCCILpmon    (1), 2024.07.10 11:46:26.168, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCILevent.exe -PROJ SvetaForeV2.1 -pmonIndex 8 
+WCCILpmon    (1), 2024.07.10 11:46:26.386, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCILproxy.exe -PROJ SvetaForeV2.1 -pmonIndex 9 
+WCCILpmon    (1), 2024.07.10 11:46:27.463, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOActrl.exe -PROJ SvetaForeV2.1 -pmonIndex 10 -f pvss_scripts.lst
+WCCILpmon    (1), 2024.07.10 11:46:27.682, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAui.exe -PROJ SvetaForeV2.1 -pmonIndex 12 -m gedi -style Fusion
+WCCILpmon    (1), 2024.07.10 11:46:29.856, SYS,  INFO,        9/pmon, The project is up and running. Entering monitor mode
+WCCILpmon    (1), 2024.07.10 12:44:29.700, SYS,  WARNING,    36/pmon, Blocking Manager WCCILproxy(1) detected. No heartbeat since 30 seconds.
+WCCILpmon    (1), 2024.07.10 12:44:29.894, SYS,  WARNING,    39/pmon, Manager WCCILproxy(1) is no longer blocking.
+WCCILpmon    (1), 2024.07.10 13:36:22.771, SYS,  INFO,       21/pmon, Got STOP_ALL command from ::1, stopping the project
+WCCILpmon    (1), 2024.07.10 13:36:22.772, SYS,  INFO,       17/pmon, Stopping Manager WCCOAui(1) with signal SIGTERM
+WCCILpmon    (1), 2024.07.10 13:36:22.773, SYS,  INFO,       17/pmon, Stopping Manager WCCOActrl(1) with signal SIGTERM
+WCCILpmon    (1), 2024.07.10 13:36:22.773, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(5) with signal SIGTERM
+WCCILpmon    (1), 2024.07.10 13:36:22.774, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(4) with signal SIGTERM
+WCCILpmon    (1), 2024.07.10 13:36:22.774, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(3) with signal SIGTERM
+WCCILpmon    (1), 2024.07.10 13:36:22.775, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(2) with signal SIGTERM
+WCCILpmon    (1), 2024.07.10 13:36:22.775, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(1) with signal SIGTERM
+WCCILpmon    (1), 2024.07.10 13:36:22.775, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(0) with signal SIGTERM
+WCCILpmon    (1), 2024.07.10 13:36:27.943, SYS,  INFO,       17/pmon, Stopping Manager WCCILevent(0) with signal SIGTERM
+WCCILpmon    (1), 2024.07.10 13:36:28.162, SYS,  INFO,       17/pmon, Stopping Manager WCCILdata(0) with signal SIGTERM
+WCCILpmon    (1), 2024.07.10 13:36:30.086, SYS,  INFO,       17/pmon, Stopping Manager WCCILproxy(1) with signal SIGTERM
+WCCILpmon    (1), 2024.07.10 13:36:30.691, SYS,  INFO,       13/pmon, Completely stopped the project - waiting for commands
+WCCILpmon    (1), 2024.07.16 12:00:50.102, SYS,  INFO,        1, Manager Start, WAIT_MODE
+WCCILpmon    (1), 2024.07.16 12:01:09.717, SYS,  INFO,        3/pmon, Got shutdown command - stopping the project and terminating
+WCCILpmon    (1), 2024.07.16 12:01:09.717, SYS,  INFO,       15/pmon, Completely stopped the project - terminating
+WCCILpmon    (1), 2024.07.16 12:01:09.717, SYS,  INFO,        2, Manager Stop
+WCCILpmon    (1), 2024.07.16 12:03:48.729, SYS,  INFO,        1, Manager Start, START_MODE
+WCCILpmon    (1), 2024.07.16 12:03:48.856, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCILdata.exe -PROJ SvetaForeV2.3-X-fork -pmonIndex 1 
+WCCILpmon    (1), 2024.07.16 12:03:50.147, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAvalarch.exe -PROJ SvetaForeV2.3-X-fork -pmonIndex 2 -num 0
+WCCILpmon    (1), 2024.07.16 12:03:50.348, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAvalarch.exe -PROJ SvetaForeV2.3-X-fork -pmonIndex 3 -num 1
+WCCILpmon    (1), 2024.07.16 12:03:50.564, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAvalarch.exe -PROJ SvetaForeV2.3-X-fork -pmonIndex 4 -num 2
+WCCILpmon    (1), 2024.07.16 12:03:50.764, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAvalarch.exe -PROJ SvetaForeV2.3-X-fork -pmonIndex 5 -num 3
+WCCILpmon    (1), 2024.07.16 12:03:50.972, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAvalarch.exe -PROJ SvetaForeV2.3-X-fork -pmonIndex 6 -num 4
+WCCILpmon    (1), 2024.07.16 12:03:51.172, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAvalarch.exe -PROJ SvetaForeV2.3-X-fork -pmonIndex 7 -num 5
+WCCILpmon    (1), 2024.07.16 12:03:54.486, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCILevent.exe -PROJ SvetaForeV2.3-X-fork -pmonIndex 8 
+WCCILpmon    (1), 2024.07.16 12:03:54.705, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCILproxy.exe -PROJ SvetaForeV2.3-X-fork -pmonIndex 9 
+WCCILpmon    (1), 2024.07.16 12:03:55.758, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOActrl.exe -PROJ SvetaForeV2.3-X-fork -pmonIndex 10 -f pvss_scripts.lst
+WCCILpmon    (1), 2024.07.16 12:03:55.959, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAui.exe -PROJ SvetaForeV2.3-X-fork -pmonIndex 12 -m gedi -style Fusion
+WCCILpmon    (1), 2024.07.16 12:03:58.136, SYS,  INFO,        9/pmon, The project is up and running. Entering monitor mode
+WCCILpmon    (1), 2024.07.16 12:12:30.832, SYS,  INFO,       21/pmon, Got STOP_ALL command from ::1, stopping the project
+WCCILpmon    (1), 2024.07.16 12:12:30.833, SYS,  INFO,       17/pmon, Stopping Manager WCCOAui(1) with signal SIGTERM
+WCCILpmon    (1), 2024.07.16 12:12:30.833, SYS,  INFO,       17/pmon, Stopping Manager WCCOActrl(1) with signal SIGTERM
+WCCILpmon    (1), 2024.07.16 12:12:30.834, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(5) with signal SIGTERM
+WCCILpmon    (1), 2024.07.16 12:12:30.834, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(4) with signal SIGTERM
+WCCILpmon    (1), 2024.07.16 12:12:30.834, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(3) with signal SIGTERM
+WCCILpmon    (1), 2024.07.16 12:12:30.835, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(2) with signal SIGTERM
+WCCILpmon    (1), 2024.07.16 12:12:30.835, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(1) with signal SIGTERM
+WCCILpmon    (1), 2024.07.16 12:12:30.835, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(0) with signal SIGTERM
+WCCILpmon    (1), 2024.07.16 12:12:34.911, SYS,  INFO,       17/pmon, Stopping Manager WCCILevent(0) with signal SIGTERM
+WCCILpmon    (1), 2024.07.16 12:12:35.012, SYS,  INFO,       17/pmon, Stopping Manager WCCILdata(0) with signal SIGTERM
+WCCILpmon    (1), 2024.07.16 12:12:37.054, SYS,  INFO,       17/pmon, Stopping Manager WCCILproxy(1) with signal SIGTERM
+WCCILpmon    (1), 2024.07.16 12:12:37.372, SYS,  INFO,       13/pmon, Completely stopped the project - waiting for commands
+WCCILpmon    (1), 2024.07.16 12:59:04.058, SYS,  INFO,        3/pmon, Got shutdown command - stopping the project and terminating
+WCCILpmon    (1), 2024.07.16 12:59:04.058, SYS,  INFO,       15/pmon, Completely stopped the project - terminating
+WCCILpmon    (1), 2024.07.16 12:59:04.058, SYS,  INFO,        2, Manager Stop
+WCCILpmon    (1), 2024.07.17 08:56:50.940, SYS,  INFO,        1, Manager Start, WAIT_MODE
+WCCILpmon    (1), 2024.07.17 08:58:15.811, SYS,  INFO,       20/pmon, Got START_ALL command from ::1, starting the project
+WCCILpmon    (1), 2024.07.17 08:58:15.824, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCILdata.exe -PROJ SvetaForeV2.3-X-fork -pmonIndex 1 
+WCCILpmon    (1), 2024.07.17 08:58:17.329, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAvalarch.exe -PROJ SvetaForeV2.3-X-fork -pmonIndex 2 -num 0
+WCCILpmon    (1), 2024.07.17 08:58:17.657, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAvalarch.exe -PROJ SvetaForeV2.3-X-fork -pmonIndex 3 -num 1
+WCCILpmon    (1), 2024.07.17 08:58:17.876, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAvalarch.exe -PROJ SvetaForeV2.3-X-fork -pmonIndex 4 -num 2
+WCCILpmon    (1), 2024.07.17 08:58:18.097, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAvalarch.exe -PROJ SvetaForeV2.3-X-fork -pmonIndex 5 -num 3
+WCCILpmon    (1), 2024.07.17 08:58:18.316, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAvalarch.exe -PROJ SvetaForeV2.3-X-fork -pmonIndex 6 -num 4
+WCCILpmon    (1), 2024.07.17 08:58:18.635, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAvalarch.exe -PROJ SvetaForeV2.3-X-fork -pmonIndex 7 -num 5
+WCCILpmon    (1), 2024.07.17 08:58:20.394, SYS,  INFO,       21/pmon, Got STOP_ALL command from ::1, stopping the project
+WCCILpmon    (1), 2024.07.17 08:58:20.394, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(5) with signal SIGTERM
+WCCILpmon    (1), 2024.07.17 08:58:20.395, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(4) with signal SIGTERM
+WCCILpmon    (1), 2024.07.17 08:58:20.395, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(3) with signal SIGTERM
+WCCILpmon    (1), 2024.07.17 08:58:20.395, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(2) with signal SIGTERM
+WCCILpmon    (1), 2024.07.17 08:58:20.396, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(1) with signal SIGTERM
+WCCILpmon    (1), 2024.07.17 08:58:20.396, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(0) with signal SIGTERM
+WCCILpmon    (1), 2024.07.17 08:58:24.506, SYS,  INFO,       17/pmon, Stopping Manager WCCILdata(0) with signal SIGTERM
+WCCILpmon    (1), 2024.07.17 08:58:25.565, SYS,  INFO,       13/pmon, Completely stopped the project - waiting for commands
+WCCILpmon    (1), 2024.07.17 11:47:07.181, SYS,  INFO,       20/pmon, Got START_ALL command from ::1, starting the project
+WCCILpmon    (1), 2024.07.17 11:47:07.183, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCILdata.exe -PROJ SvetaForeV2.3-X-fork -pmonIndex 1 
+WCCILpmon    (1), 2024.07.17 11:47:08.414, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAvalarch.exe -PROJ SvetaForeV2.3-X-fork -pmonIndex 2 -num 0
+WCCILpmon    (1), 2024.07.17 11:47:08.615, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAvalarch.exe -PROJ SvetaForeV2.3-X-fork -pmonIndex 3 -num 1
+WCCILpmon    (1), 2024.07.17 11:47:08.832, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAvalarch.exe -PROJ SvetaForeV2.3-X-fork -pmonIndex 4 -num 2
+WCCILpmon    (1), 2024.07.17 11:47:09.032, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAvalarch.exe -PROJ SvetaForeV2.3-X-fork -pmonIndex 5 -num 3
+WCCILpmon    (1), 2024.07.17 11:47:09.232, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAvalarch.exe -PROJ SvetaForeV2.3-X-fork -pmonIndex 6 -num 4
+WCCILpmon    (1), 2024.07.17 11:47:09.433, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAvalarch.exe -PROJ SvetaForeV2.3-X-fork -pmonIndex 7 -num 5
+WCCILpmon    (1), 2024.07.17 11:47:12.789, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCILevent.exe -PROJ SvetaForeV2.3-X-fork -pmonIndex 8 
+WCCILpmon    (1), 2024.07.17 11:47:13.105, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCILproxy.exe -PROJ SvetaForeV2.3-X-fork -pmonIndex 9 
+WCCILpmon    (1), 2024.07.17 11:47:14.193, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOActrl.exe -PROJ SvetaForeV2.3-X-fork -pmonIndex 10 -f pvss_scripts.lst
+WCCILpmon    (1), 2024.07.17 11:47:14.393, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAui.exe -PROJ SvetaForeV2.3-X-fork -pmonIndex 12 -m gedi -style Fusion
+WCCILpmon    (1), 2024.07.17 11:47:19.307, SYS,  INFO,        9/pmon, The project is up and running. Entering monitor mode
+WCCILpmon    (1), 2024.07.17 11:48:57.410, SYS,  INFO,       24/pmon, Got START command from ::1, starting the manager WCCOAmod(1) at index 14
+WCCILpmon    (1), 2024.07.17 11:48:57.415, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAmod.exe -PROJ SvetaForeV2.3-X-fork -pmonIndex 14 -num 1
+WCCILpmon    (1), 2024.07.17 11:48:59.972, SYS,  INFO,       24/pmon, Got START command from ::1, starting the manager WCCOAopc(9) at index 13
+WCCILpmon    (1), 2024.07.17 11:48:59.975, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAopc.exe -PROJ SvetaForeV2.3-X-fork -pmonIndex 13 -num 9
+WCCILpmon    (1), 2024.07.17 11:49:27.008, SYS,  INFO,       25/pmon, Got STOP command (SIGTERM) from ::1, stopping the manager WCCOAopc(9) at index 13
+WCCILpmon    (1), 2024.07.17 11:49:27.008, SYS,  INFO,       17/pmon, Stopping Manager WCCOAopc(9) with signal SIGTERM
+WCCILpmon    (1), 2024.07.17 11:51:38.217, SYS,  INFO,       21/pmon, Got STOP_ALL command from ::1, stopping the project
+WCCILpmon    (1), 2024.07.17 11:51:38.218, SYS,  INFO,       17/pmon, Stopping Manager WCCOAmod(1) with signal SIGTERM
+WCCILpmon    (1), 2024.07.17 11:51:38.218, SYS,  INFO,       17/pmon, Stopping Manager WCCOAui(1) with signal SIGTERM
+WCCILpmon    (1), 2024.07.17 11:51:38.219, SYS,  INFO,       17/pmon, Stopping Manager WCCOActrl(1) with signal SIGTERM
+WCCILpmon    (1), 2024.07.17 11:51:38.219, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(5) with signal SIGTERM
+WCCILpmon    (1), 2024.07.17 11:51:38.219, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(4) with signal SIGTERM
+WCCILpmon    (1), 2024.07.17 11:51:38.219, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(3) with signal SIGTERM
+WCCILpmon    (1), 2024.07.17 11:51:38.220, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(2) with signal SIGTERM
+WCCILpmon    (1), 2024.07.17 11:51:38.220, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(1) with signal SIGTERM
+WCCILpmon    (1), 2024.07.17 11:51:38.220, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(0) with signal SIGTERM
+WCCILpmon    (1), 2024.07.17 11:51:42.275, SYS,  INFO,       17/pmon, Stopping Manager WCCILevent(0) with signal SIGTERM
+WCCILpmon    (1), 2024.07.17 11:51:42.375, SYS,  INFO,       17/pmon, Stopping Manager WCCILdata(0) with signal SIGTERM
+WCCILpmon    (1), 2024.07.17 11:51:44.413, SYS,  INFO,       17/pmon, Stopping Manager WCCILproxy(1) with signal SIGTERM
+WCCILpmon    (1), 2024.07.17 11:51:45.246, SYS,  INFO,       13/pmon, Completely stopped the project - waiting for commands
+WCCILpmon    (1), 2024.07.17 11:56:56.213, SYS,  INFO,       24/pmon, Got START command from ::1, starting the manager WCCOAmod(1) at index 14
+WCCILpmon    (1), 2024.07.17 11:56:56.215, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAmod.exe -PROJ SvetaForeV2.3-X-fork -pmonIndex 14 -num 1
+WCCILpmon    (1), 2024.07.17 11:57:08.092, SYS,  INFO,       20/pmon, Got START_ALL command from ::1, starting the project
+WCCILpmon    (1), 2024.07.17 11:57:08.094, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCILdata.exe -PROJ SvetaForeV2.3-X-fork -pmonIndex 1 
+WCCILpmon    (1), 2024.07.17 11:57:09.326, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAvalarch.exe -PROJ SvetaForeV2.3-X-fork -pmonIndex 2 -num 0
+WCCILpmon    (1), 2024.07.17 11:57:09.532, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAvalarch.exe -PROJ SvetaForeV2.3-X-fork -pmonIndex 3 -num 1
+WCCILpmon    (1), 2024.07.17 11:57:09.748, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAvalarch.exe -PROJ SvetaForeV2.3-X-fork -pmonIndex 4 -num 2
+WCCILpmon    (1), 2024.07.17 11:57:09.964, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAvalarch.exe -PROJ SvetaForeV2.3-X-fork -pmonIndex 5 -num 3
+WCCILpmon    (1), 2024.07.17 11:57:10.180, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAvalarch.exe -PROJ SvetaForeV2.3-X-fork -pmonIndex 6 -num 4
+WCCILpmon    (1), 2024.07.17 11:57:10.412, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAvalarch.exe -PROJ SvetaForeV2.3-X-fork -pmonIndex 7 -num 5
+WCCILpmon    (1), 2024.07.17 11:57:13.658, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCILevent.exe -PROJ SvetaForeV2.3-X-fork -pmonIndex 8 
+WCCILpmon    (1), 2024.07.17 11:57:13.858, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCILproxy.exe -PROJ SvetaForeV2.3-X-fork -pmonIndex 9 
+WCCILpmon    (1), 2024.07.17 11:57:14.906, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOActrl.exe -PROJ SvetaForeV2.3-X-fork -pmonIndex 10 -f pvss_scripts.lst
+WCCILpmon    (1), 2024.07.17 11:57:15.223, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAui.exe -PROJ SvetaForeV2.3-X-fork -pmonIndex 12 -m gedi -style Fusion
+WCCILpmon    (1), 2024.07.17 11:57:23.307, SYS,  INFO,        9/pmon, The project is up and running. Entering monitor mode
+WCCILpmon    (1), 2024.07.17 12:20:48.976, SYS,  INFO,       28/pmon, Got INS command from ::1, inserting new manager WCCOActrl at index 15
+WCCILpmon    (1), 2024.07.17 12:20:48.976, SYS,  INFO,       11/pmon, Detected stopped manager WCCOActrl(1) - restarting it #1
+WCCILpmon    (1), 2024.07.17 12:20:48.978, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOActrl.exe -PROJ SvetaForeV2.3-X-fork -pmonIndex 15 parse.ctl
+WCCILpmon    (1), 2024.07.17 12:25:31.116, SYS,  INFO,       26/pmon, Got KILL command (SIGKILL) from ::1, stopping the manager WCCOAui(1) at index 12
+WCCILpmon    (1), 2024.07.17 12:25:31.116, SYS,  INFO,       17/pmon, Stopping Manager WCCOAui(1) with signal SIGKILL
+WCCILpmon    (1), 2024.07.17 12:25:33.500, SYS,  INFO,       24/pmon, Got START command from ::1, starting the manager WCCOAui(1) at index 12
+WCCILpmon    (1), 2024.07.17 12:25:33.502, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAui.exe -PROJ SvetaForeV2.3-X-fork -pmonIndex 12 -m gedi -style Fusion
+WCCILpmon    (1), 2024.07.17 12:35:19.812, SYS,  INFO,       21/pmon, Got STOP_ALL command from ::1, stopping the project
+WCCILpmon    (1), 2024.07.17 12:35:19.813, SYS,  INFO,       17/pmon, Stopping Manager WCCOActrl(2) with signal SIGTERM
+WCCILpmon    (1), 2024.07.17 12:35:19.813, SYS,  INFO,       17/pmon, Stopping Manager WCCOAmod(1) with signal SIGTERM
+WCCILpmon    (1), 2024.07.17 12:35:19.813, SYS,  INFO,       17/pmon, Stopping Manager WCCOAui(1) with signal SIGTERM
+WCCILpmon    (1), 2024.07.17 12:35:19.814, SYS,  INFO,       17/pmon, Stopping Manager WCCOActrl(1) with signal SIGTERM
+WCCILpmon    (1), 2024.07.17 12:35:19.814, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(5) with signal SIGTERM
+WCCILpmon    (1), 2024.07.17 12:35:19.814, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(4) with signal SIGTERM
+WCCILpmon    (1), 2024.07.17 12:35:19.815, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(3) with signal SIGTERM
+WCCILpmon    (1), 2024.07.17 12:35:19.815, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(2) with signal SIGTERM
+WCCILpmon    (1), 2024.07.17 12:35:19.815, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(1) with signal SIGTERM
+WCCILpmon    (1), 2024.07.17 12:35:19.816, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(0) with signal SIGTERM
+WCCILpmon    (1), 2024.07.17 12:35:25.982, SYS,  INFO,       17/pmon, Stopping Manager WCCILevent(0) with signal SIGTERM
+WCCILpmon    (1), 2024.07.17 12:35:26.091, SYS,  INFO,       17/pmon, Stopping Manager WCCILdata(0) with signal SIGTERM
+WCCILpmon    (1), 2024.07.17 12:35:28.138, SYS,  INFO,       17/pmon, Stopping Manager WCCILproxy(1) with signal SIGTERM
+WCCILpmon    (1), 2024.07.17 12:35:28.451, SYS,  INFO,       13/pmon, Completely stopped the project - waiting for commands
+WCCILpmon    (1), 2024.07.17 12:36:13.242, SYS,  INFO,        3/pmon, Got shutdown command - stopping the project and terminating
+WCCILpmon    (1), 2024.07.17 12:36:13.242, SYS,  INFO,       15/pmon, Completely stopped the project - terminating
+WCCILpmon    (1), 2024.07.17 12:36:13.242, SYS,  INFO,        2, Manager Stop
+WCCILpmon    (1), 2024.07.18 09:34:21.206, SYS,  INFO,        1, Manager Start, WAIT_MODE
+WCCILpmon    (1), 2024.07.18 09:34:22.130, SYS,  INFO,        3/pmon, Got shutdown command - stopping the project and terminating
+WCCILpmon    (1), 2024.07.18 09:34:22.130, SYS,  INFO,       15/pmon, Completely stopped the project - terminating
+WCCILpmon    (1), 2024.07.18 09:34:22.130, SYS,  INFO,        2, Manager Stop
+WCCILpmon    (1), 2024.07.18 09:34:25.709, SYS,  INFO,        1, Manager Start, WAIT_MODE
+WCCILpmon    (1), 2024.07.18 09:34:28.756, SYS,  INFO,       20/pmon, Got START_ALL command from ::1, starting the project
+WCCILpmon    (1), 2024.07.18 09:34:28.774, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCILdata.exe -PROJ SvetaForeV2.3-X-fork -pmonIndex 1 
+WCCILpmon    (1), 2024.07.18 09:34:30.286, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAvalarch.exe -PROJ SvetaForeV2.3-X-fork -pmonIndex 2 -num 0
+WCCILpmon    (1), 2024.07.18 09:34:30.504, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAvalarch.exe -PROJ SvetaForeV2.3-X-fork -pmonIndex 3 -num 1
+WCCILpmon    (1), 2024.07.18 09:34:30.722, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAvalarch.exe -PROJ SvetaForeV2.3-X-fork -pmonIndex 4 -num 2
+WCCILpmon    (1), 2024.07.18 09:34:30.948, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAvalarch.exe -PROJ SvetaForeV2.3-X-fork -pmonIndex 5 -num 3
+WCCILpmon    (1), 2024.07.18 09:34:31.161, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAvalarch.exe -PROJ SvetaForeV2.3-X-fork -pmonIndex 6 -num 4
+WCCILpmon    (1), 2024.07.18 09:34:31.380, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAvalarch.exe -PROJ SvetaForeV2.3-X-fork -pmonIndex 7 -num 5
+WCCILpmon    (1), 2024.07.18 09:34:34.706, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCILevent.exe -PROJ SvetaForeV2.3-X-fork -pmonIndex 8 
+WCCILpmon    (1), 2024.07.18 09:34:35.035, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCILproxy.exe -PROJ SvetaForeV2.3-X-fork -pmonIndex 9 
+WCCILpmon    (1), 2024.07.18 09:34:36.130, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOActrl.exe -PROJ SvetaForeV2.3-X-fork -pmonIndex 10 -f pvss_scripts.lst
+WCCILpmon    (1), 2024.07.18 09:34:36.302, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAui.exe -PROJ SvetaForeV2.3-X-fork -pmonIndex 12 -m gedi -style Fusion
+WCCILpmon    (1), 2024.07.18 09:34:47.228, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOActrl.exe -PROJ SvetaForeV2.3-X-fork -pmonIndex 15 parse.ctl
+WCCILpmon    (1), 2024.07.18 09:34:47.556, SYS,  INFO,        9/pmon, The project is up and running. Entering monitor mode
+WCCILpmon    (1), 2024.07.18 09:36:02.938, SYS,  INFO,       24/pmon, Got START command from ::1, starting the manager WCCOAmod(1) at index 14
+WCCILpmon    (1), 2024.07.18 09:36:02.951, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAmod.exe -PROJ SvetaForeV2.3-X-fork -pmonIndex 14 -num 1
+WCCILpmon    (1), 2024.07.18 10:54:04.814, SYS,  INFO,       26/pmon, Got KILL command (SIGKILL) from ::1, stopping the manager WCCOActrl(2) at index 15
+WCCILpmon    (1), 2024.07.18 10:54:04.815, SYS,  INFO,       17/pmon, Stopping Manager WCCOActrl(2) with signal SIGKILL
+WCCILpmon    (1), 2024.07.18 10:54:04.920, SYS,  INFO,       11/pmon, Detected stopped manager WCCOActrl(2) - restarting it #1
+WCCILpmon    (1), 2024.07.18 10:54:04.925, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOActrl.exe -PROJ SvetaForeV2.3-X-fork -pmonIndex 15 parse.ctl
+WCCILpmon    (1), 2024.07.18 11:32:01.124, SYS,  INFO,       21/pmon, Got STOP_ALL command from ::1, stopping the project
+WCCILpmon    (1), 2024.07.18 11:32:01.125, SYS,  INFO,       17/pmon, Stopping Manager WCCOActrl(2) with signal SIGTERM
+WCCILpmon    (1), 2024.07.18 11:32:01.125, SYS,  INFO,       17/pmon, Stopping Manager WCCOAmod(1) with signal SIGTERM
+WCCILpmon    (1), 2024.07.18 11:32:01.125, SYS,  INFO,       17/pmon, Stopping Manager WCCOActrl(1) with signal SIGTERM
+WCCILpmon    (1), 2024.07.18 11:32:01.126, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(5) with signal SIGTERM
+WCCILpmon    (1), 2024.07.18 11:32:01.126, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(4) with signal SIGTERM
+WCCILpmon    (1), 2024.07.18 11:32:01.126, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(3) with signal SIGTERM
+WCCILpmon    (1), 2024.07.18 11:32:01.127, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(2) with signal SIGTERM
+WCCILpmon    (1), 2024.07.18 11:32:01.127, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(1) with signal SIGTERM
+WCCILpmon    (1), 2024.07.18 11:32:01.127, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(0) with signal SIGTERM
+WCCILpmon    (1), 2024.07.18 11:32:05.294, SYS,  INFO,       17/pmon, Stopping Manager WCCILevent(0) with signal SIGTERM
+WCCILpmon    (1), 2024.07.18 11:32:05.403, SYS,  INFO,       17/pmon, Stopping Manager WCCILdata(0) with signal SIGTERM
+WCCILpmon    (1), 2024.07.18 11:32:07.432, SYS,  INFO,       17/pmon, Stopping Manager WCCILproxy(1) with signal SIGTERM
+WCCILpmon    (1), 2024.07.18 11:32:08.144, SYS,  INFO,       13/pmon, Completely stopped the project - waiting for commands
+WCCILpmon    (1), 2024.07.18 12:12:42.060, SYS,  INFO,        3/pmon, Got shutdown command - stopping the project and terminating
+WCCILpmon    (1), 2024.07.18 12:12:42.060, SYS,  INFO,       15/pmon, Completely stopped the project - terminating
+WCCILpmon    (1), 2024.07.18 12:12:42.060, SYS,  INFO,        2, Manager Stop
