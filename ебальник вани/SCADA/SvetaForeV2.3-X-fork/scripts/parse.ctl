@@ -18,9 +18,13 @@
 main()
 {
   dpConnect("parse", true, "System1:CrossTraffic1.dreysnya");
+  dpConnect("fix", true, "System1:CrossTraffic1.dresynyaVotvet");
   connect();
 }
-
+fix(string dpSource, int parsedata){
+  if (parsedata > 10){
+    dpSet("System1:CrossTraffic1.dresynyaVotvet", 0);}
+}
 parse(string dpSource, int parsedata){
   bit32 data;
   data=parsedata;
@@ -38,9 +42,9 @@ parse(string dpSource, int parsedata){
 
 
 connect(){
-  dpConnect("transControlSwitch", true, "System1:CrossTraffic1.isControlSwitch");
-  dpConnect("transSwitchInManualState", true, "System1:CrossTraffic1.switchState");
-//  dpConnect("transControlSwitch", true, "System1:CrossTraffic1.isControlSwitch");
+  dpConnect("transControlSwitch", false, "System1:CrossTraffic1.isControlSwitch");
+  dpConnect("transSwitchInManualState", false, "System1:CrossTraffic1.switchState");
+  dpConnect("transSwitchDisabledState", false, "System1:CrossTraffic1.switchDisabled");
 //  dpConnect("transControlSwitch", true, "System1:CrossTraffic1.isControlSwitch");
 }
 
@@ -71,6 +75,20 @@ transSwitchInManualState(string dpSource, bool parsedata){
       int w;
       dpGet("System1:CrossTraffic1.dresynyaVotvet", w);
       w = w-4;
+      dpSet("System1:CrossTraffic1.dresynyaVotvet", w);
+  }
+}
+transSwitchDisabledState(string dpSource, bool parsedata){
+  if (parsedata){
+    int w;
+      dpGet("System1:CrossTraffic1.dresynyaVotvet", w);
+      w = w+2;
+      dpSet("System1:CrossTraffic1.dresynyaVotvet", w);
+    }
+  else{
+      int w;
+      dpGet("System1:CrossTraffic1.dresynyaVotvet", w);
+      w = w-2;
       dpSet("System1:CrossTraffic1.dresynyaVotvet", w);
   }
 }
