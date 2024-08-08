@@ -1,0 +1,686 @@
+V 14
+1
+LANG:10027 0 
+PANEL,-1 -1 180 327 N "_3DFace" 1
+"$DataPointConnectivity"
+E E E E E 1 -1 -1 0  170 50
+""0  1
+E E 3
+"CBRef" "1"
+"EClose" E
+"dpi" "96"
+0 0 0
+""
+DISPLAY_LAYER, 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0
+LAYER, 0 
+1
+LANG:10027 0 
+6 1
+"RECTANGLE1"
+""
+1 170 50 E E E 1 E 1 E N {0,0,0} E N {255,255,255} E E
+ E E
+0 0 0 0 0 0
+E E E
+0
+1
+LANG:10027 0 
+
+3
+"layoutAlignment" "AlignNone"
+"dashclr"N "_Transparent"
+"antiAliased" "0"
+E E 0 1 3 2 1 E 3.533333333333333 0 1 -580.6666666666665 -40 1 E 170 50 200 80
+6 2
+"RECTANGLE2"
+""
+1 200 50 E E E 1 E 1 E N "STD_spinner_busy_dark" E N {255,255,255} E E
+ E E
+1 0 0 0 0 0
+E E E
+0
+1
+LANG:10027 0 
+
+3
+"layoutAlignment" "AlignNone"
+"dashclr"N "_Transparent"
+"antiAliased" "0"
+"// SimpleCtrlScriptStart {invalid}
+main()
+{
+  EP_setBackColor();
+}
+
+void EP_setBackColor()
+{
+  dyn_errClass err;
+
+  if( !dpExists( $DataPointConnectivity +  \".isControl:_online.._value\"))
+    //.isControl
+  {
+    setValue(\"\", \"color\", \"_dpdoesnotexist\");
+    return;
+  }
+
+  dpConnect(\"EP_setBackColorCB\",
+            $DataPointConnectivity +  \".isControl:_online.._value\");
+  err = getLastError();
+  if (dynlen(err) > 0)
+    setValue(\"\", \"color\", \"_dpdoesnotexist\");
+
+}
+
+
+void EP_setBackColorCB(string dpSource, bool boNewValue)
+{
+  if (!boNewValue)
+    setValue(\"\", \"backCol\", \"я\");
+  else
+    setValue(\"\", \"backCol\", \"хз как\");
+}
+
+// SimpleCtrlScript {EP_setBackColor}
+// DP {$DataPointConnectivity.response.isControl}
+// DPConfig {:_online.._value}
+// DPType {bool}
+// AlertHdl {FALSE}
+// DPEInvalid {}
+// DPEConfigInvalid {}
+// Operator1 {notequal}
+// Operant1 {0}
+// Color1 {я}
+// Operator2 {equal}
+// Operant2 {1}
+// Color2 {хуй пойми как}
+// SimpleCtrlScriptEnd {EP_setBackColor}
+" 0
+ E 0 1 3 2 1 E 1.1 0 1 -93.99999999999991 -40 1 E 200 50 230 80
+13 52
+"SwitchState"
+""
+1 19.00000000000018 171.25 E E E 1 E 1 E N "_ButtonText" E N "_Button" E E
+ E E
+8 0 0 0 0 0
+E E E
+8
+1
+LANG:10027 0 
+
+1
+"layoutAlignment" "AlignNone"
+1
+LANG:10027 35 MS Shell Dlg 2,-1,11,5,50,0,0,0,0,0
+0  17.00000000000018 148 161.0000000000002 202
+
+T 
+1
+LANG:10027 41 Переключить состояние
+"// SimpleCtrlScriptStart {invalid}
+main()
+{
+  EP_toggleD2P();
+}
+
+void EP_toggleD2P()
+{
+
+
+
+dpSet($DataPointConnectivity +  \".switchState:_original.._value\", true);
+delay(0, 20);
+dpSet($DataPointConnectivity +  \".switchState:_original.._value\", false);
+
+  /*this.backCol(\"black_grey_c\");
+  this.enabled(false);
+
+  delay(0,20);
+  dpSet($DataPointConnectivity +  \".switchState:_original.._value\", false);
+  delay(6, 0);
+  this.enabled(true);
+  this.backCol(\"_Button\");*/
+}
+
+// SimpleCtrlScript {EP_toggleDP}
+// DP {$DataPointConnectivity.command.switczState}
+// Config {:_original.._value}
+// DPType {bool}
+// SimpleCtrlScriptEnd {EP_toggleDP}
+" 0
+ E E "// SimpleCtrlScriptStart {invalid}
+main()
+{
+  EP_setVisible();
+}
+
+void EP_setVisible()
+{
+  dyn_errClass err;
+
+  if( !dpExists($DataPointConnectivity +  \".isControl:_original.._value\"))
+  {
+    setValue(\"\", \"color\", \"_dpdoesnotexist\");
+    return;
+  }
+// $DataPointConnectivity +  \".isControl:_original.._value\"
+  dpConnect(\"EP_setVisibleCB\",$DataPointConnectivity +  \".isControl\");
+  dpConnect(\"EP_setColCB\",$DataPointConnectivity +  \".isBusy\");
+  err = getLastError();
+  if (dynlen(err) > 0)
+    setValue(\"\", \"color\", \"_dpdoesnotexist\");
+
+
+}
+
+
+void EP_setVisibleCB(string dp, bool boNewValue)
+{
+   this.enabled(boNewValue);
+}
+
+EP_setColCB(string dp, bool boNewValue){
+  if (boNewValue)  {
+    this.backCol(\"black_grey_c\");}
+
+  else{
+    this.backCol(\"_Button\");
+  }
+}
+
+// SimpleCtrlScript {EP_setVisible}
+// DP {System1:CrossTraffic1.switchState}
+// DPConfig {:_online.._value}
+// DPTyp {bool}
+// Active {1}
+// Operator {less}
+// Value {TRUE}
+// SimpleCtrlScriptEnd {EP_setVisible}
+" 0
+
+13 53
+"disableCommand"
+""
+1 19.50000000000001 103 E E E 1 E 1 E N "_ButtonText" E N "_Button" E E
+ E E
+9 0 0 0 0 0
+E E E
+8
+1
+LANG:10027 0 
+
+1
+"layoutAlignment" "AlignNone"
+1
+LANG:10027 35 MS Shell Dlg 2,-1,11,5,50,0,0,0,0,0
+0  17.50000000000001 84 161.5 127
+
+T 
+1
+LANG:10027 44 С
+делать нерегулируемым
+"// SimpleCtrlScriptStart {invalid}
+main()
+{
+  EP_toggleD3P();
+}
+
+void EP_toggleD3P()
+{
+
+  dpSet($DataPointConnectivity +  \".switchDisabled:_original.._value\", true);
+  delay(0,20);
+  dpSet($DataPointConnectivity +  \".switchDisabled:_original.._value\", false);
+}
+
+// SimpleCtrlScript {EP_toggleDP}
+// DP {$DataPointConnectivity.command.switchControl}
+// Config {:_original.._value}
+// DPType {bool}
+// SimpleCtrlScriptEnd {EP_toggleDP}
+" 0
+ E E "main()
+{
+  EP_setVisible();
+}
+void EP_setVisible()
+{
+  dyn_errClass err;
+
+  if( !dpExists($DataPointConnectivity +  \".isControl:_original.._value\"))
+  {
+    setValue(\"\", \"color\", \"_dpdoesnotexist\");
+    return;
+  }
+// $DataPointConnectivity +  \".isControl:_original.._value\"
+  dpConnect(\"EP_setVisibleCB\",$DataPointConnectivity +  \".isControl\");
+  //dpConnect(\"EP_setColCB\",$DataPointConnectivity +  \".isBusy\");
+  err = getLastError();
+  if (dynlen(err) > 0)
+    setValue(\"\", \"color\", \"_dpdoesnotexist\");
+
+
+}
+
+
+void EP_setVisibleCB(string dp, bool boNewValue)
+{
+   this.enabled(boNewValue);
+}
+
+" 0
+
+13 54
+"isControlSwitchMoode"
+""
+1 50 114 E E E 1 E 1 E N "_ButtonText" E N "_Button" E E
+ E E
+10 0 0 0 0 0
+E E E
+8
+1
+LANG:10027 0 
+
+1
+"layoutAlignment" "AlignNone"
+1
+LANG:10027 35 MS Shell Dlg 2,-1,11,5,50,0,0,0,0,0
+0  18 44 161 82
+
+T 
+1
+LANG:10027 46 перевключить управление
+
+"// SimpleCtrlScriptStart {invalid}
+main()
+{
+  EP_toggleDP();
+}
+
+void EP_toggleDP()
+{
+  dpSet($DataPointConnectivity +  \".isControlSwitch:_original.._value\", true);
+  delay(0,20);//\"System1:CrossTraffic1.isControlSwitch\"
+  dpSet($DataPointConnectivity +  \".isControlSwitch:_original.._value\", false);
+}
+
+// SimpleCtrlScript {EP_toggleDP}
+// DP {$DataPointConnectivity.command.switchControl}
+// Config {:_original.._value}
+// DPType {bool}
+// SimpleCtrlScriptEnd {EP_toggleDP}
+" 0
+ E E "main()
+{
+
+}" 0
+
+30 55
+"FRAME1"
+""
+1 10 104 E E E 1 E 1 E N "_WindowText" E N {0,0,0} E E
+ E E
+11 0 0 0 0 0
+E E E
+1
+1
+LANG:10027 0 
+
+3
+"layoutAlignment" "AlignNone"
+"dashclr"N "_Transparent"
+"antiAliased" "0"
+E E 0 1 3 2 1 E 1 0 0.9999999999999999 -0.7499999999999005 20.50000000000003 0 E 10 104 171 291
+1
+LANG:10027 35 MS Shell Dlg 2,-1,11,5,50,0,0,0,0,0
+0 1
+LANG:10027 11 Lorem Ipsum
+2 56
+"PRIMITIVE_TEXT1"
+""
+1 30 20 E E E 1 E 1 E N "_WindowText" E N "_Window" E E
+ E E
+12 0 0 0 0 0
+E E E
+0
+1
+LANG:10027 0 
+
+4
+"layoutAlignment" "AlignNone"
+"dashclr"N "_Transparent"
+"antiAliased" "0"
+"transformable" "0"
+"// SimpleCtrlScriptStart {invalid}
+main()
+{
+  EP_setVisible();
+}
+
+void EP_setVisible()
+{
+  dyn_errClass err;
+
+  if( !dpExists( $DataPointConnectivity +  \".isControl:_online.._value\"))
+  {
+    setValue(\"\", \"color\", \"_dpdoesnotexist\");
+    return;
+  }
+
+  dpConnect(\"EP_setVisibleCB\",
+            $DataPointConnectivity +  \".isControl:_online.._value\");
+  err = getLastError();
+  if (dynlen(err) > 0)
+    setValue(\"\", \"color\", \"_dpdoesnotexist\");
+
+}
+
+
+void EP_setVisibleCB(string dp, bool boNewValue)
+{
+    setValue(\"\", \"visible\", !boNewValue);
+}
+
+// SimpleCtrlScript {EP_setVisible}
+// DP {$DataPointConnectivity.response.isControl}
+// DPConfig {:_online.._value}
+// DPTyp {bool}
+// Active {0}
+// Operator {less}
+// Value {TRUE}
+// SimpleCtrlScriptEnd {EP_setVisible}
+" 0
+ E 0 1 3 2 1 E 1 0 1.333333333333333 -2 -15 0 E 30 20 120 40
+0 2 2 "0s" 0 0 0 64 0 0  30 20 2
+1
+LANG:10027 35 MS Shell Dlg 2,-1,11,5,50,0,0,0,0,0
+0 1
+LANG:10027 22 Управляется
+1
+LANG:10027 35 MS Shell Dlg 2,-1,11,5,50,0,0,0,0,0
+0 1
+LANG:10027 26 автоматически
+2 57
+"PRIMITIVE_TEXT2"
+""
+1 30 20 E E E 1 E 1 E N "_WindowText" E N "_Window" E E
+ E E
+13 0 0 0 0 0
+E E E
+0
+1
+LANG:10027 0 
+
+4
+"layoutAlignment" "AlignNone"
+"dashclr"N "_Transparent"
+"antiAliased" "0"
+"transformable" "0"
+"// SimpleCtrlScriptStart {invalid}
+main()
+{
+  EP_setVisible();
+}
+
+void EP_setVisible()
+{
+  dyn_errClass err;
+
+  if( !dpExists( $DataPointConnectivity +  \".isControl:_online.._value\"))
+  {
+    setValue(\"\", \"color\", \"_dpdoesnotexist\");
+    return;
+  }
+
+  dpConnect(\"EP_setVisibleCB\",
+            $DataPointConnectivity +  \".isControl:_online.._value\");
+  err = getLastError();
+  if (dynlen(err) > 0)
+    setValue(\"\", \"color\", \"_dpdoesnotexist\");
+
+}
+
+void EP_setVisibleCB(string dp, bool boNewValue)
+{
+    setValue(\"\", \"visible\", boNewValue);
+}
+
+// SimpleCtrlScript {EP_setVisible}
+// DP {$DataPointConnectivity.response.isControl}
+// DPConfig {:_online.._value}
+// DPTyp {bool}
+// Active {1}
+// Operator {less}
+// Value {TRUE}
+// SimpleCtrlScriptEnd {EP_setVisible}
+" 0
+ E 0 1 3 2 1 E 1 0 1.333333333333333 -2 -15 0 E 30 20 120 40
+0 2 2 "0s" 0 0 0 64 0 0  30 20 2
+1
+LANG:10027 35 MS Shell Dlg 2,-1,11,5,50,0,0,0,0,0
+0 1
+LANG:10027 22 Управляется
+1
+LANG:10027 35 MS Shell Dlg 2,-1,11,5,50,0,0,0,0,0
+0 1
+LANG:10027 14 вручную
+21 63
+"RedSpinBTN"
+""
+1 45.50000000000019 243 E E E 1 E 1 E N "_WindowText" E N "_Window" E E
+ E E
+19 0 0 0 0 0
+E E E
+0
+1
+LANG:10027 0 
+
+1
+"layoutAlignment" "AlignNone"
+1
+LANG:10027 35 MS Shell Dlg 2,-1,11,5,50,0,0,0,0,0
+0  43.50000000000019 234 127.5000000000002 258
+0
+
+"main()
+{
+
+}" 0
+
+E
+E
+
+N 0 100 1 0 1 1
+21 64
+"GreenSpinBTN"
+""
+1 45.50000000000019 284 E E E 1 E 1 E N "_WindowText" E N "_Window" E E
+ E E
+20 0 0 0 0 0
+E E E
+0
+1
+LANG:10027 0 
+
+1
+"layoutAlignment" "AlignNone"
+1
+LANG:10027 35 MS Shell Dlg 2,-1,11,5,50,0,0,0,0,0
+0  43.50000000000019 275 127.5000000000002 299
+0
+
+E
+E
+E
+
+N 0 100 1 0 1 1
+2 65
+"PRIMITIVE_TEXT5"
+""
+1 27.50000000000009 222 E E E 1 E 1 E N "_WindowText" E N "_Window" E E
+ E E
+21 0 0 0 0 0
+E E E
+0
+1
+LANG:10027 0 
+
+4
+"layoutAlignment" "AlignNone"
+"dashclr"N "_Transparent"
+"antiAliased" "0"
+"transformable" "0"
+E E 0 1 3 2 1 E U  0 E 27.50000000000009 222 151 234
+0 2 2 "0s" 0 0 0 192 0 0  27.50000000000009 222 1
+1
+LANG:10027 35 MS Shell Dlg 2,-1,11,5,50,0,0,0,0,0
+0 1
+LANG:10027 42 Время красного сигнала
+2 66
+"PRIMITIVE_TEXT6"
+""
+1 27.50000000000009 262.5 E E E 1 E 1 E N "_WindowText" E N "_Window" E E
+ E E
+22 0 0 0 0 0
+E E E
+0
+1
+LANG:10027 0 
+
+4
+"layoutAlignment" "AlignNone"
+"dashclr"N "_Transparent"
+"antiAliased" "0"
+"transformable" "0"
+E E 0 1 3 2 1 E U  0 E 27.50000000000009 262.5 151 275
+0 2 2 "0s" 0 0 0 192 0 0  27.50000000000009 262.5 1
+1
+LANG:10027 35 MS Shell Dlg 2,-1,11,5,50,0,0,0,0,0
+0 1
+LANG:10027 42 Время зелёного сигнала
+30 67
+"FRAME3"
+""
+1 70 74 E E E 1 E 1 E N "_WindowText" E N {0,0,0} E E
+ E E
+23 0 0 0 0 0
+E E E
+1
+1
+LANG:10027 0 
+
+3
+"layoutAlignment" "AlignNone"
+"dashclr"N "_Transparent"
+"antiAliased" "0"
+E E 0 1 3 2 1 E 1 0 1.162790697674419 -50.49999999999991 113.953488372093 0 E 70 74 221 161
+1
+LANG:10027 35 MS Shell Dlg 2,-1,11,5,50,0,0,0,0,0
+0 1
+LANG:10027 37 Управление временем
+13 68
+"PUSH_BUTTON4"
+""
+1 -155.9237288135593 301 E E E 1 E 1 E N "_ButtonText" E N "_Button" E E
+ E E
+24 0 0 0 0 0
+E E E
+8
+1
+LANG:10027 0 
+
+1
+"layoutAlignment" "AlignNone"
+1
+LANG:10027 35 MS Shell Dlg 2,-1,11,5,50,0,0,0,0,0
+0  7.500000000000028 299 171.5 322
+
+T 
+1
+LANG:10027 2 =>
+"main(mapping event)
+{
+  send();
+}
+send(){
+  int green;
+  getValue(\"GreenSpinBTN\", \"value\", green);
+  int red;
+  getValue(\"RedSpinBTN\", \"value\", red);
+  dpSet(\"System1:CrossTraffic1.redTime\", red);
+  dpSet(\"System1:CrossTraffic1.greenTime\", green);
+}" 0
+ E E E
+2 71
+"PRIMITIVE_TEXT7"
+""
+1 129.5000000000001 240 E E E 1 E 1 E N "_WindowText" E N "_Window" E E
+ E E
+27 0 0 0 0 0
+E E E
+0
+1
+LANG:10027 0 
+
+4
+"layoutAlignment" "AlignNone"
+"dashclr"N "_Transparent"
+"antiAliased" "0"
+"transformable" "0"
+E E 0 1 3 2 1 E U  0 E 129.5000000000001 240 169.5000000000001 260
+0 2 2 "0s" 0 0 0 64 0 0  129.5000000000001 240 1
+1
+LANG:10027 35 MS Shell Dlg 2,-1,11,5,50,0,0,0,0,0
+0 1
+LANG:10027 7 сек.
+2 72
+"PRIMITIVE_TEXT8"
+""
+1 129.5000000000001 278.5 E E E 1 E 1 E N "_WindowText" E N "_Window" E E
+ E E
+28 0 0 0 0 0
+E E E
+0
+1
+LANG:10027 0 
+
+4
+"layoutAlignment" "AlignNone"
+"dashclr"N "_Transparent"
+"antiAliased" "0"
+"transformable" "0"
+E E 0 1 3 2 1 E U  0 E 129.5000000000001 278.5 169.5000000000001 298.5
+0 2 2 "0s" 0 0 0 64 0 0  129.5000000000001 278.5 1
+1
+LANG:10027 35 MS Shell Dlg 2,-1,11,5,50,0,0,0,0,0
+0 1
+LANG:10027 7 сек.
+0
+LAYER, 1 
+1
+LANG:10027 0 
+0
+LAYER, 2 
+1
+LANG:10027 0 
+0
+LAYER, 3 
+1
+LANG:10027 0 
+0
+LAYER, 4 
+1
+LANG:10027 0 
+0
+LAYER, 5 
+1
+LANG:10027 0 
+0
+LAYER, 6 
+1
+LANG:10027 0 
+0
+LAYER, 7 
+1
+LANG:10027 0 
+0
+0
