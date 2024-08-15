@@ -4,3 +4,7 @@
 [-?-]
 [-?-]
 [-?-]
+WCCOAui      (1), 2024.08.15 08:30:39.220,	Qt,	QTextCursor::setPosition: Position '2043' out of range
+WCCOAui      (1), 2024.08.15 08:30:44.188,	Qt,	QTextCursor::setPosition: Position '2043' out of range
+WCCOAui      (1), 2024.08.15 08:30:58.188,	Qt,	QTextCursor::setPosition: Position '2049' out of range
+WCCOAui      (1), 2024.08.15 08:31:11.478,	Qt,	QTextCursor::setPosition: Position '2026' out of range

@@ -17,4 +17,7 @@ WCCILsim         | manual |      30 |        3 |        1 |
 WCCOAui          |   once |      30 |        3 |        1 |-m gedi -style Fusion
 WCCOAopc         | manual |      30 |        2 |        2 |-num 9
 WCCOAmod         | manual |      30 |        2 |        2 |-num 1
-WCCOActrl        | always |      30 |        2 |        2 |parse.ctl
+WCCOActrl        | manual |      30 |        2 |        2 |parse.ctl
+WCCOActrl        | manual |      30 |        2 |        2 |parseTF.ctl
+WCCOActrl        |   once |      30 |        2 |        2 |Prs3.ctl
+WCCOActrl        | always |      30 |        2 |        2 |Prs2.ctl
