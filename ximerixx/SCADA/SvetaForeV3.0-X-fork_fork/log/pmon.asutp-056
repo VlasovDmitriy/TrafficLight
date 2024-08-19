@@ -1569,3 +1569,276 @@ WCCILpmon    (1), 2024.08.15 11:40:54.877, SYS,  INFO,       13/pmon, Completely
 WCCILpmon    (1), 2024.08.15 11:41:05.210, SYS,  INFO,        3/pmon, Got shutdown command - stopping the project and terminating
 WCCILpmon    (1), 2024.08.15 11:41:05.210, SYS,  INFO,       15/pmon, Completely stopped the project - terminating
 WCCILpmon    (1), 2024.08.15 11:41:05.210, SYS,  INFO,        2, Manager Stop
+WCCILpmon    (1), 2024.08.16 08:36:06.021, SYS,  INFO,        1, Manager Start, WAIT_MODE
+WCCILpmon    (1), 2024.08.16 08:36:10.026, SYS,  INFO,       20/pmon, Got START_ALL command from ::1, starting the project
+WCCILpmon    (1), 2024.08.16 08:36:10.033, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCILdata.exe -PROJ SvetaForeV3.0-X-fork_fork -pmonIndex 1 
+WCCILpmon    (1), 2024.08.16 08:36:11.519, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAvalarch.exe -PROJ SvetaForeV3.0-X-fork_fork -pmonIndex 2 -num 0
+WCCILpmon    (1), 2024.08.16 08:36:11.848, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAvalarch.exe -PROJ SvetaForeV3.0-X-fork_fork -pmonIndex 3 -num 1
+WCCILpmon    (1), 2024.08.16 08:36:11.957, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAvalarch.exe -PROJ SvetaForeV3.0-X-fork_fork -pmonIndex 4 -num 2
+WCCILpmon    (1), 2024.08.16 08:36:12.339, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAvalarch.exe -PROJ SvetaForeV3.0-X-fork_fork -pmonIndex 5 -num 3
+WCCILpmon    (1), 2024.08.16 08:36:12.561, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAvalarch.exe -PROJ SvetaForeV3.0-X-fork_fork -pmonIndex 6 -num 4
+WCCILpmon    (1), 2024.08.16 08:36:12.780, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAvalarch.exe -PROJ SvetaForeV3.0-X-fork_fork -pmonIndex 7 -num 5
+WCCILpmon    (1), 2024.08.16 08:36:13.573, SYS,  INFO,       29/pmon, Got PROP_PUT command from ::1, changing manager WCCOActrl(1) at index 17
+WCCILpmon    (1), 2024.08.16 08:36:16.037, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCILevent.exe -PROJ SvetaForeV3.0-X-fork_fork -pmonIndex 8 
+WCCILpmon    (1), 2024.08.16 08:36:16.256, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCILproxy.exe -PROJ SvetaForeV3.0-X-fork_fork -pmonIndex 9 
+WCCILpmon    (1), 2024.08.16 08:36:17.304, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOActrl.exe -PROJ SvetaForeV3.0-X-fork_fork -pmonIndex 10 -f pvss_scripts.lst
+WCCILpmon    (1), 2024.08.16 08:36:17.535, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAui.exe -PROJ SvetaForeV3.0-X-fork_fork -pmonIndex 12 -m gedi -style Fusion
+WCCILpmon    (1), 2024.08.16 08:36:20.428, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOActrl.exe -PROJ SvetaForeV3.0-X-fork_fork -pmonIndex 17 Prs3.ctl
+WCCILpmon    (1), 2024.08.16 08:36:20.650, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOActrl.exe -PROJ SvetaForeV3.0-X-fork_fork -pmonIndex 18 Prs2.ctl
+WCCILpmon    (1), 2024.08.16 08:36:20.874, SYS,  INFO,        9/pmon, The project is up and running. Entering monitor mode
+WCCILpmon    (1), 2024.08.16 08:36:25.234, SYS,  INFO,       25/pmon, Got STOP command (SIGTERM) from ::1, stopping the manager WCCOActrl(2) at index 17
+WCCILpmon    (1), 2024.08.16 08:36:25.234, SYS,  INFO,       17/pmon, Stopping Manager WCCOActrl(2) with signal SIGTERM
+WCCILpmon    (1), 2024.08.16 09:18:02.054, SYS,  INFO,       25/pmon, Got STOP command (SIGTERM) from ::1, stopping the manager WCCOActrl(3) at index 18
+WCCILpmon    (1), 2024.08.16 09:18:02.055, SYS,  INFO,       17/pmon, Stopping Manager WCCOActrl(3) with signal SIGTERM
+WCCILpmon    (1), 2024.08.16 09:18:02.321, SYS,  INFO,       11/pmon, Detected stopped manager WCCOActrl(3) - restarting it #1
+WCCILpmon    (1), 2024.08.16 09:18:02.322, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOActrl.exe -PROJ SvetaForeV3.0-X-fork_fork -pmonIndex 18 Prs2.ctl
+WCCILpmon    (1), 2024.08.16 09:19:02.860, SYS,  INFO,       26/pmon, Got KILL command (SIGKILL) from ::1, stopping the manager WCCOActrl(2) at index 18
+WCCILpmon    (1), 2024.08.16 09:19:02.861, SYS,  INFO,       17/pmon, Stopping Manager WCCOActrl(2) with signal SIGKILL
+WCCILpmon    (1), 2024.08.16 09:19:02.966, SYS,  INFO,       11/pmon, Detected stopped manager WCCOActrl(2) - restarting it #2
+WCCILpmon    (1), 2024.08.16 09:19:02.967, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOActrl.exe -PROJ SvetaForeV3.0-X-fork_fork -pmonIndex 18 Prs2.ctl
+WCCILpmon    (1), 2024.08.16 09:19:05.485, SYS,  INFO,       29/pmon, Got PROP_PUT command from ::1, changing manager WCCOActrl(1) at index 17
+WCCILpmon    (1), 2024.08.16 09:20:04.846, SYS,  INFO,       26/pmon, Got KILL command (SIGKILL) from ::1, stopping the manager WCCOActrl(2) at index 18
+WCCILpmon    (1), 2024.08.16 09:20:04.846, SYS,  INFO,       17/pmon, Stopping Manager WCCOActrl(2) with signal SIGKILL
+WCCILpmon    (1), 2024.08.16 09:20:04.959, SYS,  INFO,       11/pmon, Detected stopped manager WCCOActrl(2) - restarting it #1
+WCCILpmon    (1), 2024.08.16 09:20:04.960, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOActrl.exe -PROJ SvetaForeV3.0-X-fork_fork -pmonIndex 18 Prs2.ctl
+WCCILpmon    (1), 2024.08.16 10:17:04.608, SYS,  INFO,       25/pmon, Got STOP command (SIGTERM) from ::1, stopping the manager WCCOActrl(2) at index 18
+WCCILpmon    (1), 2024.08.16 10:17:04.608, SYS,  INFO,       17/pmon, Stopping Manager WCCOActrl(2) with signal SIGTERM
+WCCILpmon    (1), 2024.08.16 10:17:05.043, SYS,  INFO,       11/pmon, Detected stopped manager WCCOActrl(2) - restarting it #1
+WCCILpmon    (1), 2024.08.16 10:17:05.045, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOActrl.exe -PROJ SvetaForeV3.0-X-fork_fork -pmonIndex 18 Prs2.ctl
+WCCILpmon    (1), 2024.08.16 10:36:30.314, SYS,  INFO,       25/pmon, Got STOP command (SIGTERM) from ::1, stopping the manager WCCOActrl(2) at index 18
+WCCILpmon    (1), 2024.08.16 10:36:30.315, SYS,  INFO,       17/pmon, Stopping Manager WCCOActrl(2) with signal SIGTERM
+WCCILpmon    (1), 2024.08.16 10:36:30.761, SYS,  INFO,       11/pmon, Detected stopped manager WCCOActrl(2) - restarting it #1
+WCCILpmon    (1), 2024.08.16 10:36:30.765, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOActrl.exe -PROJ SvetaForeV3.0-X-fork_fork -pmonIndex 18 Prs2.ctl
+WCCILpmon    (1), 2024.08.16 10:39:13.107, SYS,  INFO,       25/pmon, Got STOP command (SIGTERM) from ::1, stopping the manager WCCOActrl(2) at index 18
+WCCILpmon    (1), 2024.08.16 10:39:13.107, SYS,  INFO,       17/pmon, Stopping Manager WCCOActrl(2) with signal SIGTERM
+WCCILpmon    (1), 2024.08.16 10:39:14.088, SYS,  INFO,       11/pmon, Detected stopped manager WCCOActrl(2) - restarting it #1
+WCCILpmon    (1), 2024.08.16 10:39:14.089, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOActrl.exe -PROJ SvetaForeV3.0-X-fork_fork -pmonIndex 18 Prs2.ctl
+WCCILpmon    (1), 2024.08.16 10:40:06.456, SYS,  INFO,       25/pmon, Got STOP command (SIGTERM) from ::1, stopping the manager WCCOActrl(2) at index 18
+WCCILpmon    (1), 2024.08.16 10:40:06.456, SYS,  INFO,       17/pmon, Stopping Manager WCCOActrl(2) with signal SIGTERM
+WCCILpmon    (1), 2024.08.16 10:40:07.399, SYS,  INFO,       11/pmon, Detected stopped manager WCCOActrl(2) - restarting it #2
+WCCILpmon    (1), 2024.08.16 10:40:07.400, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOActrl.exe -PROJ SvetaForeV3.0-X-fork_fork -pmonIndex 18 Prs2.ctl
+WCCILpmon    (1), 2024.08.16 10:42:44.256, SYS,  INFO,       25/pmon, Got STOP command (SIGTERM) from ::1, stopping the manager WCCOActrl(2) at index 18
+WCCILpmon    (1), 2024.08.16 10:42:44.256, SYS,  INFO,       17/pmon, Stopping Manager WCCOActrl(2) with signal SIGTERM
+WCCILpmon    (1), 2024.08.16 10:42:44.472, SYS,  INFO,       11/pmon, Detected stopped manager WCCOActrl(2) - restarting it #1
+WCCILpmon    (1), 2024.08.16 10:42:44.474, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOActrl.exe -PROJ SvetaForeV3.0-X-fork_fork -pmonIndex 18 Prs2.ctl
+WCCILpmon    (1), 2024.08.16 10:42:57.617, SYS,  INFO,       26/pmon, Got KILL command (SIGKILL) from ::1, stopping the manager WCCOActrl(2) at index 18
+WCCILpmon    (1), 2024.08.16 10:42:57.618, SYS,  INFO,       17/pmon, Stopping Manager WCCOActrl(2) with signal SIGKILL
+WCCILpmon    (1), 2024.08.16 10:42:57.722, SYS,  INFO,       11/pmon, Detected stopped manager WCCOActrl(2) - restarting it #2
+WCCILpmon    (1), 2024.08.16 10:42:57.725, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOActrl.exe -PROJ SvetaForeV3.0-X-fork_fork -pmonIndex 18 Prs2.ctl
+WCCILpmon    (1), 2024.08.16 10:43:02.152, SYS,  INFO,       26/pmon, Got KILL command (SIGKILL) from ::1, stopping the manager WCCOActrl(2) at index 18
+WCCILpmon    (1), 2024.08.16 10:43:02.153, SYS,  INFO,       17/pmon, Stopping Manager WCCOActrl(2) with signal SIGKILL
+WCCILpmon    (1), 2024.08.16 10:43:02.224, SYS,  INFO,       12/pmon, Manager WCCOActrl(2) restarting too rapidly - giving up restarting
+WCCILpmon    (1), 2024.08.16 10:43:52.529, SYS,  INFO,       24/pmon, Got START command from ::1, starting the manager WCCOActrl(2) at index 18
+WCCILpmon    (1), 2024.08.16 10:43:52.530, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOActrl.exe -PROJ SvetaForeV3.0-X-fork_fork -pmonIndex 18 Prs2.ctl
+WCCILpmon    (1), 2024.08.16 10:44:00.920, SYS,  INFO,       25/pmon, Got STOP command (SIGTERM) from ::1, stopping the manager WCCOActrl(2) at index 18
+WCCILpmon    (1), 2024.08.16 10:44:00.921, SYS,  INFO,       17/pmon, Stopping Manager WCCOActrl(2) with signal SIGTERM
+WCCILpmon    (1), 2024.08.16 10:44:01.029, SYS,  INFO,       11/pmon, Detected stopped manager WCCOActrl(2) - restarting it #1
+WCCILpmon    (1), 2024.08.16 10:44:01.034, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOActrl.exe -PROJ SvetaForeV3.0-X-fork_fork -pmonIndex 18 Prs2.ctl
+WCCILpmon    (1), 2024.08.16 10:44:13.667, SYS,  INFO,       26/pmon, Got KILL command (SIGKILL) from ::1, stopping the manager WCCOActrl(2) at index 18
+WCCILpmon    (1), 2024.08.16 10:44:13.668, SYS,  INFO,       17/pmon, Stopping Manager WCCOActrl(2) with signal SIGKILL
+WCCILpmon    (1), 2024.08.16 10:44:13.777, SYS,  INFO,       11/pmon, Detected stopped manager WCCOActrl(2) - restarting it #2
+WCCILpmon    (1), 2024.08.16 10:44:13.783, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOActrl.exe -PROJ SvetaForeV3.0-X-fork_fork -pmonIndex 18 Prs2.ctl
+WCCILpmon    (1), 2024.08.16 10:44:18.265, SYS,  INFO,       26/pmon, Got KILL command (SIGKILL) from ::1, stopping the manager WCCOActrl(2) at index 18
+WCCILpmon    (1), 2024.08.16 10:44:18.266, SYS,  INFO,       17/pmon, Stopping Manager WCCOActrl(2) with signal SIGKILL
+WCCILpmon    (1), 2024.08.16 10:44:18.378, SYS,  INFO,       12/pmon, Manager WCCOActrl(2) restarting too rapidly - giving up restarting
+WCCILpmon    (1), 2024.08.16 10:45:09.116, SYS,  INFO,       24/pmon, Got START command from ::1, starting the manager WCCOActrl(2) at index 18
+WCCILpmon    (1), 2024.08.16 10:45:09.118, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOActrl.exe -PROJ SvetaForeV3.0-X-fork_fork -pmonIndex 18 Prs2.ctl
+WCCILpmon    (1), 2024.08.16 10:45:26.674, SYS,  INFO,       25/pmon, Got STOP command (SIGTERM) from ::1, stopping the manager WCCOActrl(2) at index 18
+WCCILpmon    (1), 2024.08.16 10:45:26.675, SYS,  INFO,       17/pmon, Stopping Manager WCCOActrl(2) with signal SIGTERM
+WCCILpmon    (1), 2024.08.16 10:45:27.525, SYS,  INFO,       11/pmon, Detected stopped manager WCCOActrl(2) - restarting it #1
+WCCILpmon    (1), 2024.08.16 10:45:27.529, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOActrl.exe -PROJ SvetaForeV3.0-X-fork_fork -pmonIndex 18 Prs2.ctl
+WCCILpmon    (1), 2024.08.16 10:46:02.610, SYS,  INFO,       25/pmon, Got STOP command (SIGTERM) from ::1, stopping the manager WCCOActrl(2) at index 18
+WCCILpmon    (1), 2024.08.16 10:46:02.610, SYS,  INFO,       17/pmon, Stopping Manager WCCOActrl(2) with signal SIGTERM
+WCCILpmon    (1), 2024.08.16 10:46:02.712, SYS,  INFO,       11/pmon, Detected stopped manager WCCOActrl(2) - restarting it #2
+WCCILpmon    (1), 2024.08.16 10:46:02.717, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOActrl.exe -PROJ SvetaForeV3.0-X-fork_fork -pmonIndex 18 Prs2.ctl
+WCCILpmon    (1), 2024.08.16 10:49:39.187, SYS,  INFO,       25/pmon, Got STOP command (SIGTERM) from ::1, stopping the manager WCCOActrl(2) at index 18
+WCCILpmon    (1), 2024.08.16 10:49:39.188, SYS,  INFO,       17/pmon, Stopping Manager WCCOActrl(2) with signal SIGTERM
+WCCILpmon    (1), 2024.08.16 10:49:39.511, SYS,  INFO,       11/pmon, Detected stopped manager WCCOActrl(2) - restarting it #1
+WCCILpmon    (1), 2024.08.16 10:49:39.514, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOActrl.exe -PROJ SvetaForeV3.0-X-fork_fork -pmonIndex 18 Prs2.ctl
+WCCILpmon    (1), 2024.08.16 10:50:54.680, SYS,  INFO,       25/pmon, Got STOP command (SIGTERM) from ::1, stopping the manager WCCOActrl(2) at index 18
+WCCILpmon    (1), 2024.08.16 10:50:54.681, SYS,  INFO,       17/pmon, Stopping Manager WCCOActrl(2) with signal SIGTERM
+WCCILpmon    (1), 2024.08.16 10:50:54.787, SYS,  INFO,       11/pmon, Detected stopped manager WCCOActrl(2) - restarting it #2
+WCCILpmon    (1), 2024.08.16 10:50:54.793, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOActrl.exe -PROJ SvetaForeV3.0-X-fork_fork -pmonIndex 18 Prs2.ctl
+WCCILpmon    (1), 2024.08.16 11:13:30.001, SYS,  INFO,       25/pmon, Got STOP command (SIGTERM) from ::1, stopping the manager WCCOActrl(2) at index 18
+WCCILpmon    (1), 2024.08.16 11:13:30.002, SYS,  INFO,       17/pmon, Stopping Manager WCCOActrl(2) with signal SIGTERM
+WCCILpmon    (1), 2024.08.16 11:13:30.974, SYS,  INFO,       11/pmon, Detected stopped manager WCCOActrl(2) - restarting it #1
+WCCILpmon    (1), 2024.08.16 11:13:30.980, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOActrl.exe -PROJ SvetaForeV3.0-X-fork_fork -pmonIndex 18 Prs2.ctl
+WCCILpmon    (1), 2024.08.16 11:13:35.971, SYS,  INFO,       26/pmon, Got KILL command (SIGKILL) from ::1, stopping the manager WCCOActrl(2) at index 18
+WCCILpmon    (1), 2024.08.16 11:13:35.972, SYS,  INFO,       17/pmon, Stopping Manager WCCOActrl(2) with signal SIGKILL
+WCCILpmon    (1), 2024.08.16 11:13:36.076, SYS,  INFO,       11/pmon, Detected stopped manager WCCOActrl(2) - restarting it #2
+WCCILpmon    (1), 2024.08.16 11:13:36.081, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOActrl.exe -PROJ SvetaForeV3.0-X-fork_fork -pmonIndex 18 Prs2.ctl
+WCCILpmon    (1), 2024.08.16 11:17:32.124, SYS,  INFO,       25/pmon, Got STOP command (SIGTERM) from ::1, stopping the manager WCCOActrl(2) at index 18
+WCCILpmon    (1), 2024.08.16 11:17:32.124, SYS,  INFO,       17/pmon, Stopping Manager WCCOActrl(2) with signal SIGTERM
+WCCILpmon    (1), 2024.08.16 11:17:32.997, SYS,  INFO,       11/pmon, Detected stopped manager WCCOActrl(2) - restarting it #1
+WCCILpmon    (1), 2024.08.16 11:17:32.999, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOActrl.exe -PROJ SvetaForeV3.0-X-fork_fork -pmonIndex 18 Prs2.ctl
+WCCILpmon    (1), 2024.08.16 11:17:53.131, SYS,  INFO,       26/pmon, Got KILL command (SIGKILL) from ::1, stopping the manager WCCOActrl(2) at index 18
+WCCILpmon    (1), 2024.08.16 11:17:53.131, SYS,  INFO,       17/pmon, Stopping Manager WCCOActrl(2) with signal SIGKILL
+WCCILpmon    (1), 2024.08.16 11:17:53.236, SYS,  INFO,       11/pmon, Detected stopped manager WCCOActrl(2) - restarting it #2
+WCCILpmon    (1), 2024.08.16 11:17:53.238, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOActrl.exe -PROJ SvetaForeV3.0-X-fork_fork -pmonIndex 18 Prs2.ctl
+WCCILpmon    (1), 2024.08.16 11:21:14.409, SYS,  INFO,       25/pmon, Got STOP command (SIGTERM) from ::1, stopping the manager WCCOActrl(2) at index 18
+WCCILpmon    (1), 2024.08.16 11:21:14.410, SYS,  INFO,       17/pmon, Stopping Manager WCCOActrl(2) with signal SIGTERM
+WCCILpmon    (1), 2024.08.16 11:21:14.950, SYS,  INFO,       11/pmon, Detected stopped manager WCCOActrl(2) - restarting it #1
+WCCILpmon    (1), 2024.08.16 11:21:14.954, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOActrl.exe -PROJ SvetaForeV3.0-X-fork_fork -pmonIndex 18 Prs2.ctl
+WCCILpmon    (1), 2024.08.16 11:21:53.329, SYS,  INFO,       25/pmon, Got STOP command (SIGTERM) from ::1, stopping the manager WCCOActrl(2) at index 18
+WCCILpmon    (1), 2024.08.16 11:21:53.330, SYS,  INFO,       17/pmon, Stopping Manager WCCOActrl(2) with signal SIGTERM
+WCCILpmon    (1), 2024.08.16 11:21:54.120, SYS,  INFO,       11/pmon, Detected stopped manager WCCOActrl(2) - restarting it #2
+WCCILpmon    (1), 2024.08.16 11:21:54.122, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOActrl.exe -PROJ SvetaForeV3.0-X-fork_fork -pmonIndex 18 Prs2.ctl
+WCCILpmon    (1), 2024.08.16 11:36:28.204, SYS,  INFO,       25/pmon, Got STOP command (SIGTERM) from ::1, stopping the manager WCCOActrl(2) at index 18
+WCCILpmon    (1), 2024.08.16 11:36:28.205, SYS,  INFO,       17/pmon, Stopping Manager WCCOActrl(2) with signal SIGTERM
+WCCILpmon    (1), 2024.08.16 11:36:28.749, SYS,  INFO,       11/pmon, Detected stopped manager WCCOActrl(2) - restarting it #1
+WCCILpmon    (1), 2024.08.16 11:36:28.754, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOActrl.exe -PROJ SvetaForeV3.0-X-fork_fork -pmonIndex 18 Prs2.ctl
+WCCILpmon    (1), 2024.08.16 11:39:23.796, SYS,  INFO,       25/pmon, Got STOP command (SIGTERM) from ::1, stopping the manager WCCOActrl(2) at index 18
+WCCILpmon    (1), 2024.08.16 11:39:23.797, SYS,  INFO,       17/pmon, Stopping Manager WCCOActrl(2) with signal SIGTERM
+WCCILpmon    (1), 2024.08.16 11:39:24.294, SYS,  INFO,       11/pmon, Detected stopped manager WCCOActrl(2) - restarting it #1
+WCCILpmon    (1), 2024.08.16 11:39:24.296, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOActrl.exe -PROJ SvetaForeV3.0-X-fork_fork -pmonIndex 18 Prs2.ctl
+WCCILpmon    (1), 2024.08.16 11:59:11.611, SYS,  INFO,       25/pmon, Got STOP command (SIGTERM) from ::1, stopping the manager WCCOActrl(2) at index 18
+WCCILpmon    (1), 2024.08.16 11:59:11.611, SYS,  INFO,       17/pmon, Stopping Manager WCCOActrl(2) with signal SIGTERM
+WCCILpmon    (1), 2024.08.16 11:59:11.716, SYS,  INFO,       11/pmon, Detected stopped manager WCCOActrl(2) - restarting it #1
+WCCILpmon    (1), 2024.08.16 11:59:11.718, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOActrl.exe -PROJ SvetaForeV3.0-X-fork_fork -pmonIndex 18 Prs2.ctl
+WCCILpmon    (1), 2024.08.16 11:59:37.955, SYS,  INFO,       25/pmon, Got STOP command (SIGTERM) from ::1, stopping the manager WCCOActrl(2) at index 18
+WCCILpmon    (1), 2024.08.16 11:59:37.956, SYS,  INFO,       17/pmon, Stopping Manager WCCOActrl(2) with signal SIGTERM
+WCCILpmon    (1), 2024.08.16 11:59:38.169, SYS,  INFO,       11/pmon, Detected stopped manager WCCOActrl(2) - restarting it #2
+WCCILpmon    (1), 2024.08.16 11:59:38.175, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOActrl.exe -PROJ SvetaForeV3.0-X-fork_fork -pmonIndex 18 Prs2.ctl
+WCCILpmon    (1), 2024.08.16 12:05:07.159, SYS,  INFO,       26/pmon, Got KILL command (SIGKILL) from ::1, stopping the manager WCCOActrl(2) at index 18
+WCCILpmon    (1), 2024.08.16 12:05:07.159, SYS,  INFO,       17/pmon, Stopping Manager WCCOActrl(2) with signal SIGKILL
+WCCILpmon    (1), 2024.08.16 12:05:07.274, SYS,  INFO,       11/pmon, Detected stopped manager WCCOActrl(2) - restarting it #1
+WCCILpmon    (1), 2024.08.16 12:05:07.276, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOActrl.exe -PROJ SvetaForeV3.0-X-fork_fork -pmonIndex 18 Prs2.ctl
+WCCILpmon    (1), 2024.08.16 12:05:40.454, SYS,  INFO,       25/pmon, Got STOP command (SIGTERM) from ::1, stopping the manager WCCOActrl(2) at index 18
+WCCILpmon    (1), 2024.08.16 12:05:40.454, SYS,  INFO,       17/pmon, Stopping Manager WCCOActrl(2) with signal SIGTERM
+WCCILpmon    (1), 2024.08.16 12:05:41.433, SYS,  INFO,       11/pmon, Detected stopped manager WCCOActrl(2) - restarting it #2
+WCCILpmon    (1), 2024.08.16 12:05:41.435, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOActrl.exe -PROJ SvetaForeV3.0-X-fork_fork -pmonIndex 18 Prs2.ctl
+WCCILpmon    (1), 2024.08.16 12:14:49.109, SYS,  INFO,       25/pmon, Got STOP command (SIGTERM) from ::1, stopping the manager WCCOActrl(2) at index 18
+WCCILpmon    (1), 2024.08.16 12:14:49.109, SYS,  INFO,       17/pmon, Stopping Manager WCCOActrl(2) with signal SIGTERM
+WCCILpmon    (1), 2024.08.16 12:14:49.505, SYS,  INFO,       11/pmon, Detected stopped manager WCCOActrl(2) - restarting it #1
+WCCILpmon    (1), 2024.08.16 12:14:49.506, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOActrl.exe -PROJ SvetaForeV3.0-X-fork_fork -pmonIndex 18 Prs2.ctl
+WCCILpmon    (1), 2024.08.16 12:16:27.966, SYS,  INFO,       25/pmon, Got STOP command (SIGTERM) from ::1, stopping the manager WCCOActrl(2) at index 18
+WCCILpmon    (1), 2024.08.16 12:16:27.967, SYS,  INFO,       17/pmon, Stopping Manager WCCOActrl(2) with signal SIGTERM
+WCCILpmon    (1), 2024.08.16 12:16:28.073, SYS,  INFO,       11/pmon, Detected stopped manager WCCOActrl(2) - restarting it #2
+WCCILpmon    (1), 2024.08.16 12:16:28.075, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOActrl.exe -PROJ SvetaForeV3.0-X-fork_fork -pmonIndex 18 Prs2.ctl
+WCCILpmon    (1), 2024.08.16 12:18:59.139, SYS,  INFO,       25/pmon, Got STOP command (SIGTERM) from ::1, stopping the manager WCCOActrl(2) at index 18
+WCCILpmon    (1), 2024.08.16 12:18:59.139, SYS,  INFO,       17/pmon, Stopping Manager WCCOActrl(2) with signal SIGTERM
+WCCILpmon    (1), 2024.08.16 12:18:59.469, SYS,  INFO,       11/pmon, Detected stopped manager WCCOActrl(2) - restarting it #1
+WCCILpmon    (1), 2024.08.16 12:18:59.470, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOActrl.exe -PROJ SvetaForeV3.0-X-fork_fork -pmonIndex 18 Prs2.ctl
+WCCILpmon    (1), 2024.08.16 12:20:07.093, SYS,  INFO,       25/pmon, Got STOP command (SIGTERM) from ::1, stopping the manager WCCOActrl(2) at index 18
+WCCILpmon    (1), 2024.08.16 12:20:07.094, SYS,  INFO,       17/pmon, Stopping Manager WCCOActrl(2) with signal SIGTERM
+WCCILpmon    (1), 2024.08.16 12:20:07.663, SYS,  INFO,       11/pmon, Detected stopped manager WCCOActrl(2) - restarting it #2
+WCCILpmon    (1), 2024.08.16 12:20:07.668, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOActrl.exe -PROJ SvetaForeV3.0-X-fork_fork -pmonIndex 18 Prs2.ctl
+WCCILpmon    (1), 2024.08.16 12:21:24.271, SYS,  INFO,       25/pmon, Got STOP command (SIGTERM) from ::1, stopping the manager WCCOActrl(2) at index 18
+WCCILpmon    (1), 2024.08.16 12:21:24.272, SYS,  INFO,       17/pmon, Stopping Manager WCCOActrl(2) with signal SIGTERM
+WCCILpmon    (1), 2024.08.16 12:21:24.975, SYS,  INFO,       11/pmon, Detected stopped manager WCCOActrl(2) - restarting it #1
+WCCILpmon    (1), 2024.08.16 12:21:24.980, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOActrl.exe -PROJ SvetaForeV3.0-X-fork_fork -pmonIndex 18 Prs2.ctl
+WCCILpmon    (1), 2024.08.16 12:23:14.523, SYS,  INFO,       25/pmon, Got STOP command (SIGTERM) from ::1, stopping the manager WCCOActrl(2) at index 18
+WCCILpmon    (1), 2024.08.16 12:23:14.524, SYS,  INFO,       17/pmon, Stopping Manager WCCOActrl(2) with signal SIGTERM
+WCCILpmon    (1), 2024.08.16 12:23:14.747, SYS,  INFO,       11/pmon, Detected stopped manager WCCOActrl(2) - restarting it #2
+WCCILpmon    (1), 2024.08.16 12:23:14.752, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOActrl.exe -PROJ SvetaForeV3.0-X-fork_fork -pmonIndex 18 Prs2.ctl
+WCCILpmon    (1), 2024.08.16 12:31:15.739, SYS,  INFO,       26/pmon, Got KILL command (SIGKILL) from ::1, stopping the manager WCCOActrl(2) at index 18
+WCCILpmon    (1), 2024.08.16 12:31:15.740, SYS,  INFO,       17/pmon, Stopping Manager WCCOActrl(2) with signal SIGKILL
+WCCILpmon    (1), 2024.08.16 12:31:15.785, SYS,  INFO,       11/pmon, Detected stopped manager WCCOActrl(2) - restarting it #1
+WCCILpmon    (1), 2024.08.16 12:31:15.788, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOActrl.exe -PROJ SvetaForeV3.0-X-fork_fork -pmonIndex 18 Prs2.ctl
+WCCILpmon    (1), 2024.08.16 12:34:10.214, SYS,  INFO,       25/pmon, Got STOP command (SIGTERM) from ::1, stopping the manager WCCOActrl(2) at index 18
+WCCILpmon    (1), 2024.08.16 12:34:10.214, SYS,  INFO,       17/pmon, Stopping Manager WCCOActrl(2) with signal SIGTERM
+WCCILpmon    (1), 2024.08.16 12:34:10.328, SYS,  INFO,       11/pmon, Detected stopped manager WCCOActrl(2) - restarting it #1
+WCCILpmon    (1), 2024.08.16 12:34:10.331, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOActrl.exe -PROJ SvetaForeV3.0-X-fork_fork -pmonIndex 18 Prs2.ctl
+WCCILpmon    (1), 2024.08.16 12:35:31.364, SYS,  INFO,       25/pmon, Got STOP command (SIGTERM) from ::1, stopping the manager WCCOActrl(2) at index 18
+WCCILpmon    (1), 2024.08.16 12:35:31.365, SYS,  INFO,       17/pmon, Stopping Manager WCCOActrl(2) with signal SIGTERM
+WCCILpmon    (1), 2024.08.16 12:35:31.473, SYS,  INFO,       11/pmon, Detected stopped manager WCCOActrl(2) - restarting it #2
+WCCILpmon    (1), 2024.08.16 12:35:31.474, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOActrl.exe -PROJ SvetaForeV3.0-X-fork_fork -pmonIndex 18 Prs2.ctl
+WCCILpmon    (1), 2024.08.16 12:37:54.494, SYS,  INFO,       25/pmon, Got STOP command (SIGTERM) from ::1, stopping the manager WCCOActrl(2) at index 18
+WCCILpmon    (1), 2024.08.16 12:37:54.494, SYS,  INFO,       17/pmon, Stopping Manager WCCOActrl(2) with signal SIGTERM
+WCCILpmon    (1), 2024.08.16 12:37:55.047, SYS,  INFO,       11/pmon, Detected stopped manager WCCOActrl(2) - restarting it #1
+WCCILpmon    (1), 2024.08.16 12:37:55.054, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOActrl.exe -PROJ SvetaForeV3.0-X-fork_fork -pmonIndex 18 Prs2.ctl
+WCCILpmon    (1), 2024.08.16 12:44:47.197, SYS,  INFO,       25/pmon, Got STOP command (SIGTERM) from ::1, stopping the manager WCCOActrl(2) at index 18
+WCCILpmon    (1), 2024.08.16 12:44:47.197, SYS,  INFO,       17/pmon, Stopping Manager WCCOActrl(2) with signal SIGTERM
+WCCILpmon    (1), 2024.08.16 12:44:47.732, SYS,  INFO,       11/pmon, Detected stopped manager WCCOActrl(2) - restarting it #1
+WCCILpmon    (1), 2024.08.16 12:44:47.734, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOActrl.exe -PROJ SvetaForeV3.0-X-fork_fork -pmonIndex 18 Prs2.ctl
+WCCILpmon    (1), 2024.08.16 12:54:33.387, SYS,  INFO,       24/pmon, Got START command from ::1, starting the manager WCCOAmod(1) at index 14
+WCCILpmon    (1), 2024.08.16 12:54:33.400, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAmod.exe -PROJ SvetaForeV3.0-X-fork_fork -pmonIndex 14 -num 1
+WCCILpmon    (1), 2024.08.16 12:55:54.489, SYS,  INFO,       25/pmon, Got STOP command (SIGTERM) from ::1, stopping the manager WCCOActrl(2) at index 18
+WCCILpmon    (1), 2024.08.16 12:55:54.490, SYS,  INFO,       17/pmon, Stopping Manager WCCOActrl(2) with signal SIGTERM
+WCCILpmon    (1), 2024.08.16 12:55:54.601, SYS,  INFO,       11/pmon, Detected stopped manager WCCOActrl(2) - restarting it #1
+WCCILpmon    (1), 2024.08.16 12:55:54.606, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOActrl.exe -PROJ SvetaForeV3.0-X-fork_fork -pmonIndex 18 Prs2.ctl
+WCCILpmon    (1), 2024.08.16 12:57:07.142, SYS,  INFO,       25/pmon, Got STOP command (SIGTERM) from ::1, stopping the manager WCCOActrl(2) at index 18
+WCCILpmon    (1), 2024.08.16 12:57:07.143, SYS,  INFO,       17/pmon, Stopping Manager WCCOActrl(2) with signal SIGTERM
+WCCILpmon    (1), 2024.08.16 12:57:07.573, SYS,  INFO,       11/pmon, Detected stopped manager WCCOActrl(2) - restarting it #2
+WCCILpmon    (1), 2024.08.16 12:57:07.574, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOActrl.exe -PROJ SvetaForeV3.0-X-fork_fork -pmonIndex 18 Prs2.ctl
+WCCILpmon    (1), 2024.08.16 12:58:46.160, SYS,  INFO,       21/pmon, Got STOP_ALL command from ::1, stopping the project
+WCCILpmon    (1), 2024.08.16 12:58:46.161, SYS,  INFO,       17/pmon, Stopping Manager WCCOActrl(2) with signal SIGTERM
+WCCILpmon    (1), 2024.08.16 12:58:46.161, SYS,  INFO,       17/pmon, Stopping Manager WCCOAmod(1) with signal SIGTERM
+WCCILpmon    (1), 2024.08.16 12:58:46.162, SYS,  INFO,       17/pmon, Stopping Manager WCCOAui(1) with signal SIGTERM
+WCCILpmon    (1), 2024.08.16 12:58:46.162, SYS,  INFO,       17/pmon, Stopping Manager WCCOActrl(1) with signal SIGTERM
+WCCILpmon    (1), 2024.08.16 12:58:46.162, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(5) with signal SIGTERM
+WCCILpmon    (1), 2024.08.16 12:58:46.163, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(4) with signal SIGTERM
+WCCILpmon    (1), 2024.08.16 12:58:46.163, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(3) with signal SIGTERM
+WCCILpmon    (1), 2024.08.16 12:58:46.163, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(2) with signal SIGTERM
+WCCILpmon    (1), 2024.08.16 12:58:46.163, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(1) with signal SIGTERM
+WCCILpmon    (1), 2024.08.16 12:58:46.164, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(0) with signal SIGTERM
+WCCILpmon    (1), 2024.08.16 12:58:50.256, SYS,  INFO,       17/pmon, Stopping Manager WCCILevent(0) with signal SIGTERM
+WCCILpmon    (1), 2024.08.16 12:58:50.365, SYS,  INFO,       17/pmon, Stopping Manager WCCILdata(0) with signal SIGTERM
+WCCILpmon    (1), 2024.08.16 12:58:52.407, SYS,  INFO,       17/pmon, Stopping Manager WCCILproxy(1) with signal SIGTERM
+WCCILpmon    (1), 2024.08.16 12:58:52.985, SYS,  INFO,       13/pmon, Completely stopped the project - waiting for commands
+WCCILpmon    (1), 2024.08.19 08:35:27.009, SYS,  INFO,        1, Manager Start, WAIT_MODE
+WCCILpmon    (1), 2024.08.19 08:35:28.413, SYS,  INFO,       20/pmon, Got START_ALL command from ::1, starting the project
+WCCILpmon    (1), 2024.08.19 08:35:28.416, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCILdata.exe -PROJ SvetaForeV3.0-X-fork_fork -pmonIndex 1 
+WCCILpmon    (1), 2024.08.19 08:35:29.775, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAvalarch.exe -PROJ SvetaForeV3.0-X-fork_fork -pmonIndex 2 -num 0
+WCCILpmon    (1), 2024.08.19 08:35:29.994, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAvalarch.exe -PROJ SvetaForeV3.0-X-fork_fork -pmonIndex 3 -num 1
+WCCILpmon    (1), 2024.08.19 08:35:30.213, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAvalarch.exe -PROJ SvetaForeV3.0-X-fork_fork -pmonIndex 4 -num 2
+WCCILpmon    (1), 2024.08.19 08:35:30.427, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAvalarch.exe -PROJ SvetaForeV3.0-X-fork_fork -pmonIndex 5 -num 3
+WCCILpmon    (1), 2024.08.19 08:35:30.640, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAvalarch.exe -PROJ SvetaForeV3.0-X-fork_fork -pmonIndex 6 -num 4
+WCCILpmon    (1), 2024.08.19 08:35:30.859, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAvalarch.exe -PROJ SvetaForeV3.0-X-fork_fork -pmonIndex 7 -num 5
+WCCILpmon    (1), 2024.08.19 08:35:34.694, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCILevent.exe -PROJ SvetaForeV3.0-X-fork_fork -pmonIndex 8 
+WCCILpmon    (1), 2024.08.19 08:35:34.912, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCILproxy.exe -PROJ SvetaForeV3.0-X-fork_fork -pmonIndex 9 
+WCCILpmon    (1), 2024.08.19 08:35:35.957, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOActrl.exe -PROJ SvetaForeV3.0-X-fork_fork -pmonIndex 10 -f pvss_scripts.lst
+WCCILpmon    (1), 2024.08.19 08:35:36.187, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAui.exe -PROJ SvetaForeV3.0-X-fork_fork -pmonIndex 12 -m gedi -style Fusion
+WCCILpmon    (1), 2024.08.19 08:35:37.882, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOActrl.exe -PROJ SvetaForeV3.0-X-fork_fork -pmonIndex 18 Prs2.ctl
+WCCILpmon    (1), 2024.08.19 08:35:38.214, SYS,  INFO,        9/pmon, The project is up and running. Entering monitor mode
+WCCILpmon    (1), 2024.08.19 08:40:43.748, SYS,  INFO,       24/pmon, Got START command from ::1, starting the manager WCCOAmod(1) at index 14
+WCCILpmon    (1), 2024.08.19 08:40:43.751, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAmod.exe -PROJ SvetaForeV3.0-X-fork_fork -pmonIndex 14 -num 1
+WCCILpmon    (1), 2024.08.19 08:46:59.738, SYS,  INFO,       25/pmon, Got STOP command (SIGTERM) from ::1, stopping the manager WCCOActrl(2) at index 18
+WCCILpmon    (1), 2024.08.19 08:46:59.738, SYS,  INFO,       17/pmon, Stopping Manager WCCOActrl(2) with signal SIGTERM
+WCCILpmon    (1), 2024.08.19 08:47:00.061, SYS,  INFO,       11/pmon, Detected stopped manager WCCOActrl(2) - restarting it #1
+WCCILpmon    (1), 2024.08.19 08:47:00.063, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOActrl.exe -PROJ SvetaForeV3.0-X-fork_fork -pmonIndex 18 Prs2.ctl
+WCCILpmon    (1), 2024.08.19 08:48:04.330, SYS,  INFO,       26/pmon, Got KILL command (SIGKILL) from ::1, stopping the manager WCCOAmod(1) at index 14
+WCCILpmon    (1), 2024.08.19 08:48:04.331, SYS,  INFO,       17/pmon, Stopping Manager WCCOAmod(1) with signal SIGKILL
+WCCILpmon    (1), 2024.08.19 08:48:07.883, SYS,  INFO,       24/pmon, Got START command from ::1, starting the manager WCCOAmod(1) at index 14
+WCCILpmon    (1), 2024.08.19 08:48:07.886, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAmod.exe -PROJ SvetaForeV3.0-X-fork_fork -pmonIndex 14 -num 1
+WCCILpmon    (1), 2024.08.19 08:51:05.816, SYS,  INFO,       25/pmon, Got STOP command (SIGTERM) from ::1, stopping the manager WCCOActrl(2) at index 18
+WCCILpmon    (1), 2024.08.19 08:51:05.817, SYS,  INFO,       17/pmon, Stopping Manager WCCOActrl(2) with signal SIGTERM
+WCCILpmon    (1), 2024.08.19 08:51:06.030, SYS,  INFO,       11/pmon, Detected stopped manager WCCOActrl(2) - restarting it #1
+WCCILpmon    (1), 2024.08.19 08:51:06.032, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOActrl.exe -PROJ SvetaForeV3.0-X-fork_fork -pmonIndex 18 Prs2.ctl
+WCCILpmon    (1), 2024.08.19 09:05:08.118, SYS,  INFO,       26/pmon, Got KILL command (SIGKILL) from ::1, stopping the manager WCCOActrl(2) at index 18
+WCCILpmon    (1), 2024.08.19 09:05:08.119, SYS,  INFO,       17/pmon, Stopping Manager WCCOActrl(2) with signal SIGKILL
+WCCILpmon    (1), 2024.08.19 09:05:08.232, SYS,  INFO,       11/pmon, Detected stopped manager WCCOActrl(2) - restarting it #1
+WCCILpmon    (1), 2024.08.19 09:05:08.238, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOActrl.exe -PROJ SvetaForeV3.0-X-fork_fork -pmonIndex 18 Prs2.ctl
+WCCILpmon    (1), 2024.08.19 09:56:31.505, SYS,  INFO,       25/pmon, Got STOP command (SIGTERM) from ::1, stopping the manager WCCOActrl(2) at index 18
+WCCILpmon    (1), 2024.08.19 09:56:31.506, SYS,  INFO,       17/pmon, Stopping Manager WCCOActrl(2) with signal SIGTERM
+WCCILpmon    (1), 2024.08.19 09:56:31.611, SYS,  INFO,       11/pmon, Detected stopped manager WCCOActrl(2) - restarting it #1
+WCCILpmon    (1), 2024.08.19 09:56:31.612, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOActrl.exe -PROJ SvetaForeV3.0-X-fork_fork -pmonIndex 18 Prs2.ctl
+WCCILpmon    (1), 2024.08.19 11:50:44.710, SYS,  WARNING,    36/pmon, Blocking Manager WCCILdata(0) detected. No heartbeat since 30 seconds.
+WCCILpmon    (1), 2024.08.19 11:50:44.710, SYS,  WARNING,    36/pmon, Blocking Manager WCCILproxy(1) detected. No heartbeat since 30 seconds.
+WCCILpmon    (1), 2024.08.19 11:50:44.710, SYS,  WARNING,    36/pmon, Blocking Manager WCCOActrl(1) detected. No heartbeat since 30 seconds.
+WCCILpmon    (1), 2024.08.19 11:50:44.711, SYS,  WARNING,    36/pmon, Blocking Manager WCCOAui(1) detected. No heartbeat since 30 seconds.
+WCCILpmon    (1), 2024.08.19 11:50:44.711, SYS,  WARNING,    36/pmon, Blocking Manager WCCOActrl(2) detected. No heartbeat since 30 seconds.
+WCCILpmon    (1), 2024.08.19 11:50:45.234, SYS,  WARNING,    39/pmon, Manager WCCILdata(0) is no longer blocking.
+WCCILpmon    (1), 2024.08.19 11:50:45.234, SYS,  WARNING,    39/pmon, Manager WCCILproxy(1) is no longer blocking.
+WCCILpmon    (1), 2024.08.19 11:50:45.530, SYS,  WARNING,    39/pmon, Manager WCCOActrl(1) is no longer blocking.
+WCCILpmon    (1), 2024.08.19 11:50:45.530, SYS,  WARNING,    39/pmon, Manager WCCOAui(1) is no longer blocking.
+WCCILpmon    (1), 2024.08.19 11:50:45.530, SYS,  WARNING,    39/pmon, Manager WCCOActrl(2) is no longer blocking.
+WCCILpmon    (1), 2024.08.19 11:52:56.629, SYS,  INFO,       25/pmon, Got STOP command (SIGTERM) from ::1, stopping the manager WCCOAmod(1) at index 14
+WCCILpmon    (1), 2024.08.19 11:52:56.630, SYS,  INFO,       17/pmon, Stopping Manager WCCOAmod(1) with signal SIGTERM
+WCCILpmon    (1), 2024.08.19 11:52:59.889, SYS,  INFO,       21/pmon, Got STOP_ALL command from ::1, stopping the project
+WCCILpmon    (1), 2024.08.19 11:52:59.890, SYS,  INFO,       17/pmon, Stopping Manager WCCOActrl(2) with signal SIGTERM
+WCCILpmon    (1), 2024.08.19 11:52:59.890, SYS,  INFO,       17/pmon, Stopping Manager WCCOAui(1) with signal SIGTERM
+WCCILpmon    (1), 2024.08.19 11:52:59.891, SYS,  INFO,       17/pmon, Stopping Manager WCCOActrl(1) with signal SIGTERM
+WCCILpmon    (1), 2024.08.19 11:52:59.891, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(5) with signal SIGTERM
+WCCILpmon    (1), 2024.08.19 11:52:59.891, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(4) with signal SIGTERM
+WCCILpmon    (1), 2024.08.19 11:52:59.892, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(3) with signal SIGTERM
+WCCILpmon    (1), 2024.08.19 11:52:59.892, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(2) with signal SIGTERM
+WCCILpmon    (1), 2024.08.19 11:52:59.893, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(1) with signal SIGTERM
+WCCILpmon    (1), 2024.08.19 11:52:59.894, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(0) with signal SIGTERM
+WCCILpmon    (1), 2024.08.19 11:53:04.071, SYS,  INFO,       17/pmon, Stopping Manager WCCILevent(0) with signal SIGTERM
+WCCILpmon    (1), 2024.08.19 11:53:04.180, SYS,  INFO,       17/pmon, Stopping Manager WCCILdata(0) with signal SIGTERM
+WCCILpmon    (1), 2024.08.19 11:53:06.214, SYS,  INFO,       17/pmon, Stopping Manager WCCILproxy(1) with signal SIGTERM
+WCCILpmon    (1), 2024.08.19 11:53:06.648, SYS,  INFO,       13/pmon, Completely stopped the project - waiting for commands
+WCCILpmon    (1), 2024.08.19 11:53:22.501, SYS,  INFO,        3/pmon, Got shutdown command - stopping the project and terminating
+WCCILpmon    (1), 2024.08.19 11:53:22.501, SYS,  INFO,       15/pmon, Completely stopped the project - terminating
+WCCILpmon    (1), 2024.08.19 11:53:22.501, SYS,  INFO,        2, Manager Stop
