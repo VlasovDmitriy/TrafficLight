@@ -1,0 +1,129 @@
+main()
+{
+
+  dpConnect("unpacking", false, "System1:TL1.trafficlights.drisnyaAnswer");
+  initDefault();
+  dpConnect("animation", "TL1.switcher");
+  dpConnect("unregOff",false, "TL1.a");
+
+}
+animation(string dp, bool value){
+bool a;
+    setValue("Control.Switch", "enabled", false);//блок  кнопки смены режима работы светофора
+    setValue("Control.unreg", "enabled", false);//блок кнопки нерегулируемого
+
+    setValue("T1.ELLred", "backCol", (value) ? "red" : "white");setValue("T3.ELLred", "backCol", (value) ? "red" : "white");
+    setValue("T1.ELLyellow", "backCol", "white");setValue("T3.ELLyellow", "backCol", "white");
+    setValue("T1.ELLgreen", "backCol", (value) ? "white" : "linking");setValue("T3.ELLgreen", "backCol", (value) ? "white" : "linking");
+    setValue("T2.ELLred", "backCol", (value) ? "white" : "red");setValue("T4.ELLred", "backCol", (value) ? "white" : "red");
+    setValue("T2.ELLyellow", "backCol", "white");setValue("T4.ELLyellow", "backCol", "white");
+    setValue("T2.ELLgreen", "backCol", (value) ? "linking" : "white");setValue("T4.ELLgreen", "backCol", (value) ? "linking" : "white");
+    delay(3);
+
+
+    setValue((value)? "T2.ELLyellow" : "T1.ELLyellow" , "backCol", "yellow");setValue((value)? "T4.ELLyellow" : "T3.ELLyellow", "backCol", "yellow");
+    setValue((value)?"T2.ELLgreen":"T1.ELLgreen" , "backCol", "white");setValue((value)?"T4.ELLgreen":"T3.ELLgreen", "backCol", "white");
+    delay(1);
+
+    dpGet("System1:TL1.a", a);
+    if(a)
+    {
+    setValue("T1.ELLyellow", "backCol", "unreg");setValue("T3.ELLyellow", "backCol", "unreg");
+    setValue("T2.ELLyellow", "backCol", "unreg");setValue("T4.ELLyellow", "backCol", "unreg");
+
+    setValue("T1.ELLred", "backCol", "white"); setValue("T3.ELLred", "backCol", "white");
+    setValue("T1.ELLgreen", "backCol", "white"); setValue("T3.ELLgreen", "backCol", "white");
+
+    setValue("T2.ELLred", "backCol", "white"); setValue("T4.ELLred", "backCol", "white");
+    setValue("T2.ELLgreen", "backCol", "white"); setValue("T4.ELLgreen", "backCol", "white");
+
+
+    setValue("Control.unreg", "enabled", true);//блок кнопки нерегулируемого
+
+    return;
+    }
+
+    setValue((value) ? "T1.ELLyellow" : "T2.ELLyellow" , "backCol", "yellow");setValue((value) ? "T3.ELLyellow" : "T4.ELLyellow", "backCol", "yellow");
+    delay(2);
+
+    setValue("T1.ELLred", "backCol", (value) ? "white" : "red");setValue("T3.ELLred", "backCol", (value) ? "white" : "red");
+    setValue("T1.ELLyellow", "backCol", "white");setValue("T3.ELLyellow", "backCol", "white");
+    setValue("T1.ELLgreen", "backCol", (value)?"green": "white");setValue("T3.ELLgreen", "backCol",  (value)?"green": "white");
+    setValue("T2.ELLred", "backCol", (value) ? "red": "white");setValue("T4.ELLred", "backCol", (value) ? "red": "white");
+    setValue("T2.ELLyellow", "backCol", "white");setValue("T4.ELLyellow", "backCol", "white");
+    setValue("T2.ELLgreen", "backCol", (value)?"white": "green");setValue("T4.ELLgreen", "backCol",  (value)?"white": "green");
+
+    dpSet("TL1.red_green", !value);
+
+    setValue("Control.Switch", "enabled", true);//блок кнопки смены режима работы светофора
+    setValue("Control.unreg", "enabled", true);//блок кнопки нерегулируемого
+
+}
+
+unregOff(string dp, bool value){
+  bool a;
+  bool red_green;
+  bool switcher;
+  dpGet("System1:TL1.a", a);
+  dpGet("System1:TL1.red_green", red_green);
+
+
+
+  if(a){
+    dpGet("TL1.switcher", switcher);
+    dpSet("TL1.switcher", !switcher);
+    return;
+    }else {
+     setValue("Control.Switch", "enabled", false);//блок кнопки смены состояния
+     setValue("Control.unreg", "enabled", false);//блок кнопки нерегулируемого
+
+    setValue((red_green) ? "T1.ELLred": "T2.ELLred", "backCol", "red");setValue((red_green) ? "T3.ELLred": "T4.ELLred", "backCol", "red");
+    setValue("T1.ELLyellow", "backCol", "yellow");setValue("T3.ELLyellow", "backCol", "yellow");
+    setValue("T2.ELLyellow", "backCol", "yellow");setValue("T4.ELLyellow", "backCol", "yellow");
+    delay(2);
+
+    setValue((red_green) ? "T1.ELLred" : "T2.ELLred", "backCol", "white"); setValue((red_green) ? "T3.ELLred" : "T4.ELLred", "backCol", "white");
+    setValue("T1.ELLyellow", "backCol", "white");setValue("T3.ELLyellow", "backCol", "white");
+    setValue("T2.ELLyellow", "backCol", "white");setValue("T4.ELLyellow", "backCol", "white");
+    setValue((red_green) ? "T1.ELLgreen": "T2.ELLgreen", "backCol", "green"); setValue((red_green) ? "T3.ELLgreen": "T4.ELLgreen", "backCol", "green");
+    setValue((red_green) ? "T2.ELLred" : "T1.ELLred", "backCol", "red");setValue((red_green) ? "T4.ELLred" : "T3.ELLred", "backCol", "red");
+
+
+
+    setValue("Control.Switch", "enabled", true);//блок кнопки смены состояния
+//     setValue("Control.unreg", "enabled", true);
+   }
+}
+
+
+//дефолтные значения при инициализации значений
+initDefault(){
+  int dr;
+  dpGet("System1:TL1.trafficlights.drisnyaAnswer", dr);
+  dpSet("System1:TL1.trafficlights.olddrisnyaAnswer", dr);
+
+  dpSet("TL1.switcher", false);
+  dpSet("TL1.red_green", true);
+  dpSet("TL1.a", false);
+}
+
+//распакоука
+unpacking(string dp, int value) {
+  int oldValue;
+  dpGet("System1:TL1.trafficlights.olddrisnyaAnswer", oldValue);
+
+  if(getBit(value,0) ^ getBit(oldValue, 0)){
+    dpSet("System1:TL1.state.regulated.avto", !getBit(value,0));
+  }
+  if(getBit(value,1) ^ getBit(oldValue, 1)){
+    dpSet("System1:TL1.state.isbusy", getBit(value,1));
+  }
+  if(getBit(value,2) ^ getBit(oldValue, 2)){
+    dpSet("System1:TL1.switcher", getBit(value,2));
+  }
+  if(getBit(value,3) ^ getBit(oldValue, 3)){
+    dpSet("System1:TL1.a", getBit(value,3));
+  }
+  dpSet("System1:TL1.trafficlights.olddrisnyaAnswer", value);
+}
+

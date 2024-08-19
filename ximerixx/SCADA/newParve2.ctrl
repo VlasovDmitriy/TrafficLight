@@ -1,0 +1,189 @@
+// $License: NOLICENSE
+//--------------------------------------------------------------------------------
+/**
+  @file $relPath
+  @copyright $copyright
+  @author ximerix
+*/
+
+//--------------------------------------------------------------------------------
+// Libraries used (#uses)
+
+//--------------------------------------------------------------------------------
+// Variables and Constants
+
+//--------------------------------------------------------------------------------
+/**
+*/
+main()
+{
+
+  dpConnect("unpackingparse", false, "System1:TL1.trafficlights.drisnyaAnswer");
+  //initDefault();
+  dpConnect("animation", "System1:CrossTraffic1.stateTF.state1");
+  dpConnect("unregOff",false, "TL1.a");
+
+}
+
+//дефолтные значения при инициализации значений
+initDefault(){
+  int dr;
+  dpGet("System1:TL1.trafficlights.drisnyaAnswer", dr);
+  dpSet("System1:TL1.trafficlights.olddrisnyaAnswer", dr);
+
+  dpSet("TL1.switcher", false);
+  dpSet("TL1.red_green", true);
+  dpSet("TL1.a", false);
+}
+
+
+//распакоука
+unpackingparse(string dpSource, int parsedata){
+  bit32 data;
+  data=parsedata;
+  //dpSet("System1:TrafficLight1.state.red", getBit(data, 0));
+  //dpSet("System1:TrafficLight1.state.yellow", getBit(data, 1));
+  //dpSet("System1:TrafficLight1.state.green", getBit(data, 2));
+  //dpSet("System1:TrafficLight2.state.red", getBit(data, 3));
+  //dpSet("System1:TrafficLight2.state.yellow", getBit(data, 4));
+  //dpSet("System1:TrafficLight2.state.green", getBit(data, 5));
+//old scheme. fucking morron who said to redo everytrhin because "IT WILL BE BETTER!"
+  ///bitch
+  
+  dpSet("System1:CrossTraffic1.stateTF.state1", getBit(data, 0));
+  dpSet("System1:CrossTraffic1.stateTF.state2", !getBit(data, 0));
+  //
+  dpSet("System1:CrossTraffic1.isControl", getBit(data, 6)); //is auto
+  dpSet("System1:CrossTraffic1.isBusy", getBit(data, 7)); //lockx
+}
+
+
+blinkG(string dp){
+	for (int i; i<3; i++ ){
+		dpSet(dp, true);
+		delay(0,500);
+		dpSet(dp, false);
+	}
+	return;
+}
+
+
+
+animation(string dp, bool value){
+  //THE CRAPPYDINNENCKO
+    //setValue("Control.Switch", "enabled", false);//блок  кнопки смены режима работы светофора
+    //setValue("Control.unreg", "enabled", false);//блок кнопки нерегулируемого
+
+    dpSet("System1:TrafficLight1.state.red", (value) ? True : False);
+	dpSet("System1:TrafficLight1.state.yellow", False);
+	dpSet("System1:TrafficLight1.state.green", (value) ? False : blinkG("System1:TrafficLight1.state.green"););
+	dpSet("System1:TrafficLight2.state.red", (value) ? False : "red");
+	dpSet("System1:TrafficLight2.state.yellow", False);
+	dpSet("System1:TrafficLight2.state.green", (value) ? blinkG("System1:TrafficLight2.state.green"); : False);
+	delay(3);
+
+
+    dpSet((value)? "System1:TrafficLight2.state.yellow" : "System1:TrafficLight1.state.yellow", True);
+    dpSet((value)?"System1:TrafficLight2.state.green":"System1:TrafficLight1.state.green" , False);
+    delay(1);
+
+	bool i;
+	dpGet("System1:CrossTraffic1.switchDisabled", i);
+   if (i) {
+	   disabledAnimation()
+   }
+
+}
+unregOn(string dp, bool value){
+
+    dpSet("System1:TrafficLight1.state.yellow", "unreg");
+    dpSet("System1:TrafficLight2.state.yellow", "unreg");
+
+    dpSet("System1:TrafficLight1.state.red", False); 
+    dpSet("System1:TrafficLight1.state.green", False);
+
+    dpSet("System1:TrafficLight2.state.red", False);
+    dpSet("System1:TrafficLight2.state.green", False);
+
+    return;
+    }
+
+    setValue((value) ? "T1.ELLyellow" : "T2.ELLyellow" , "backCol", "yellow");
+    delay(2);
+
+    setValue("T1.ELLred", "backCol", (value) ? "white" : "red");
+    setValue("T1.ELLyellow", "backCol", "white");
+    setValue("T1.ELLgreen", "backCol", (value)?"green": "white");
+    setValue("T2.ELLred", "backCol", (value) ? "red": "white");
+    setValue("T2.ELLyellow", "backCol", "white");
+    setValue("T2.ELLgreen", "backCol", (value)?"white": "green");
+
+    
+	dpSet("TL1.red_green", !value);
+
+    //setValue("Control.Switch", "enabled", true);//блок кнопки смены режима работы светофора
+    //setValue("Control.unreg", "enabled", true);//блок кнопки нерегулируемого
+
+}
+unregOff(string dp, bool value){
+  bool a;
+  bool red_green;
+  bool switcher;
+  dpGet("System1:TL1.a", a);
+  dpGet("System1:TL1.red_green", red_green);
+
+
+
+  if(a){
+    dpGet("System1:CrossTraffic1.switchState", switcher);
+    //dpSet("TL1.switcher", !switcher);
+    return;
+    }else {
+     setValue("Control.Switch", "enabled", false);//блок кнопки смены состояния
+     setValue("Control.unreg", "enabled", false);//блок кнопки нерегулируемого
+
+    setValue((red_green) ? "T1.ELLred": "T2.ELLred", "backCol", "red");setValue((red_green) ? "T3.ELLred": "T4.ELLred", "backCol", "red");
+    setValue("T1.ELLyellow", "backCol", "yellow");setValue("T3.ELLyellow", "backCol", "yellow");
+    setValue("T2.ELLyellow", "backCol", "yellow");setValue("T4.ELLyellow", "backCol", "yellow");
+    delay(2);
+
+    setValue((red_green) ? "T1.ELLred" : "T2.ELLred", "backCol", "white"); setValue((red_green) ? "T3.ELLred" : "T4.ELLred", "backCol", "white");
+    setValue("T1.ELLyellow", "backCol", "white");setValue("T3.ELLyellow", "backCol", "white");
+    setValue("T2.ELLyellow", "backCol", "white");setValue("T4.ELLyellow", "backCol", "white");
+    setValue((red_green) ? "T1.ELLgreen": "T2.ELLgreen", "backCol", "green"); setValue((red_green) ? "T3.ELLgreen": "T4.ELLgreen", "backCol", "green");
+    setValue((red_green) ? "T2.ELLred" : "T1.ELLred", "backCol", "red");setValue((red_green) ? "T4.ELLred" : "T3.ELLred", "backCol", "red");
+
+
+
+    setValue("Control.Switch", "enabled", true);//блок кнопки смены состояния
+//     setValue("Control.unreg", "enabled", true);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   }
+}
+
+
+
