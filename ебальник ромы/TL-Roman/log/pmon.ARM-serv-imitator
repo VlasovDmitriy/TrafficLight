@@ -1,0 +1,1233 @@
+WCCILpmon    (1), 2024.08.05 10:40:48.465, SYS,  INFO,        1, Manager Start, START_MODE
+WCCILpmon    (1), 2024.08.05 10:40:48.609, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCILdata.exe -PROJ TL-Roman -pmonIndex 1 
+WCCILpmon    (1), 2024.08.05 10:40:50.124, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAvalarch.exe -PROJ TL-Roman -pmonIndex 2 -num 0
+WCCILpmon    (1), 2024.08.05 10:40:50.710, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAvalarch.exe -PROJ TL-Roman -pmonIndex 3 -num 1
+WCCILpmon    (1), 2024.08.05 10:40:51.152, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAvalarch.exe -PROJ TL-Roman -pmonIndex 4 -num 2
+WCCILpmon    (1), 2024.08.05 10:40:51.607, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAvalarch.exe -PROJ TL-Roman -pmonIndex 5 -num 3
+WCCILpmon    (1), 2024.08.05 10:40:51.966, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAvalarch.exe -PROJ TL-Roman -pmonIndex 6 -num 4
+WCCILpmon    (1), 2024.08.05 10:40:52.436, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAvalarch.exe -PROJ TL-Roman -pmonIndex 7 -num 5
+WCCILpmon    (1), 2024.08.05 10:40:55.914, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCILevent.exe -PROJ TL-Roman -pmonIndex 8 
+WCCILpmon    (1), 2024.08.05 10:40:56.616, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCILproxy.exe -PROJ TL-Roman -pmonIndex 9 
+WCCILpmon    (1), 2024.08.05 10:40:58.837, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOActrl.exe -PROJ TL-Roman -pmonIndex 10 -f pvss_scripts.lst
+WCCILpmon    (1), 2024.08.05 10:40:59.188, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCILsim.exe -PROJ TL-Roman -pmonIndex 11 
+WCCILpmon    (1), 2024.08.05 10:40:59.537, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAui.exe -PROJ TL-Roman -pmonIndex 12 -m gedi
+WCCILpmon    (1), 2024.08.05 10:41:06.427, SYS,  INFO,        9/pmon, The project is up and running. Entering monitor mode
+WCCILpmon    (1), 2024.08.05 12:17:03.577, SYS,  INFO,       21/pmon, Got STOP_ALL command from ::1, stopping the project
+WCCILpmon    (1), 2024.08.05 12:17:03.579, SYS,  INFO,       17/pmon, Stopping Manager WCCILsim(1) with signal SIGTERM
+WCCILpmon    (1), 2024.08.05 12:17:03.580, SYS,  INFO,       17/pmon, Stopping Manager WCCOActrl(1) with signal SIGTERM
+WCCILpmon    (1), 2024.08.05 12:17:03.581, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(5) with signal SIGTERM
+WCCILpmon    (1), 2024.08.05 12:17:03.583, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(4) with signal SIGTERM
+WCCILpmon    (1), 2024.08.05 12:17:03.584, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(3) with signal SIGTERM
+WCCILpmon    (1), 2024.08.05 12:17:03.586, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(2) with signal SIGTERM
+WCCILpmon    (1), 2024.08.05 12:17:03.587, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(1) with signal SIGTERM
+WCCILpmon    (1), 2024.08.05 12:17:03.588, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(0) with signal SIGTERM
+WCCILpmon    (1), 2024.08.05 12:17:07.702, SYS,  INFO,       17/pmon, Stopping Manager WCCILevent(0) with signal SIGTERM
+WCCILpmon    (1), 2024.08.05 12:17:07.922, SYS,  INFO,       17/pmon, Stopping Manager WCCILdata(0) with signal SIGTERM
+WCCILpmon    (1), 2024.08.05 12:17:09.850, SYS,  INFO,       17/pmon, Stopping Manager WCCILproxy(1) with signal SIGTERM
+WCCILpmon    (1), 2024.08.05 12:17:10.628, SYS,  INFO,       13/pmon, Completely stopped the project - waiting for commands
+WCCILpmon    (1), 2024.08.05 12:17:15.086, SYS,  INFO,        3/pmon, Got shutdown command - stopping the project and terminating
+WCCILpmon    (1), 2024.08.05 12:17:15.090, SYS,  INFO,       15/pmon, Completely stopped the project - terminating
+WCCILpmon    (1), 2024.08.05 12:17:15.094, SYS,  INFO,        2, Manager Stop
+WCCILpmon    (1), 2024.08.06 08:32:38.022, SYS,  INFO,        1, Manager Start, WAIT_MODE
+WCCILpmon    (1), 2024.08.06 08:32:42.136, SYS,  INFO,       20/pmon, Got START_ALL command from ::1, starting the project
+WCCILpmon    (1), 2024.08.06 08:32:42.170, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCILdata.exe -PROJ TL-Roman -pmonIndex 1 
+WCCILpmon    (1), 2024.08.06 08:32:43.834, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAvalarch.exe -PROJ TL-Roman -pmonIndex 2 -num 0
+WCCILpmon    (1), 2024.08.06 08:32:44.168, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAvalarch.exe -PROJ TL-Roman -pmonIndex 3 -num 1
+WCCILpmon    (1), 2024.08.06 08:32:44.617, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAvalarch.exe -PROJ TL-Roman -pmonIndex 4 -num 2
+WCCILpmon    (1), 2024.08.06 08:32:44.963, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAvalarch.exe -PROJ TL-Roman -pmonIndex 5 -num 3
+WCCILpmon    (1), 2024.08.06 08:32:45.424, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAvalarch.exe -PROJ TL-Roman -pmonIndex 6 -num 4
+WCCILpmon    (1), 2024.08.06 08:32:45.764, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAvalarch.exe -PROJ TL-Roman -pmonIndex 7 -num 5
+WCCILpmon    (1), 2024.08.06 08:32:48.999, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCILevent.exe -PROJ TL-Roman -pmonIndex 8 
+WCCILpmon    (1), 2024.08.06 08:32:50.477, SYS,  INFO,       11/pmon, Detected stopped manager WCCILevent(1) - restarting it #1
+WCCILpmon    (1), 2024.08.06 08:32:50.495, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCILevent.exe -PROJ TL-Roman -pmonIndex 8 
+WCCILpmon    (1), 2024.08.06 08:32:51.049, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCILproxy.exe -PROJ TL-Roman -pmonIndex 9 
+WCCILpmon    (1), 2024.08.06 08:32:53.071, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOActrl.exe -PROJ TL-Roman -pmonIndex 10 -f pvss_scripts.lst
+WCCILpmon    (1), 2024.08.06 08:32:53.405, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCILsim.exe -PROJ TL-Roman -pmonIndex 11 
+WCCILpmon    (1), 2024.08.06 08:32:53.745, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAui.exe -PROJ TL-Roman -pmonIndex 12 -m gedi
+WCCILpmon    (1), 2024.08.06 08:32:56.430, SYS,  INFO,        9/pmon, The project is up and running. Entering monitor mode
+WCCILpmon    (1), 2024.08.06 10:00:39.708, SYS,  INFO,       28/pmon, Got INS command from ::1, inserting new manager WCCOActrl at index 13
+WCCILpmon    (1), 2024.08.06 10:00:45.073, SYS,  INFO,       24/pmon, Got START command from ::1, starting the manager WCCOActrl(1) at index 13
+WCCILpmon    (1), 2024.08.06 10:00:45.122, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOActrl.exe -PROJ TL-Roman -pmonIndex 13 TrafficLight.ctl
+WCCILpmon    (1), 2024.08.06 10:56:48.667, SYS,  INFO,       24/pmon, Got START command from ::1, starting the manager WCCOActrl(2) at index 13
+WCCILpmon    (1), 2024.08.06 10:56:48.696, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOActrl.exe -PROJ TL-Roman -pmonIndex 13 TrafficLight.ctl
+WCCILpmon    (1), 2024.08.06 11:23:15.997, SYS,  INFO,       24/pmon, Got START command from ::1, starting the manager WCCOActrl(2) at index 13
+WCCILpmon    (1), 2024.08.06 11:23:16.014, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOActrl.exe -PROJ TL-Roman -pmonIndex 13 TrafficLight.ctl
+WCCILpmon    (1), 2024.08.06 11:23:27.540, SYS,  INFO,       24/pmon, Got START command from ::1, starting the manager WCCOActrl(2) at index 13
+WCCILpmon    (1), 2024.08.06 11:23:27.554, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOActrl.exe -PROJ TL-Roman -pmonIndex 13 TrafficLight.ctl
+WCCILpmon    (1), 2024.08.06 11:23:39.783, SYS,  INFO,       24/pmon, Got START command from ::1, starting the manager WCCOActrl(2) at index 13
+WCCILpmon    (1), 2024.08.06 11:23:39.799, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOActrl.exe -PROJ TL-Roman -pmonIndex 13 TrafficLight.ctl
+WCCILpmon    (1), 2024.08.06 11:24:15.073, SYS,  INFO,       24/pmon, Got START command from ::1, starting the manager WCCOActrl(2) at index 13
+WCCILpmon    (1), 2024.08.06 11:24:15.088, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOActrl.exe -PROJ TL-Roman -pmonIndex 13 TrafficLight.ctl
+WCCILpmon    (1), 2024.08.06 11:24:25.502, SYS,  INFO,       24/pmon, Got START command from ::1, starting the manager WCCOActrl(2) at index 13
+WCCILpmon    (1), 2024.08.06 11:24:25.517, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOActrl.exe -PROJ TL-Roman -pmonIndex 13 TrafficLight.ctl
+WCCILpmon    (1), 2024.08.06 11:25:01.414, SYS,  INFO,       24/pmon, Got START command from ::1, starting the manager WCCOActrl(2) at index 13
+WCCILpmon    (1), 2024.08.06 11:25:01.429, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOActrl.exe -PROJ TL-Roman -pmonIndex 13 TrafficLight.ctl
+WCCILpmon    (1), 2024.08.06 11:27:30.410, SYS,  INFO,       25/pmon, Got STOP command (SIGTERM) from ::1, stopping the manager WCCOActrl(2) at index 13
+WCCILpmon    (1), 2024.08.06 11:27:30.411, SYS,  INFO,       17/pmon, Stopping Manager WCCOActrl(2) with signal SIGTERM
+WCCILpmon    (1), 2024.08.06 11:27:34.206, SYS,  INFO,       24/pmon, Got START command from ::1, starting the manager WCCOActrl(2) at index 13
+WCCILpmon    (1), 2024.08.06 11:27:34.221, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOActrl.exe -PROJ TL-Roman -pmonIndex 13 TrafficLight.ctl
+WCCILpmon    (1), 2024.08.06 11:30:24.444, SYS,  INFO,       25/pmon, Got STOP command (SIGTERM) from ::1, stopping the manager WCCOActrl(2) at index 13
+WCCILpmon    (1), 2024.08.06 11:30:24.445, SYS,  INFO,       17/pmon, Stopping Manager WCCOActrl(2) with signal SIGTERM
+WCCILpmon    (1), 2024.08.06 11:30:28.563, SYS,  INFO,       24/pmon, Got START command from ::1, starting the manager WCCOActrl(2) at index 13
+WCCILpmon    (1), 2024.08.06 11:30:28.581, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOActrl.exe -PROJ TL-Roman -pmonIndex 13 TrafficLight.ctl
+WCCILpmon    (1), 2024.08.06 11:35:37.871, SYS,  INFO,       25/pmon, Got STOP command (SIGTERM) from ::1, stopping the manager WCCOActrl(2) at index 13
+WCCILpmon    (1), 2024.08.06 11:35:37.872, SYS,  INFO,       17/pmon, Stopping Manager WCCOActrl(2) with signal SIGTERM
+WCCILpmon    (1), 2024.08.06 11:35:41.417, SYS,  INFO,       24/pmon, Got START command from ::1, starting the manager WCCOActrl(2) at index 13
+WCCILpmon    (1), 2024.08.06 11:35:41.436, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOActrl.exe -PROJ TL-Roman -pmonIndex 13 TrafficLight.ctl
+WCCILpmon    (1), 2024.08.06 11:38:53.934, SYS,  INFO,       25/pmon, Got STOP command (SIGTERM) from ::1, stopping the manager WCCOActrl(2) at index 13
+WCCILpmon    (1), 2024.08.06 11:38:53.935, SYS,  INFO,       17/pmon, Stopping Manager WCCOActrl(2) with signal SIGTERM
+WCCILpmon    (1), 2024.08.06 11:38:57.808, SYS,  INFO,       24/pmon, Got START command from ::1, starting the manager WCCOActrl(2) at index 13
+WCCILpmon    (1), 2024.08.06 11:38:57.822, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOActrl.exe -PROJ TL-Roman -pmonIndex 13 TrafficLight.ctl
+WCCILpmon    (1), 2024.08.06 11:41:52.749, SYS,  INFO,       25/pmon, Got STOP command (SIGTERM) from ::1, stopping the manager WCCOActrl(2) at index 13
+WCCILpmon    (1), 2024.08.06 11:41:52.750, SYS,  INFO,       17/pmon, Stopping Manager WCCOActrl(2) with signal SIGTERM
+WCCILpmon    (1), 2024.08.06 11:41:56.637, SYS,  INFO,       24/pmon, Got START command from ::1, starting the manager WCCOActrl(2) at index 13
+WCCILpmon    (1), 2024.08.06 11:41:56.652, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOActrl.exe -PROJ TL-Roman -pmonIndex 13 TrafficLight.ctl
+WCCILpmon    (1), 2024.08.06 11:45:39.775, SYS,  INFO,       25/pmon, Got STOP command (SIGTERM) from ::1, stopping the manager WCCOActrl(2) at index 13
+WCCILpmon    (1), 2024.08.06 11:45:39.776, SYS,  INFO,       17/pmon, Stopping Manager WCCOActrl(2) with signal SIGTERM
+WCCILpmon    (1), 2024.08.06 11:45:43.167, SYS,  INFO,       24/pmon, Got START command from ::1, starting the manager WCCOActrl(2) at index 13
+WCCILpmon    (1), 2024.08.06 11:45:43.223, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOActrl.exe -PROJ TL-Roman -pmonIndex 13 TrafficLight.ctl
+WCCILpmon    (1), 2024.08.06 12:08:07.168, SYS,  INFO,       21/pmon, Got STOP_ALL command from ::1, stopping the project
+WCCILpmon    (1), 2024.08.06 12:08:07.169, SYS,  INFO,       17/pmon, Stopping Manager WCCOActrl(2) with signal SIGTERM
+WCCILpmon    (1), 2024.08.06 12:08:07.171, SYS,  INFO,       17/pmon, Stopping Manager WCCOAui(1) with signal SIGTERM
+WCCILpmon    (1), 2024.08.06 12:08:07.172, SYS,  INFO,       17/pmon, Stopping Manager WCCILsim(1) with signal SIGTERM
+WCCILpmon    (1), 2024.08.06 12:08:07.173, SYS,  INFO,       17/pmon, Stopping Manager WCCOActrl(1) with signal SIGTERM
+WCCILpmon    (1), 2024.08.06 12:08:07.174, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(5) with signal SIGTERM
+WCCILpmon    (1), 2024.08.06 12:08:07.175, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(4) with signal SIGTERM
+WCCILpmon    (1), 2024.08.06 12:08:07.177, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(3) with signal SIGTERM
+WCCILpmon    (1), 2024.08.06 12:08:07.178, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(2) with signal SIGTERM
+WCCILpmon    (1), 2024.08.06 12:08:07.179, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(1) with signal SIGTERM
+WCCILpmon    (1), 2024.08.06 12:08:07.180, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(0) with signal SIGTERM
+WCCILpmon    (1), 2024.08.06 12:08:11.280, SYS,  INFO,       17/pmon, Stopping Manager WCCILevent(0) with signal SIGTERM
+WCCILpmon    (1), 2024.08.06 12:08:11.496, SYS,  INFO,       17/pmon, Stopping Manager WCCILdata(0) with signal SIGTERM
+WCCILpmon    (1), 2024.08.06 12:08:13.444, SYS,  INFO,       17/pmon, Stopping Manager WCCILproxy(1) with signal SIGTERM
+WCCILpmon    (1), 2024.08.06 12:08:14.213, SYS,  INFO,       13/pmon, Completely stopped the project - waiting for commands
+WCCILpmon    (1), 2024.08.06 12:08:18.663, SYS,  INFO,        3/pmon, Got shutdown command - stopping the project and terminating
+WCCILpmon    (1), 2024.08.06 12:08:18.664, SYS,  INFO,       15/pmon, Completely stopped the project - terminating
+WCCILpmon    (1), 2024.08.06 12:08:18.665, SYS,  INFO,        2, Manager Stop
+WCCILpmon    (1), 2024.08.07 08:38:32.882, SYS,  INFO,        1, Manager Start, WAIT_MODE
+WCCILpmon    (1), 2024.08.07 08:41:35.789, SYS,  INFO,       20/pmon, Got START_ALL command from ::1, starting the project
+WCCILpmon    (1), 2024.08.07 08:41:35.818, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCILdata.exe -PROJ TL-Roman -pmonIndex 1 
+WCCILpmon    (1), 2024.08.07 08:41:37.473, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAvalarch.exe -PROJ TL-Roman -pmonIndex 2 -num 0
+WCCILpmon    (1), 2024.08.07 08:41:37.808, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAvalarch.exe -PROJ TL-Roman -pmonIndex 3 -num 1
+WCCILpmon    (1), 2024.08.07 08:41:38.269, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAvalarch.exe -PROJ TL-Roman -pmonIndex 4 -num 2
+WCCILpmon    (1), 2024.08.07 08:41:38.621, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAvalarch.exe -PROJ TL-Roman -pmonIndex 5 -num 3
+WCCILpmon    (1), 2024.08.07 08:41:38.960, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAvalarch.exe -PROJ TL-Roman -pmonIndex 6 -num 4
+WCCILpmon    (1), 2024.08.07 08:41:39.313, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAvalarch.exe -PROJ TL-Roman -pmonIndex 7 -num 5
+WCCILpmon    (1), 2024.08.07 08:41:42.682, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCILevent.exe -PROJ TL-Roman -pmonIndex 8 
+WCCILpmon    (1), 2024.08.07 08:41:43.463, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCILproxy.exe -PROJ TL-Roman -pmonIndex 9 
+WCCILpmon    (1), 2024.08.07 08:41:45.709, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOActrl.exe -PROJ TL-Roman -pmonIndex 10 -f pvss_scripts.lst
+WCCILpmon    (1), 2024.08.07 08:41:46.090, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCILsim.exe -PROJ TL-Roman -pmonIndex 11 
+WCCILpmon    (1), 2024.08.07 08:41:46.436, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAui.exe -PROJ TL-Roman -pmonIndex 12 -m gedi
+WCCILpmon    (1), 2024.08.07 08:41:49.148, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOActrl.exe -PROJ TL-Roman -pmonIndex 13 TrafficLight.ctl
+WCCILpmon    (1), 2024.08.07 08:41:49.481, SYS,  INFO,        9/pmon, The project is up and running. Entering monitor mode
+WCCILpmon    (1), 2024.08.07 08:47:38.024, SYS,  INFO,       21/pmon, Got STOP_ALL command from ::1, stopping the project
+WCCILpmon    (1), 2024.08.07 08:47:38.026, SYS,  INFO,       17/pmon, Stopping Manager WCCOActrl(2) with signal SIGTERM
+WCCILpmon    (1), 2024.08.07 08:47:38.027, SYS,  INFO,       17/pmon, Stopping Manager WCCOAui(1) with signal SIGTERM
+WCCILpmon    (1), 2024.08.07 08:47:38.028, SYS,  INFO,       17/pmon, Stopping Manager WCCILsim(1) with signal SIGTERM
+WCCILpmon    (1), 2024.08.07 08:47:38.029, SYS,  INFO,       17/pmon, Stopping Manager WCCOActrl(1) with signal SIGTERM
+WCCILpmon    (1), 2024.08.07 08:47:38.031, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(5) with signal SIGTERM
+WCCILpmon    (1), 2024.08.07 08:47:38.032, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(4) with signal SIGTERM
+WCCILpmon    (1), 2024.08.07 08:47:38.033, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(3) with signal SIGTERM
+WCCILpmon    (1), 2024.08.07 08:47:38.034, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(2) with signal SIGTERM
+WCCILpmon    (1), 2024.08.07 08:47:38.036, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(1) with signal SIGTERM
+WCCILpmon    (1), 2024.08.07 08:47:38.037, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(0) with signal SIGTERM
+WCCILpmon    (1), 2024.08.07 08:47:42.197, SYS,  INFO,       17/pmon, Stopping Manager WCCILevent(0) with signal SIGTERM
+WCCILpmon    (1), 2024.08.07 08:47:42.305, SYS,  INFO,       17/pmon, Stopping Manager WCCILdata(0) with signal SIGTERM
+WCCILpmon    (1), 2024.08.07 08:47:44.340, SYS,  INFO,       17/pmon, Stopping Manager WCCILproxy(1) with signal SIGTERM
+WCCILpmon    (1), 2024.08.07 08:47:44.774, SYS,  INFO,       13/pmon, Completely stopped the project - waiting for commands
+WCCILpmon    (1), 2024.08.07 08:47:47.239, SYS,  INFO,       20/pmon, Got START_ALL command from ::1, starting the project
+WCCILpmon    (1), 2024.08.07 08:47:47.254, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCILdata.exe -PROJ TL-Roman -pmonIndex 1 
+WCCILpmon    (1), 2024.08.07 08:47:48.639, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAvalarch.exe -PROJ TL-Roman -pmonIndex 2 -num 0
+WCCILpmon    (1), 2024.08.07 08:47:48.991, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAvalarch.exe -PROJ TL-Roman -pmonIndex 3 -num 1
+WCCILpmon    (1), 2024.08.07 08:47:49.470, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAvalarch.exe -PROJ TL-Roman -pmonIndex 4 -num 2
+WCCILpmon    (1), 2024.08.07 08:47:49.796, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAvalarch.exe -PROJ TL-Roman -pmonIndex 5 -num 3
+WCCILpmon    (1), 2024.08.07 08:47:50.146, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAvalarch.exe -PROJ TL-Roman -pmonIndex 6 -num 4
+WCCILpmon    (1), 2024.08.07 08:47:50.490, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAvalarch.exe -PROJ TL-Roman -pmonIndex 7 -num 5
+WCCILpmon    (1), 2024.08.07 08:47:53.758, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCILevent.exe -PROJ TL-Roman -pmonIndex 8 
+WCCILpmon    (1), 2024.08.07 08:47:54.314, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCILproxy.exe -PROJ TL-Roman -pmonIndex 9 
+WCCILpmon    (1), 2024.08.07 08:47:56.331, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOActrl.exe -PROJ TL-Roman -pmonIndex 10 -f pvss_scripts.lst
+WCCILpmon    (1), 2024.08.07 08:47:56.681, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCILsim.exe -PROJ TL-Roman -pmonIndex 11 
+WCCILpmon    (1), 2024.08.07 08:47:57.137, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAui.exe -PROJ TL-Roman -pmonIndex 12 -m gedi
+WCCILpmon    (1), 2024.08.07 09:02:11.111, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOActrl.exe -PROJ TL-Roman -pmonIndex 13 TrafficLight.ctl
+WCCILpmon    (1), 2024.08.07 09:02:11.468, SYS,  INFO,        9/pmon, The project is up and running. Entering monitor mode
+WCCILpmon    (1), 2024.08.07 09:17:55.323, SYS,  INFO,       21/pmon, Got STOP_ALL command from ::1, stopping the project
+WCCILpmon    (1), 2024.08.07 09:17:55.324, SYS,  INFO,       17/pmon, Stopping Manager WCCOActrl(2) with signal SIGTERM
+WCCILpmon    (1), 2024.08.07 09:17:55.326, SYS,  INFO,       17/pmon, Stopping Manager WCCOAui(1) with signal SIGTERM
+WCCILpmon    (1), 2024.08.07 09:17:55.327, SYS,  INFO,       17/pmon, Stopping Manager WCCILsim(1) with signal SIGTERM
+WCCILpmon    (1), 2024.08.07 09:17:55.328, SYS,  INFO,       17/pmon, Stopping Manager WCCOActrl(1) with signal SIGTERM
+WCCILpmon    (1), 2024.08.07 09:17:55.329, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(5) with signal SIGTERM
+WCCILpmon    (1), 2024.08.07 09:17:55.331, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(4) with signal SIGTERM
+WCCILpmon    (1), 2024.08.07 09:17:55.332, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(3) with signal SIGTERM
+WCCILpmon    (1), 2024.08.07 09:17:55.334, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(2) with signal SIGTERM
+WCCILpmon    (1), 2024.08.07 09:17:55.335, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(1) with signal SIGTERM
+WCCILpmon    (1), 2024.08.07 09:17:55.336, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(0) with signal SIGTERM
+WCCILpmon    (1), 2024.08.07 09:17:59.451, SYS,  INFO,       17/pmon, Stopping Manager WCCILevent(0) with signal SIGTERM
+WCCILpmon    (1), 2024.08.07 09:17:59.560, SYS,  INFO,       17/pmon, Stopping Manager WCCILdata(0) with signal SIGTERM
+WCCILpmon    (1), 2024.08.07 09:18:01.624, SYS,  INFO,       17/pmon, Stopping Manager WCCILproxy(1) with signal SIGTERM
+WCCILpmon    (1), 2024.08.07 09:18:01.957, SYS,  INFO,       13/pmon, Completely stopped the project - waiting for commands
+WCCILpmon    (1), 2024.08.07 09:26:14.875, SYS,  INFO,       20/pmon, Got START_ALL command from ::1, starting the project
+WCCILpmon    (1), 2024.08.07 09:26:14.891, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCILdata.exe -PROJ TL-Roman -pmonIndex 1 
+WCCILpmon    (1), 2024.08.07 09:26:16.379, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAvalarch.exe -PROJ TL-Roman -pmonIndex 2 -num 0
+WCCILpmon    (1), 2024.08.07 09:26:16.718, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAvalarch.exe -PROJ TL-Roman -pmonIndex 3 -num 1
+WCCILpmon    (1), 2024.08.07 09:26:17.085, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAvalarch.exe -PROJ TL-Roman -pmonIndex 4 -num 2
+WCCILpmon    (1), 2024.08.07 09:26:17.672, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAvalarch.exe -PROJ TL-Roman -pmonIndex 5 -num 3
+WCCILpmon    (1), 2024.08.07 09:26:18.151, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAvalarch.exe -PROJ TL-Roman -pmonIndex 6 -num 4
+WCCILpmon    (1), 2024.08.07 09:26:18.632, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAvalarch.exe -PROJ TL-Roman -pmonIndex 7 -num 5
+WCCILpmon    (1), 2024.08.07 09:26:22.005, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCILevent.exe -PROJ TL-Roman -pmonIndex 8 
+WCCILpmon    (1), 2024.08.07 09:26:22.808, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCILproxy.exe -PROJ TL-Roman -pmonIndex 9 
+WCCILpmon    (1), 2024.08.07 09:26:25.044, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOActrl.exe -PROJ TL-Roman -pmonIndex 10 -f pvss_scripts.lst
+WCCILpmon    (1), 2024.08.07 09:26:25.396, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCILsim.exe -PROJ TL-Roman -pmonIndex 11 
+WCCILpmon    (1), 2024.08.07 09:26:25.851, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAui.exe -PROJ TL-Roman -pmonIndex 12 -m gedi
+WCCILpmon    (1), 2024.08.07 09:26:30.827, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOActrl.exe -PROJ TL-Roman -pmonIndex 13 TrafficLight.ctl
+WCCILpmon    (1), 2024.08.07 09:26:31.263, SYS,  INFO,        9/pmon, The project is up and running. Entering monitor mode
+WCCILpmon    (1), 2024.08.07 09:33:59.158, SYS,  INFO,       21/pmon, Got STOP_ALL command from ::1, stopping the project
+WCCILpmon    (1), 2024.08.07 09:33:59.160, SYS,  INFO,       17/pmon, Stopping Manager WCCOActrl(2) with signal SIGTERM
+WCCILpmon    (1), 2024.08.07 09:33:59.161, SYS,  INFO,       17/pmon, Stopping Manager WCCOAui(1) with signal SIGTERM
+WCCILpmon    (1), 2024.08.07 09:33:59.162, SYS,  INFO,       17/pmon, Stopping Manager WCCILsim(1) with signal SIGTERM
+WCCILpmon    (1), 2024.08.07 09:33:59.163, SYS,  INFO,       17/pmon, Stopping Manager WCCOActrl(1) with signal SIGTERM
+WCCILpmon    (1), 2024.08.07 09:33:59.165, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(5) with signal SIGTERM
+WCCILpmon    (1), 2024.08.07 09:33:59.166, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(4) with signal SIGTERM
+WCCILpmon    (1), 2024.08.07 09:33:59.167, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(3) with signal SIGTERM
+WCCILpmon    (1), 2024.08.07 09:33:59.168, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(2) with signal SIGTERM
+WCCILpmon    (1), 2024.08.07 09:33:59.170, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(1) with signal SIGTERM
+WCCILpmon    (1), 2024.08.07 09:33:59.171, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(0) with signal SIGTERM
+WCCILpmon    (1), 2024.08.07 09:34:03.372, SYS,  INFO,       17/pmon, Stopping Manager WCCILevent(0) with signal SIGTERM
+WCCILpmon    (1), 2024.08.07 09:34:03.482, SYS,  INFO,       17/pmon, Stopping Manager WCCILdata(0) with signal SIGTERM
+WCCILpmon    (1), 2024.08.07 09:34:05.527, SYS,  INFO,       17/pmon, Stopping Manager WCCILproxy(1) with signal SIGTERM
+WCCILpmon    (1), 2024.08.07 09:34:05.751, SYS,  INFO,       13/pmon, Completely stopped the project - waiting for commands
+WCCILpmon    (1), 2024.08.07 09:37:57.140, SYS,  INFO,       28/pmon, Got INS command from ::1, inserting new manager WCCOAopcua at index 14
+WCCILpmon    (1), 2024.08.07 09:37:59.994, SYS,  INFO,       24/pmon, Got START command from ::1, starting the manager WCCOAopcua(1) at index 14
+WCCILpmon    (1), 2024.08.07 09:38:00.187, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAopcua.exe -PROJ TL-Roman -pmonIndex 14 "ComplexSystem.ModbusOPC.1"
+WCCILpmon    (1), 2024.08.07 09:38:14.424, SYS,  INFO,       20/pmon, Got START_ALL command from ::1, starting the project
+WCCILpmon    (1), 2024.08.07 09:38:14.438, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCILdata.exe -PROJ TL-Roman -pmonIndex 1 
+WCCILpmon    (1), 2024.08.07 09:38:16.119, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAvalarch.exe -PROJ TL-Roman -pmonIndex 2 -num 0
+WCCILpmon    (1), 2024.08.07 09:38:16.497, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAvalarch.exe -PROJ TL-Roman -pmonIndex 3 -num 1
+WCCILpmon    (1), 2024.08.07 09:38:16.851, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAvalarch.exe -PROJ TL-Roman -pmonIndex 4 -num 2
+WCCILpmon    (1), 2024.08.07 09:38:17.309, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAvalarch.exe -PROJ TL-Roman -pmonIndex 5 -num 3
+WCCILpmon    (1), 2024.08.07 09:38:17.679, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAvalarch.exe -PROJ TL-Roman -pmonIndex 6 -num 4
+WCCILpmon    (1), 2024.08.07 09:38:18.052, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAvalarch.exe -PROJ TL-Roman -pmonIndex 7 -num 5
+WCCILpmon    (1), 2024.08.07 09:38:21.455, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCILevent.exe -PROJ TL-Roman -pmonIndex 8 
+WCCILpmon    (1), 2024.08.07 09:38:22.130, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCILproxy.exe -PROJ TL-Roman -pmonIndex 9 
+WCCILpmon    (1), 2024.08.07 09:38:24.326, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOActrl.exe -PROJ TL-Roman -pmonIndex 10 -f pvss_scripts.lst
+WCCILpmon    (1), 2024.08.07 09:38:24.783, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCILsim.exe -PROJ TL-Roman -pmonIndex 11 
+WCCILpmon    (1), 2024.08.07 09:38:25.109, SYS,  INFO,       11/pmon, Detected stopped manager WCCILsim(1) - restarting it #1
+WCCILpmon    (1), 2024.08.07 09:38:25.151, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCILsim.exe -PROJ TL-Roman -pmonIndex 11 
+WCCILpmon    (1), 2024.08.07 09:38:25.596, SYS,  INFO,       11/pmon, Detected stopped manager WCCILsim(1) - restarting it #2
+WCCILpmon    (1), 2024.08.07 09:38:25.637, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCILsim.exe -PROJ TL-Roman -pmonIndex 11 
+WCCILpmon    (1), 2024.08.07 09:38:26.084, SYS,  INFO,       11/pmon, Detected stopped manager WCCILsim(1) - restarting it #3
+WCCILpmon    (1), 2024.08.07 09:38:26.121, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCILsim.exe -PROJ TL-Roman -pmonIndex 11 
+WCCILpmon    (1), 2024.08.07 09:38:26.353, SYS,  INFO,       12/pmon, Manager WCCILsim(1) restarting too rapidly - giving up restarting
+WCCILpmon    (1), 2024.08.07 09:38:26.374, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAui.exe -PROJ TL-Roman -pmonIndex 12 -m gedi
+WCCILpmon    (1), 2024.08.07 09:38:28.501, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOActrl.exe -PROJ TL-Roman -pmonIndex 13 TrafficLight.ctl
+WCCILpmon    (1), 2024.08.07 09:38:28.833, SYS,  INFO,        9/pmon, The project is up and running. Entering monitor mode
+WCCILpmon    (1), 2024.08.07 10:16:12.988, SYS,  INFO,       29/pmon, Got PROP_PUT command from ::1, changing manager WCCOAopcua(1) at index 14
+WCCILpmon    (1), 2024.08.07 10:16:20.583, SYS,  INFO,       25/pmon, Got STOP command (SIGTERM) from ::1, stopping the manager WCCOAopcua(1) at index 14
+WCCILpmon    (1), 2024.08.07 10:16:20.584, SYS,  INFO,       17/pmon, Stopping Manager WCCOAopcua(1) with signal SIGTERM
+WCCILpmon    (1), 2024.08.07 10:16:20.697, SYS,  INFO,       11/pmon, Detected stopped manager WCCOAopcua(1) - restarting it #1
+WCCILpmon    (1), 2024.08.07 10:16:20.722, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAopcua.exe -PROJ TL-Roman -pmonIndex 14 
+WCCILpmon    (1), 2024.08.07 10:22:50.790, SYS,  INFO,       29/pmon, Got PROP_PUT command from ::1, changing manager WCCOAopcua(1) at index 14
+WCCILpmon    (1), 2024.08.07 10:22:52.452, SYS,  INFO,       25/pmon, Got STOP command (SIGTERM) from ::1, stopping the manager WCCOAopcua(1) at index 14
+WCCILpmon    (1), 2024.08.07 10:22:52.454, SYS,  INFO,       17/pmon, Stopping Manager WCCOAopcua(1) with signal SIGTERM
+WCCILpmon    (1), 2024.08.07 10:25:01.017, SYS,  INFO,       24/pmon, Got START command from ::1, starting the manager WCCOAopcua(1) at index 14
+WCCILpmon    (1), 2024.08.07 10:25:01.032, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAopcua.exe -PROJ TL-Roman -pmonIndex 14 
+WCCILpmon    (1), 2024.08.07 10:54:09.035, SYS,  INFO,       25/pmon, Got STOP command (SIGTERM) from ::1, stopping the manager WCCOAopcua(1) at index 14
+WCCILpmon    (1), 2024.08.07 10:54:09.037, SYS,  INFO,       17/pmon, Stopping Manager WCCOAopcua(1) with signal SIGTERM
+WCCILpmon    (1), 2024.08.07 10:54:14.261, SYS,  INFO,       24/pmon, Got START command from ::1, starting the manager WCCOAopcua(1) at index 14
+WCCILpmon    (1), 2024.08.07 10:54:14.278, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAopcua.exe -PROJ TL-Roman -pmonIndex 14 
+WCCILpmon    (1), 2024.08.07 11:04:24.257, SYS,  INFO,       25/pmon, Got STOP command (SIGTERM) from ::1, stopping the manager WCCOAopcua(1) at index 14
+WCCILpmon    (1), 2024.08.07 11:04:24.259, SYS,  INFO,       17/pmon, Stopping Manager WCCOAopcua(1) with signal SIGTERM
+WCCILpmon    (1), 2024.08.07 11:04:26.316, SYS,  INFO,       24/pmon, Got START command from ::1, starting the manager WCCOAopcua(1) at index 14
+WCCILpmon    (1), 2024.08.07 11:04:26.331, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAopcua.exe -PROJ TL-Roman -pmonIndex 14 
+WCCILpmon    (1), 2024.08.07 11:07:57.344, SYS,  INFO,       25/pmon, Got STOP command (SIGTERM) from ::1, stopping the manager WCCOAopcua(1) at index 14
+WCCILpmon    (1), 2024.08.07 11:07:57.345, SYS,  INFO,       17/pmon, Stopping Manager WCCOAopcua(1) with signal SIGTERM
+WCCILpmon    (1), 2024.08.07 11:08:27.670, SYS,  INFO,       24/pmon, Got START command from ::1, starting the manager WCCOAopcua(1) at index 14
+WCCILpmon    (1), 2024.08.07 11:08:27.684, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAopcua.exe -PROJ TL-Roman -pmonIndex 14 
+WCCILpmon    (1), 2024.08.07 11:09:11.475, SYS,  INFO,       25/pmon, Got STOP command (SIGTERM) from ::1, stopping the manager WCCOAopcua(1) at index 14
+WCCILpmon    (1), 2024.08.07 11:09:11.476, SYS,  INFO,       17/pmon, Stopping Manager WCCOAopcua(1) with signal SIGTERM
+WCCILpmon    (1), 2024.08.07 11:09:14.146, SYS,  INFO,       24/pmon, Got START command from ::1, starting the manager WCCOAopcua(1) at index 14
+WCCILpmon    (1), 2024.08.07 11:09:14.162, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAopcua.exe -PROJ TL-Roman -pmonIndex 14 
+WCCILpmon    (1), 2024.08.07 11:11:12.519, SYS,  INFO,       29/pmon, Got PROP_PUT command from ::1, changing manager WCCOAopcua(2) at index 14
+WCCILpmon    (1), 2024.08.07 11:11:14.320, SYS,  INFO,       24/pmon, Got START command from ::1, starting the manager WCCILsim(1) at index 11
+WCCILpmon    (1), 2024.08.07 11:11:14.352, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCILsim.exe -PROJ TL-Roman -pmonIndex 11 
+WCCILpmon    (1), 2024.08.07 11:11:14.675, SYS,  INFO,       11/pmon, Detected stopped manager WCCILsim(1) - restarting it #1
+WCCILpmon    (1), 2024.08.07 11:11:14.689, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCILsim.exe -PROJ TL-Roman -pmonIndex 11 
+WCCILpmon    (1), 2024.08.07 11:11:15.021, SYS,  INFO,       11/pmon, Detected stopped manager WCCILsim(1) - restarting it #2
+WCCILpmon    (1), 2024.08.07 11:11:15.042, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCILsim.exe -PROJ TL-Roman -pmonIndex 11 
+WCCILpmon    (1), 2024.08.07 11:11:15.479, SYS,  INFO,       11/pmon, Detected stopped manager WCCILsim(1) - restarting it #3
+WCCILpmon    (1), 2024.08.07 11:11:15.502, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCILsim.exe -PROJ TL-Roman -pmonIndex 11 
+WCCILpmon    (1), 2024.08.07 11:11:15.824, SYS,  INFO,       12/pmon, Manager WCCILsim(1) restarting too rapidly - giving up restarting
+WCCILpmon    (1), 2024.08.07 11:11:16.484, SYS,  INFO,       25/pmon, Got STOP command (SIGTERM) from ::1, stopping the manager WCCOAopcua(2) at index 14
+WCCILpmon    (1), 2024.08.07 11:11:16.486, SYS,  INFO,       17/pmon, Stopping Manager WCCOAopcua(2) with signal SIGTERM
+WCCILpmon    (1), 2024.08.07 11:11:18.663, SYS,  INFO,       24/pmon, Got START command from ::1, starting the manager WCCILsim(1) at index 11
+WCCILpmon    (1), 2024.08.07 11:11:18.679, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCILsim.exe -PROJ TL-Roman -pmonIndex 11 
+WCCILpmon    (1), 2024.08.07 11:11:20.816, SYS,  INFO,       24/pmon, Got START command from ::1, starting the manager WCCOAopcua(2) at index 14
+WCCILpmon    (1), 2024.08.07 11:11:20.831, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAopcua.exe -PROJ TL-Roman -pmonIndex 14 -num 2
+WCCILpmon    (1), 2024.08.07 11:11:58.308, SYS,  INFO,       25/pmon, Got STOP command (SIGTERM) from ::1, stopping the manager WCCOAopcua(2) at index 14
+WCCILpmon    (1), 2024.08.07 11:11:58.310, SYS,  INFO,       17/pmon, Stopping Manager WCCOAopcua(2) with signal SIGTERM
+WCCILpmon    (1), 2024.08.07 11:12:00.803, SYS,  INFO,       24/pmon, Got START command from ::1, starting the manager WCCOAopcua(2) at index 14
+WCCILpmon    (1), 2024.08.07 11:12:00.818, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAopcua.exe -PROJ TL-Roman -pmonIndex 14 -num 2
+WCCILpmon    (1), 2024.08.07 11:13:26.336, SYS,  INFO,       28/pmon, Got INS command from ::1, inserting new manager WCCOAopc at index 15
+WCCILpmon    (1), 2024.08.07 11:13:26.338, SYS,  INFO,       11/pmon, Detected stopped manager WCCOAopc(1) - restarting it #1
+WCCILpmon    (1), 2024.08.07 11:13:26.482, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAopc.exe -PROJ TL-Roman -pmonIndex 15 
+WCCILpmon    (1), 2024.08.07 11:13:26.856, SYS,  INFO,       11/pmon, Detected stopped manager WCCOAopc(1) - restarting it #2
+WCCILpmon    (1), 2024.08.07 11:13:26.898, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAopc.exe -PROJ TL-Roman -pmonIndex 15 
+WCCILpmon    (1), 2024.08.07 11:13:27.343, SYS,  INFO,       12/pmon, Manager WCCOAopc(1) restarting too rapidly - giving up restarting
+WCCILpmon    (1), 2024.08.07 11:13:30.508, SYS,  INFO,       25/pmon, Got STOP command (SIGTERM) from ::1, stopping the manager WCCOAopcua(2) at index 14
+WCCILpmon    (1), 2024.08.07 11:13:30.509, SYS,  INFO,       17/pmon, Stopping Manager WCCOAopcua(2) with signal SIGTERM
+WCCILpmon    (1), 2024.08.07 11:13:33.401, SYS,  INFO,       27/pmon, Got DEL command from ::1, deleting the manager WCCOAopcua at index 14
+WCCILpmon    (1), 2024.08.07 11:13:33.402, SYS,  INFO,       11/pmon, Detected stopped manager WCCOAopc(1) - restarting it #1
+WCCILpmon    (1), 2024.08.07 11:13:33.419, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAopc.exe -PROJ TL-Roman -pmonIndex 14 
+WCCILpmon    (1), 2024.08.07 11:13:33.858, SYS,  INFO,       11/pmon, Detected stopped manager WCCOAopc(1) - restarting it #2
+WCCILpmon    (1), 2024.08.07 11:13:33.874, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAopc.exe -PROJ TL-Roman -pmonIndex 14 
+WCCILpmon    (1), 2024.08.07 11:13:34.309, SYS,  INFO,       12/pmon, Manager WCCOAopc(1) restarting too rapidly - giving up restarting
+WCCILpmon    (1), 2024.08.07 11:13:39.989, SYS,  INFO,       29/pmon, Got PROP_PUT command from ::1, changing manager WCCOAopc(2) at index 14
+WCCILpmon    (1), 2024.08.07 11:13:41.177, SYS,  INFO,       24/pmon, Got START command from ::1, starting the manager WCCOAopc(2) at index 14
+WCCILpmon    (1), 2024.08.07 11:13:41.192, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAopc.exe -PROJ TL-Roman -pmonIndex 14 -num 2
+WCCILpmon    (1), 2024.08.07 11:49:31.023, SYS,  INFO,       25/pmon, Got STOP command (SIGTERM) from ::1, stopping the manager WCCOAopc(2) at index 14
+WCCILpmon    (1), 2024.08.07 11:49:31.024, SYS,  INFO,       17/pmon, Stopping Manager WCCOAopc(2) with signal SIGTERM
+WCCILpmon    (1), 2024.08.07 11:49:31.138, SYS,  INFO,       11/pmon, Detected stopped manager WCCOAopc(2) - restarting it #1
+WCCILpmon    (1), 2024.08.07 11:49:31.153, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAopc.exe -PROJ TL-Roman -pmonIndex 14 -num 2
+WCCILpmon    (1), 2024.08.07 11:49:37.767, SYS,  INFO,       25/pmon, Got STOP command (SIGTERM) from ::1, stopping the manager WCCOActrl(2) at index 13
+WCCILpmon    (1), 2024.08.07 11:49:37.769, SYS,  INFO,       17/pmon, Stopping Manager WCCOActrl(2) with signal SIGTERM
+WCCILpmon    (1), 2024.08.07 11:49:41.657, SYS,  INFO,       24/pmon, Got START command from ::1, starting the manager WCCOActrl(2) at index 13
+WCCILpmon    (1), 2024.08.07 11:49:41.674, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOActrl.exe -PROJ TL-Roman -pmonIndex 13 TrafficLight.ctl
+WCCILpmon    (1), 2024.08.07 12:07:52.714, SYS,  INFO,       21/pmon, Got STOP_ALL command from ::1, stopping the project
+WCCILpmon    (1), 2024.08.07 12:07:52.716, SYS,  INFO,       17/pmon, Stopping Manager WCCOAopc(2) with signal SIGTERM
+WCCILpmon    (1), 2024.08.07 12:07:52.717, SYS,  INFO,       17/pmon, Stopping Manager WCCOActrl(2) with signal SIGTERM
+WCCILpmon    (1), 2024.08.07 12:07:52.719, SYS,  INFO,       17/pmon, Stopping Manager WCCILsim(1) with signal SIGTERM
+WCCILpmon    (1), 2024.08.07 12:07:52.720, SYS,  INFO,       17/pmon, Stopping Manager WCCOActrl(1) with signal SIGTERM
+WCCILpmon    (1), 2024.08.07 12:07:52.721, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(5) with signal SIGTERM
+WCCILpmon    (1), 2024.08.07 12:07:52.722, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(4) with signal SIGTERM
+WCCILpmon    (1), 2024.08.07 12:07:52.723, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(3) with signal SIGTERM
+WCCILpmon    (1), 2024.08.07 12:07:52.725, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(2) with signal SIGTERM
+WCCILpmon    (1), 2024.08.07 12:07:52.726, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(1) with signal SIGTERM
+WCCILpmon    (1), 2024.08.07 12:07:52.727, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(0) with signal SIGTERM
+WCCILpmon    (1), 2024.08.07 12:07:56.916, SYS,  INFO,       17/pmon, Stopping Manager WCCILevent(0) with signal SIGTERM
+WCCILpmon    (1), 2024.08.07 12:07:57.021, SYS,  INFO,       17/pmon, Stopping Manager WCCILdata(0) with signal SIGTERM
+WCCILpmon    (1), 2024.08.07 12:07:59.057, SYS,  INFO,       17/pmon, Stopping Manager WCCILproxy(1) with signal SIGTERM
+WCCILpmon    (1), 2024.08.07 12:07:59.926, SYS,  INFO,       13/pmon, Completely stopped the project - waiting for commands
+WCCILpmon    (1), 2024.08.07 12:08:02.655, SYS,  INFO,        3/pmon, Got shutdown command - stopping the project and terminating
+WCCILpmon    (1), 2024.08.07 12:08:02.657, SYS,  INFO,       15/pmon, Completely stopped the project - terminating
+WCCILpmon    (1), 2024.08.07 12:08:02.658, SYS,  INFO,        2, Manager Stop
+WCCILpmon    (1), 2024.08.08 08:52:44.204, SYS,  INFO,        1, Manager Start, WAIT_MODE
+WCCILpmon    (1), 2024.08.08 08:52:48.924, SYS,  INFO,       20/pmon, Got START_ALL command from ::1, starting the project
+WCCILpmon    (1), 2024.08.08 08:52:48.975, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCILdata.exe -PROJ TL-Roman -pmonIndex 1 
+WCCILpmon    (1), 2024.08.08 08:52:50.704, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAvalarch.exe -PROJ TL-Roman -pmonIndex 2 -num 0
+WCCILpmon    (1), 2024.08.08 08:52:51.174, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAvalarch.exe -PROJ TL-Roman -pmonIndex 3 -num 1
+WCCILpmon    (1), 2024.08.08 08:52:51.626, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAvalarch.exe -PROJ TL-Roman -pmonIndex 4 -num 2
+WCCILpmon    (1), 2024.08.08 08:52:52.013, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAvalarch.exe -PROJ TL-Roman -pmonIndex 5 -num 3
+WCCILpmon    (1), 2024.08.08 08:52:52.462, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAvalarch.exe -PROJ TL-Roman -pmonIndex 6 -num 4
+WCCILpmon    (1), 2024.08.08 08:52:52.822, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAvalarch.exe -PROJ TL-Roman -pmonIndex 7 -num 5
+WCCILpmon    (1), 2024.08.08 08:52:56.147, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCILevent.exe -PROJ TL-Roman -pmonIndex 8 
+WCCILpmon    (1), 2024.08.08 08:52:56.831, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCILproxy.exe -PROJ TL-Roman -pmonIndex 9 
+WCCILpmon    (1), 2024.08.08 08:52:58.835, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOActrl.exe -PROJ TL-Roman -pmonIndex 10 -f pvss_scripts.lst
+WCCILpmon    (1), 2024.08.08 08:52:59.178, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCILsim.exe -PROJ TL-Roman -pmonIndex 11 
+WCCILpmon    (1), 2024.08.08 08:52:59.659, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAui.exe -PROJ TL-Roman -pmonIndex 12 -m gedi
+WCCILpmon    (1), 2024.08.08 08:53:01.780, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOActrl.exe -PROJ TL-Roman -pmonIndex 13 TrafficLight.ctl
+WCCILpmon    (1), 2024.08.08 08:53:02.124, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAopc.exe -PROJ TL-Roman -pmonIndex 14 -num 2
+WCCILpmon    (1), 2024.08.08 08:55:12.450, SYS,  INFO,        9/pmon, The project is up and running. Entering monitor mode
+WCCILpmon    (1), 2024.08.09 08:53:05.112, SYS,  INFO,        1, Manager Start, WAIT_MODE
+WCCILpmon    (1), 2024.08.09 08:53:34.692, SYS,  INFO,       20/pmon, Got START_ALL command from ::1, starting the project
+WCCILpmon    (1), 2024.08.09 08:53:34.709, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCILdata.exe -PROJ TL-Roman -pmonIndex 1 
+WCCILpmon    (1), 2024.08.09 08:54:37.615, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAvalarch.exe -PROJ TL-Roman -pmonIndex 2 -num 0
+WCCILpmon    (1), 2024.08.09 08:54:38.119, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAvalarch.exe -PROJ TL-Roman -pmonIndex 3 -num 1
+WCCILpmon    (1), 2024.08.09 08:54:38.593, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAvalarch.exe -PROJ TL-Roman -pmonIndex 4 -num 2
+WCCILpmon    (1), 2024.08.09 08:54:38.957, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAvalarch.exe -PROJ TL-Roman -pmonIndex 5 -num 3
+WCCILpmon    (1), 2024.08.09 08:54:39.328, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAvalarch.exe -PROJ TL-Roman -pmonIndex 6 -num 4
+WCCILpmon    (1), 2024.08.09 08:54:39.690, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAvalarch.exe -PROJ TL-Roman -pmonIndex 7 -num 5
+WCCILpmon    (1), 2024.08.09 08:54:43.093, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCILevent.exe -PROJ TL-Roman -pmonIndex 8 
+WCCILpmon    (1), 2024.08.09 08:54:43.651, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCILproxy.exe -PROJ TL-Roman -pmonIndex 9 
+WCCILpmon    (1), 2024.08.09 08:54:45.702, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOActrl.exe -PROJ TL-Roman -pmonIndex 10 -f pvss_scripts.lst
+WCCILpmon    (1), 2024.08.09 08:54:46.060, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCILsim.exe -PROJ TL-Roman -pmonIndex 11 
+WCCILpmon    (1), 2024.08.09 08:54:46.424, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAui.exe -PROJ TL-Roman -pmonIndex 12 -m gedi
+WCCILpmon    (1), 2024.08.09 08:54:48.957, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOActrl.exe -PROJ TL-Roman -pmonIndex 13 TrafficLight.ctl
+WCCILpmon    (1), 2024.08.09 08:54:49.301, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAopc.exe -PROJ TL-Roman -pmonIndex 14 -num 2
+WCCILpmon    (1), 2024.08.09 08:56:59.672, SYS,  INFO,        9/pmon, The project is up and running. Entering monitor mode
+WCCILpmon    (1), 2024.08.09 09:00:12.730, SYS,  INFO,       25/pmon, Got STOP command (SIGTERM) from ::1, stopping the manager WCCOActrl(2) at index 13
+WCCILpmon    (1), 2024.08.09 09:00:12.731, SYS,  INFO,       17/pmon, Stopping Manager WCCOActrl(2) with signal SIGTERM
+WCCILpmon    (1), 2024.08.09 09:01:07.796, SYS,  INFO,       28/pmon, Got INS command from ::1, inserting new manager WCCOActrl at index 15
+WCCILpmon    (1), 2024.08.09 09:29:34.538, SYS,  INFO,       24/pmon, Got START command from ::1, starting the manager WCCOActrl(1) at index 15
+WCCILpmon    (1), 2024.08.09 09:29:34.593, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOActrl.exe -PROJ TL-Roman -pmonIndex 15 TlLogic.ctl
+WCCILpmon    (1), 2024.08.09 09:29:46.088, SYS,  INFO,       24/pmon, Got START command from ::1, starting the manager WCCOActrl(2) at index 15
+WCCILpmon    (1), 2024.08.09 09:29:46.103, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOActrl.exe -PROJ TL-Roman -pmonIndex 15 TlLogic.ctl
+WCCILpmon    (1), 2024.08.09 09:30:14.623, SYS,  INFO,       24/pmon, Got START command from ::1, starting the manager WCCOActrl(2) at index 15
+WCCILpmon    (1), 2024.08.09 09:30:14.638, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOActrl.exe -PROJ TL-Roman -pmonIndex 15 TlLogic.ctl
+WCCILpmon    (1), 2024.08.09 09:30:42.096, SYS,  INFO,       25/pmon, Got STOP command (SIGTERM) from ::1, stopping the manager WCCOAopc(2) at index 14
+WCCILpmon    (1), 2024.08.09 09:30:42.097, SYS,  INFO,       17/pmon, Stopping Manager WCCOAopc(2) with signal SIGTERM
+WCCILpmon    (1), 2024.08.09 09:30:42.200, SYS,  INFO,       11/pmon, Detected stopped manager WCCOAopc(2) - restarting it #1
+WCCILpmon    (1), 2024.08.09 09:30:42.220, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAopc.exe -PROJ TL-Roman -pmonIndex 14 -num 2
+WCCILpmon    (1), 2024.08.09 09:30:59.131, SYS,  INFO,       24/pmon, Got START command from ::1, starting the manager WCCOActrl(2) at index 15
+WCCILpmon    (1), 2024.08.09 09:30:59.146, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOActrl.exe -PROJ TL-Roman -pmonIndex 15 TlLogic.ctl
+WCCILpmon    (1), 2024.08.09 09:31:12.965, SYS,  INFO,       24/pmon, Got START command from ::1, starting the manager WCCOActrl(2) at index 13
+WCCILpmon    (1), 2024.08.09 09:31:12.980, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOActrl.exe -PROJ TL-Roman -pmonIndex 13 TrafficLight.ctl
+WCCILpmon    (1), 2024.08.09 09:31:18.709, SYS,  INFO,       25/pmon, Got STOP command (SIGTERM) from ::1, stopping the manager WCCOActrl(2) at index 13
+WCCILpmon    (1), 2024.08.09 09:31:18.711, SYS,  INFO,       17/pmon, Stopping Manager WCCOActrl(2) with signal SIGTERM
+WCCILpmon    (1), 2024.08.09 09:32:43.944, SYS,  INFO,       24/pmon, Got START command from ::1, starting the manager WCCOActrl(2) at index 15
+WCCILpmon    (1), 2024.08.09 09:32:43.962, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOActrl.exe -PROJ TL-Roman -pmonIndex 15 TlLogic.ctl
+WCCILpmon    (1), 2024.08.09 12:03:26.640, SYS,  INFO,       21/pmon, Got STOP_ALL command from ::1, stopping the project
+WCCILpmon    (1), 2024.08.09 12:03:26.645, SYS,  INFO,       17/pmon, Stopping Manager WCCOAopc(2) with signal SIGTERM
+WCCILpmon    (1), 2024.08.09 12:03:26.648, SYS,  INFO,       17/pmon, Stopping Manager WCCILsim(1) with signal SIGTERM
+WCCILpmon    (1), 2024.08.09 12:03:26.650, SYS,  INFO,       17/pmon, Stopping Manager WCCOActrl(1) with signal SIGTERM
+WCCILpmon    (1), 2024.08.09 12:03:26.653, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(5) with signal SIGTERM
+WCCILpmon    (1), 2024.08.09 12:03:26.655, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(4) with signal SIGTERM
+WCCILpmon    (1), 2024.08.09 12:03:26.657, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(3) with signal SIGTERM
+WCCILpmon    (1), 2024.08.09 12:03:26.659, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(2) with signal SIGTERM
+WCCILpmon    (1), 2024.08.09 12:03:26.662, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(1) with signal SIGTERM
+WCCILpmon    (1), 2024.08.09 12:03:26.664, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(0) with signal SIGTERM
+WCCILpmon    (1), 2024.08.09 12:03:30.744, SYS,  INFO,       17/pmon, Stopping Manager WCCILevent(0) with signal SIGTERM
+WCCILpmon    (1), 2024.08.09 12:03:30.962, SYS,  INFO,       17/pmon, Stopping Manager WCCILdata(0) with signal SIGTERM
+WCCILpmon    (1), 2024.08.09 12:03:33.011, SYS,  INFO,       17/pmon, Stopping Manager WCCILproxy(1) with signal SIGTERM
+WCCILpmon    (1), 2024.08.09 12:03:33.455, SYS,  INFO,       13/pmon, Completely stopped the project - waiting for commands
+WCCILpmon    (1), 2024.08.09 12:03:35.944, SYS,  INFO,        3/pmon, Got shutdown command - stopping the project and terminating
+WCCILpmon    (1), 2024.08.09 12:03:35.945, SYS,  INFO,       15/pmon, Completely stopped the project - terminating
+WCCILpmon    (1), 2024.08.09 12:03:35.946, SYS,  INFO,        2, Manager Stop
+WCCILpmon    (1), 2024.08.12 08:50:15.536, SYS,  INFO,        1, Manager Start, WAIT_MODE
+WCCILpmon    (1), 2024.08.12 08:50:20.209, SYS,  INFO,       20/pmon, Got START_ALL command from ::1, starting the project
+WCCILpmon    (1), 2024.08.12 08:50:20.266, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCILdata.exe -PROJ TL-Roman -pmonIndex 1 
+WCCILpmon    (1), 2024.08.12 08:50:21.984, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAvalarch.exe -PROJ TL-Roman -pmonIndex 2 -num 0
+WCCILpmon    (1), 2024.08.12 08:50:22.441, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAvalarch.exe -PROJ TL-Roman -pmonIndex 3 -num 1
+WCCILpmon    (1), 2024.08.12 08:50:22.788, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAvalarch.exe -PROJ TL-Roman -pmonIndex 4 -num 2
+WCCILpmon    (1), 2024.08.12 08:50:23.134, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAvalarch.exe -PROJ TL-Roman -pmonIndex 5 -num 3
+WCCILpmon    (1), 2024.08.12 08:50:23.593, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAvalarch.exe -PROJ TL-Roman -pmonIndex 6 -num 4
+WCCILpmon    (1), 2024.08.12 08:50:23.939, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAvalarch.exe -PROJ TL-Roman -pmonIndex 7 -num 5
+WCCILpmon    (1), 2024.08.12 08:50:27.387, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCILevent.exe -PROJ TL-Roman -pmonIndex 8 
+WCCILpmon    (1), 2024.08.12 08:50:28.072, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCILproxy.exe -PROJ TL-Roman -pmonIndex 9 
+WCCILpmon    (1), 2024.08.12 08:50:28.440, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOActrl.exe -PROJ TL-Roman -pmonIndex 10 -f pvss_scripts.lst
+WCCILpmon    (1), 2024.08.12 08:50:28.791, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCILsim.exe -PROJ TL-Roman -pmonIndex 11 
+WCCILpmon    (1), 2024.08.12 08:50:29.128, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAui.exe -PROJ TL-Roman -pmonIndex 12 -m gedi
+WCCILpmon    (1), 2024.08.12 08:50:31.549, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOActrl.exe -PROJ TL-Roman -pmonIndex 13 TrafficLight.ctl
+WCCILpmon    (1), 2024.08.12 08:50:31.802, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAopc.exe -PROJ TL-Roman -pmonIndex 14 -num 2
+WCCILpmon    (1), 2024.08.12 08:50:37.401, SYS,  INFO,       25/pmon, Got STOP command (SIGTERM) from ::1, stopping the manager WCCOActrl(2) at index 13
+WCCILpmon    (1), 2024.08.12 08:50:37.403, SYS,  INFO,       17/pmon, Stopping Manager WCCOActrl(2) with signal SIGTERM
+WCCILpmon    (1), 2024.08.12 08:50:48.651, SYS,  INFO,       24/pmon, Got START command from ::1, starting the manager WCCOActrl(1) at index 15
+WCCILpmon    (1), 2024.08.12 08:50:48.701, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOActrl.exe -PROJ TL-Roman -pmonIndex 15 TlLogic.ctl
+WCCILpmon    (1), 2024.08.12 08:52:42.159, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOActrl.exe -PROJ TL-Roman -pmonIndex 15 TlLogic.ctl
+WCCILpmon    (1), 2024.08.12 08:52:42.489, SYS,  INFO,        9/pmon, The project is up and running. Entering monitor mode
+WCCILpmon    (1), 2024.08.12 11:55:22.254, SYS,  INFO,       21/pmon, Got STOP_ALL command from ::1, stopping the project
+WCCILpmon    (1), 2024.08.12 11:55:22.256, SYS,  INFO,       17/pmon, Stopping Manager WCCOAopc(2) with signal SIGTERM
+WCCILpmon    (1), 2024.08.12 11:55:22.257, SYS,  INFO,       17/pmon, Stopping Manager WCCILsim(1) with signal SIGTERM
+WCCILpmon    (1), 2024.08.12 11:55:22.258, SYS,  INFO,       17/pmon, Stopping Manager WCCOActrl(1) with signal SIGTERM
+WCCILpmon    (1), 2024.08.12 11:55:22.260, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(5) with signal SIGTERM
+WCCILpmon    (1), 2024.08.12 11:55:22.261, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(4) with signal SIGTERM
+WCCILpmon    (1), 2024.08.12 11:55:22.262, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(3) with signal SIGTERM
+WCCILpmon    (1), 2024.08.12 11:55:22.264, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(2) with signal SIGTERM
+WCCILpmon    (1), 2024.08.12 11:55:22.265, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(1) with signal SIGTERM
+WCCILpmon    (1), 2024.08.12 11:55:22.266, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(0) with signal SIGTERM
+WCCILpmon    (1), 2024.08.12 11:55:26.435, SYS,  INFO,       17/pmon, Stopping Manager WCCILevent(0) with signal SIGTERM
+WCCILpmon    (1), 2024.08.12 11:55:26.542, SYS,  INFO,       17/pmon, Stopping Manager WCCILdata(0) with signal SIGTERM
+WCCILpmon    (1), 2024.08.12 11:55:28.557, SYS,  INFO,       17/pmon, Stopping Manager WCCILproxy(1) with signal SIGTERM
+WCCILpmon    (1), 2024.08.12 11:55:28.976, SYS,  INFO,       13/pmon, Completely stopped the project - waiting for commands
+WCCILpmon    (1), 2024.08.12 11:55:32.794, SYS,  INFO,        3/pmon, Got shutdown command - stopping the project and terminating
+WCCILpmon    (1), 2024.08.12 11:55:32.798, SYS,  INFO,       15/pmon, Completely stopped the project - terminating
+WCCILpmon    (1), 2024.08.12 11:55:32.801, SYS,  INFO,        2, Manager Stop
+WCCILpmon    (1), 2024.08.13 09:34:25.517, SYS,  INFO,        1, Manager Start, WAIT_MODE
+WCCILpmon    (1), 2024.08.13 09:34:28.227, SYS,  INFO,       20/pmon, Got START_ALL command from ::1, starting the project
+WCCILpmon    (1), 2024.08.13 09:34:28.421, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCILdata.exe -PROJ TL-Roman -pmonIndex 1 
+WCCILpmon    (1), 2024.08.13 09:34:30.204, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAvalarch.exe -PROJ TL-Roman -pmonIndex 2 -num 0
+WCCILpmon    (1), 2024.08.13 09:34:30.675, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAvalarch.exe -PROJ TL-Roman -pmonIndex 3 -num 1
+WCCILpmon    (1), 2024.08.13 09:34:31.153, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAvalarch.exe -PROJ TL-Roman -pmonIndex 4 -num 2
+WCCILpmon    (1), 2024.08.13 09:34:31.514, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAvalarch.exe -PROJ TL-Roman -pmonIndex 5 -num 3
+WCCILpmon    (1), 2024.08.13 09:34:31.878, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAvalarch.exe -PROJ TL-Roman -pmonIndex 6 -num 4
+WCCILpmon    (1), 2024.08.13 09:34:32.334, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAvalarch.exe -PROJ TL-Roman -pmonIndex 7 -num 5
+WCCILpmon    (1), 2024.08.13 09:34:35.698, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCILevent.exe -PROJ TL-Roman -pmonIndex 8 
+WCCILpmon    (1), 2024.08.13 09:34:36.362, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCILproxy.exe -PROJ TL-Roman -pmonIndex 9 
+WCCILpmon    (1), 2024.08.13 09:34:38.578, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOActrl.exe -PROJ TL-Roman -pmonIndex 10 -f pvss_scripts.lst
+WCCILpmon    (1), 2024.08.13 09:34:38.981, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCILsim.exe -PROJ TL-Roman -pmonIndex 11 
+WCCILpmon    (1), 2024.08.13 09:34:39.351, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAui.exe -PROJ TL-Roman -pmonIndex 12 -m gedi
+WCCILpmon    (1), 2024.08.13 09:34:42.790, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOActrl.exe -PROJ TL-Roman -pmonIndex 13 TrafficLight.ctl
+WCCILpmon    (1), 2024.08.13 09:34:43.186, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAopc.exe -PROJ TL-Roman -pmonIndex 14 -num 2
+WCCILpmon    (1), 2024.08.13 09:36:53.645, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOActrl.exe -PROJ TL-Roman -pmonIndex 15 TlLogic.ctl
+WCCILpmon    (1), 2024.08.13 09:36:53.982, SYS,  INFO,        9/pmon, The project is up and running. Entering monitor mode
+WCCILpmon    (1), 2024.08.13 11:58:48.526, SYS,  INFO,       21/pmon, Got STOP_ALL command from ::1, stopping the project
+WCCILpmon    (1), 2024.08.13 11:58:48.528, SYS,  INFO,       17/pmon, Stopping Manager WCCOAopc(2) with signal SIGTERM
+WCCILpmon    (1), 2024.08.13 11:58:48.529, SYS,  INFO,       17/pmon, Stopping Manager WCCOActrl(2) with signal SIGTERM
+WCCILpmon    (1), 2024.08.13 11:58:48.530, SYS,  INFO,       17/pmon, Stopping Manager WCCOAui(1) with signal SIGTERM
+WCCILpmon    (1), 2024.08.13 11:58:48.531, SYS,  INFO,       17/pmon, Stopping Manager WCCILsim(1) with signal SIGTERM
+WCCILpmon    (1), 2024.08.13 11:58:48.533, SYS,  INFO,       17/pmon, Stopping Manager WCCOActrl(1) with signal SIGTERM
+WCCILpmon    (1), 2024.08.13 11:58:48.534, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(5) with signal SIGTERM
+WCCILpmon    (1), 2024.08.13 11:58:48.535, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(4) with signal SIGTERM
+WCCILpmon    (1), 2024.08.13 11:58:48.537, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(3) with signal SIGTERM
+WCCILpmon    (1), 2024.08.13 11:58:48.538, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(2) with signal SIGTERM
+WCCILpmon    (1), 2024.08.13 11:58:48.539, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(1) with signal SIGTERM
+WCCILpmon    (1), 2024.08.13 11:58:48.540, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(0) with signal SIGTERM
+WCCILpmon    (1), 2024.08.13 11:58:52.658, SYS,  INFO,       17/pmon, Stopping Manager WCCILevent(0) with signal SIGTERM
+WCCILpmon    (1), 2024.08.13 11:58:52.831, SYS,  INFO,       17/pmon, Stopping Manager WCCILdata(0) with signal SIGTERM
+WCCILpmon    (1), 2024.08.13 11:58:54.873, SYS,  INFO,       17/pmon, Stopping Manager WCCILproxy(1) with signal SIGTERM
+WCCILpmon    (1), 2024.08.13 11:58:55.981, SYS,  INFO,       13/pmon, Completely stopped the project - waiting for commands
+WCCILpmon    (1), 2024.08.13 11:58:58.462, SYS,  INFO,        3/pmon, Got shutdown command - stopping the project and terminating
+WCCILpmon    (1), 2024.08.13 11:58:58.464, SYS,  INFO,       15/pmon, Completely stopped the project - terminating
+WCCILpmon    (1), 2024.08.13 11:58:58.466, SYS,  INFO,        2, Manager Stop
+WCCILpmon    (1), 2024.08.14 08:35:18.514, SYS,  INFO,        1, Manager Start, WAIT_MODE
+WCCILpmon    (1), 2024.08.14 08:35:22.721, SYS,  INFO,       20/pmon, Got START_ALL command from ::1, starting the project
+WCCILpmon    (1), 2024.08.14 08:35:22.751, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCILdata.exe -PROJ TL-Roman -pmonIndex 1 
+WCCILpmon    (1), 2024.08.14 08:35:24.329, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAvalarch.exe -PROJ TL-Roman -pmonIndex 2 -num 0
+WCCILpmon    (1), 2024.08.14 08:35:24.773, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAvalarch.exe -PROJ TL-Roman -pmonIndex 3 -num 1
+WCCILpmon    (1), 2024.08.14 08:35:25.114, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAvalarch.exe -PROJ TL-Roman -pmonIndex 4 -num 2
+WCCILpmon    (1), 2024.08.14 08:35:25.559, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAvalarch.exe -PROJ TL-Roman -pmonIndex 5 -num 3
+WCCILpmon    (1), 2024.08.14 08:35:26.130, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAvalarch.exe -PROJ TL-Roman -pmonIndex 6 -num 4
+WCCILpmon    (1), 2024.08.14 08:35:26.477, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAvalarch.exe -PROJ TL-Roman -pmonIndex 7 -num 5
+WCCILpmon    (1), 2024.08.14 08:35:29.737, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCILevent.exe -PROJ TL-Roman -pmonIndex 8 
+WCCILpmon    (1), 2024.08.14 08:35:30.431, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCILproxy.exe -PROJ TL-Roman -pmonIndex 9 
+WCCILpmon    (1), 2024.08.14 08:35:32.558, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOActrl.exe -PROJ TL-Roman -pmonIndex 10 -f pvss_scripts.lst
+WCCILpmon    (1), 2024.08.14 08:35:33.027, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCILsim.exe -PROJ TL-Roman -pmonIndex 11 
+WCCILpmon    (1), 2024.08.14 08:35:33.373, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAui.exe -PROJ TL-Roman -pmonIndex 12 -m gedi
+WCCILpmon    (1), 2024.08.14 08:35:53.092, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOActrl.exe -PROJ TL-Roman -pmonIndex 13 TrafficLight.ctl
+WCCILpmon    (1), 2024.08.14 08:35:53.432, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAopc.exe -PROJ TL-Roman -pmonIndex 14 -num 2
+WCCILpmon    (1), 2024.08.14 08:36:19.728, SYS,  INFO,       25/pmon, Got STOP command (SIGTERM) from ::1, stopping the manager WCCOActrl(2) at index 13
+WCCILpmon    (1), 2024.08.14 08:36:19.730, SYS,  INFO,       17/pmon, Stopping Manager WCCOActrl(2) with signal SIGTERM
+WCCILpmon    (1), 2024.08.14 08:36:50.090, SYS,  INFO,       25/pmon, Got STOP command (SIGTERM) from ::1, stopping the manager WCCOAopc(2) at index 14
+WCCILpmon    (1), 2024.08.14 08:36:50.092, SYS,  INFO,       17/pmon, Stopping Manager WCCOAopc(2) with signal SIGTERM
+WCCILpmon    (1), 2024.08.14 08:36:50.194, SYS,  INFO,       11/pmon, Detected stopped manager WCCOAopc(2) - restarting it #1
+WCCILpmon    (1), 2024.08.14 08:36:50.211, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAopc.exe -PROJ TL-Roman -pmonIndex 14 -num 2
+WCCILpmon    (1), 2024.08.14 08:40:03.893, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOActrl.exe -PROJ TL-Roman -pmonIndex 15 TlLogic.ctl
+WCCILpmon    (1), 2024.08.14 08:40:04.153, SYS,  INFO,        9/pmon, The project is up and running. Entering monitor mode
+WCCILpmon    (1), 2024.08.14 08:44:39.788, SYS,  INFO,       24/pmon, Got START command from ::1, starting the manager WCCOActrl(2) at index 15
+WCCILpmon    (1), 2024.08.14 08:44:39.804, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOActrl.exe -PROJ TL-Roman -pmonIndex 15 TlLogic.ctl
+WCCILpmon    (1), 2024.08.14 08:45:03.556, SYS,  INFO,       24/pmon, Got START command from ::1, starting the manager WCCOActrl(2) at index 15
+WCCILpmon    (1), 2024.08.14 08:45:03.575, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOActrl.exe -PROJ TL-Roman -pmonIndex 15 TlLogic.ctl
+WCCILpmon    (1), 2024.08.14 11:54:31.174, SYS,  INFO,       21/pmon, Got STOP_ALL command from ::1, stopping the project
+WCCILpmon    (1), 2024.08.14 11:54:31.175, SYS,  INFO,       17/pmon, Stopping Manager WCCOAopc(2) with signal SIGTERM
+WCCILpmon    (1), 2024.08.14 11:54:31.176, SYS,  INFO,       17/pmon, Stopping Manager WCCILsim(1) with signal SIGTERM
+WCCILpmon    (1), 2024.08.14 11:54:31.178, SYS,  INFO,       17/pmon, Stopping Manager WCCOActrl(1) with signal SIGTERM
+WCCILpmon    (1), 2024.08.14 11:54:31.179, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(5) with signal SIGTERM
+WCCILpmon    (1), 2024.08.14 11:54:31.180, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(4) with signal SIGTERM
+WCCILpmon    (1), 2024.08.14 11:54:31.181, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(3) with signal SIGTERM
+WCCILpmon    (1), 2024.08.14 11:54:31.183, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(2) with signal SIGTERM
+WCCILpmon    (1), 2024.08.14 11:54:31.184, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(1) with signal SIGTERM
+WCCILpmon    (1), 2024.08.14 11:54:31.185, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(0) with signal SIGTERM
+WCCILpmon    (1), 2024.08.14 11:54:35.406, SYS,  INFO,       17/pmon, Stopping Manager WCCILevent(0) with signal SIGTERM
+WCCILpmon    (1), 2024.08.14 11:54:35.513, SYS,  INFO,       17/pmon, Stopping Manager WCCILdata(0) with signal SIGTERM
+WCCILpmon    (1), 2024.08.14 11:54:37.561, SYS,  INFO,       17/pmon, Stopping Manager WCCILproxy(1) with signal SIGTERM
+WCCILpmon    (1), 2024.08.14 11:54:37.998, SYS,  INFO,       13/pmon, Completely stopped the project - waiting for commands
+WCCILpmon    (1), 2024.08.14 11:54:43.800, SYS,  INFO,        3/pmon, Got shutdown command - stopping the project and terminating
+WCCILpmon    (1), 2024.08.14 11:54:43.804, SYS,  INFO,       15/pmon, Completely stopped the project - terminating
+WCCILpmon    (1), 2024.08.14 11:54:43.808, SYS,  INFO,        2, Manager Stop
+WCCILpmon    (1), 2024.08.14 11:54:52.336, SYS,  INFO,        1, Manager Start, WAIT_MODE
+WCCILpmon    (1), 2024.08.14 11:54:55.448, SYS,  INFO,        3/pmon, Got shutdown command - stopping the project and terminating
+WCCILpmon    (1), 2024.08.14 11:54:55.452, SYS,  INFO,       15/pmon, Completely stopped the project - terminating
+WCCILpmon    (1), 2024.08.14 11:54:55.455, SYS,  INFO,        2, Manager Stop
+WCCILpmon    (1), 2024.08.15 08:49:56.080, SYS,  INFO,        1, Manager Start, WAIT_MODE
+WCCILpmon    (1), 2024.08.15 08:49:59.445, SYS,  INFO,       20/pmon, Got START_ALL command from ::1, starting the project
+WCCILpmon    (1), 2024.08.15 08:49:59.503, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCILdata.exe -PROJ TL-Roman -pmonIndex 1 
+WCCILpmon    (1), 2024.08.15 08:50:01.091, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAvalarch.exe -PROJ TL-Roman -pmonIndex 2 -num 0
+WCCILpmon    (1), 2024.08.15 08:50:01.546, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAvalarch.exe -PROJ TL-Roman -pmonIndex 3 -num 1
+WCCILpmon    (1), 2024.08.15 08:50:01.892, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAvalarch.exe -PROJ TL-Roman -pmonIndex 4 -num 2
+WCCILpmon    (1), 2024.08.15 08:50:02.241, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAvalarch.exe -PROJ TL-Roman -pmonIndex 5 -num 3
+WCCILpmon    (1), 2024.08.15 08:50:02.583, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAvalarch.exe -PROJ TL-Roman -pmonIndex 6 -num 4
+WCCILpmon    (1), 2024.08.15 08:50:02.930, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAvalarch.exe -PROJ TL-Roman -pmonIndex 7 -num 5
+WCCILpmon    (1), 2024.08.15 08:50:06.344, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCILevent.exe -PROJ TL-Roman -pmonIndex 8 
+WCCILpmon    (1), 2024.08.15 08:50:07.091, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCILproxy.exe -PROJ TL-Roman -pmonIndex 9 
+WCCILpmon    (1), 2024.08.15 08:50:09.292, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOActrl.exe -PROJ TL-Roman -pmonIndex 10 -f pvss_scripts.lst
+WCCILpmon    (1), 2024.08.15 08:50:09.780, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCILsim.exe -PROJ TL-Roman -pmonIndex 11 
+WCCILpmon    (1), 2024.08.15 08:50:10.131, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAui.exe -PROJ TL-Roman -pmonIndex 12 -m gedi
+WCCILpmon    (1), 2024.08.15 08:51:34.838, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOActrl.exe -PROJ TL-Roman -pmonIndex 13 TrafficLight.ctl
+WCCILpmon    (1), 2024.08.15 08:51:35.325, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAopc.exe -PROJ TL-Roman -pmonIndex 14 -num 2
+WCCILpmon    (1), 2024.08.15 08:51:35.786, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOActrl.exe -PROJ TL-Roman -pmonIndex 15 TlLogic.ctl
+WCCILpmon    (1), 2024.08.15 08:51:36.111, SYS,  INFO,        9/pmon, The project is up and running. Entering monitor mode
+WCCILpmon    (1), 2024.08.15 08:52:04.184, SYS,  INFO,       25/pmon, Got STOP command (SIGTERM) from ::1, stopping the manager WCCOActrl(2) at index 13
+WCCILpmon    (1), 2024.08.15 08:52:04.185, SYS,  INFO,       17/pmon, Stopping Manager WCCOActrl(2) with signal SIGTERM
+WCCILpmon    (1), 2024.08.15 09:24:01.430, SYS,  INFO,       25/pmon, Got STOP command (SIGTERM) from ::1, stopping the manager WCCOAopc(2) at index 14
+WCCILpmon    (1), 2024.08.15 09:24:01.432, SYS,  INFO,       17/pmon, Stopping Manager WCCOAopc(2) with signal SIGTERM
+WCCILpmon    (1), 2024.08.15 09:24:01.533, SYS,  INFO,       11/pmon, Detected stopped manager WCCOAopc(2) - restarting it #1
+WCCILpmon    (1), 2024.08.15 09:24:01.559, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAopc.exe -PROJ TL-Roman -pmonIndex 14 -num 2
+WCCILpmon    (1), 2024.08.15 09:24:07.169, SYS,  INFO,       29/pmon, Got PROP_PUT command from ::1, changing manager WCCOAopc(2) at index 14
+WCCILpmon    (1), 2024.08.15 09:24:09.607, SYS,  INFO,       25/pmon, Got STOP command (SIGTERM) from ::1, stopping the manager WCCOAopc(2) at index 14
+WCCILpmon    (1), 2024.08.15 09:24:09.608, SYS,  INFO,       17/pmon, Stopping Manager WCCOAopc(2) with signal SIGTERM
+WCCILpmon    (1), 2024.08.15 09:30:13.866, SYS,  INFO,       24/pmon, Got START command from ::1, starting the manager WCCOAopc(2) at index 14
+WCCILpmon    (1), 2024.08.15 09:30:13.881, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAopc.exe -PROJ TL-Roman -pmonIndex 14 -num 2
+WCCILpmon    (1), 2024.08.15 10:08:09.276, SYS,  INFO,       25/pmon, Got STOP command (SIGTERM) from ::1, stopping the manager WCCOAopc(2) at index 14
+WCCILpmon    (1), 2024.08.15 10:08:09.278, SYS,  INFO,       17/pmon, Stopping Manager WCCOAopc(2) with signal SIGTERM
+WCCILpmon    (1), 2024.08.15 10:43:47.983, SYS,  INFO,       24/pmon, Got START command from ::1, starting the manager WCCOAopc(2) at index 14
+WCCILpmon    (1), 2024.08.15 10:43:47.999, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAopc.exe -PROJ TL-Roman -pmonIndex 14 -num 2
+WCCILpmon    (1), 2024.08.15 11:14:43.562, SYS,  INFO,       25/pmon, Got STOP command (SIGTERM) from ::1, stopping the manager WCCOAopc(2) at index 14
+WCCILpmon    (1), 2024.08.15 11:14:43.563, SYS,  INFO,       17/pmon, Stopping Manager WCCOAopc(2) with signal SIGTERM
+WCCILpmon    (1), 2024.08.15 11:15:36.733, SYS,  INFO,       24/pmon, Got START command from ::1, starting the manager WCCOAopc(2) at index 14
+WCCILpmon    (1), 2024.08.15 11:15:36.748, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAopc.exe -PROJ TL-Roman -pmonIndex 14 -num 2
+WCCILpmon    (1), 2024.08.15 11:57:52.729, SYS,  INFO,       21/pmon, Got STOP_ALL command from ::1, stopping the project
+WCCILpmon    (1), 2024.08.15 11:57:52.731, SYS,  INFO,       17/pmon, Stopping Manager WCCOAopc(2) with signal SIGTERM
+WCCILpmon    (1), 2024.08.15 11:57:52.733, SYS,  INFO,       17/pmon, Stopping Manager WCCILsim(1) with signal SIGTERM
+WCCILpmon    (1), 2024.08.15 11:57:52.734, SYS,  INFO,       17/pmon, Stopping Manager WCCOActrl(1) with signal SIGTERM
+WCCILpmon    (1), 2024.08.15 11:57:52.735, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(5) with signal SIGTERM
+WCCILpmon    (1), 2024.08.15 11:57:52.737, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(4) with signal SIGTERM
+WCCILpmon    (1), 2024.08.15 11:57:52.738, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(3) with signal SIGTERM
+WCCILpmon    (1), 2024.08.15 11:57:52.739, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(2) with signal SIGTERM
+WCCILpmon    (1), 2024.08.15 11:57:52.740, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(1) with signal SIGTERM
+WCCILpmon    (1), 2024.08.15 11:57:52.742, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(0) with signal SIGTERM
+WCCILpmon    (1), 2024.08.15 11:57:56.845, SYS,  INFO,       17/pmon, Stopping Manager WCCILevent(0) with signal SIGTERM
+WCCILpmon    (1), 2024.08.15 11:57:56.956, SYS,  INFO,       17/pmon, Stopping Manager WCCILdata(0) with signal SIGTERM
+WCCILpmon    (1), 2024.08.15 11:57:59.090, SYS,  INFO,       17/pmon, Stopping Manager WCCILproxy(1) with signal SIGTERM
+WCCILpmon    (1), 2024.08.15 11:57:59.314, SYS,  INFO,       13/pmon, Completely stopped the project - waiting for commands
+WCCILpmon    (1), 2024.08.15 11:58:02.190, SYS,  INFO,        3/pmon, Got shutdown command - stopping the project and terminating
+WCCILpmon    (1), 2024.08.15 11:58:02.191, SYS,  INFO,       15/pmon, Completely stopped the project - terminating
+WCCILpmon    (1), 2024.08.15 11:58:02.192, SYS,  INFO,        2, Manager Stop
+WCCILpmon    (1), 2024.08.16 08:37:04.274, SYS,  INFO,        1, Manager Start, WAIT_MODE
+WCCILpmon    (1), 2024.08.16 08:37:10.226, SYS,  INFO,       20/pmon, Got START_ALL command from ::1, starting the project
+WCCILpmon    (1), 2024.08.16 08:37:10.271, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCILdata.exe -PROJ TL-Roman -pmonIndex 1 
+WCCILpmon    (1), 2024.08.16 08:37:11.837, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAvalarch.exe -PROJ TL-Roman -pmonIndex 2 -num 0
+WCCILpmon    (1), 2024.08.16 08:37:12.171, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAvalarch.exe -PROJ TL-Roman -pmonIndex 3 -num 1
+WCCILpmon    (1), 2024.08.16 08:37:12.518, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAvalarch.exe -PROJ TL-Roman -pmonIndex 4 -num 2
+WCCILpmon    (1), 2024.08.16 08:37:12.849, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAvalarch.exe -PROJ TL-Roman -pmonIndex 5 -num 3
+WCCILpmon    (1), 2024.08.16 08:37:13.305, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAvalarch.exe -PROJ TL-Roman -pmonIndex 6 -num 4
+WCCILpmon    (1), 2024.08.16 08:37:13.757, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAvalarch.exe -PROJ TL-Roman -pmonIndex 7 -num 5
+WCCILpmon    (1), 2024.08.16 08:37:17.038, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCILevent.exe -PROJ TL-Roman -pmonIndex 8 
+WCCILpmon    (1), 2024.08.16 08:37:17.715, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCILproxy.exe -PROJ TL-Roman -pmonIndex 9 
+WCCILpmon    (1), 2024.08.16 08:37:19.852, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOActrl.exe -PROJ TL-Roman -pmonIndex 10 -f pvss_scripts.lst
+WCCILpmon    (1), 2024.08.16 08:37:20.199, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCILsim.exe -PROJ TL-Roman -pmonIndex 11 
+WCCILpmon    (1), 2024.08.16 08:37:20.541, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAui.exe -PROJ TL-Roman -pmonIndex 12 -m gedi
+WCCILpmon    (1), 2024.08.16 08:37:24.431, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOActrl.exe -PROJ TL-Roman -pmonIndex 13 TrafficLight.ctl
+WCCILpmon    (1), 2024.08.16 08:37:24.772, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAopc.exe -PROJ TL-Roman -pmonIndex 14 -num 2
+WCCILpmon    (1), 2024.08.16 08:37:25.254, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOActrl.exe -PROJ TL-Roman -pmonIndex 15 TlLogic.ctl
+WCCILpmon    (1), 2024.08.16 08:37:25.587, SYS,  INFO,        9/pmon, The project is up and running. Entering monitor mode
+WCCILpmon    (1), 2024.08.16 08:37:41.357, SYS,  INFO,       25/pmon, Got STOP command (SIGTERM) from ::1, stopping the manager WCCOActrl(2) at index 13
+WCCILpmon    (1), 2024.08.16 08:37:41.358, SYS,  INFO,       17/pmon, Stopping Manager WCCOActrl(2) with signal SIGTERM
+WCCILpmon    (1), 2024.08.16 12:01:50.251, SYS,  INFO,       21/pmon, Got STOP_ALL command from ::1, stopping the project
+WCCILpmon    (1), 2024.08.16 12:01:50.253, SYS,  INFO,       17/pmon, Stopping Manager WCCOAopc(2) with signal SIGTERM
+WCCILpmon    (1), 2024.08.16 12:01:50.254, SYS,  INFO,       17/pmon, Stopping Manager WCCILsim(1) with signal SIGTERM
+WCCILpmon    (1), 2024.08.16 12:01:50.255, SYS,  INFO,       17/pmon, Stopping Manager WCCOActrl(1) with signal SIGTERM
+WCCILpmon    (1), 2024.08.16 12:01:50.256, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(5) with signal SIGTERM
+WCCILpmon    (1), 2024.08.16 12:01:50.258, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(4) with signal SIGTERM
+WCCILpmon    (1), 2024.08.16 12:01:50.259, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(3) with signal SIGTERM
+WCCILpmon    (1), 2024.08.16 12:01:50.260, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(2) with signal SIGTERM
+WCCILpmon    (1), 2024.08.16 12:01:50.261, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(1) with signal SIGTERM
+WCCILpmon    (1), 2024.08.16 12:01:50.262, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(0) with signal SIGTERM
+WCCILpmon    (1), 2024.08.16 12:01:54.351, SYS,  INFO,       17/pmon, Stopping Manager WCCILevent(0) with signal SIGTERM
+WCCILpmon    (1), 2024.08.16 12:01:54.571, SYS,  INFO,       17/pmon, Stopping Manager WCCILdata(0) with signal SIGTERM
+WCCILpmon    (1), 2024.08.16 12:01:56.510, SYS,  INFO,       17/pmon, Stopping Manager WCCILproxy(1) with signal SIGTERM
+WCCILpmon    (1), 2024.08.16 12:01:57.360, SYS,  INFO,       13/pmon, Completely stopped the project - waiting for commands
+WCCILpmon    (1), 2024.08.16 12:02:01.038, SYS,  INFO,        3/pmon, Got shutdown command - stopping the project and terminating
+WCCILpmon    (1), 2024.08.16 12:02:01.039, SYS,  INFO,       15/pmon, Completely stopped the project - terminating
+WCCILpmon    (1), 2024.08.16 12:02:01.040, SYS,  INFO,        2, Manager Stop
+WCCILpmon    (1), 2024.08.19 08:53:56.455, SYS,  INFO,        1, Manager Start, WAIT_MODE
+WCCILpmon    (1), 2024.08.19 08:54:01.575, SYS,  INFO,       20/pmon, Got START_ALL command from ::1, starting the project
+WCCILpmon    (1), 2024.08.19 08:54:01.619, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCILdata.exe -PROJ TL-Roman -pmonIndex 1 
+WCCILpmon    (1), 2024.08.19 08:54:03.359, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAvalarch.exe -PROJ TL-Roman -pmonIndex 2 -num 0
+WCCILpmon    (1), 2024.08.19 08:54:03.837, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAvalarch.exe -PROJ TL-Roman -pmonIndex 3 -num 1
+WCCILpmon    (1), 2024.08.19 08:54:04.305, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAvalarch.exe -PROJ TL-Roman -pmonIndex 4 -num 2
+WCCILpmon    (1), 2024.08.19 08:54:04.720, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAvalarch.exe -PROJ TL-Roman -pmonIndex 5 -num 3
+WCCILpmon    (1), 2024.08.19 08:54:05.274, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAvalarch.exe -PROJ TL-Roman -pmonIndex 6 -num 4
+WCCILpmon    (1), 2024.08.19 08:54:05.621, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAvalarch.exe -PROJ TL-Roman -pmonIndex 7 -num 5
+WCCILpmon    (1), 2024.08.19 08:54:09.026, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCILevent.exe -PROJ TL-Roman -pmonIndex 8 
+WCCILpmon    (1), 2024.08.19 08:54:09.666, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCILproxy.exe -PROJ TL-Roman -pmonIndex 9 
+WCCILpmon    (1), 2024.08.19 08:54:10.341, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOActrl.exe -PROJ TL-Roman -pmonIndex 10 -f pvss_scripts.lst
+WCCILpmon    (1), 2024.08.19 08:54:10.687, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCILsim.exe -PROJ TL-Roman -pmonIndex 11 
+WCCILpmon    (1), 2024.08.19 08:54:11.062, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAui.exe -PROJ TL-Roman -pmonIndex 12 -m gedi
+WCCILpmon    (1), 2024.08.19 08:54:47.791, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOActrl.exe -PROJ TL-Roman -pmonIndex 13 TrafficLight.ctl
+WCCILpmon    (1), 2024.08.19 08:54:48.258, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAopc.exe -PROJ TL-Roman -pmonIndex 14 -num 2
+WCCILpmon    (1), 2024.08.19 08:56:58.653, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOActrl.exe -PROJ TL-Roman -pmonIndex 15 TlLogic.ctl
+WCCILpmon    (1), 2024.08.19 08:56:58.978, SYS,  INFO,        9/pmon, The project is up and running. Entering monitor mode
+WCCILpmon    (1), 2024.08.19 08:57:20.002, SYS,  INFO,       25/pmon, Got STOP command (SIGTERM) from ::1, stopping the manager WCCOActrl(2) at index 13
+WCCILpmon    (1), 2024.08.19 08:57:20.003, SYS,  INFO,       17/pmon, Stopping Manager WCCOActrl(2) with signal SIGTERM
+WCCILpmon    (1), 2024.08.19 10:00:13.766, SYS,  INFO,       24/pmon, Got START command from ::1, starting the manager WCCOAui(1) at index 12
+WCCILpmon    (1), 2024.08.19 10:00:13.796, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAui.exe -PROJ TL-Roman -pmonIndex 12 -m gedi
+WCCILpmon    (1), 2024.08.19 10:04:11.217, SYS,  INFO,       21/pmon, Got STOP_ALL command from ::1, stopping the project
+WCCILpmon    (1), 2024.08.19 10:04:11.219, SYS,  INFO,       17/pmon, Stopping Manager WCCOAopc(2) with signal SIGTERM
+WCCILpmon    (1), 2024.08.19 10:04:11.221, SYS,  INFO,       17/pmon, Stopping Manager WCCILsim(1) with signal SIGTERM
+WCCILpmon    (1), 2024.08.19 10:04:11.222, SYS,  INFO,       17/pmon, Stopping Manager WCCOActrl(1) with signal SIGTERM
+WCCILpmon    (1), 2024.08.19 10:04:11.223, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(5) with signal SIGTERM
+WCCILpmon    (1), 2024.08.19 10:04:11.225, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(4) with signal SIGTERM
+WCCILpmon    (1), 2024.08.19 10:04:11.226, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(3) with signal SIGTERM
+WCCILpmon    (1), 2024.08.19 10:04:11.228, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(2) with signal SIGTERM
+WCCILpmon    (1), 2024.08.19 10:04:11.229, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(1) with signal SIGTERM
+WCCILpmon    (1), 2024.08.19 10:04:11.230, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(0) with signal SIGTERM
+WCCILpmon    (1), 2024.08.19 10:04:15.440, SYS,  INFO,       17/pmon, Stopping Manager WCCILevent(0) with signal SIGTERM
+WCCILpmon    (1), 2024.08.19 10:04:15.551, SYS,  INFO,       17/pmon, Stopping Manager WCCILdata(0) with signal SIGTERM
+WCCILpmon    (1), 2024.08.19 10:04:17.590, SYS,  INFO,       17/pmon, Stopping Manager WCCILproxy(1) with signal SIGTERM
+WCCILpmon    (1), 2024.08.19 10:04:18.098, SYS,  INFO,       13/pmon, Completely stopped the project - waiting for commands
+WCCILpmon    (1), 2024.08.19 10:04:21.090, SYS,  INFO,       20/pmon, Got START_ALL command from ::1, starting the project
+WCCILpmon    (1), 2024.08.19 10:04:21.104, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCILdata.exe -PROJ TL-Roman -pmonIndex 1 
+WCCILpmon    (1), 2024.08.19 10:04:22.629, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAvalarch.exe -PROJ TL-Roman -pmonIndex 2 -num 0
+WCCILpmon    (1), 2024.08.19 10:04:22.988, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAvalarch.exe -PROJ TL-Roman -pmonIndex 3 -num 1
+WCCILpmon    (1), 2024.08.19 10:04:23.347, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAvalarch.exe -PROJ TL-Roman -pmonIndex 4 -num 2
+WCCILpmon    (1), 2024.08.19 10:04:23.713, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAvalarch.exe -PROJ TL-Roman -pmonIndex 5 -num 3
+WCCILpmon    (1), 2024.08.19 10:04:23.988, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAvalarch.exe -PROJ TL-Roman -pmonIndex 6 -num 4
+WCCILpmon    (1), 2024.08.19 10:04:24.339, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAvalarch.exe -PROJ TL-Roman -pmonIndex 7 -num 5
+WCCILpmon    (1), 2024.08.19 10:04:27.678, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCILevent.exe -PROJ TL-Roman -pmonIndex 8 
+WCCILpmon    (1), 2024.08.19 10:04:28.396, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCILproxy.exe -PROJ TL-Roman -pmonIndex 9 
+WCCILpmon    (1), 2024.08.19 10:04:30.661, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOActrl.exe -PROJ TL-Roman -pmonIndex 10 -f pvss_scripts.lst
+WCCILpmon    (1), 2024.08.19 10:04:31.018, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCILsim.exe -PROJ TL-Roman -pmonIndex 11 
+WCCILpmon    (1), 2024.08.19 10:04:31.386, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAui.exe -PROJ TL-Roman -pmonIndex 12 -m gedi
+WCCILpmon    (1), 2024.08.19 10:04:35.712, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOActrl.exe -PROJ TL-Roman -pmonIndex 13 TrafficLight.ctl
+WCCILpmon    (1), 2024.08.19 10:04:36.054, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAopc.exe -PROJ TL-Roman -pmonIndex 14 -num 2
+WCCILpmon    (1), 2024.08.19 10:04:36.520, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOActrl.exe -PROJ TL-Roman -pmonIndex 15 TlLogic.ctl
+WCCILpmon    (1), 2024.08.19 10:04:36.958, SYS,  INFO,        9/pmon, The project is up and running. Entering monitor mode
+WCCILpmon    (1), 2024.08.19 11:58:19.359, SYS,  INFO,       21/pmon, Got STOP_ALL command from ::1, stopping the project
+WCCILpmon    (1), 2024.08.19 11:58:19.360, SYS,  INFO,       17/pmon, Stopping Manager WCCOAopc(2) with signal SIGTERM
+WCCILpmon    (1), 2024.08.19 11:58:19.361, SYS,  INFO,       17/pmon, Stopping Manager WCCOActrl(2) with signal SIGTERM
+WCCILpmon    (1), 2024.08.19 11:58:19.363, SYS,  INFO,       17/pmon, Stopping Manager WCCILsim(1) with signal SIGTERM
+WCCILpmon    (1), 2024.08.19 11:58:19.364, SYS,  INFO,       17/pmon, Stopping Manager WCCOActrl(1) with signal SIGTERM
+WCCILpmon    (1), 2024.08.19 11:58:19.365, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(5) with signal SIGTERM
+WCCILpmon    (1), 2024.08.19 11:58:19.366, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(4) with signal SIGTERM
+WCCILpmon    (1), 2024.08.19 11:58:19.368, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(3) with signal SIGTERM
+WCCILpmon    (1), 2024.08.19 11:58:19.369, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(2) with signal SIGTERM
+WCCILpmon    (1), 2024.08.19 11:58:19.371, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(1) with signal SIGTERM
+WCCILpmon    (1), 2024.08.19 11:58:19.372, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(0) with signal SIGTERM
+WCCILpmon    (1), 2024.08.19 11:58:23.508, SYS,  INFO,       17/pmon, Stopping Manager WCCILevent(0) with signal SIGTERM
+WCCILpmon    (1), 2024.08.19 11:58:23.726, SYS,  INFO,       17/pmon, Stopping Manager WCCILdata(0) with signal SIGTERM
+WCCILpmon    (1), 2024.08.19 11:58:25.643, SYS,  INFO,       17/pmon, Stopping Manager WCCILproxy(1) with signal SIGTERM
+WCCILpmon    (1), 2024.08.19 11:58:25.751, SYS,  INFO,       13/pmon, Completely stopped the project - waiting for commands
+WCCILpmon    (1), 2024.08.19 11:58:28.970, SYS,  INFO,        3/pmon, Got shutdown command - stopping the project and terminating
+WCCILpmon    (1), 2024.08.19 11:58:28.972, SYS,  INFO,       15/pmon, Completely stopped the project - terminating
+WCCILpmon    (1), 2024.08.19 11:58:28.973, SYS,  INFO,        2, Manager Stop
+WCCILpmon    (1), 2024.08.20 08:50:37.419, SYS,  INFO,        1, Manager Start, WAIT_MODE
+WCCILpmon    (1), 2024.08.20 08:51:37.378, SYS,  INFO,       20/pmon, Got START_ALL command from ::1, starting the project
+WCCILpmon    (1), 2024.08.20 08:51:37.410, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCILdata.exe -PROJ TL-Roman -pmonIndex 1 
+WCCILpmon    (1), 2024.08.20 08:51:39.085, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAvalarch.exe -PROJ TL-Roman -pmonIndex 2 -num 0
+WCCILpmon    (1), 2024.08.20 08:51:39.443, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAvalarch.exe -PROJ TL-Roman -pmonIndex 3 -num 1
+WCCILpmon    (1), 2024.08.20 08:51:39.788, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAvalarch.exe -PROJ TL-Roman -pmonIndex 4 -num 2
+WCCILpmon    (1), 2024.08.20 08:51:40.143, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAvalarch.exe -PROJ TL-Roman -pmonIndex 5 -num 3
+WCCILpmon    (1), 2024.08.20 08:51:40.475, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAvalarch.exe -PROJ TL-Roman -pmonIndex 6 -num 4
+WCCILpmon    (1), 2024.08.20 08:51:40.884, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAvalarch.exe -PROJ TL-Roman -pmonIndex 7 -num 5
+WCCILpmon    (1), 2024.08.20 08:51:44.243, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCILevent.exe -PROJ TL-Roman -pmonIndex 8 
+WCCILpmon    (1), 2024.08.20 08:51:44.801, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCILproxy.exe -PROJ TL-Roman -pmonIndex 9 
+WCCILpmon    (1), 2024.08.20 08:51:46.827, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOActrl.exe -PROJ TL-Roman -pmonIndex 10 -f pvss_scripts.lst
+WCCILpmon    (1), 2024.08.20 08:51:47.166, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCILsim.exe -PROJ TL-Roman -pmonIndex 11 
+WCCILpmon    (1), 2024.08.20 08:51:47.503, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAui.exe -PROJ TL-Roman -pmonIndex 12 -m gedi
+WCCILpmon    (1), 2024.08.20 08:51:58.912, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOActrl.exe -PROJ TL-Roman -pmonIndex 13 TrafficLight.ctl
+WCCILpmon    (1), 2024.08.20 08:51:59.362, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAopc.exe -PROJ TL-Roman -pmonIndex 14 -num 2
+WCCILpmon    (1), 2024.08.20 08:51:59.923, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOActrl.exe -PROJ TL-Roman -pmonIndex 15 TlLogic.ctl
+WCCILpmon    (1), 2024.08.20 08:52:00.252, SYS,  INFO,        9/pmon, The project is up and running. Entering monitor mode
+WCCILpmon    (1), 2024.08.20 08:52:10.494, SYS,  INFO,       25/pmon, Got STOP command (SIGTERM) from ::1, stopping the manager WCCOActrl(2) at index 13
+WCCILpmon    (1), 2024.08.20 08:52:10.495, SYS,  INFO,       17/pmon, Stopping Manager WCCOActrl(2) with signal SIGTERM
+WCCILpmon    (1), 2024.08.20 09:36:57.649, SYS,  INFO,       25/pmon, Got STOP command (SIGTERM) from ::1, stopping the manager WCCOAopc(2) at index 14
+WCCILpmon    (1), 2024.08.20 09:36:57.651, SYS,  INFO,       17/pmon, Stopping Manager WCCOAopc(2) with signal SIGTERM
+WCCILpmon    (1), 2024.08.20 09:37:00.159, SYS,  INFO,       24/pmon, Got START command from ::1, starting the manager WCCOAopc(2) at index 14
+WCCILpmon    (1), 2024.08.20 09:37:00.199, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAopc.exe -PROJ TL-Roman -pmonIndex 14 -num 2
+WCCILpmon    (1), 2024.08.20 09:41:18.636, SYS,  INFO,       21/pmon, Got STOP_ALL command from ::1, stopping the project
+WCCILpmon    (1), 2024.08.20 09:41:18.638, SYS,  INFO,       17/pmon, Stopping Manager WCCOAopc(2) with signal SIGTERM
+WCCILpmon    (1), 2024.08.20 09:41:18.639, SYS,  INFO,       17/pmon, Stopping Manager WCCILsim(1) with signal SIGTERM
+WCCILpmon    (1), 2024.08.20 09:41:18.640, SYS,  INFO,       17/pmon, Stopping Manager WCCOActrl(1) with signal SIGTERM
+WCCILpmon    (1), 2024.08.20 09:41:18.641, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(5) with signal SIGTERM
+WCCILpmon    (1), 2024.08.20 09:41:18.642, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(4) with signal SIGTERM
+WCCILpmon    (1), 2024.08.20 09:41:18.644, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(3) with signal SIGTERM
+WCCILpmon    (1), 2024.08.20 09:41:18.645, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(2) with signal SIGTERM
+WCCILpmon    (1), 2024.08.20 09:41:18.646, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(1) with signal SIGTERM
+WCCILpmon    (1), 2024.08.20 09:41:18.647, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(0) with signal SIGTERM
+WCCILpmon    (1), 2024.08.20 09:41:22.766, SYS,  INFO,       17/pmon, Stopping Manager WCCILevent(0) with signal SIGTERM
+WCCILpmon    (1), 2024.08.20 09:41:22.983, SYS,  INFO,       17/pmon, Stopping Manager WCCILdata(0) with signal SIGTERM
+WCCILpmon    (1), 2024.08.20 09:41:24.929, SYS,  INFO,       17/pmon, Stopping Manager WCCILproxy(1) with signal SIGTERM
+WCCILpmon    (1), 2024.08.20 09:41:25.366, SYS,  INFO,       13/pmon, Completely stopped the project - waiting for commands
+WCCILpmon    (1), 2024.08.20 09:41:28.058, SYS,  INFO,       20/pmon, Got START_ALL command from ::1, starting the project
+WCCILpmon    (1), 2024.08.20 09:41:28.077, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCILdata.exe -PROJ TL-Roman -pmonIndex 1 
+WCCILpmon    (1), 2024.08.20 09:41:29.612, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAvalarch.exe -PROJ TL-Roman -pmonIndex 2 -num 0
+WCCILpmon    (1), 2024.08.20 09:41:30.074, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAvalarch.exe -PROJ TL-Roman -pmonIndex 3 -num 1
+WCCILpmon    (1), 2024.08.20 09:41:30.557, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAvalarch.exe -PROJ TL-Roman -pmonIndex 4 -num 2
+WCCILpmon    (1), 2024.08.20 09:41:30.997, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAvalarch.exe -PROJ TL-Roman -pmonIndex 5 -num 3
+WCCILpmon    (1), 2024.08.20 09:41:31.355, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAvalarch.exe -PROJ TL-Roman -pmonIndex 6 -num 4
+WCCILpmon    (1), 2024.08.20 09:41:31.707, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAvalarch.exe -PROJ TL-Roman -pmonIndex 7 -num 5
+WCCILpmon    (1), 2024.08.20 09:41:35.062, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCILevent.exe -PROJ TL-Roman -pmonIndex 8 
+WCCILpmon    (1), 2024.08.20 09:41:35.631, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCILproxy.exe -PROJ TL-Roman -pmonIndex 9 
+WCCILpmon    (1), 2024.08.20 09:41:37.909, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOActrl.exe -PROJ TL-Roman -pmonIndex 10 -f pvss_scripts.lst
+WCCILpmon    (1), 2024.08.20 09:41:38.245, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCILsim.exe -PROJ TL-Roman -pmonIndex 11 
+WCCILpmon    (1), 2024.08.20 09:41:38.585, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAui.exe -PROJ TL-Roman -pmonIndex 12 -m gedi
+WCCILpmon    (1), 2024.08.20 09:41:41.408, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOActrl.exe -PROJ TL-Roman -pmonIndex 13 TrafficLight.ctl
+WCCILpmon    (1), 2024.08.20 09:41:41.751, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAopc.exe -PROJ TL-Roman -pmonIndex 14 -num 2
+WCCILpmon    (1), 2024.08.20 09:41:42.108, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOActrl.exe -PROJ TL-Roman -pmonIndex 15 TlLogic.ctl
+WCCILpmon    (1), 2024.08.20 09:41:42.442, SYS,  INFO,        9/pmon, The project is up and running. Entering monitor mode
+WCCILpmon    (1), 2024.08.20 09:44:54.664, SYS,  WARNING,    36/pmon, Blocking Manager WCCOAopc(2) detected. No heartbeat since 30 seconds.
+WCCILpmon    (1), 2024.08.20 09:47:39.811, SYS,  INFO,       25/pmon, Got STOP command (SIGTERM) from ::1, stopping the manager WCCOAopc(2) at index 14
+WCCILpmon    (1), 2024.08.20 09:47:39.813, SYS,  INFO,       17/pmon, Stopping Manager WCCOAopc(2) with signal SIGTERM
+WCCILpmon    (1), 2024.08.20 09:47:43.448, SYS,  INFO,       26/pmon, Got KILL command (SIGKILL) from ::1, stopping the manager WCCOAopc(2) at index 14
+WCCILpmon    (1), 2024.08.20 09:47:43.449, SYS,  INFO,       17/pmon, Stopping Manager WCCOAopc(2) with signal SIGKILL
+WCCILpmon    (1), 2024.08.20 09:47:47.959, SYS,  INFO,       24/pmon, Got START command from ::1, starting the manager WCCOAopc(2) at index 14
+WCCILpmon    (1), 2024.08.20 09:47:47.974, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAopc.exe -PROJ TL-Roman -pmonIndex 14 -num 2
+WCCILpmon    (1), 2024.08.20 09:48:04.879, SYS,  INFO,       24/pmon, Got START command from ::1, starting the manager WCCOAui(1) at index 12
+WCCILpmon    (1), 2024.08.20 09:48:04.897, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAui.exe -PROJ TL-Roman -pmonIndex 12 -m gedi
+WCCILpmon    (1), 2024.08.20 09:53:26.188, SYS,  INFO,       25/pmon, Got STOP command (SIGTERM) from ::1, stopping the manager WCCOAopc(2) at index 14
+WCCILpmon    (1), 2024.08.20 09:53:26.189, SYS,  INFO,       17/pmon, Stopping Manager WCCOAopc(2) with signal SIGTERM
+WCCILpmon    (1), 2024.08.20 09:53:30.850, SYS,  INFO,       26/pmon, Got KILL command (SIGKILL) from ::1, stopping the manager WCCOAopc(2) at index 14
+WCCILpmon    (1), 2024.08.20 09:53:30.851, SYS,  INFO,       17/pmon, Stopping Manager WCCOAopc(2) with signal SIGKILL
+WCCILpmon    (1), 2024.08.20 09:53:34.560, SYS,  INFO,       24/pmon, Got START command from ::1, starting the manager WCCOAopc(2) at index 14
+WCCILpmon    (1), 2024.08.20 09:53:34.590, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAopc.exe -PROJ TL-Roman -pmonIndex 14 -num 2
+WCCILpmon    (1), 2024.08.20 09:55:28.314, SYS,  INFO,        1, Manager Start, WAIT_MODE
+WCCILpmon    (1), 2024.08.20 09:55:33.069, SYS,  INFO,       20/pmon, Got START_ALL command from ::1, starting the project
+WCCILpmon    (1), 2024.08.20 09:55:33.146, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCILdata.exe -PROJ TL-Roman -pmonIndex 1 
+WCCILpmon    (1), 2024.08.20 09:56:35.680, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAvalarch.exe -PROJ TL-Roman -pmonIndex 2 -num 0
+WCCILpmon    (1), 2024.08.20 09:56:36.270, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAvalarch.exe -PROJ TL-Roman -pmonIndex 3 -num 1
+WCCILpmon    (1), 2024.08.20 09:56:36.653, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAvalarch.exe -PROJ TL-Roman -pmonIndex 4 -num 2
+WCCILpmon    (1), 2024.08.20 09:56:37.135, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAvalarch.exe -PROJ TL-Roman -pmonIndex 5 -num 3
+WCCILpmon    (1), 2024.08.20 09:56:37.475, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAvalarch.exe -PROJ TL-Roman -pmonIndex 6 -num 4
+WCCILpmon    (1), 2024.08.20 09:56:37.839, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAvalarch.exe -PROJ TL-Roman -pmonIndex 7 -num 5
+WCCILpmon    (1), 2024.08.20 09:56:41.369, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCILevent.exe -PROJ TL-Roman -pmonIndex 8 
+WCCILpmon    (1), 2024.08.20 09:56:42.228, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCILproxy.exe -PROJ TL-Roman -pmonIndex 9 
+WCCILpmon    (1), 2024.08.20 09:56:44.396, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOActrl.exe -PROJ TL-Roman -pmonIndex 10 -f pvss_scripts.lst
+WCCILpmon    (1), 2024.08.20 09:56:44.812, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCILsim.exe -PROJ TL-Roman -pmonIndex 11 
+WCCILpmon    (1), 2024.08.20 09:56:45.177, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAui.exe -PROJ TL-Roman -pmonIndex 12 -m gedi
+WCCILpmon    (1), 2024.08.20 09:56:48.631, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOActrl.exe -PROJ TL-Roman -pmonIndex 13 TrafficLight.ctl
+WCCILpmon    (1), 2024.08.20 09:56:49.135, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAopc.exe -PROJ TL-Roman -pmonIndex 14 -num 2
+WCCILpmon    (1), 2024.08.20 09:56:49.586, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOActrl.exe -PROJ TL-Roman -pmonIndex 15 TlLogic.ctl
+WCCILpmon    (1), 2024.08.20 09:56:49.922, SYS,  INFO,        9/pmon, The project is up and running. Entering monitor mode
+WCCILpmon    (1), 2024.08.20 10:14:24.241, SYS,  INFO,       21/pmon, Got STOP_ALL command from ::1, stopping the project
+WCCILpmon    (1), 2024.08.20 10:14:24.243, SYS,  INFO,       17/pmon, Stopping Manager WCCOAopc(2) with signal SIGTERM
+WCCILpmon    (1), 2024.08.20 10:14:24.244, SYS,  INFO,       17/pmon, Stopping Manager WCCOActrl(2) with signal SIGTERM
+WCCILpmon    (1), 2024.08.20 10:14:24.245, SYS,  INFO,       17/pmon, Stopping Manager WCCOAui(1) with signal SIGTERM
+WCCILpmon    (1), 2024.08.20 10:14:24.247, SYS,  INFO,       17/pmon, Stopping Manager WCCILsim(1) with signal SIGTERM
+WCCILpmon    (1), 2024.08.20 10:14:24.248, SYS,  INFO,       17/pmon, Stopping Manager WCCOActrl(1) with signal SIGTERM
+WCCILpmon    (1), 2024.08.20 10:14:24.249, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(5) with signal SIGTERM
+WCCILpmon    (1), 2024.08.20 10:14:24.250, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(4) with signal SIGTERM
+WCCILpmon    (1), 2024.08.20 10:14:24.252, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(3) with signal SIGTERM
+WCCILpmon    (1), 2024.08.20 10:14:24.253, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(2) with signal SIGTERM
+WCCILpmon    (1), 2024.08.20 10:14:24.254, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(1) with signal SIGTERM
+WCCILpmon    (1), 2024.08.20 10:14:24.255, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(0) with signal SIGTERM
+WCCILpmon    (1), 2024.08.20 10:14:28.431, SYS,  INFO,       17/pmon, Stopping Manager WCCILevent(0) with signal SIGTERM
+WCCILpmon    (1), 2024.08.20 10:14:28.601, SYS,  INFO,       17/pmon, Stopping Manager WCCILdata(0) with signal SIGTERM
+WCCILpmon    (1), 2024.08.20 10:14:30.542, SYS,  INFO,       17/pmon, Stopping Manager WCCILproxy(1) with signal SIGTERM
+WCCILpmon    (1), 2024.08.20 10:14:31.219, SYS,  INFO,       13/pmon, Completely stopped the project - waiting for commands
+WCCILpmon    (1), 2024.08.20 10:14:34.581, SYS,  INFO,        3/pmon, Got shutdown command - stopping the project and terminating
+WCCILpmon    (1), 2024.08.20 10:14:34.583, SYS,  INFO,       15/pmon, Completely stopped the project - terminating
+WCCILpmon    (1), 2024.08.20 10:14:34.585, SYS,  INFO,        2, Manager Stop
+WCCILpmon    (1), 2024.08.20 10:15:22.561, SYS,  INFO,        1, Manager Start, WAIT_MODE
+WCCILpmon    (1), 2024.08.20 10:15:31.003, SYS,  INFO,       20/pmon, Got START_ALL command from ::1, starting the project
+WCCILpmon    (1), 2024.08.20 10:15:31.018, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCILdata.exe -PROJ TL-Roman -pmonIndex 1 
+WCCILpmon    (1), 2024.08.20 10:15:32.438, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAvalarch.exe -PROJ TL-Roman -pmonIndex 2 -num 0
+WCCILpmon    (1), 2024.08.20 10:15:32.784, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAvalarch.exe -PROJ TL-Roman -pmonIndex 3 -num 1
+WCCILpmon    (1), 2024.08.20 10:15:33.252, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAvalarch.exe -PROJ TL-Roman -pmonIndex 4 -num 2
+WCCILpmon    (1), 2024.08.20 10:15:33.602, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAvalarch.exe -PROJ TL-Roman -pmonIndex 5 -num 3
+WCCILpmon    (1), 2024.08.20 10:15:33.957, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAvalarch.exe -PROJ TL-Roman -pmonIndex 6 -num 4
+WCCILpmon    (1), 2024.08.20 10:15:34.307, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAvalarch.exe -PROJ TL-Roman -pmonIndex 7 -num 5
+WCCILpmon    (1), 2024.08.20 10:15:37.662, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCILevent.exe -PROJ TL-Roman -pmonIndex 8 
+WCCILpmon    (1), 2024.08.20 10:15:38.114, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCILproxy.exe -PROJ TL-Roman -pmonIndex 9 
+WCCILpmon    (1), 2024.08.20 10:15:40.130, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOActrl.exe -PROJ TL-Roman -pmonIndex 10 -f pvss_scripts.lst
+WCCILpmon    (1), 2024.08.20 10:15:40.491, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCILsim.exe -PROJ TL-Roman -pmonIndex 11 
+WCCILpmon    (1), 2024.08.20 10:15:40.837, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAui.exe -PROJ TL-Roman -pmonIndex 12 -m gedi
+WCCILpmon    (1), 2024.08.20 10:15:44.171, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOActrl.exe -PROJ TL-Roman -pmonIndex 13 TrafficLight.ctl
+WCCILpmon    (1), 2024.08.20 10:15:44.646, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAopc.exe -PROJ TL-Roman -pmonIndex 14 -num 2
+WCCILpmon    (1), 2024.08.20 10:15:45.105, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOActrl.exe -PROJ TL-Roman -pmonIndex 15 TlLogic.ctl
+WCCILpmon    (1), 2024.08.20 10:15:45.441, SYS,  INFO,        9/pmon, The project is up and running. Entering monitor mode
+WCCILpmon    (1), 2024.08.20 11:28:21.463, SYS,  INFO,       21/pmon, Got STOP_ALL command from ::1, stopping the project
+WCCILpmon    (1), 2024.08.20 11:28:21.464, SYS,  INFO,       17/pmon, Stopping Manager WCCOAopc(2) with signal SIGTERM
+WCCILpmon    (1), 2024.08.20 11:28:21.466, SYS,  INFO,       17/pmon, Stopping Manager WCCOActrl(2) with signal SIGTERM
+WCCILpmon    (1), 2024.08.20 11:28:21.467, SYS,  INFO,       17/pmon, Stopping Manager WCCOAui(1) with signal SIGTERM
+WCCILpmon    (1), 2024.08.20 11:28:21.468, SYS,  INFO,       17/pmon, Stopping Manager WCCILsim(1) with signal SIGTERM
+WCCILpmon    (1), 2024.08.20 11:28:21.469, SYS,  INFO,       17/pmon, Stopping Manager WCCOActrl(1) with signal SIGTERM
+WCCILpmon    (1), 2024.08.20 11:28:21.471, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(5) with signal SIGTERM
+WCCILpmon    (1), 2024.08.20 11:28:21.472, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(4) with signal SIGTERM
+WCCILpmon    (1), 2024.08.20 11:28:21.473, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(3) with signal SIGTERM
+WCCILpmon    (1), 2024.08.20 11:28:21.474, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(2) with signal SIGTERM
+WCCILpmon    (1), 2024.08.20 11:28:21.475, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(1) with signal SIGTERM
+WCCILpmon    (1), 2024.08.20 11:28:21.477, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(0) with signal SIGTERM
+WCCILpmon    (1), 2024.08.20 11:28:25.671, SYS,  INFO,       17/pmon, Stopping Manager WCCILevent(0) with signal SIGTERM
+WCCILpmon    (1), 2024.08.20 11:28:25.782, SYS,  INFO,       17/pmon, Stopping Manager WCCILdata(0) with signal SIGTERM
+WCCILpmon    (1), 2024.08.20 11:28:27.720, SYS,  INFO,       17/pmon, Stopping Manager WCCILproxy(1) with signal SIGTERM
+WCCILpmon    (1), 2024.08.20 11:28:27.829, SYS,  INFO,       13/pmon, Completely stopped the project - waiting for commands
+WCCILpmon    (1), 2024.08.20 11:28:30.889, SYS,  INFO,       20/pmon, Got START_ALL command from ::1, starting the project
+WCCILpmon    (1), 2024.08.20 11:28:30.917, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCILdata.exe -PROJ TL-Roman -pmonIndex 1 
+WCCILpmon    (1), 2024.08.20 11:28:32.295, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAvalarch.exe -PROJ TL-Roman -pmonIndex 2 -num 0
+WCCILpmon    (1), 2024.08.20 11:28:32.663, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAvalarch.exe -PROJ TL-Roman -pmonIndex 3 -num 1
+WCCILpmon    (1), 2024.08.20 11:28:33.027, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAvalarch.exe -PROJ TL-Roman -pmonIndex 4 -num 2
+WCCILpmon    (1), 2024.08.20 11:28:33.370, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAvalarch.exe -PROJ TL-Roman -pmonIndex 5 -num 3
+WCCILpmon    (1), 2024.08.20 11:28:33.910, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAvalarch.exe -PROJ TL-Roman -pmonIndex 6 -num 4
+WCCILpmon    (1), 2024.08.20 11:28:34.377, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAvalarch.exe -PROJ TL-Roman -pmonIndex 7 -num 5
+WCCILpmon    (1), 2024.08.20 11:28:37.898, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCILevent.exe -PROJ TL-Roman -pmonIndex 8 
+WCCILpmon    (1), 2024.08.20 11:28:38.698, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCILproxy.exe -PROJ TL-Roman -pmonIndex 9 
+WCCILpmon    (1), 2024.08.20 11:28:40.938, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOActrl.exe -PROJ TL-Roman -pmonIndex 10 -f pvss_scripts.lst
+WCCILpmon    (1), 2024.08.20 11:28:41.280, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCILsim.exe -PROJ TL-Roman -pmonIndex 11 
+WCCILpmon    (1), 2024.08.20 11:28:41.741, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAui.exe -PROJ TL-Roman -pmonIndex 12 -m gedi
+WCCILpmon    (1), 2024.08.20 11:29:19.947, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOActrl.exe -PROJ TL-Roman -pmonIndex 13 TrafficLight.ctl
+WCCILpmon    (1), 2024.08.20 11:29:20.293, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAopc.exe -PROJ TL-Roman -pmonIndex 14 -num 2
+WCCILpmon    (1), 2024.08.20 11:29:20.659, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOActrl.exe -PROJ TL-Roman -pmonIndex 15 TlLogic.ctl
+WCCILpmon    (1), 2024.08.20 11:29:20.984, SYS,  INFO,        9/pmon, The project is up and running. Entering monitor mode
+WCCILpmon    (1), 2024.08.20 11:38:15.708, SYS,  INFO,       25/pmon, Got STOP command (SIGTERM) from ::1, stopping the manager WCCOAopc(2) at index 14
+WCCILpmon    (1), 2024.08.20 11:38:15.709, SYS,  INFO,       17/pmon, Stopping Manager WCCOAopc(2) with signal SIGTERM
+WCCILpmon    (1), 2024.08.20 11:41:28.448, SYS,  INFO,       24/pmon, Got START command from ::1, starting the manager WCCOAopc(2) at index 14
+WCCILpmon    (1), 2024.08.20 11:41:28.462, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAopc.exe -PROJ TL-Roman -pmonIndex 14 -num 2
+WCCILpmon    (1), 2024.08.20 11:41:54.164, SYS,  INFO,       21/pmon, Got STOP_ALL command from ::1, stopping the project
+WCCILpmon    (1), 2024.08.20 11:41:54.166, SYS,  INFO,       17/pmon, Stopping Manager WCCOAopc(2) with signal SIGTERM
+WCCILpmon    (1), 2024.08.20 11:41:54.167, SYS,  INFO,       17/pmon, Stopping Manager WCCOActrl(2) with signal SIGTERM
+WCCILpmon    (1), 2024.08.20 11:41:54.168, SYS,  INFO,       17/pmon, Stopping Manager WCCOAui(1) with signal SIGTERM
+WCCILpmon    (1), 2024.08.20 11:41:54.170, SYS,  INFO,       17/pmon, Stopping Manager WCCILsim(1) with signal SIGTERM
+WCCILpmon    (1), 2024.08.20 11:41:54.171, SYS,  INFO,       17/pmon, Stopping Manager WCCOActrl(1) with signal SIGTERM
+WCCILpmon    (1), 2024.08.20 11:41:54.172, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(5) with signal SIGTERM
+WCCILpmon    (1), 2024.08.20 11:41:54.173, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(4) with signal SIGTERM
+WCCILpmon    (1), 2024.08.20 11:41:54.175, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(3) with signal SIGTERM
+WCCILpmon    (1), 2024.08.20 11:41:54.176, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(2) with signal SIGTERM
+WCCILpmon    (1), 2024.08.20 11:41:54.178, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(1) with signal SIGTERM
+WCCILpmon    (1), 2024.08.20 11:41:54.179, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(0) with signal SIGTERM
+WCCILpmon    (1), 2024.08.20 11:41:58.276, SYS,  INFO,       17/pmon, Stopping Manager WCCILevent(0) with signal SIGTERM
+WCCILpmon    (1), 2024.08.20 11:41:58.433, SYS,  INFO,       17/pmon, Stopping Manager WCCILdata(0) with signal SIGTERM
+WCCILpmon    (1), 2024.08.20 11:42:00.465, SYS,  INFO,       17/pmon, Stopping Manager WCCILproxy(1) with signal SIGTERM
+WCCILpmon    (1), 2024.08.20 11:42:01.348, SYS,  INFO,       13/pmon, Completely stopped the project - waiting for commands
+WCCILpmon    (1), 2024.08.20 11:43:52.106, SYS,  INFO,        1, Manager Start, WAIT_MODE
+WCCILpmon    (1), 2024.08.20 11:43:58.888, SYS,  INFO,       20/pmon, Got START_ALL command from ::1, starting the project
+WCCILpmon    (1), 2024.08.20 11:43:58.973, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCILdata.exe -PROJ TL-Roman -pmonIndex 1 
+WCCILpmon    (1), 2024.08.20 11:44:00.624, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAvalarch.exe -PROJ TL-Roman -pmonIndex 2 -num 0
+WCCILpmon    (1), 2024.08.20 11:44:01.074, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAvalarch.exe -PROJ TL-Roman -pmonIndex 3 -num 1
+WCCILpmon    (1), 2024.08.20 11:44:01.416, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAvalarch.exe -PROJ TL-Roman -pmonIndex 4 -num 2
+WCCILpmon    (1), 2024.08.20 11:44:01.761, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAvalarch.exe -PROJ TL-Roman -pmonIndex 5 -num 3
+WCCILpmon    (1), 2024.08.20 11:44:02.058, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAvalarch.exe -PROJ TL-Roman -pmonIndex 6 -num 4
+WCCILpmon    (1), 2024.08.20 11:44:02.403, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAvalarch.exe -PROJ TL-Roman -pmonIndex 7 -num 5
+WCCILpmon    (1), 2024.08.20 11:44:05.902, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCILevent.exe -PROJ TL-Roman -pmonIndex 8 
+WCCILpmon    (1), 2024.08.20 11:44:06.524, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCILproxy.exe -PROJ TL-Roman -pmonIndex 9 
+WCCILpmon    (1), 2024.08.20 11:44:08.646, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOActrl.exe -PROJ TL-Roman -pmonIndex 10 -f pvss_scripts.lst
+WCCILpmon    (1), 2024.08.20 11:44:09.033, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCILsim.exe -PROJ TL-Roman -pmonIndex 11 
+WCCILpmon    (1), 2024.08.20 11:44:09.486, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAui.exe -PROJ TL-Roman -pmonIndex 12 -m gedi
+WCCILpmon    (1), 2024.08.20 11:45:21.679, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOActrl.exe -PROJ TL-Roman -pmonIndex 13 TrafficLight.ctl
+WCCILpmon    (1), 2024.08.20 11:45:22.177, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAopc.exe -PROJ TL-Roman -pmonIndex 14 -num 2
+WCCILpmon    (1), 2024.08.20 11:45:22.632, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOActrl.exe -PROJ TL-Roman -pmonIndex 15 TlLogic.ctl
+WCCILpmon    (1), 2024.08.20 11:45:22.962, SYS,  INFO,        9/pmon, The project is up and running. Entering monitor mode
+WCCILpmon    (1), 2024.08.20 11:56:25.164, SYS,  INFO,       21/pmon, Got STOP_ALL command from ::1, stopping the project
+WCCILpmon    (1), 2024.08.20 11:56:25.166, SYS,  INFO,       17/pmon, Stopping Manager WCCOAopc(2) with signal SIGTERM
+WCCILpmon    (1), 2024.08.20 11:56:25.167, SYS,  INFO,       17/pmon, Stopping Manager WCCOActrl(2) with signal SIGTERM
+WCCILpmon    (1), 2024.08.20 11:56:25.169, SYS,  INFO,       17/pmon, Stopping Manager WCCOAui(1) with signal SIGTERM
+WCCILpmon    (1), 2024.08.20 11:56:25.170, SYS,  INFO,       17/pmon, Stopping Manager WCCILsim(1) with signal SIGTERM
+WCCILpmon    (1), 2024.08.20 11:56:25.172, SYS,  INFO,       17/pmon, Stopping Manager WCCOActrl(1) with signal SIGTERM
+WCCILpmon    (1), 2024.08.20 11:56:25.173, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(5) with signal SIGTERM
+WCCILpmon    (1), 2024.08.20 11:56:25.174, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(4) with signal SIGTERM
+WCCILpmon    (1), 2024.08.20 11:56:25.175, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(3) with signal SIGTERM
+WCCILpmon    (1), 2024.08.20 11:56:25.176, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(2) with signal SIGTERM
+WCCILpmon    (1), 2024.08.20 11:56:25.177, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(1) with signal SIGTERM
+WCCILpmon    (1), 2024.08.20 11:56:25.179, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(0) with signal SIGTERM
+WCCILpmon    (1), 2024.08.20 11:56:29.404, SYS,  INFO,       17/pmon, Stopping Manager WCCILevent(0) with signal SIGTERM
+WCCILpmon    (1), 2024.08.20 11:56:29.626, SYS,  INFO,       17/pmon, Stopping Manager WCCILdata(0) with signal SIGTERM
+WCCILpmon    (1), 2024.08.20 11:56:31.658, SYS,  INFO,       17/pmon, Stopping Manager WCCILproxy(1) with signal SIGTERM
+WCCILpmon    (1), 2024.08.20 11:56:32.323, SYS,  INFO,       13/pmon, Completely stopped the project - waiting for commands
+WCCILpmon    (1), 2024.08.20 11:56:37.183, SYS,  INFO,        3/pmon, Got shutdown command - stopping the project and terminating
+WCCILpmon    (1), 2024.08.20 11:56:37.187, SYS,  INFO,       15/pmon, Completely stopped the project - terminating
+WCCILpmon    (1), 2024.08.20 11:56:37.190, SYS,  INFO,        2, Manager Stop
+WCCILpmon    (1), 2024.08.21 08:40:19.268, SYS,  INFO,        1, Manager Start, WAIT_MODE
+WCCILpmon    (1), 2024.08.21 08:40:28.457, SYS,  INFO,       20/pmon, Got START_ALL command from ::1, starting the project
+WCCILpmon    (1), 2024.08.21 08:40:28.474, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCILdata.exe -PROJ TL-Roman -pmonIndex 1 
+WCCILpmon    (1), 2024.08.21 08:40:30.065, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAvalarch.exe -PROJ TL-Roman -pmonIndex 2 -num 0
+WCCILpmon    (1), 2024.08.21 08:40:30.410, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAvalarch.exe -PROJ TL-Roman -pmonIndex 3 -num 1
+WCCILpmon    (1), 2024.08.21 08:40:30.753, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAvalarch.exe -PROJ TL-Roman -pmonIndex 4 -num 2
+WCCILpmon    (1), 2024.08.21 08:40:31.108, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAvalarch.exe -PROJ TL-Roman -pmonIndex 5 -num 3
+WCCILpmon    (1), 2024.08.21 08:40:31.456, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAvalarch.exe -PROJ TL-Roman -pmonIndex 6 -num 4
+WCCILpmon    (1), 2024.08.21 08:40:31.916, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAvalarch.exe -PROJ TL-Roman -pmonIndex 7 -num 5
+WCCILpmon    (1), 2024.08.21 08:40:35.206, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCILevent.exe -PROJ TL-Roman -pmonIndex 8 
+WCCILpmon    (1), 2024.08.21 08:40:35.786, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCILproxy.exe -PROJ TL-Roman -pmonIndex 9 
+WCCILpmon    (1), 2024.08.21 08:40:37.790, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOActrl.exe -PROJ TL-Roman -pmonIndex 10 -f pvss_scripts.lst
+WCCILpmon    (1), 2024.08.21 08:40:38.130, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCILsim.exe -PROJ TL-Roman -pmonIndex 11 
+WCCILpmon    (1), 2024.08.21 08:40:38.584, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAui.exe -PROJ TL-Roman -pmonIndex 12 -m gedi
+WCCILpmon    (1), 2024.08.21 08:40:45.569, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOActrl.exe -PROJ TL-Roman -pmonIndex 13 TrafficLight.ctl
+WCCILpmon    (1), 2024.08.21 08:40:45.947, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAopc.exe -PROJ TL-Roman -pmonIndex 14 -num 2
+WCCILpmon    (1), 2024.08.21 08:40:46.406, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOActrl.exe -PROJ TL-Roman -pmonIndex 15 TlLogic.ctl
+WCCILpmon    (1), 2024.08.21 08:40:46.727, SYS,  INFO,        9/pmon, The project is up and running. Entering monitor mode
+WCCILpmon    (1), 2024.08.21 08:41:10.823, SYS,  INFO,       25/pmon, Got STOP command (SIGTERM) from ::1, stopping the manager WCCOActrl(2) at index 13
+WCCILpmon    (1), 2024.08.21 08:41:10.824, SYS,  INFO,       17/pmon, Stopping Manager WCCOActrl(2) with signal SIGTERM
+WCCILpmon    (1), 2024.08.21 10:41:39.159, SYS,  INFO,       21/pmon, Got STOP_ALL command from ::1, stopping the project
+WCCILpmon    (1), 2024.08.21 10:41:39.161, SYS,  INFO,       17/pmon, Stopping Manager WCCOAopc(2) with signal SIGTERM
+WCCILpmon    (1), 2024.08.21 10:41:39.162, SYS,  INFO,       17/pmon, Stopping Manager WCCOAui(1) with signal SIGTERM
+WCCILpmon    (1), 2024.08.21 10:41:39.163, SYS,  INFO,       17/pmon, Stopping Manager WCCILsim(1) with signal SIGTERM
+WCCILpmon    (1), 2024.08.21 10:41:39.164, SYS,  INFO,       17/pmon, Stopping Manager WCCOActrl(1) with signal SIGTERM
+WCCILpmon    (1), 2024.08.21 10:41:39.166, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(5) with signal SIGTERM
+WCCILpmon    (1), 2024.08.21 10:41:39.167, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(4) with signal SIGTERM
+WCCILpmon    (1), 2024.08.21 10:41:39.168, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(3) with signal SIGTERM
+WCCILpmon    (1), 2024.08.21 10:41:39.169, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(2) with signal SIGTERM
+WCCILpmon    (1), 2024.08.21 10:41:39.170, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(1) with signal SIGTERM
+WCCILpmon    (1), 2024.08.21 10:41:39.171, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(0) with signal SIGTERM
+WCCILpmon    (1), 2024.08.21 10:41:43.380, SYS,  INFO,       17/pmon, Stopping Manager WCCILevent(0) with signal SIGTERM
+WCCILpmon    (1), 2024.08.21 10:41:43.448, SYS,  INFO,       17/pmon, Stopping Manager WCCILdata(0) with signal SIGTERM
+WCCILpmon    (1), 2024.08.21 10:41:45.439, SYS,  INFO,       17/pmon, Stopping Manager WCCILproxy(1) with signal SIGTERM
+WCCILpmon    (1), 2024.08.21 10:41:45.581, SYS,  INFO,       13/pmon, Completely stopped the project - waiting for commands
+WCCILpmon    (1), 2024.08.21 10:41:50.101, SYS,  INFO,       20/pmon, Got START_ALL command from ::1, starting the project
+WCCILpmon    (1), 2024.08.21 10:41:50.119, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCILdata.exe -PROJ TL-Roman -pmonIndex 1 
+WCCILpmon    (1), 2024.08.21 10:41:51.575, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAvalarch.exe -PROJ TL-Roman -pmonIndex 2 -num 0
+WCCILpmon    (1), 2024.08.21 10:41:51.953, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAvalarch.exe -PROJ TL-Roman -pmonIndex 3 -num 1
+WCCILpmon    (1), 2024.08.21 10:41:52.317, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAvalarch.exe -PROJ TL-Roman -pmonIndex 4 -num 2
+WCCILpmon    (1), 2024.08.21 10:41:52.678, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAvalarch.exe -PROJ TL-Roman -pmonIndex 5 -num 3
+WCCILpmon    (1), 2024.08.21 10:41:53.046, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAvalarch.exe -PROJ TL-Roman -pmonIndex 6 -num 4
+WCCILpmon    (1), 2024.08.21 10:41:53.524, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAvalarch.exe -PROJ TL-Roman -pmonIndex 7 -num 5
+WCCILpmon    (1), 2024.08.21 10:41:56.996, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCILevent.exe -PROJ TL-Roman -pmonIndex 8 
+WCCILpmon    (1), 2024.08.21 10:41:57.687, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCILproxy.exe -PROJ TL-Roman -pmonIndex 9 
+WCCILpmon    (1), 2024.08.21 10:41:59.787, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOActrl.exe -PROJ TL-Roman -pmonIndex 10 -f pvss_scripts.lst
+WCCILpmon    (1), 2024.08.21 10:42:00.117, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCILsim.exe -PROJ TL-Roman -pmonIndex 11 
+WCCILpmon    (1), 2024.08.21 10:42:00.466, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAui.exe -PROJ TL-Roman -pmonIndex 12 -m gedi
+WCCILpmon    (1), 2024.08.21 10:42:02.923, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOActrl.exe -PROJ TL-Roman -pmonIndex 13 TrafficLight.ctl
+WCCILpmon    (1), 2024.08.21 10:42:03.263, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAopc.exe -PROJ TL-Roman -pmonIndex 14 -num 2
+WCCILpmon    (1), 2024.08.21 10:42:03.720, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOActrl.exe -PROJ TL-Roman -pmonIndex 15 TlLogic.ctl
+WCCILpmon    (1), 2024.08.21 10:42:04.068, SYS,  INFO,        9/pmon, The project is up and running. Entering monitor mode
+WCCILpmon    (1), 2024.08.21 10:48:07.196, SYS,  INFO,       21/pmon, Got STOP_ALL command from ::1, stopping the project
+WCCILpmon    (1), 2024.08.21 10:48:07.197, SYS,  INFO,       17/pmon, Stopping Manager WCCOAopc(2) with signal SIGTERM
+WCCILpmon    (1), 2024.08.21 10:48:07.199, SYS,  INFO,       17/pmon, Stopping Manager WCCOActrl(2) with signal SIGTERM
+WCCILpmon    (1), 2024.08.21 10:48:07.200, SYS,  INFO,       17/pmon, Stopping Manager WCCILsim(1) with signal SIGTERM
+WCCILpmon    (1), 2024.08.21 10:48:07.201, SYS,  INFO,       17/pmon, Stopping Manager WCCOActrl(1) with signal SIGTERM
+WCCILpmon    (1), 2024.08.21 10:48:07.202, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(5) with signal SIGTERM
+WCCILpmon    (1), 2024.08.21 10:48:07.203, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(4) with signal SIGTERM
+WCCILpmon    (1), 2024.08.21 10:48:07.205, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(3) with signal SIGTERM
+WCCILpmon    (1), 2024.08.21 10:48:07.206, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(2) with signal SIGTERM
+WCCILpmon    (1), 2024.08.21 10:48:07.207, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(1) with signal SIGTERM
+WCCILpmon    (1), 2024.08.21 10:48:07.208, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(0) with signal SIGTERM
+WCCILpmon    (1), 2024.08.21 10:48:11.423, SYS,  INFO,       17/pmon, Stopping Manager WCCILevent(0) with signal SIGTERM
+WCCILpmon    (1), 2024.08.21 10:48:11.532, SYS,  INFO,       17/pmon, Stopping Manager WCCILdata(0) with signal SIGTERM
+WCCILpmon    (1), 2024.08.21 10:48:13.562, SYS,  INFO,       17/pmon, Stopping Manager WCCILproxy(1) with signal SIGTERM
+WCCILpmon    (1), 2024.08.21 10:48:14.073, SYS,  INFO,       13/pmon, Completely stopped the project - waiting for commands
+WCCILpmon    (1), 2024.08.21 10:48:36.430, SYS,  INFO,       20/pmon, Got START_ALL command from ::1, starting the project
+WCCILpmon    (1), 2024.08.21 10:48:36.447, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCILdata.exe -PROJ TL-Roman -pmonIndex 1 
+WCCILpmon    (1), 2024.08.21 10:48:37.913, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAvalarch.exe -PROJ TL-Roman -pmonIndex 2 -num 0
+WCCILpmon    (1), 2024.08.21 10:48:38.190, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAvalarch.exe -PROJ TL-Roman -pmonIndex 3 -num 1
+WCCILpmon    (1), 2024.08.21 10:48:38.670, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAvalarch.exe -PROJ TL-Roman -pmonIndex 4 -num 2
+WCCILpmon    (1), 2024.08.21 10:48:39.040, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAvalarch.exe -PROJ TL-Roman -pmonIndex 5 -num 3
+WCCILpmon    (1), 2024.08.21 10:48:39.513, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAvalarch.exe -PROJ TL-Roman -pmonIndex 6 -num 4
+WCCILpmon    (1), 2024.08.21 10:48:39.860, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAvalarch.exe -PROJ TL-Roman -pmonIndex 7 -num 5
+WCCILpmon    (1), 2024.08.21 10:48:43.141, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCILevent.exe -PROJ TL-Roman -pmonIndex 8 
+WCCILpmon    (1), 2024.08.21 10:48:43.922, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCILproxy.exe -PROJ TL-Roman -pmonIndex 9 
+WCCILpmon    (1), 2024.08.21 10:48:45.979, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOActrl.exe -PROJ TL-Roman -pmonIndex 10 -f pvss_scripts.lst
+WCCILpmon    (1), 2024.08.21 10:48:46.326, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCILsim.exe -PROJ TL-Roman -pmonIndex 11 
+WCCILpmon    (1), 2024.08.21 10:48:46.700, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAui.exe -PROJ TL-Roman -pmonIndex 12 -m gedi
+WCCILpmon    (1), 2024.08.21 10:48:48.817, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOActrl.exe -PROJ TL-Roman -pmonIndex 13 TrafficLight.ctl
+WCCILpmon    (1), 2024.08.21 10:48:49.152, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAopc.exe -PROJ TL-Roman -pmonIndex 14 -num 2
+WCCILpmon    (1), 2024.08.21 10:48:49.609, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOActrl.exe -PROJ TL-Roman -pmonIndex 15 TlLogic.ctl
+WCCILpmon    (1), 2024.08.21 10:48:49.944, SYS,  INFO,        9/pmon, The project is up and running. Entering monitor mode
+WCCILpmon    (1), 2024.08.21 11:16:36.946, SYS,  INFO,       21/pmon, Got STOP_ALL command from ::1, stopping the project
+WCCILpmon    (1), 2024.08.21 11:16:36.948, SYS,  INFO,       17/pmon, Stopping Manager WCCOAopc(2) with signal SIGTERM
+WCCILpmon    (1), 2024.08.21 11:16:36.949, SYS,  INFO,       17/pmon, Stopping Manager WCCOActrl(2) with signal SIGTERM
+WCCILpmon    (1), 2024.08.21 11:16:36.950, SYS,  INFO,       17/pmon, Stopping Manager WCCOAui(1) with signal SIGTERM
+WCCILpmon    (1), 2024.08.21 11:16:36.951, SYS,  INFO,       17/pmon, Stopping Manager WCCILsim(1) with signal SIGTERM
+WCCILpmon    (1), 2024.08.21 11:16:36.953, SYS,  INFO,       17/pmon, Stopping Manager WCCOActrl(1) with signal SIGTERM
+WCCILpmon    (1), 2024.08.21 11:16:36.954, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(5) with signal SIGTERM
+WCCILpmon    (1), 2024.08.21 11:16:36.955, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(4) with signal SIGTERM
+WCCILpmon    (1), 2024.08.21 11:16:36.956, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(3) with signal SIGTERM
+WCCILpmon    (1), 2024.08.21 11:16:36.961, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(2) with signal SIGTERM
+WCCILpmon    (1), 2024.08.21 11:16:36.962, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(1) with signal SIGTERM
+WCCILpmon    (1), 2024.08.21 11:16:36.963, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(0) with signal SIGTERM
+WCCILpmon    (1), 2024.08.21 11:17:02.480, SYS,  INFO,       17/pmon, Stopping Manager WCCILevent(0) with signal SIGTERM
+WCCILpmon    (1), 2024.08.21 11:17:02.590, SYS,  INFO,       17/pmon, Stopping Manager WCCILdata(0) with signal SIGTERM
+WCCILpmon    (1), 2024.08.21 11:17:04.656, SYS,  INFO,       17/pmon, Stopping Manager WCCILproxy(1) with signal SIGTERM
+WCCILpmon    (1), 2024.08.21 11:17:04.996, SYS,  INFO,       13/pmon, Completely stopped the project - waiting for commands
+WCCILpmon    (1), 2024.08.21 11:17:07.470, SYS,  INFO,       20/pmon, Got START_ALL command from ::1, starting the project
+WCCILpmon    (1), 2024.08.21 11:17:07.484, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCILdata.exe -PROJ TL-Roman -pmonIndex 1 
+WCCILpmon    (1), 2024.08.21 11:17:08.996, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAvalarch.exe -PROJ TL-Roman -pmonIndex 2 -num 0
+WCCILpmon    (1), 2024.08.21 11:17:09.358, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAvalarch.exe -PROJ TL-Roman -pmonIndex 3 -num 1
+WCCILpmon    (1), 2024.08.21 11:17:09.711, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAvalarch.exe -PROJ TL-Roman -pmonIndex 4 -num 2
+WCCILpmon    (1), 2024.08.21 11:17:10.166, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAvalarch.exe -PROJ TL-Roman -pmonIndex 5 -num 3
+WCCILpmon    (1), 2024.08.21 11:17:10.621, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAvalarch.exe -PROJ TL-Roman -pmonIndex 6 -num 4
+WCCILpmon    (1), 2024.08.21 11:17:10.979, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAvalarch.exe -PROJ TL-Roman -pmonIndex 7 -num 5
+WCCILpmon    (1), 2024.08.21 11:17:14.359, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCILevent.exe -PROJ TL-Roman -pmonIndex 8 
+WCCILpmon    (1), 2024.08.21 11:17:15.062, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCILproxy.exe -PROJ TL-Roman -pmonIndex 9 
+WCCILpmon    (1), 2024.08.21 11:17:17.205, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOActrl.exe -PROJ TL-Roman -pmonIndex 10 -f pvss_scripts.lst
+WCCILpmon    (1), 2024.08.21 11:17:17.773, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCILsim.exe -PROJ TL-Roman -pmonIndex 11 
+WCCILpmon    (1), 2024.08.21 11:17:18.120, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAui.exe -PROJ TL-Roman -pmonIndex 12 -m gedi
+WCCILpmon    (1), 2024.08.21 11:17:20.235, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOActrl.exe -PROJ TL-Roman -pmonIndex 13 TrafficLight.ctl
+WCCILpmon    (1), 2024.08.21 11:17:20.578, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAopc.exe -PROJ TL-Roman -pmonIndex 14 -num 2
+WCCILpmon    (1), 2024.08.21 11:17:21.136, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOActrl.exe -PROJ TL-Roman -pmonIndex 15 TlLogic.ctl
+WCCILpmon    (1), 2024.08.21 11:17:21.467, SYS,  INFO,        9/pmon, The project is up and running. Entering monitor mode
+WCCILpmon    (1), 2024.08.21 12:08:02.730, SYS,  INFO,       21/pmon, Got STOP_ALL command from ::1, stopping the project
+WCCILpmon    (1), 2024.08.21 12:08:02.731, SYS,  INFO,       17/pmon, Stopping Manager WCCOAopc(2) with signal SIGTERM
+WCCILpmon    (1), 2024.08.21 12:08:02.732, SYS,  INFO,       17/pmon, Stopping Manager WCCOActrl(2) with signal SIGTERM
+WCCILpmon    (1), 2024.08.21 12:08:02.734, SYS,  INFO,       17/pmon, Stopping Manager WCCILsim(1) with signal SIGTERM
+WCCILpmon    (1), 2024.08.21 12:08:02.735, SYS,  INFO,       17/pmon, Stopping Manager WCCOActrl(1) with signal SIGTERM
+WCCILpmon    (1), 2024.08.21 12:08:02.736, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(5) with signal SIGTERM
+WCCILpmon    (1), 2024.08.21 12:08:02.737, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(4) with signal SIGTERM
+WCCILpmon    (1), 2024.08.21 12:08:02.738, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(3) with signal SIGTERM
+WCCILpmon    (1), 2024.08.21 12:08:02.740, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(2) with signal SIGTERM
+WCCILpmon    (1), 2024.08.21 12:08:02.741, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(1) with signal SIGTERM
+WCCILpmon    (1), 2024.08.21 12:08:02.742, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(0) with signal SIGTERM
+WCCILpmon    (1), 2024.08.21 12:08:06.876, SYS,  INFO,       17/pmon, Stopping Manager WCCILevent(0) with signal SIGTERM
+WCCILpmon    (1), 2024.08.21 12:08:07.050, SYS,  INFO,       17/pmon, Stopping Manager WCCILdata(0) with signal SIGTERM
+WCCILpmon    (1), 2024.08.21 12:08:08.998, SYS,  INFO,       17/pmon, Stopping Manager WCCILproxy(1) with signal SIGTERM
+WCCILpmon    (1), 2024.08.21 12:08:09.224, SYS,  INFO,       13/pmon, Completely stopped the project - waiting for commands
+WCCILpmon    (1), 2024.08.21 12:08:12.690, SYS,  INFO,        3/pmon, Got shutdown command - stopping the project and terminating
+WCCILpmon    (1), 2024.08.21 12:08:12.694, SYS,  INFO,       15/pmon, Completely stopped the project - terminating
+WCCILpmon    (1), 2024.08.21 12:08:12.697, SYS,  INFO,        2, Manager Stop
+WCCILpmon    (1), 2024.08.22 08:38:04.160, SYS,  INFO,        1, Manager Start, WAIT_MODE
+WCCILpmon    (1), 2024.08.22 08:38:06.705, SYS,  INFO,       20/pmon, Got START_ALL command from ::1, starting the project
+WCCILpmon    (1), 2024.08.22 08:38:06.737, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCILdata.exe -PROJ TL-Roman -pmonIndex 1 
+WCCILpmon    (1), 2024.08.22 08:38:08.550, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAvalarch.exe -PROJ TL-Roman -pmonIndex 2 -num 0
+WCCILpmon    (1), 2024.08.22 08:38:09.017, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAvalarch.exe -PROJ TL-Roman -pmonIndex 3 -num 1
+WCCILpmon    (1), 2024.08.22 08:38:09.389, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAvalarch.exe -PROJ TL-Roman -pmonIndex 4 -num 2
+WCCILpmon    (1), 2024.08.22 08:38:09.752, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAvalarch.exe -PROJ TL-Roman -pmonIndex 5 -num 3
+WCCILpmon    (1), 2024.08.22 08:38:10.117, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAvalarch.exe -PROJ TL-Roman -pmonIndex 6 -num 4
+WCCILpmon    (1), 2024.08.22 08:38:10.466, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAvalarch.exe -PROJ TL-Roman -pmonIndex 7 -num 5
+WCCILpmon    (1), 2024.08.22 08:38:13.958, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCILevent.exe -PROJ TL-Roman -pmonIndex 8 
+WCCILpmon    (1), 2024.08.22 08:38:14.655, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCILproxy.exe -PROJ TL-Roman -pmonIndex 9 
+WCCILpmon    (1), 2024.08.22 08:38:16.760, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOActrl.exe -PROJ TL-Roman -pmonIndex 10 -f pvss_scripts.lst
+WCCILpmon    (1), 2024.08.22 08:38:17.235, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCILsim.exe -PROJ TL-Roman -pmonIndex 11 
+WCCILpmon    (1), 2024.08.22 08:38:17.610, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAui.exe -PROJ TL-Roman -pmonIndex 12 -m gedi
+WCCILpmon    (1), 2024.08.22 08:38:26.751, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOActrl.exe -PROJ TL-Roman -pmonIndex 13 TrafficLight.ctl
+WCCILpmon    (1), 2024.08.22 08:38:27.096, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAopc.exe -PROJ TL-Roman -pmonIndex 14 -num 2
+WCCILpmon    (1), 2024.08.22 08:38:27.544, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOActrl.exe -PROJ TL-Roman -pmonIndex 15 TlLogic.ctl
+WCCILpmon    (1), 2024.08.22 08:38:27.872, SYS,  INFO,        9/pmon, The project is up and running. Entering monitor mode
+WCCILpmon    (1), 2024.08.22 10:41:59.005, SYS,  INFO,       21/pmon, Got STOP_ALL command from ::1, stopping the project
+WCCILpmon    (1), 2024.08.22 10:41:59.006, SYS,  INFO,       17/pmon, Stopping Manager WCCOAopc(2) with signal SIGTERM
+WCCILpmon    (1), 2024.08.22 10:41:59.008, SYS,  INFO,       17/pmon, Stopping Manager WCCOActrl(2) with signal SIGTERM
+WCCILpmon    (1), 2024.08.22 10:41:59.009, SYS,  INFO,       17/pmon, Stopping Manager WCCILsim(1) with signal SIGTERM
+WCCILpmon    (1), 2024.08.22 10:41:59.010, SYS,  INFO,       17/pmon, Stopping Manager WCCOActrl(1) with signal SIGTERM
+WCCILpmon    (1), 2024.08.22 10:41:59.011, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(5) with signal SIGTERM
+WCCILpmon    (1), 2024.08.22 10:41:59.013, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(4) with signal SIGTERM
+WCCILpmon    (1), 2024.08.22 10:41:59.014, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(3) with signal SIGTERM
+WCCILpmon    (1), 2024.08.22 10:41:59.015, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(2) with signal SIGTERM
+WCCILpmon    (1), 2024.08.22 10:41:59.016, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(1) with signal SIGTERM
+WCCILpmon    (1), 2024.08.22 10:41:59.017, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(0) with signal SIGTERM
+WCCILpmon    (1), 2024.08.22 10:42:03.196, SYS,  INFO,       17/pmon, Stopping Manager WCCILevent(0) with signal SIGTERM
+WCCILpmon    (1), 2024.08.22 10:42:03.284, SYS,  INFO,       17/pmon, Stopping Manager WCCILdata(0) with signal SIGTERM
+WCCILpmon    (1), 2024.08.22 10:42:05.274, SYS,  INFO,       17/pmon, Stopping Manager WCCILproxy(1) with signal SIGTERM
+WCCILpmon    (1), 2024.08.22 10:42:05.884, SYS,  INFO,       13/pmon, Completely stopped the project - waiting for commands
+WCCILpmon    (1), 2024.08.22 10:50:04.556, SYS,  INFO,        1, Manager Start, WAIT_MODE
+WCCILpmon    (1), 2024.08.22 10:50:09.486, SYS,  INFO,       20/pmon, Got START_ALL command from ::1, starting the project
+WCCILpmon    (1), 2024.08.22 10:50:09.502, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCILdata.exe -PROJ TL-Roman -pmonIndex 1 
+WCCILpmon    (1), 2024.08.22 10:50:10.963, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAvalarch.exe -PROJ TL-Roman -pmonIndex 2 -num 0
+WCCILpmon    (1), 2024.08.22 10:50:11.238, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAvalarch.exe -PROJ TL-Roman -pmonIndex 3 -num 1
+WCCILpmon    (1), 2024.08.22 10:50:11.708, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAvalarch.exe -PROJ TL-Roman -pmonIndex 4 -num 2
+WCCILpmon    (1), 2024.08.22 10:50:12.055, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAvalarch.exe -PROJ TL-Roman -pmonIndex 5 -num 3
+WCCILpmon    (1), 2024.08.22 10:50:12.394, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAvalarch.exe -PROJ TL-Roman -pmonIndex 6 -num 4
+WCCILpmon    (1), 2024.08.22 10:50:12.737, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAvalarch.exe -PROJ TL-Roman -pmonIndex 7 -num 5
+WCCILpmon    (1), 2024.08.22 10:50:16.135, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCILevent.exe -PROJ TL-Roman -pmonIndex 8 
+WCCILpmon    (1), 2024.08.22 10:50:17.306, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCILproxy.exe -PROJ TL-Roman -pmonIndex 9 
+WCCILpmon    (1), 2024.08.22 10:50:19.429, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOActrl.exe -PROJ TL-Roman -pmonIndex 10 -f pvss_scripts.lst
+WCCILpmon    (1), 2024.08.22 10:50:19.775, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCILsim.exe -PROJ TL-Roman -pmonIndex 11 
+WCCILpmon    (1), 2024.08.22 10:50:20.113, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAui.exe -PROJ TL-Roman -pmonIndex 12 -m gedi
+WCCILpmon    (1), 2024.08.22 10:50:28.574, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOActrl.exe -PROJ TL-Roman -pmonIndex 13 TrafficLight.ctl
+WCCILpmon    (1), 2024.08.22 10:50:29.032, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAopc.exe -PROJ TL-Roman -pmonIndex 14 -num 2
+WCCILpmon    (1), 2024.08.22 10:50:29.401, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOActrl.exe -PROJ TL-Roman -pmonIndex 15 TlLogic.ctl
+WCCILpmon    (1), 2024.08.22 10:50:29.731, SYS,  INFO,        9/pmon, The project is up and running. Entering monitor mode
+WCCILpmon    (1), 2024.08.22 11:21:40.114, SYS,  INFO,       21/pmon, Got STOP_ALL command from ::1, stopping the project
+WCCILpmon    (1), 2024.08.22 11:21:40.116, SYS,  INFO,       17/pmon, Stopping Manager WCCOAopc(2) with signal SIGTERM
+WCCILpmon    (1), 2024.08.22 11:21:40.117, SYS,  INFO,       17/pmon, Stopping Manager WCCOActrl(2) with signal SIGTERM
+WCCILpmon    (1), 2024.08.22 11:21:40.118, SYS,  INFO,       17/pmon, Stopping Manager WCCOAui(1) with signal SIGTERM
+WCCILpmon    (1), 2024.08.22 11:21:40.120, SYS,  INFO,       17/pmon, Stopping Manager WCCILsim(1) with signal SIGTERM
+WCCILpmon    (1), 2024.08.22 11:21:40.121, SYS,  INFO,       17/pmon, Stopping Manager WCCOActrl(1) with signal SIGTERM
+WCCILpmon    (1), 2024.08.22 11:21:40.123, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(5) with signal SIGTERM
+WCCILpmon    (1), 2024.08.22 11:21:40.124, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(4) with signal SIGTERM
+WCCILpmon    (1), 2024.08.22 11:21:40.125, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(3) with signal SIGTERM
+WCCILpmon    (1), 2024.08.22 11:21:40.126, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(2) with signal SIGTERM
+WCCILpmon    (1), 2024.08.22 11:21:40.128, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(1) with signal SIGTERM
+WCCILpmon    (1), 2024.08.22 11:21:40.130, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(0) with signal SIGTERM
+WCCILpmon    (1), 2024.08.22 11:21:44.335, SYS,  INFO,       17/pmon, Stopping Manager WCCILevent(0) with signal SIGTERM
+WCCILpmon    (1), 2024.08.22 11:21:44.445, SYS,  INFO,       17/pmon, Stopping Manager WCCILdata(0) with signal SIGTERM
+WCCILpmon    (1), 2024.08.22 11:21:46.490, SYS,  INFO,       17/pmon, Stopping Manager WCCILproxy(1) with signal SIGTERM
+WCCILpmon    (1), 2024.08.22 11:21:46.709, SYS,  INFO,       13/pmon, Completely stopped the project - waiting for commands
+WCCILpmon    (1), 2024.08.22 11:22:32.966, SYS,  INFO,        3/pmon, Got shutdown command - stopping the project and terminating
+WCCILpmon    (1), 2024.08.22 11:22:32.967, SYS,  INFO,       15/pmon, Completely stopped the project - terminating
+WCCILpmon    (1), 2024.08.22 11:22:32.968, SYS,  INFO,        2, Manager Stop
+WCCILpmon    (1), 2024.08.22 11:25:02.642, SYS,  INFO,        1, Manager Start, WAIT_MODE
+WCCILpmon    (1), 2024.08.22 11:25:04.519, SYS,  INFO,       20/pmon, Got START_ALL command from ::1, starting the project
+WCCILpmon    (1), 2024.08.22 11:25:04.658, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCILdata.exe -PROJ TL-Roman -pmonIndex 1 
+WCCILpmon    (1), 2024.08.22 11:25:06.377, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAvalarch.exe -PROJ TL-Roman -pmonIndex 2 -num 0
+WCCILpmon    (1), 2024.08.22 11:25:06.750, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAvalarch.exe -PROJ TL-Roman -pmonIndex 3 -num 1
+WCCILpmon    (1), 2024.08.22 11:25:07.112, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAvalarch.exe -PROJ TL-Roman -pmonIndex 4 -num 2
+WCCILpmon    (1), 2024.08.22 11:25:07.434, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAvalarch.exe -PROJ TL-Roman -pmonIndex 5 -num 3
+WCCILpmon    (1), 2024.08.22 11:25:07.915, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAvalarch.exe -PROJ TL-Roman -pmonIndex 6 -num 4
+WCCILpmon    (1), 2024.08.22 11:25:08.281, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAvalarch.exe -PROJ TL-Roman -pmonIndex 7 -num 5
+WCCILpmon    (1), 2024.08.22 11:25:11.833, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCILevent.exe -PROJ TL-Roman -pmonIndex 8 
+WCCILpmon    (1), 2024.08.22 11:25:12.959, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCILproxy.exe -PROJ TL-Roman -pmonIndex 9 
+WCCILpmon    (1), 2024.08.22 11:25:15.333, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOActrl.exe -PROJ TL-Roman -pmonIndex 10 -f pvss_scripts.lst
+WCCILpmon    (1), 2024.08.22 11:25:15.738, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCILsim.exe -PROJ TL-Roman -pmonIndex 11 
+WCCILpmon    (1), 2024.08.22 11:25:16.229, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAui.exe -PROJ TL-Roman -pmonIndex 12 -m gedi
+WCCILpmon    (1), 2024.08.22 11:25:19.017, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOActrl.exe -PROJ TL-Roman -pmonIndex 13 TrafficLight.ctl
+WCCILpmon    (1), 2024.08.22 11:25:19.394, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAopc.exe -PROJ TL-Roman -pmonIndex 14 -num 2
+WCCILpmon    (1), 2024.08.22 11:25:19.853, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOActrl.exe -PROJ TL-Roman -pmonIndex 15 TlLogic.ctl
+WCCILpmon    (1), 2024.08.22 11:25:20.187, SYS,  INFO,        9/pmon, The project is up and running. Entering monitor mode
+WCCILpmon    (1), 2024.08.22 11:59:29.570, SYS,  INFO,        3/pmon, Got shutdown command - stopping the project and terminating
+WCCILpmon    (1), 2024.08.22 11:59:29.571, SYS,  INFO,       17/pmon, Stopping Manager WCCOAopc(2) with signal SIGTERM
+WCCILpmon    (1), 2024.08.22 11:59:29.573, SYS,  INFO,       17/pmon, Stopping Manager WCCOActrl(2) with signal SIGTERM
+WCCILpmon    (1), 2024.08.22 11:59:29.574, SYS,  INFO,       17/pmon, Stopping Manager WCCOAui(1) with signal SIGTERM
+WCCILpmon    (1), 2024.08.22 11:59:29.575, SYS,  INFO,       17/pmon, Stopping Manager WCCILsim(1) with signal SIGTERM
+WCCILpmon    (1), 2024.08.22 11:59:29.577, SYS,  INFO,       17/pmon, Stopping Manager WCCOActrl(1) with signal SIGTERM
+WCCILpmon    (1), 2024.08.22 11:59:29.578, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(5) with signal SIGTERM
+WCCILpmon    (1), 2024.08.22 11:59:29.579, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(4) with signal SIGTERM
+WCCILpmon    (1), 2024.08.22 11:59:29.580, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(3) with signal SIGTERM
+WCCILpmon    (1), 2024.08.22 11:59:29.581, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(2) with signal SIGTERM
+WCCILpmon    (1), 2024.08.22 11:59:29.614, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(1) with signal SIGTERM
+WCCILpmon    (1), 2024.08.22 11:59:29.615, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(0) with signal SIGTERM
+WCCILpmon    (1), 2024.08.22 11:59:33.784, SYS,  INFO,       17/pmon, Stopping Manager WCCILevent(0) with signal SIGTERM
+WCCILpmon    (1), 2024.08.22 11:59:33.893, SYS,  INFO,       17/pmon, Stopping Manager WCCILdata(0) with signal SIGTERM
+WCCILpmon    (1), 2024.08.22 11:59:35.931, SYS,  INFO,       17/pmon, Stopping Manager WCCILproxy(1) with signal SIGTERM
+WCCILpmon    (1), 2024.08.22 11:59:36.042, SYS,  INFO,       15/pmon, Completely stopped the project - terminating
+WCCILpmon    (1), 2024.08.22 11:59:36.046, SYS,  INFO,        2, Manager Stop
+WCCILpmon    (1), 2024.08.23 08:45:32.519, SYS,  INFO,        1, Manager Start, WAIT_MODE
+WCCILpmon    (1), 2024.08.23 08:45:37.981, SYS,  INFO,       20/pmon, Got START_ALL command from ::1, starting the project
+WCCILpmon    (1), 2024.08.23 08:45:38.003, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCILdata.exe -PROJ TL-Roman -pmonIndex 1 
+WCCILpmon    (1), 2024.08.23 08:45:39.686, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAvalarch.exe -PROJ TL-Roman -pmonIndex 2 -num 0
+WCCILpmon    (1), 2024.08.23 08:45:40.138, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAvalarch.exe -PROJ TL-Roman -pmonIndex 3 -num 1
+WCCILpmon    (1), 2024.08.23 08:45:40.479, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAvalarch.exe -PROJ TL-Roman -pmonIndex 4 -num 2
+WCCILpmon    (1), 2024.08.23 08:45:40.926, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAvalarch.exe -PROJ TL-Roman -pmonIndex 5 -num 3
+WCCILpmon    (1), 2024.08.23 08:45:41.286, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAvalarch.exe -PROJ TL-Roman -pmonIndex 6 -num 4
+WCCILpmon    (1), 2024.08.23 08:45:41.636, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAvalarch.exe -PROJ TL-Roman -pmonIndex 7 -num 5
+WCCILpmon    (1), 2024.08.23 08:45:44.863, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCILevent.exe -PROJ TL-Roman -pmonIndex 8 
+WCCILpmon    (1), 2024.08.23 08:45:45.459, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCILproxy.exe -PROJ TL-Roman -pmonIndex 9 
+WCCILpmon    (1), 2024.08.23 08:45:47.548, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOActrl.exe -PROJ TL-Roman -pmonIndex 10 -f pvss_scripts.lst
+WCCILpmon    (1), 2024.08.23 08:45:47.902, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCILsim.exe -PROJ TL-Roman -pmonIndex 11 
+WCCILpmon    (1), 2024.08.23 08:45:48.356, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAui.exe -PROJ TL-Roman -pmonIndex 12 -m gedi
+WCCILpmon    (1), 2024.08.23 08:46:26.674, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOActrl.exe -PROJ TL-Roman -pmonIndex 13 TrafficLight.ctl
+WCCILpmon    (1), 2024.08.23 08:46:27.017, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAopc.exe -PROJ TL-Roman -pmonIndex 14 -num 2
+WCCILpmon    (1), 2024.08.23 08:46:27.576, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOActrl.exe -PROJ TL-Roman -pmonIndex 15 TlLogic.ctl
+WCCILpmon    (1), 2024.08.23 08:46:28.011, SYS,  INFO,        9/pmon, The project is up and running. Entering monitor mode
+WCCILpmon    (1), 2024.08.23 08:47:01.604, SYS,  INFO,       25/pmon, Got STOP command (SIGTERM) from ::1, stopping the manager WCCOActrl(2) at index 13
+WCCILpmon    (1), 2024.08.23 08:47:01.606, SYS,  INFO,       17/pmon, Stopping Manager WCCOActrl(2) with signal SIGTERM
+WCCILpmon    (1), 2024.08.23 12:04:25.554, SYS,  INFO,       21/pmon, Got STOP_ALL command from ::1, stopping the project
+WCCILpmon    (1), 2024.08.23 12:04:25.556, SYS,  INFO,       17/pmon, Stopping Manager WCCOAopc(2) with signal SIGTERM
+WCCILpmon    (1), 2024.08.23 12:04:25.557, SYS,  INFO,       17/pmon, Stopping Manager WCCOAui(1) with signal SIGTERM
+WCCILpmon    (1), 2024.08.23 12:04:25.558, SYS,  INFO,       17/pmon, Stopping Manager WCCILsim(1) with signal SIGTERM
+WCCILpmon    (1), 2024.08.23 12:04:25.560, SYS,  INFO,       17/pmon, Stopping Manager WCCOActrl(1) with signal SIGTERM
+WCCILpmon    (1), 2024.08.23 12:04:25.561, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(5) with signal SIGTERM
+WCCILpmon    (1), 2024.08.23 12:04:25.562, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(4) with signal SIGTERM
+WCCILpmon    (1), 2024.08.23 12:04:25.563, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(3) with signal SIGTERM
+WCCILpmon    (1), 2024.08.23 12:04:25.564, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(2) with signal SIGTERM
+WCCILpmon    (1), 2024.08.23 12:04:25.565, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(1) with signal SIGTERM
+WCCILpmon    (1), 2024.08.23 12:04:25.567, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(0) with signal SIGTERM
+WCCILpmon    (1), 2024.08.23 12:04:29.667, SYS,  INFO,       17/pmon, Stopping Manager WCCILevent(0) with signal SIGTERM
+WCCILpmon    (1), 2024.08.23 12:04:29.887, SYS,  INFO,       17/pmon, Stopping Manager WCCILdata(0) with signal SIGTERM
+WCCILpmon    (1), 2024.08.23 12:04:31.808, SYS,  INFO,       17/pmon, Stopping Manager WCCILproxy(1) with signal SIGTERM
+WCCILpmon    (1), 2024.08.23 12:04:32.546, SYS,  INFO,       13/pmon, Completely stopped the project - waiting for commands
+WCCILpmon    (1), 2024.08.23 12:07:06.576, SYS,  INFO,        3/pmon, Got shutdown command - stopping the project and terminating
+WCCILpmon    (1), 2024.08.23 12:07:06.577, SYS,  INFO,       15/pmon, Completely stopped the project - terminating
+WCCILpmon    (1), 2024.08.23 12:07:06.578, SYS,  INFO,        2, Manager Stop
+WCCILpmon    (1), 2024.08.26 09:28:26.180, SYS,  INFO,        1, Manager Start, WAIT_MODE
+WCCILpmon    (1), 2024.08.26 09:28:34.577, SYS,  INFO,       20/pmon, Got START_ALL command from ::1, starting the project
+WCCILpmon    (1), 2024.08.26 09:28:34.619, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCILdata.exe -PROJ TL-Roman -pmonIndex 1 
+WCCILpmon    (1), 2024.08.26 09:28:36.328, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAvalarch.exe -PROJ TL-Roman -pmonIndex 2 -num 0
+WCCILpmon    (1), 2024.08.26 09:28:36.686, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAvalarch.exe -PROJ TL-Roman -pmonIndex 3 -num 1
+WCCILpmon    (1), 2024.08.26 09:28:37.133, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAvalarch.exe -PROJ TL-Roman -pmonIndex 4 -num 2
+WCCILpmon    (1), 2024.08.26 09:28:37.511, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAvalarch.exe -PROJ TL-Roman -pmonIndex 5 -num 3
+WCCILpmon    (1), 2024.08.26 09:28:37.875, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAvalarch.exe -PROJ TL-Roman -pmonIndex 6 -num 4
+WCCILpmon    (1), 2024.08.26 09:28:38.351, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAvalarch.exe -PROJ TL-Roman -pmonIndex 7 -num 5
+WCCILpmon    (1), 2024.08.26 09:28:41.692, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCILevent.exe -PROJ TL-Roman -pmonIndex 8 
+WCCILpmon    (1), 2024.08.26 09:28:42.273, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCILproxy.exe -PROJ TL-Roman -pmonIndex 9 
+WCCILpmon    (1), 2024.08.26 09:28:44.379, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOActrl.exe -PROJ TL-Roman -pmonIndex 10 -f pvss_scripts.lst
+WCCILpmon    (1), 2024.08.26 09:28:44.858, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCILsim.exe -PROJ TL-Roman -pmonIndex 11 
+WCCILpmon    (1), 2024.08.26 09:28:45.204, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAui.exe -PROJ TL-Roman -pmonIndex 12 -m gedi
+WCCILpmon    (1), 2024.08.26 09:28:49.577, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOActrl.exe -PROJ TL-Roman -pmonIndex 13 TrafficLight.ctl
+WCCILpmon    (1), 2024.08.26 09:28:50.066, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAopc.exe -PROJ TL-Roman -pmonIndex 14 -num 2
+WCCILpmon    (1), 2024.08.26 09:31:00.512, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOActrl.exe -PROJ TL-Roman -pmonIndex 15 TlLogic.ctl
+WCCILpmon    (1), 2024.08.26 09:31:00.857, SYS,  INFO,        9/pmon, The project is up and running. Entering monitor mode
+WCCILpmon    (1), 2024.08.26 09:55:01.576, SYS,  INFO,       21/pmon, Got STOP_ALL command from ::1, stopping the project
+WCCILpmon    (1), 2024.08.26 09:55:01.578, SYS,  INFO,       17/pmon, Stopping Manager WCCOAopc(2) with signal SIGTERM
+WCCILpmon    (1), 2024.08.26 09:55:01.579, SYS,  INFO,       17/pmon, Stopping Manager WCCOActrl(2) with signal SIGTERM
+WCCILpmon    (1), 2024.08.26 09:55:01.580, SYS,  INFO,       17/pmon, Stopping Manager WCCILsim(1) with signal SIGTERM
+WCCILpmon    (1), 2024.08.26 09:55:01.581, SYS,  INFO,       17/pmon, Stopping Manager WCCOActrl(1) with signal SIGTERM
+WCCILpmon    (1), 2024.08.26 09:55:01.583, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(5) with signal SIGTERM
+WCCILpmon    (1), 2024.08.26 09:55:01.584, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(4) with signal SIGTERM
+WCCILpmon    (1), 2024.08.26 09:55:01.586, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(3) with signal SIGTERM
+WCCILpmon    (1), 2024.08.26 09:55:01.587, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(2) with signal SIGTERM
+WCCILpmon    (1), 2024.08.26 09:55:01.589, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(1) with signal SIGTERM
+WCCILpmon    (1), 2024.08.26 09:55:01.590, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(0) with signal SIGTERM
+WCCILpmon    (1), 2024.08.26 09:55:05.769, SYS,  INFO,       17/pmon, Stopping Manager WCCILevent(0) with signal SIGTERM
+WCCILpmon    (1), 2024.08.26 09:55:05.879, SYS,  INFO,       17/pmon, Stopping Manager WCCILdata(0) with signal SIGTERM
+WCCILpmon    (1), 2024.08.26 09:55:07.908, SYS,  INFO,       17/pmon, Stopping Manager WCCILproxy(1) with signal SIGTERM
+WCCILpmon    (1), 2024.08.26 09:55:08.017, SYS,  INFO,       13/pmon, Completely stopped the project - waiting for commands
+WCCILpmon    (1), 2024.08.26 09:56:40.889, SYS,  INFO,        1, Manager Start, WAIT_MODE
+WCCILpmon    (1), 2024.08.26 09:56:42.260, SYS,  INFO,       20/pmon, Got START_ALL command from ::1, starting the project
+WCCILpmon    (1), 2024.08.26 09:56:42.344, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCILdata.exe -PROJ TL-Roman -pmonIndex 1 
+WCCILpmon    (1), 2024.08.26 09:56:43.951, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAvalarch.exe -PROJ TL-Roman -pmonIndex 2 -num 0
+WCCILpmon    (1), 2024.08.26 09:56:44.427, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAvalarch.exe -PROJ TL-Roman -pmonIndex 3 -num 1
+WCCILpmon    (1), 2024.08.26 09:56:44.776, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAvalarch.exe -PROJ TL-Roman -pmonIndex 4 -num 2
+WCCILpmon    (1), 2024.08.26 09:56:45.158, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAvalarch.exe -PROJ TL-Roman -pmonIndex 5 -num 3
+WCCILpmon    (1), 2024.08.26 09:56:45.501, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAvalarch.exe -PROJ TL-Roman -pmonIndex 6 -num 4
+WCCILpmon    (1), 2024.08.26 09:56:45.961, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAvalarch.exe -PROJ TL-Roman -pmonIndex 7 -num 5
+WCCILpmon    (1), 2024.08.26 09:56:49.184, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCILevent.exe -PROJ TL-Roman -pmonIndex 8 
+WCCILpmon    (1), 2024.08.26 09:56:49.791, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCILproxy.exe -PROJ TL-Roman -pmonIndex 9 
+WCCILpmon    (1), 2024.08.26 09:56:51.942, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOActrl.exe -PROJ TL-Roman -pmonIndex 10 -f pvss_scripts.lst
+WCCILpmon    (1), 2024.08.26 09:56:52.432, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCILsim.exe -PROJ TL-Roman -pmonIndex 11 
+WCCILpmon    (1), 2024.08.26 09:56:52.923, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAui.exe -PROJ TL-Roman -pmonIndex 12 -m gedi
+WCCILpmon    (1), 2024.08.26 09:56:55.168, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOActrl.exe -PROJ TL-Roman -pmonIndex 13 TrafficLight.ctl
+WCCILpmon    (1), 2024.08.26 09:56:55.547, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAopc.exe -PROJ TL-Roman -pmonIndex 14 -num 2
+WCCILpmon    (1), 2024.08.26 09:56:55.993, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOActrl.exe -PROJ TL-Roman -pmonIndex 15 TlLogic.ctl
+WCCILpmon    (1), 2024.08.26 09:56:56.437, SYS,  INFO,        9/pmon, The project is up and running. Entering monitor mode
+WCCILpmon    (1), 2024.08.26 14:26:42.351, SYS,  INFO,       21/pmon, Got STOP_ALL command from ::1, stopping the project
+WCCILpmon    (1), 2024.08.26 14:26:42.353, SYS,  INFO,       17/pmon, Stopping Manager WCCOAopc(2) with signal SIGTERM
+WCCILpmon    (1), 2024.08.26 14:26:42.354, SYS,  INFO,       17/pmon, Stopping Manager WCCOActrl(2) with signal SIGTERM
+WCCILpmon    (1), 2024.08.26 14:26:42.355, SYS,  INFO,       17/pmon, Stopping Manager WCCOAui(1) with signal SIGTERM
+WCCILpmon    (1), 2024.08.26 14:26:42.356, SYS,  INFO,       17/pmon, Stopping Manager WCCILsim(1) with signal SIGTERM
+WCCILpmon    (1), 2024.08.26 14:26:42.357, SYS,  INFO,       17/pmon, Stopping Manager WCCOActrl(1) with signal SIGTERM
+WCCILpmon    (1), 2024.08.26 14:26:42.359, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(5) with signal SIGTERM
+WCCILpmon    (1), 2024.08.26 14:26:42.360, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(4) with signal SIGTERM
+WCCILpmon    (1), 2024.08.26 14:26:42.384, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(3) with signal SIGTERM
+WCCILpmon    (1), 2024.08.26 14:26:42.385, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(2) with signal SIGTERM
+WCCILpmon    (1), 2024.08.26 14:26:42.387, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(1) with signal SIGTERM
+WCCILpmon    (1), 2024.08.26 14:26:42.388, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(0) with signal SIGTERM
+WCCILpmon    (1), 2024.08.26 14:27:01.239, SYS,  INFO,       17/pmon, Stopping Manager WCCILevent(0) with signal SIGTERM
+WCCILpmon    (1), 2024.08.26 14:27:01.351, SYS,  INFO,       17/pmon, Stopping Manager WCCILdata(0) with signal SIGTERM
+WCCILpmon    (1), 2024.08.26 14:27:03.396, SYS,  INFO,       17/pmon, Stopping Manager WCCILproxy(1) with signal SIGTERM
+WCCILpmon    (1), 2024.08.26 14:27:03.952, SYS,  INFO,       13/pmon, Completely stopped the project - waiting for commands
+WCCILpmon    (1), 2024.08.26 14:27:06.093, SYS,  INFO,        3/pmon, Got shutdown command - stopping the project and terminating
+WCCILpmon    (1), 2024.08.26 14:27:06.094, SYS,  INFO,       15/pmon, Completely stopped the project - terminating
+WCCILpmon    (1), 2024.08.26 14:27:06.095, SYS,  INFO,        2, Manager Stop

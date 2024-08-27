@@ -1,0 +1,127 @@
+V 14
+1
+LANG:10027 0 
+PANEL,-1 -1 268 451 N "_3DFace" 0
+E E E E E 1 -1 -1 0  250 90
+""0  1
+E E 3
+"CBRef" "1"
+"EClose" E
+"dpi" "96"
+0 0 0
+""
+DISPLAY_LAYER, 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0
+LAYER, 0 
+1
+LANG:10027 0 
+6 0
+"RECTANGLE1"
+""
+1 250 90 E E E 1 E 1 E N "schwarz" E N "schwarz" E E
+ E E
+0 0 0 0 0 0
+E E E
+0
+1
+LANG:10027 0 
+
+3
+"layoutAlignment" "AlignNone"
+"dashclr"N "_Transparent"
+"antiAliased" "0"
+E E 0 10 2 1 1 E 0.7647058823529411 0 0.7435897435897436 -122.1764705882353 18.57692307692308 1 E 250 90 420 480
+7 1
+"EllRed"
+""
+1 330 170 E E E 1 E 1 E N {0,0,0} E N {255,255,255} E E
+ E E
+1 0 0 0 0 0
+E E E
+0
+1
+LANG:10027 0 
+
+3
+"layoutAlignment" "AlignNone"
+"dashclr"N "_Transparent"
+"antiAliased" "1"
+"// SimpleCtrlScriptStart {valid}
+main()
+{
+}
+" 0
+ E 0 1 3 2 1 E 0.5714285714285714 0 0.5714285714285714 -54.57142857142856 42.91269841269849 1 E 330 170 70 70
+7 2
+"EllYellow"
+""
+1 330 170 E E E 1 E 1 E N {0,0,0} E N {255,255,255} E E
+ E E
+2 0 0 0 0 0
+E E E
+0
+1
+LANG:10027 0 
+
+3
+"layoutAlignment" "AlignNone"
+"dashclr"N "_Transparent"
+"antiAliased" "1"
+"// SimpleCtrlScriptStart {valid}
+main()
+{
+}
+
+" 0
+ E 0 1 3 2 1 E 0.5714285714285714 0 0.5714285714285714 -54.57142857142861 133.3571428571429 1 E 330 170 70 70
+7 3
+"EllGreen"
+""
+1 330 170 E E E 1 E 1 E N {0,0,0} E N {255,255,255} E E
+ E E
+3 0 0 0 0 0
+E E E
+0
+1
+LANG:10027 0 
+
+3
+"layoutAlignment" "AlignNone"
+"dashclr"N "_Transparent"
+"antiAliased" "1"
+"// SimpleCtrlScriptStart {valid}
+main()
+{
+}
+
+" 0
+ E 0 1 3 2 1 E 0.5714285714285714 0 0.5714285714285714 -54.57142857142856 223.9126984126985 1 E 330 170 70 70
+0
+LAYER, 1 
+1
+LANG:10027 0 
+0
+LAYER, 2 
+1
+LANG:10027 0 
+0
+LAYER, 3 
+1
+LANG:10027 0 
+0
+LAYER, 4 
+1
+LANG:10027 0 
+0
+LAYER, 5 
+1
+LANG:10027 0 
+0
+LAYER, 6 
+1
+LANG:10027 0 
+0
+LAYER, 7 
+1
+LANG:10027 0 
+0
+0

@@ -1,0 +1,290 @@
+V 14
+1
+LANG:10027 4 main
+PANEL,-1 -1 963 806 N "_3DFace" 0
+"main()
+{
+  start();
+  dpConnect(\"unpack\",false,\"CR-1.drisnyaVotvet\");
+  check();
+  dpConnect(\"change\",false, \"CR-1.state\", \"CR-1.mode\");
+  dpConnect(\"change2\",false,\"CR-1.mode\");
+  dpConnect(\"light\",false, \"CR-1.mode\");
+  dpConnect(\"timing\", \"CR-1.mode\");
+}
+
+void animation(bool state){
+      dpSet(\"CR-1.animation\", 1);
+      if (state){
+        setMultiValue(\"TL1.EllGreen\", \"backCol\",\"linking_green\", \"TL3.EllGreen\", \"backCol\",\"linking_green\");
+        delay(3);
+        setMultiValue(\"TL1.EllGreen\", \"backCol\",\"white\", \"TL3.EllGreen\", \"backCol\",\"white\",
+                      \"TL1.EllYellow\", \"backCol\", \"yellow\", \"TL3.EllYellow\", \"backCol\", \"yellow\");
+        delay(1);
+        setMultiValue(\"TL2.EllYellow\", \"backCol\", \"yellow\", \"TL4.EllYellow\", \"backCol\", \"yellow\");
+        delay(2);
+        setMultiValue(\"TL2.EllRed\", \"backCol\", \"white\", \"TL4.EllRed\", \"backCol\", \"white\");
+
+        setMultiValue(\"TL1.EllYellow\", \"backCol\", \"white\", \"TL3.EllYellow\", \"backCol\", \"white\",
+                      \"TL2.EllYellow\", \"backCol\", \"white\", \"TL4.EllYellow\", \"backCol\", \"white\",
+                      \"TL1.EllGreen\", \"backCol\", \"white\", \"TL3.EllGreen\", \"backCol\", \"white\");
+      }else{
+        setMultiValue(\"TL2.EllGreen\", \"backCol\",\"linking_green\", \"TL4.EllGreen\", \"backCol\",\"linking_green\");
+        delay(3);
+        setMultiValue(\"TL2.EllGreen\", \"backCol\",\"white\", \"TL4.EllGreen\", \"backCol\",\"white\",
+                      \"TL2.EllYellow\", \"backCol\", \"yellow\", \"TL4.EllYellow\", \"backCol\", \"yellow\");
+        delay(1);
+        setMultiValue(\"TL1.EllYellow\", \"backCol\", \"yellow\", \"TL3.EllYellow\", \"backCol\", \"yellow\");
+        delay(2);
+        setMultiValue(\"TL1.EllRed\", \"backCol\", \"white\", \"TL3.EllRed\", \"backCol\", \"white\");
+
+        setMultiValue(\"TL2.EllYellow\", \"backCol\", \"white\", \"TL4.EllYellow\", \"backCol\", \"white\",
+                      \"TL1.EllYellow\", \"backCol\", \"white\", \"TL3.EllYellow\", \"backCol\", \"white\",
+                      \"TL2.EllGreen\", \"backCol\", \"white\", \"TL4.EllGreen\", \"backCol\", \"white\");
+      }
+      dpSet(\"CR-1.animation\", 0);
+}
+
+change2(string dp, int mode){
+  bool state;
+  dpGet(\"CR-1.state\", state);
+  if (mode == 2){
+        initDefoult();
+        delay(0, 200);
+
+        setMultiValue((state) ? \"TL2.EllRed\" : \"TL1.EllRed\", \"backCol\", \"red\", (state) ? \"TL4.EllRed\" : \"TL3.EllRed\", \"backCol\", \"red\");
+        animation(state);
+        setMultiValue((state) ? \"TL1.EllRed\" : \"TL2.EllRed\", \"backCol\", \"red\", (state) ? \"TL3.EllRed\" : \"TL4.EllRed\", \"backCol\", \"red\",
+                      (state) ? \"TL2.EllGreen\" : \"TL1.EllGreen\", \"backCol\",\"green\", (state) ? \"TL4.EllGreen\" : \"TL3.EllGreen\", \"backCol\",\"green\");
+
+    }
+    if (mode == 4){
+        initDefoult();
+
+        setMultiValue((state) ? \"TL2.EllRed\" : \"TL1.EllRed\", \"backCol\", \"red\", (state) ? \"TL4.EllRed\" : \"TL3.EllRed\", \"backCol\", \"red\");
+        animation(state);
+        DebugN(0);
+        setMultiValue(\"TL1.EllYellow\",\"backCol\", \"linking_yellow\", \"TL2.EllYellow\",\"backCol\", \"linking_yellow\", \"TL3.EllYellow\",\"backCol\", \"linking_yellow\", \"TL4.EllYellow\",\"backCol\", \"linking_yellow\");
+    }
+}
+
+change(string dp1, bool state, string dp2, int mode){
+  int timing;
+  dpGet(\"CR-1.time\", timing);
+  int lastmode;
+  dpGet(\"CR-1.lastmode\", lastmode);
+  bool anim;
+  dpGet(\"CR-1.animation\", anim);
+  bool block;
+  dpGet(\"CR-1.block\", block);
+
+  if (!block || !anim){
+    if (mode == 1){
+      if (lastmode == 2){
+        initDefoult();
+      }
+      if (lastmode == 4){
+        setMultiValue(\"TL1.EllYellow\",\"backCol\", \"yellow\", \"TL2.EllYellow\",\"backCol\", \"yellow\", \"TL3.EllYellow\",\"backCol\", \"yellow\", \"TL4.EllYellow\",\"backCol\", \"yellow\");
+        delay(2);
+        setMultiValue(\"TL1.EllYellow\",\"backCol\", \"white\", \"TL2.EllYellow\",\"backCol\", \"white\", \"TL3.EllYellow\",\"backCol\", \"white\", \"TL4.EllYellow\",\"backCol\", \"white\");
+        delay(0, 500);
+        dpSet(\"CR-1.lastmode\", 0);
+      }
+        setMultiValue((state) ? \"TL2.EllRed\" : \"TL1.EllRed\", \"backCol\", \"red\", (state) ? \"TL4.EllRed\" : \"TL3.EllRed\", \"backCol\", \"red\",
+                      (state) ? \"TL1.EllGreen\" : \"TL2.EllGreen\", \"backCol\",\"green\", (state) ? \"TL3.EllGreen\" : \"TL4.EllGreen\", \"backCol\",\"green\");
+
+        if (!state){
+          delay(timing-4);
+        }else{
+          delay(timing);
+        }
+        int realMode;
+        dpGet(\"CR-1.mode\", realMode);
+        Debug(\"realMode   \");
+        DebugN(realMode);
+        if (realMode != 4 && realMode != 2){
+          DebugN(1);
+          animation(state);
+        }
+
+    }
+
+  }
+}
+
+check(){
+  int mode;
+  dpGet(\"CR-1.mode\", mode);
+  bool state;
+  dpGet(\"CR-1.state\", state);
+  if (mode != 0){
+    if (mode == 2){
+        setMultiValue((state) ? \"TL1.EllRed\" : \"TL2.EllRed\", \"backCol\", \"red\", (state) ? \"TL3.EllRed\" : \"TL4.EllRed\", \"backCol\", \"red\",
+                      (state) ? \"TL2.EllGreen\" : \"TL1.EllGreen\", \"backCol\",\"green\", (state) ? \"TL4.EllGreen\" : \"TL3.EllGreen\", \"backCol\",\"green\");
+    }
+    if (mode == 4){
+        setMultiValue(\"TL1.EllYellow\",\"backCol\", \"linking_yellow\", \"TL2.EllYellow\",\"backCol\", \"linking_yellow\", \"TL3.EllYellow\",\"backCol\", \"linking_yellow\", \"TL4.EllYellow\",\"backCol\", \"linking_yellow\");
+    }
+    if (mode == 1){
+        initDefoult();
+        setMultiValue((state) ? \"TL1.EllRed\" : \"TL2.EllRed\", \"backCol\", \"red\", (state) ? \"TL3.EllRed\" : \"TL4.EllRed\", \"backCol\", \"red\",
+                      (state) ? \"TL2.EllGreen\" : \"TL1.EllGreen\", \"backCol\",\"green\", (state) ? \"TL4.EllGreen\" : \"TL3.EllGreen\", \"backCol\",\"green\");
+    }
+  }
+}
+
+unpack(string dp, int drisnyaVotvet){
+  bit32 twoD = drisnyaVotvet;
+
+  int state = getBit(twoD, 0);
+  int block = getBit(twoD, 1);
+  int statePara;
+  int blockPara;
+  dpGet(\"CR-1.state\", statePara);
+  dpGet(\"CR-1.block\", blockPara);
+  if (statePara != state){
+    dpSet(\"CR-1.state\", state);
+  }
+  if (blockPara != block){
+    dpSet(\"CR-1.block\", block);
+  }
+}
+
+initDefoult(){
+   setMultiValue(\"TL1.EllGreen\",\"backCol\", \"white\", \"TL2.EllGreen\",\"backCol\", \"white\", \"TL3.EllGreen\",\"backCol\", \"white\", \"TL4.EllGreen\",\"backCol\", \"white\", \"TL1.EllRed\",\"backCol\", \"white\",
+                 \"TL2.EllRed\",\"backCol\", \"white\", \"TL3.EllRed\",\"backCol\", \"white\", \"TL4.EllRed\",\"backCol\", \"white\", \"TL1.EllYellow\",\"backCol\", \"white\", \"TL2.EllYellow\",\"backCol\", \"white\",
+                 \"TL3.EllYellow\",\"backCol\", \"white\", \"TL4.EllYellow\",\"backCol\", \"white\");
+}
+
+unblock(){
+   bool anim;
+   dpGet(\"CR-1.animation\", anim);
+   bool block;
+   dpGet(\"CR-1.block\", block);
+   if (!anim && block){
+      dpSet(\"CR-1.block\", 0);
+   }
+}
+
+start(){
+  dpSet(\"CR-1.block\", 0, \"CR-1.drisnya\", 0, \"CR-1.lastmode\", 0, \"CR-1.animation\", 0);
+}
+
+timing(string dp1, int mode){
+  int x;
+  dpGet(\"CR-1.counter\", x);
+  int y;
+  dpGet(\"CR-1.lastmode\", y);
+  if (mode != 1 || y != 1){
+    dpSet(\"CR-1.time\", x);
+  }
+}
+
+
+" 0
+ E E E E 1 -1 -1 0  180 10
+""0  1
+E E 3
+"CBRef" "1"
+"EClose" E
+"dpi" "96"
+0 0 0
+""
+DISPLAY_LAYER, 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0
+LAYER, 0 
+1
+LANG:10027 0 
+6 142
+"RECTANGLE8"
+""
+1 670 60 E E E 1 E 1 E N {0,0,0} E N {255,255,255} E E
+ E E
+25 0 0 0 0 0
+E E E
+0
+1
+LANG:10027 0 
+
+3
+"layoutAlignment" "AlignNone"
+"dashclr"N "_Transparent"
+"antiAliased" "0"
+E E 0 3 3 2 1 E 0.9203703703703703 0 1 73.3518518518519 10 1 E 670 60 940 220
+1 143 0 "" 0
+0
+1 169 1 "" 0
+0
+1 173 2 "" 0
+0
+1 177 3 "" 0
+0
+1 181 4 "" 0
+0
+1 185 5 "" 0
+0
+0
+LAYER, 1 
+1
+LANG:10027 0 
+0
+LAYER, 2 
+1
+LANG:10027 0 
+0
+LAYER, 3 
+1
+LANG:10027 0 
+0
+LAYER, 4 
+1
+LANG:10027 0 
+0
+LAYER, 5 
+1
+LANG:10027 0 
+0
+LAYER, 6 
+1
+LANG:10027 0 
+0
+LAYER, 7 
+1
+LANG:10027 0 
+0
+3 0 "PANEL_REF1" -1
+"layoutAlignment" "AlignNone"
+"" ""
+"objects/road.pnl" 180 10 T 0 1 0 1 194.5000000000003 -7.000000000000057
+0
+3 1 "TL2" -1
+"layoutAlignment" "AlignNone"
+"" ""
+"objects/trafficLight1.pnl" 840 60 T 17 0.3378106508875747 0 0.3603448275862068 397.3827810650883 80.75775862068966
+0
+3 2 "TL1" -1
+"layoutAlignment" "AlignNone"
+"" ""
+"objects/trafficLight1.pnl" 840 60 T 18 0.3378106508875747 0 0.3603448275862068 76.23905325443724 78.37931034482759
+0
+3 3 "TL3" -1
+"layoutAlignment" "AlignNone"
+"" ""
+"objects/trafficLight1.pnl" 840 60 T 19 0.3378106508875747 0 0.3603448275862068 396.2390532544372 588.3793103448276
+0
+3 4 "TL4" -1
+"layoutAlignment" "AlignNone"
+"" ""
+"objects/trafficLight1.pnl" 840 60 T 20 0.3378106508875747 0 0.3603448275862068 76.23905325443724 578.3793103448276
+0
+3 5 "PANEL_REF2" 6
+"layoutAlignment" "AlignNone"
+"" ""
+"objects/control.pnl" 710 90 T 24 1 0 1 -11.5 1.256164606389348
+0
+1 6 "SHAPE_GROUP1" -1
+1 1 
+142 
+5 
+"layoutAlignment" "AlignNone"
+"" ""
+0
