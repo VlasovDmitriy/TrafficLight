@@ -8,7 +8,12 @@ main()
 
   transConnect();
 }
+
 animation(anytype disabled, string dp,  bool swt){
+  bool lox;
+  dpGet("System1:CrossTraffic1.isBusy", lox);
+ if (!lox || disabled){
+
     dpSet("System1:TrafficLight1.state.red",  (swt) ? true : false);
     dpSet("System1:TrafficLight1.state.yellow",  false);
     dpSet("System1:TrafficLight1.state.green",  (swt) ? false : blinkG("System1:TrafficLight1.state.green"));
@@ -45,11 +50,13 @@ animation(anytype disabled, string dp,  bool swt){
     dpSet("System1:TrafficLight2.state.yellow",false);
     dpSet("System1:TrafficLight2.state.green",(swt)?false:true);
   }
+  }
+
 }
 
 unregOff(string dp, bool value){
   bool red_green;
-  DebugN("валуеав");
+
 
   dpGet("System1:CrossTraffic1.stateTF.state1", red_green);
 
@@ -80,6 +87,7 @@ Ylogic(string dp, bool value){
     bool swt;
     YflaG = true;
     dpGet("System1:CrossTraffic1.stateTF.state1", swt);
+    //swt = false;
     animation(true, "", swt);
   }else{
       YflaG = false;
@@ -135,7 +143,7 @@ unpackingparse(string dpSource, int parsedata){
   dpSet("System1:CrossTraffic1.isControl", getBit(data, 6)); //is auto
   isAuto = getBit(data, 6);}
 
-  if (getBit(data, 0) != isLox){
+  if (getBit(data, 7) != isLox){
   dpSet("System1:CrossTraffic1.isBusy", getBit(data, 7)); //lockx
   isLox = getBit(data, 7);}
 }
